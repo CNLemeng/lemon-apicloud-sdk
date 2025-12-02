@@ -18,11 +18,11 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierAdjustmentSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="供应商编号", required=true)
+    @ApiCloudField(value="供应商编号", example="996580001", required=true)
     private Integer supplierNum;
-    @ApiCloudField(value="当前门店编号", required=true)
+    @ApiCloudField(value="当前门店编号", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="应用门店编号", example="", required=true)
+    @ApiCloudField(value="应用门店编号", example="[1]", required=true)
     private List<Integer> appliedBranchNums;
     @ApiCloudField(value="生效时间", required=true)
     private String supplierAdjustmentEffectiveDate;
@@ -36,7 +36,7 @@ public class SupplierAdjustmentSaveDTOModel extends ApiCloudObject {
     private String supplierAdjustmentCreator;
     @ApiCloudField(value="失效时间")
     private String supplierAdjustmentInvalidTime;
-    @ApiCloudField(value="失效后价格调整")
+    @ApiCloudField(value="失效后价格调整", example="0")
     private Integer supplierAdjustmentReturnType;
     @ApiCloudField(value="失效人", example="")
     private String supplierAdjustmentInvalidor;

@@ -5,13 +5,15 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.SubPayAppReadDTOModel;
 
+import com.nhsoft.neptune.api.domain.SubPayAppDTOModel;
+
 import java.util.*;
 
 /**
  * readByAppid请求类
  * 子商户读取
  */
-public class AllpayBasicSubappReadRequest implements ApiCloudRequest<SubPayAppReadDTOModel, Object> {
+public class AllpayBasicSubappReadRequest implements ApiCloudRequest<SubPayAppReadDTOModel, SubPayAppDTOModel> {
 
     private SubPayAppReadDTOModel bizModel;
 
@@ -36,8 +38,8 @@ public class AllpayBasicSubappReadRequest implements ApiCloudRequest<SubPayAppRe
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<SubPayAppDTOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<SubPayAppDTOModel>>() {};
     }
 
 }

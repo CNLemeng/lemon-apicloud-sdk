@@ -5,13 +5,18 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.PayChannelFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.PayChannelDTOModel;
+
+import com.nhsoft.neptune.api.domain.PayChannelDTOModel;
+
 import java.util.*;
 
 /**
  * findAllByAppidAndChannelName请求类
  * 根据渠道名称查询渠道
  */
-public class AllpayChannelFindbyappidandchannelnameRequest implements ApiCloudRequest<PayChannelFindDTOModel, Object> {
+public class AllpayChannelFindbyappidandchannelnameRequest implements ApiCloudRequest<PayChannelFindDTOModel, List<PayChannelDTOModel>> {
 
     private PayChannelFindDTOModel bizModel;
 
@@ -36,8 +41,8 @@ public class AllpayChannelFindbyappidandchannelnameRequest implements ApiCloudRe
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<List<PayChannelDTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<PayChannelDTOModel>>>() {};
     }
 
 }

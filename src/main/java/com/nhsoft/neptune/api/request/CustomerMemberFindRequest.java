@@ -5,13 +5,18 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.MemberFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.MemberDetailV1VOModel;
+
+import com.nhsoft.neptune.api.domain.MemberDetailV1VOModel;
+
 import java.util.*;
 
 /**
  * findMembers请求类
  * 查询全渠道会员信息
  */
-public class CustomerMemberFindRequest implements ApiCloudRequest<MemberFindDTOModel, Object> {
+public class CustomerMemberFindRequest implements ApiCloudRequest<MemberFindDTOModel, List<MemberDetailV1VOModel>> {
 
     private MemberFindDTOModel bizModel;
 
@@ -36,8 +41,8 @@ public class CustomerMemberFindRequest implements ApiCloudRequest<MemberFindDTOM
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<List<MemberDetailV1VOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<MemberDetailV1VOModel>>>() {};
     }
 
 }

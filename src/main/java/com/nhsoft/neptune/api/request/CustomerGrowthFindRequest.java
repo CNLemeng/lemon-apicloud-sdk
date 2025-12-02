@@ -5,13 +5,18 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.MemberGrowthFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.MemberGrowthDetailV1DTOModel;
+
+import com.nhsoft.neptune.api.domain.MemberGrowthDetailV1DTOModel;
+
 import java.util.*;
 
 /**
  * findMemberGrowth请求类
  * 查询全渠道会员成长值记录
  */
-public class CustomerGrowthFindRequest implements ApiCloudRequest<MemberGrowthFindDTOModel, Object> {
+public class CustomerGrowthFindRequest implements ApiCloudRequest<MemberGrowthFindDTOModel, List<MemberGrowthDetailV1DTOModel>> {
 
     private MemberGrowthFindDTOModel bizModel;
 
@@ -36,8 +41,8 @@ public class CustomerGrowthFindRequest implements ApiCloudRequest<MemberGrowthFi
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<List<MemberGrowthDetailV1DTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<MemberGrowthDetailV1DTOModel>>>() {};
     }
 
 }

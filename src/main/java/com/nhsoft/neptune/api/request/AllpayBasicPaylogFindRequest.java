@@ -5,13 +5,18 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.PayLogFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.PayLogDTOModel;
+
+import com.nhsoft.neptune.api.domain.PayLogDTOModel;
+
 import java.util.*;
 
 /**
  * findPaylog请求类
  * 支付日志查询
  */
-public class AllpayBasicPaylogFindRequest implements ApiCloudRequest<PayLogFindDTOModel, Object> {
+public class AllpayBasicPaylogFindRequest implements ApiCloudRequest<PayLogFindDTOModel, List<PayLogDTOModel>> {
 
     private PayLogFindDTOModel bizModel;
 
@@ -36,8 +41,8 @@ public class AllpayBasicPaylogFindRequest implements ApiCloudRequest<PayLogFindD
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<List<PayLogDTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<PayLogDTOModel>>>() {};
     }
 
 }

@@ -22,15 +22,15 @@ public class SupplierAdjustmentFindDTOModel extends ApiCloudObject {
     private String dateFrom;
     @ApiCloudField(value="结束日期", required=true)
     private String dateTo;
-    @ApiCloudField(value="单据号", example="")
+    @ApiCloudField(value="单据号", example="99658990000008")
     private String fid;
     @ApiCloudField(value="制单门店编号列表", example="[1]")
     private List<Integer> branchNums;
-    @ApiCloudField(value="供应商编号")
+    @ApiCloudField(value="供应商编号", example="996580001")
     private Integer supplierNum;
-    @ApiCloudField(value="商品编号", example="")
+    @ApiCloudField(value="商品编号", example="[1]")
     private List<Integer> itemNums;
-    @ApiCloudField(value="状态 1 制单 2 审核 4 失效")
+    @ApiCloudField(value="状态 1 制单 2 审核 4 失效", example="1")
     private Integer stateCode;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

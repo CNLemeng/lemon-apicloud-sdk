@@ -18,29 +18,29 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierAdjustmentVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据号", example="")
+    @ApiCloudField(value="单据号", example="99658990000008")
     private String supplierAdjustmentFid;
     @ApiCloudField(value="供应商编号")
     private Integer supplierNum;
-    @ApiCloudField(value="状态 1制单 3审核")
+    @ApiCloudField(value="状态 1制单 3审核", example="1")
     private Integer stateCode;
-    @ApiCloudField(value="状态名称", example="")
+    @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="创建人", example="")
+    @ApiCloudField(value="创建人", example="admin")
     private String supplierAdjustmentCreator;
     @ApiCloudField(value="创建时间")
     private String supplierAdjustmentCreateTime;
-    @ApiCloudField(value="审核人", example="")
+    @ApiCloudField(value="审核人", example="admin")
     private String supplierAdjustmentAuditor;
     @ApiCloudField(value="审核时间")
     private String supplierAdjustmentAuditTime;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注", example="测试")
     private String supplierAdjustmentMemo;
     @ApiCloudField(value="supplier_adjustment_status")
     private Integer supplierAdjustmentStatus;
-    @ApiCloudField(value="门店编号")
+    @ApiCloudField(value="门店编号", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表", example="[1]")
     private List<Integer> appliedBranchNums;
     @ApiCloudField(value="合同编号", example="")
     private String supplierAgreementNo;
@@ -48,7 +48,7 @@ public class SupplierAdjustmentVOModel extends ApiCloudObject {
     private String supplierAdjustmentLevel;
     @ApiCloudField(value="最后修改时间")
     private String supplierAdjustmentLastEditTime;
-    @ApiCloudField(value="最后修改人", example="")
+    @ApiCloudField(value="最后修改人", example="admin")
     private String supplierAdjustmentLastEditor;
     @ApiCloudField(value="生效时间")
     private String supplierAdjustmentEffectiveDate;
@@ -58,8 +58,8 @@ public class SupplierAdjustmentVOModel extends ApiCloudObject {
     private String supplierName;
     @ApiCloudField(value="失效时间")
     private String supplierAdjustmentInvalidTime;
-    @ApiCloudField(value="失效后价格调整")
+    @ApiCloudField(value="失效后价格调整", example="0")
     private Integer supplierAdjustmentReturnType;
-    @ApiCloudField(value="失效人", example="")
+    @ApiCloudField(value="失效人", example="admin")
     private String supplierAdjustmentInvalidor;
 }

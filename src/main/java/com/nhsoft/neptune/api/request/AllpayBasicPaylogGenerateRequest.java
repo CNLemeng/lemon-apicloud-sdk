@@ -11,7 +11,7 @@ import java.util.*;
  * generatePaylogExcel请求类
  * 支付日志文件生成
  */
-public class AllpayBasicPaylogGenerateRequest implements ApiCloudRequest<PayLogExcelGenerateDTOModel, Object> {
+public class AllpayBasicPaylogGenerateRequest implements ApiCloudRequest<PayLogExcelGenerateDTOModel, String> {
 
     private PayLogExcelGenerateDTOModel bizModel;
 
@@ -36,8 +36,8 @@ public class AllpayBasicPaylogGenerateRequest implements ApiCloudRequest<PayLogE
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<String>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<String>>() {};
     }
 
 }

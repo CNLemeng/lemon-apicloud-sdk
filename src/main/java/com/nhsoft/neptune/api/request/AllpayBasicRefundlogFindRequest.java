@@ -5,13 +5,18 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.PayLogFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.RefundLogDTOModel;
+
+import com.nhsoft.neptune.api.domain.RefundLogDTOModel;
+
 import java.util.*;
 
 /**
  * findRefundLog请求类
  * 退款日志查询
  */
-public class AllpayBasicRefundlogFindRequest implements ApiCloudRequest<PayLogFindDTOModel, Object> {
+public class AllpayBasicRefundlogFindRequest implements ApiCloudRequest<PayLogFindDTOModel, List<RefundLogDTOModel>> {
 
     private PayLogFindDTOModel bizModel;
 
@@ -36,8 +41,8 @@ public class AllpayBasicRefundlogFindRequest implements ApiCloudRequest<PayLogFi
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<List<RefundLogDTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<RefundLogDTOModel>>>() {};
     }
 
 }
