@@ -5,10 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nhsoft.neptune</groupId>
-    <artifactId>apicloud-sdk-core</artifactId>
+    <artifactId>lemon-apicloud-sdk</artifactId>
     <packaging>jar</packaging>
-    <name>api-cloud-sdk-core</name>
-    <version>2025-11-18.BETA</version>
+    <name>lemon-apicloud-sdk</name>
     <url>https://console.nhsoft.cn</url>
     <description>Lemon openapi SDK for Java
 
