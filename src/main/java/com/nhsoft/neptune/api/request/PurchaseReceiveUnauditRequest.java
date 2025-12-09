@@ -5,15 +5,13 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.ReceiveOrderUnAuditDTOModel;
 
-import com.nhsoft.neptune.api.domain.ReceiveOrderFindV2DTOModel;
-
 import java.util.*;
 
 /**
  * receiveOrderUnAudit请求类
  * 收货单反审核
  */
-public class PurchaseReceiveUnauditRequest implements ApiCloudRequest<ReceiveOrderUnAuditDTOModel, ReceiveOrderFindV2DTOModel> {
+public class PurchaseReceiveUnauditRequest implements ApiCloudRequest<ReceiveOrderUnAuditDTOModel, Void> {
 
     private ReceiveOrderUnAuditDTOModel bizModel;
 
@@ -38,8 +36,8 @@ public class PurchaseReceiveUnauditRequest implements ApiCloudRequest<ReceiveOrd
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<ReceiveOrderFindV2DTOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<ReceiveOrderFindV2DTOModel>>() {};
+    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<Void>>() {};
     }
 
 }

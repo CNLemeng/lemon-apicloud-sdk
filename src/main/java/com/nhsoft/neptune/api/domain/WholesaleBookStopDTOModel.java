@@ -20,4 +20,6 @@ public class WholesaleBookStopDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="批发订单号", example="WB2030990000004", required=true)
     private String wholesaleBookFid;
+    @ApiCloudField(value="操作员", example="admin")
+    private String operator;
 }
