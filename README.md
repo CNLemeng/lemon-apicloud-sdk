@@ -5,24 +5,51 @@
 
 ## 快速开始
 
-### 添加依赖
-
+### 添加依赖（两种形式引入依赖）
+#### jitpack匿名引入依赖
 在Maven项目的pom.xml中添加以下依赖：
 ```xml
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 ```
 
 ```xml
 <dependency>
-  <groupId>com.github.nhsoft-yex</groupId>
-  <artifactId>lemon-api-sdk</artifactId>
-  <version>2025-11-18.RELEASE</version>
- </dependency>
+    <groupId>com.github.CNLemeng</groupId>
+    <artifactId>lemon-apicloud-sdk</artifactId>
+    <version>2025-12-09.RELEASE</version>
+</dependency>
+```
+#### github引入依赖
+maven的setting.xml需要增加github账户
+```xml
+<server>
+    <id>github</id>
+    <username>账户名称</username>
+    <password>token信息(下载maven包的权限)</password>
+</server>
+```
+```xml
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/CNLemeng/lemon-apicloud-sdk</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.nhsoft.neptune</groupId>
+    <artifactId>lemon-apicloud-sdk</artifactId>
+    <version>2025-12-09.RELEASE</version>
+</dependency>
 ```
 
 注意：SDK不强制绑定特定版本的HTTP客户端库，您可以选择以下任一方式：
