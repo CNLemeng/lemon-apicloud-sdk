@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.RequestOrderVOModel;
 import java.util.*;
 
 /**
- * requestCancel_1请求类
+ * requestCancel请求类
  * 要货单作废
  */
 public class ChainRequestCancelRequest implements ApiCloudRequest<RequestCancelV2DTOModel, RequestOrderVOModel> {

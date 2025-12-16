@@ -98,4 +98,6 @@ public class BranchV2DTOModel extends ApiCloudObject {
     private BigDecimal branchRent;
     @ApiCloudField(value="外部门店名称", example="")
     private String outBranchName;
+    @ApiCloudField(value="业务操作启用进销项税", example="true")
+    private Boolean branchEnableTax;
 }

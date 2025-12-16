@@ -5,15 +5,13 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.WholesaleBookStopDTOModel;
 
-import com.nhsoft.neptune.api.domain.WholesaleBookVOModel;
-
 import java.util.*;
 
 /**
  * deleteWholesaleBook请求类
  * 批发订单删除
  */
-public class WholesaleBookDeleteRequest implements ApiCloudRequest<WholesaleBookStopDTOModel, WholesaleBookVOModel> {
+public class WholesaleBookDeleteRequest implements ApiCloudRequest<WholesaleBookStopDTOModel, Object> {
 
     private WholesaleBookStopDTOModel bizModel;
 
@@ -38,8 +36,8 @@ public class WholesaleBookDeleteRequest implements ApiCloudRequest<WholesaleBook
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<WholesaleBookVOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<WholesaleBookVOModel>>() {};
+    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<Object>>() {};
     }
 
 }

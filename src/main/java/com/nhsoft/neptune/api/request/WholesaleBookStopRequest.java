@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WholesaleBookVOModel;
 import java.util.*;
 
 /**
- * requestCancel请求类
+ * stop请求类
  * 批发订单中止
  */
 public class WholesaleBookStopRequest implements ApiCloudRequest<WholesaleBookStopDTOModel, WholesaleBookVOModel> {
