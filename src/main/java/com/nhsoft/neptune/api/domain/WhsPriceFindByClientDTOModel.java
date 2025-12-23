@@ -24,6 +24,6 @@ public class WhsPriceFindByClientDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
-    @ApiCloudField(value="查询分页大小", example="10", required=true)
+    @ApiCloudField(value="查询分页大小(最大为500)", example="10", required=true)
     private Integer pageSize;
 }

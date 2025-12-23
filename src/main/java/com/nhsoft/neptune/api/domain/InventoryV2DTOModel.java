@@ -30,6 +30,8 @@ public class InventoryV2DTOModel extends ApiCloudObject {
     private BigDecimal inventoryLockAmount;
     @ApiCloudField(value="库存金额", example="1.0")
     private BigDecimal inventoryMoney;
+    @ApiCloudField(value="基本单价", example="1.0")
+    private BigDecimal inventoryPrice;
     @ApiCloudField(value="库存辅助数量", example="1.0")
     private BigDecimal inventoryAssistAmount;
     @ApiCloudField(value="批次商品详细信息", example="")

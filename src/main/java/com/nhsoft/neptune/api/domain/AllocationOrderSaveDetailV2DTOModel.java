@@ -32,4 +32,6 @@ public class AllocationOrderSaveDetailV2DTOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="转入批次号", example="20210120")
     private String itemInLotNumber;
+    @ApiCloudField(value="转仓基本数量", example="1.0")
+    private BigDecimal itemQty;
 }
