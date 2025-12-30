@@ -43,6 +43,6 @@ public class ReceivableOrderSaveByFeeDTOModel extends ApiCloudObject {
     private String operatorTime;
     @ApiCloudField(value="费用项目明细", example="", required=true)
     private List<FeeItemDetailDTOModel> details;
-    @ApiCloudField(value="明细", required=true)
+    @ApiCloudField(value="明细", example="", required=true)
     private List<PayablePlanRequestDTOModel> planRequests;
 }

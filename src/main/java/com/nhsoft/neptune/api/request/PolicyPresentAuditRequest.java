@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyPresentVOModel;
 import java.util.*;
 
 /**
- * audit_8请求类
+ * audit_9请求类
  * 赠品促销审核
  */
 public class PolicyPresentAuditRequest implements ApiCloudRequest<PolicyPresentUpdateDTOModel, PolicyPresentVOModel> {

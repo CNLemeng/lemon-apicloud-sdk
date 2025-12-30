@@ -143,7 +143,7 @@ public class PosItemUpdateV2DTOModel extends ApiCloudObject {
     @ApiCloudField(value="组合明细", example="")
     private List<PosItemKitSaveV2DTOModel> posItemKits;
     @ApiCloudField(value="分级明细", example="")
-    private List<PosItemGradeSaveV2DTOModel> posItemGrades;
+    private List<PosItemGradeUpdateDTOModel> posItemGrades;
     @ApiCloudField(value="淘汰标记(0正常，1淘汰)", example="1")
     private Integer itemEliminativeFlag;
     @ApiCloudField(value="是否允许门店调价 1 不允许 2 允许", example="1")
