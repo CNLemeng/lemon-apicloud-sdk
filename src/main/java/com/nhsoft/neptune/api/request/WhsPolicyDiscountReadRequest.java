@@ -3,6 +3,8 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
+import com.nhsoft.neptune.api.domain.WhsPolicyDiscountReadDTOModel;
+
 import com.nhsoft.neptune.api.domain.WhsPolicyDiscountVOModel;
 
 import java.util.*;
@@ -11,9 +13,9 @@ import java.util.*;
  * read_19请求类
  * 批发超额折扣读取
  */
-public class WhsPolicyDiscountReadRequest implements ApiCloudRequest<String, WhsPolicyDiscountVOModel> {
+public class WhsPolicyDiscountReadRequest implements ApiCloudRequest<WhsPolicyDiscountReadDTOModel, WhsPolicyDiscountVOModel> {
 
-    private String bizModel;
+    private WhsPolicyDiscountReadDTOModel bizModel;
 
     @Override
     public String method() {
@@ -26,12 +28,12 @@ public class WhsPolicyDiscountReadRequest implements ApiCloudRequest<String, Whs
     }
 
     @Override
-    public String getBizModel() {
+    public WhsPolicyDiscountReadDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(String bizModel) {
+    public void setBizModel(WhsPolicyDiscountReadDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

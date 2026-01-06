@@ -12,15 +12,12 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * BasicVariantGroupVO模型
- * 商品分组
+ * WhsPolicyDiscountReadDTO模型
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class BasicVariantGroupVOModel extends ApiCloudObject {
+public class WhsPolicyDiscountReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="分组ID")
-    private Integer groupId;
-    @ApiCloudField(value="分组名称", example="")
-    private String groupName;
+    @ApiCloudField(value="批发折扣单号", example="1099990000003", required=true)
+    private String wholesalePolicyDiscountNo;
 }
