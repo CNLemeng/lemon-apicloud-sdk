@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeUpdateDTOModel;
 import java.util.*;
 
 /**
- * update_19请求类
+ * update_20请求类
  * 折扣码修改
  */
 public class DiscountCodeUpdateRequest implements ApiCloudRequest<DiscountCodeUpdateDTOModel, Void> {

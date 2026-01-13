@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.WhsPolicyDiscountDeleteDTOModel;
 import java.util.*;
 
 /**
- * delete_1请求类
+ * delete_2请求类
  * 批发超额折扣删除
  */
 public class WhsPolicyDiscountDeleteRequest implements ApiCloudRequest<WhsPolicyDiscountDeleteDTOModel, Void> {

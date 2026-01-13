@@ -34,7 +34,7 @@ public class WhsPolicyDiscountUpdateDTOModel extends ApiCloudObject {
     private BigDecimal wholesalePolicyDiscountBillMoney;
     @ApiCloudField(value="单笔最高减免金额", example="10")
     private BigDecimal wholesalePolicyDiscountTotalDiscount;
-    @ApiCloudField(value="折扣类型(指定品牌|指定类别|全场)", example="指定品牌", required=true)
+    @ApiCloudField(value="折扣类型(指定商品|指定品牌|指定类别|全场)", example="指定品牌", required=true)
     private String wholesalePolicyDiscountAssignedType;
     @ApiCloudField(value="促销客户列表", example="[1]")
     private List<String> wholesaleExcessGiftsAppliedClientIds;
@@ -58,6 +58,8 @@ public class WhsPolicyDiscountUpdateDTOModel extends ApiCloudObject {
     private List<Integer> clientGradeNums;
     @ApiCloudField(value="客户类别代码列表(当客户范围为指定分类，该字段生效)", example="[0514]")
     private List<String> clientTypeCodes;
+    @ApiCloudField(value="折扣明细列表(当折扣类型为指定品牌、指定类别、全场时，该字段为例外商品)")
+    private List<WhsPolicyDiscountDetailSaveDTOModel> wholesalePolicyDiscountDetails;
     @ApiCloudField(value="批发折扣单号", example="1099990000003", required=true)
     private String wholesalePolicyDiscountNo;
 }

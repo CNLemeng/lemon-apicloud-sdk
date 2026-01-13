@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WhsPolicyDiscountVOModel;
 import java.util.*;
 
 /**
- * read_19请求类
+ * read_20请求类
  * 批发超额折扣读取
  */
 public class WhsPolicyDiscountReadRequest implements ApiCloudRequest<WhsPolicyDiscountReadDTOModel, WhsPolicyDiscountVOModel> {

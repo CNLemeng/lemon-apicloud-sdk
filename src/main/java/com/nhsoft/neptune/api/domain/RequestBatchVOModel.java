@@ -54,6 +54,8 @@ public class RequestBatchVOModel extends ApiCloudObject {
     private Integer sendBranchNum;
     @ApiCloudField(value="商品范围按品类划分", example="78237865")
     private List<String> requestBatchItemCategoryCodes;
+    @ApiCloudField(value="按类别最低订购金额", example="1,2,3")
+    private List<BigDecimal> requestBatchCategoryMoney;
     @ApiCloudField(value="商品明细", example="4344001")
     private List<RequestBatchDetailVOModel> requestBatchDetails;
     @ApiCloudField(value="应用门店", example="1")

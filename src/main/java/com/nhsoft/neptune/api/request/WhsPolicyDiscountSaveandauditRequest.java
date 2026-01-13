@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WhsPolicyDiscountVOModel;
 import java.util.*;
 
 /**
- * saveAndAudit请求类
+ * saveAndAudit_1请求类
  * 批发超额折扣新增并审核
  */
 public class WhsPolicyDiscountSaveandauditRequest implements ApiCloudRequest<WhsPolicyDiscountSaveDTOModel, WhsPolicyDiscountVOModel> {

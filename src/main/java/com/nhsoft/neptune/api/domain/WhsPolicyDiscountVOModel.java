@@ -58,6 +58,14 @@ public class WhsPolicyDiscountVOModel extends ApiCloudObject {
     private String wholesalePolicyDiscountDateTo;
     @ApiCloudField(value="创建人", example="admin", required=true)
     private String wholesalePolicyDiscountCreator;
+    @ApiCloudField(value="审核人", example="admin")
+    private String wholesalePolicyDiscountAuditor;
+    @ApiCloudField(value="创建时间", example="2025-12-29 00:00:00")
+    private String wholesalePolicyDiscountCreateTime;
+    @ApiCloudField(value="审核时间", example="2025-12-29 00:00:00")
+    private String wholesalePolicyDiscountAuditTime;
+    @ApiCloudField(value="最后修改时间", example="2025-12-29 00:00:00")
+    private String wholesalePolicyDiscountLastEditTime;
     @ApiCloudField(value="客户范围(所有客户|指定客户|指定等级|指定分类)", example="指定会员等级", required=true)
     private String clientRange;
     @ApiCloudField(value="应用范围(商家开单、客户订货)", example="[客户订货]", required=true)
