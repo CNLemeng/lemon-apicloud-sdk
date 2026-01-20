@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemDiffLogFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="开始日期", example="Wed Jan 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="开始日期", example="2025-01-01", required=true)
     private String dateStart;
-    @ApiCloudField(value="结束日期", example="Wed Jan 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="结束日期", example="2025-01-01", required=true)
     private String dateEnd;
     @ApiCloudField(value="门店编码列表", example="[1]", required=true)
     private List<Integer> branchNums;

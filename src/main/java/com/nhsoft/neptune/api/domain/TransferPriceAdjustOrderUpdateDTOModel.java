@@ -20,9 +20,9 @@ public class TransferPriceAdjustOrderUpdateDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="配送价调整单号", example="4344990000318", required=true)
     private String priceAdjustmentFid;
-    @ApiCloudField(value="生效日期(yyyy-MM-dd)", example="Sat Jan 01 08:00:00 CST 2022", required=true)
+    @ApiCloudField(value="生效日期(yyyy-MM-dd)", example="2022-01-01", required=true)
     private String priceAdjustmentEffectiveDate;
-    @ApiCloudField(value="失效日期(yyyy-MM-dd)", example="Sun Jan 30 08:00:00 CST 2022")
+    @ApiCloudField(value="失效日期(yyyy-MM-dd)", example="2022-01-30")
     private String priceAdjustmentInvalidDate;
     @ApiCloudField(value="price_adjustment_time_from")
     private LocalTimeModel priceAdjustmentTimeFrom;

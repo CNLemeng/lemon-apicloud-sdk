@@ -35,7 +35,7 @@ public class CheckTaskDetailVOModel extends ApiCloudObject {
     private String itemBarcode;
     @ApiCloudField(value="商品规格", example="1箱*10公斤")
     private String itemSpec;
-    @ApiCloudField(value="生产日期", example="Thu Aug 03 08:00:00 CST 2023")
+    @ApiCloudField(value="生产日期", example="2023-08-03")
     private String itemProductDate;
     @ApiCloudField(value="批次号", example="20230803")
     private String itemLotNum;
@@ -67,6 +67,6 @@ public class CheckTaskDetailVOModel extends ApiCloudObject {
     private String checkUser;
     @ApiCloudField(value="盘点时间")
     private String checkTime;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String itemMemo;
 }

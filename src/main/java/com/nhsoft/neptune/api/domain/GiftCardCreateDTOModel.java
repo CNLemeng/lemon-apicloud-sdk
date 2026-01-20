@@ -33,12 +33,12 @@ public class GiftCardCreateDTOModel extends ApiCloudObject {
     private BigDecimal giftMoney;
     @ApiCloudField(value="售价", example="0.0", required=true)
     private BigDecimal giftCash;
-    @ApiCloudField(value="到期日", example="Thu Aug 01 08:00:00 CST 2024", required=true)
+    @ApiCloudField(value="到期日", example="2024-08-01", required=true)
     private String expireTime;
     @ApiCloudField(value="礼品卡固定密码（不填则为随机密码）", example="123456")
     private String fixedPassword;
     @ApiCloudField(value="指定用户手机号列表（gift_card_phone_list字段和该字段冲突，两者任选其一）", example="[17644219987]")
     private List<String> phones;
-    @ApiCloudField(value="指定储值卡发卡（phones字段和该字段冲突，两者任选其一；若该字段和phones同时存在，当前字段优先级更高）")
+    @ApiCloudField(value="指定储值卡发卡（phones字段和该字段冲突，两者任选其一；若该字段和phones同时存在，当前字段优先级更高）", example="")
     private List<GiftCardPhoneDTOModel> giftCardPhoneList;
 }

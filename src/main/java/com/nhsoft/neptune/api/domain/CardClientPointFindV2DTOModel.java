@@ -21,9 +21,9 @@ public class CardClientPointFindV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="操作门店编码", example="1", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="起始时间", example="Thu Jan 21 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="起始时间", example="2021-01-21", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间", example="Thu Jan 21 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束时间", example="2021-01-21", required=true)
     private String dateTo;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

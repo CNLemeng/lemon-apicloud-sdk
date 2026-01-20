@@ -39,12 +39,12 @@ public class WmsCheckOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal lossQty;
     @ApiCloudField(value="备注", example="测试")
     private String memo;
-    @ApiCloudField(value="生产日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="生产日期", example="2024-04-01")
     private String productionDate;
     @ApiCloudField(value="盘点数量", example="0.0")
     private BigDecimal useQty;
     @ApiCloudField(value="换算率", example="1.0")
     private BigDecimal useRate;
-    @ApiCloudField(value="批次明细")
+    @ApiCloudField(value="批次明细", example="")
     private List<WhsCheckOrderLnDetailVOModel> checkOrderLnDetails;
 }

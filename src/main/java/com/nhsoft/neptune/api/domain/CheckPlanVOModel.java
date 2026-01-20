@@ -41,14 +41,14 @@ public class CheckPlanVOModel extends ApiCloudObject {
     private String checkPlanAuditor;
     @ApiCloudField(value="审核时间")
     private String checkPlanAuditTime;
-    @ApiCloudField(value="盘点日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="盘点日期", example="2024-04-01")
     private String checkPlanDate;
     @ApiCloudField(value="单据状态码", example="1")
     private Integer checkPlanStateCode;
     @ApiCloudField(value="单据状态", example="制单")
     private String checkPlanStateName;
-    @ApiCloudField(value="盘点任务列表(仅读取接口返回)")
+    @ApiCloudField(value="盘点任务列表(仅读取接口返回)", example="")
     private List<CheckTaskVOModel> tasks;
-    @ApiCloudField(value="任务明细列表(仅读取接口返回)")
+    @ApiCloudField(value="任务明细列表(仅读取接口返回)", example="")
     private List<CheckTaskDetailVOModel> taskDetails;
 }

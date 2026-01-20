@@ -34,10 +34,24 @@ public class MakeUpOrderBranchResponseDTOModel extends ApiCloudObject {
     private Integer makeUpStateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String makeUpStateName;
-    @ApiCloudField(value="开始日期")
+    @ApiCloudField(value="开始日期", example="2022-07-17 12:00:00")
     private String makeUpDateFrom;
-    @ApiCloudField(value="结束日期")
+    @ApiCloudField(value="结束日期", example="2022-07-24 12:00:00")
     private String makeUpDateTo;
+    @ApiCloudField(value="创建人", example="admin")
+    private String makeUpCreator;
+    @ApiCloudField(value="创建时间", example="admin")
+    private String makeUpCreateTime;
+    @ApiCloudField(value="审核人", example="admin")
+    private String makeUpAuditor;
+    @ApiCloudField(value="审核时间", example="2025-01-01 00:00:00")
+    private String makeUpAuditTime;
+    @ApiCloudField(value="最后修改时间", example="2025-01-01 00:00:00")
+    private String makeUpLastEditTime;
+    @ApiCloudField(value="最后结算时间", example="2025-01-01 00:00:00")
+    private String makeUpLastPaymentDate;
+    @ApiCloudField(value="关联单号", example="")
+    private String makeUpOutFid;
     @ApiCloudField(value="明细", example="")
     private List<MakeUpOrderBranchDetailResponseDTOModel> branchMakeUpOrderDetails;
 }

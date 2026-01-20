@@ -20,9 +20,9 @@ public class AssembleSplitFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="日期类型(制单时间|审核时间|操作时间)", example="", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期", example="Wed Jan 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="开始日期", example="2025-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束日期", example="Wed Jan 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="结束日期", example="2025-01-01", required=true)
     private String dateTo;
     @ApiCloudField(value="审核状态(1-未审核|3-已审核)", example="1")
     private Integer stateCode;

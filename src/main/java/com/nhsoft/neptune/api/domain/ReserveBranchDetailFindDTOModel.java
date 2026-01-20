@@ -20,9 +20,9 @@ public class ReserveBranchDetailFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="应用门店", example="1", required=true)
     private Integer applyBranchNum;
-    @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateTo;
     @ApiCloudField(value="数据类型", example="1", required=true)
     private Integer dataType;

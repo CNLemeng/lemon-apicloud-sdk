@@ -20,9 +20,9 @@ public class PointOrderFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="时间类型(制单时间|审核时间|活动时间)", example="制单时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期", example="Sat Mar 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="开始日期", example="2025-03-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束日期", example="Tue Mar 04 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="结束日期", example="2025-03-04", required=true)
     private String dateTo;
     @ApiCloudField(value="积分兑换活动编号", example="")
     private String pointOrderFid;

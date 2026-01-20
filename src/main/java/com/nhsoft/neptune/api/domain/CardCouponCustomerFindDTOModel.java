@@ -25,9 +25,9 @@ public class CardCouponCustomerFindDTOModel extends ApiCloudObject {
     private String phone;
     @ApiCloudField(value="0有效 1已使用 2已过期 4未生效", example="1")
     private Integer state;
-    @ApiCloudField(value="查询起始日期（全渠道会员）", example="Fri Jan 01 08:00:00 CST 2021")
+    @ApiCloudField(value="查询起始日期（全渠道会员）", example="2021-01-01")
     private String dateFrom;
-    @ApiCloudField(value="查询结束日期（全渠道会员）", example="Fri Jan 01 08:00:00 CST 2021")
+    @ApiCloudField(value="查询结束日期（全渠道会员）", example="2021-01-01")
     private String dateTo;
     @ApiCloudField(value="查询页码(全渠道会员查询时此项为必填)", example="0", required=true)
     private Integer pageNo;

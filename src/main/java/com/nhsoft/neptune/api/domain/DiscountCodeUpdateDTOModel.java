@@ -22,9 +22,9 @@ public class DiscountCodeUpdateDTOModel extends ApiCloudObject {
     private String discountCodeName;
     @ApiCloudField(value="折扣码条码", example="", required=true)
     private String discountCodeBarcode;
-    @ApiCloudField(value="开始日期", example="Mon Jan 01 08:00:00 CST 2024", required=true)
+    @ApiCloudField(value="开始日期", example="2024-01-01", required=true)
     private String discountCodeDateFrom;
-    @ApiCloudField(value="结束日期", example="Wed May 01 08:00:00 CST 2024", required=true)
+    @ApiCloudField(value="结束日期", example="2024-05-01", required=true)
     private String discountCodeDateTo;
     @ApiCloudField(value="discount_code_time_from", required=true)
     private LocalTimeModel discountCodeTimeFrom;

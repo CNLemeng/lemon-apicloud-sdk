@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PricetagRequestVOModel;
 import java.util.*;
 
 /**
- * find_28请求类
+ * find_29请求类
  * 价签申请单查询
  */
 public class BasicPricetagRequestFindRequest implements ApiCloudRequest<PriceTagRequestFindDTOModel, List<PricetagRequestVOModel>> {

@@ -29,7 +29,7 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private String clientFid;
     @ApiCloudField(value="创建人", example="管理员")
     private String wholesaleBookCreator;
-    @ApiCloudField(value="订购日期", example="Mon Jan 18 08:00:00 CST 2021")
+    @ApiCloudField(value="订购日期", example="2021-01-18")
     private String wholesaleBookDate;
     @ApiCloudField(value="备注", example="备注")
     private String wholesaleBookMemo;
@@ -43,7 +43,7 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private String wholesaleBookAuditor;
     @ApiCloudField(value="审核时间")
     private String wholesaleBookAuditTime;
-    @ApiCloudField(value="有效日期", example="Mon Jan 18 08:00:00 CST 2021")
+    @ApiCloudField(value="有效日期", example="2021-01-18")
     private String wholesaleBookDeadline;
     @ApiCloudField(value="作废人", example="作废人")
     private String wholesaleBookCancelOperator;
@@ -55,17 +55,17 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private String wholesaleBookStateName;
     @ApiCloudField(value="订单金额（小数点2位）", example="100.0")
     private BigDecimal wholesaleBookTotalMoney;
-    @ApiCloudField(value="期望送达时间", example="Mon Jan 18 08:00:00 CST 2021")
+    @ApiCloudField(value="期望送达时间", example="2021-01-18")
     private String wholesaleBookExpectTime;
     @ApiCloudField(value="运费", example="2.0")
     private BigDecimal wholesaleBookPostFee;
-    @ApiCloudField(value="订单明细")
+    @ApiCloudField(value="订单明细", example="")
     private List<WholesaleBookDetailDTOModel> wholesaleBookDetails;
     @ApiCloudField(value="付款方式", example="现金")
     private String wholesaleBookPayType;
     @ApiCloudField(value="手工单号", example="202210120002")
     private String wholesaleBookInnerNo;
-    @ApiCloudField(value="采配日（交货期限）", example="Wed Jan 18 08:00:00 CST 2023")
+    @ApiCloudField(value="采配日（交货期限）", example="2023-01-18")
     private String wholesaleBookPurchaseDate;
     @ApiCloudField(value="最后修改时间")
     private String wholesaleBookLastEditTime;
@@ -73,9 +73,9 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private Boolean wholesaleBookEnablePayConfirm;
     @ApiCloudField(value="模板id(read接口返回)")
     private Long clientRequestTimeFoodId;
-    @ApiCloudField(value="模板名称(read接口返回)")
+    @ApiCloudField(value="模板名称(read接口返回)", example="")
     private String clientRequestTimeFoodName;
-    @ApiCloudField(value="配送方式")
+    @ApiCloudField(value="配送方式", example="")
     private String wholesaleBookTransferType;
     @ApiCloudField(value="付款确认时间")
     private String wholesaleBookPayTime;

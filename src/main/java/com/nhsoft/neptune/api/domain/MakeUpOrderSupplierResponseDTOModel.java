@@ -38,6 +38,18 @@ public class MakeUpOrderSupplierResponseDTOModel extends ApiCloudObject {
     private String makeUpStateName;
     @ApiCloudField(value="备注", example="")
     private String makeUpOrderMemo;
+    @ApiCloudField(value="创建人", example="admin")
+    private String makeUpCreator;
+    @ApiCloudField(value="创建时间", example="admin")
+    private String makeUpCreateTime;
+    @ApiCloudField(value="审核人", example="admin")
+    private String makeUpAuditor;
+    @ApiCloudField(value="审核时间", example="2025-01-01 00:00:00")
+    private String makeUpAuditTime;
+    @ApiCloudField(value="最后修改时间", example="2025-01-01 00:00:00")
+    private String makeUpLastEditTime;
+    @ApiCloudField(value="最后结算时间", example="2025-01-01 00:00:00")
+    private String makeUpLastPaymentDate;
     @ApiCloudField(value="明细", example="")
     private List<MakeUpOrderSupplierDetailResponseDTOModel> makeUpOrderDetails;
 }

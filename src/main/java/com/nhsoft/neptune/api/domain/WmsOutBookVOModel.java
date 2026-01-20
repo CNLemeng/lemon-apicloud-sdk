@@ -23,7 +23,7 @@ public class WmsOutBookVOModel extends ApiCloudObject {
     private String outWarehouseBookOrderFid;
     @ApiCloudField(value="关联要货单号", example="YH2113132404220001")
     private String requestOrderFid;
-    @ApiCloudField(value="关联外部单号")
+    @ApiCloudField(value="关联外部单号", example="")
     private String outOrderFid;
     @ApiCloudField(value="配送中心门店编码", example="99")
     private Integer branchNum;
@@ -53,11 +53,11 @@ public class WmsOutBookVOModel extends ApiCloudObject {
     private String outWarehouseBookOrderAuditor;
     @ApiCloudField(value="最后修改时间")
     private String outWarehouseBookOrderLastEditTime;
-    @ApiCloudField(value="期望出库日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="期望出库日期", example="2024-04-01")
     private String outWarehouseBookOrderExpectOutDate;
-    @ApiCloudField(value="配送日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="配送日期", example="2024-04-01")
     private String outWarehouseBookOrderDeliveryDate;
-    @ApiCloudField(value="有效日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="有效日期", example="2024-04-01")
     private String outWarehouseBookOrderDeadline;
     @ApiCloudField(value="备注", example="测试")
     private String outWarehouseBookOrderMemo;
@@ -65,6 +65,6 @@ public class WmsOutBookVOModel extends ApiCloudObject {
     private List<String> outWarehouseFids;
     @ApiCloudField(value="快递单号", example="433957556526508")
     private String expressFid;
-    @ApiCloudField(value="出库订单明细")
+    @ApiCloudField(value="出库订单明细", example="")
     private List<WmsOutBookDetailVOModel> outWarehouseBookOrderDetails;
 }

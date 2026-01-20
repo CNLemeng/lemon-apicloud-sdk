@@ -20,9 +20,9 @@ public class ShiftTableFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="开始时间", example="Wed Mar 31 08:00:00 CST 2021")
+    @ApiCloudField(value="开始时间", example="2021-03-31")
     private String dateFrom;
-    @ApiCloudField(value="结束时间", example="Wed Apr 21 08:00:00 CST 2021")
+    @ApiCloudField(value="结束时间", example="2021-04-21")
     private String dateTo;
     @ApiCloudField(value="时间类型:最后修改时间、营业日（默认为营业日,门店编码、开始与结束时间不能为空。如果为最后修改时间，则最后修改时间不能为空）", example="最后修改时间")
     private String dateType;

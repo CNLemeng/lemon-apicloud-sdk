@@ -100,4 +100,6 @@ public class BranchV2DTOModel extends ApiCloudObject {
     private String outBranchName;
     @ApiCloudField(value="业务操作启用进销项税", example="true")
     private Boolean branchEnableTax;
+    @ApiCloudField(value="门店最后修改时间", example="2025-01-01 00:00:00")
+    private String branchLastEditTime;
 }

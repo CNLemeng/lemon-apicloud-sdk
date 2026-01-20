@@ -13,6 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * LocalTime模型
+ * 结束时间（HH:mm）
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -55,7 +55,7 @@ public class AllocationOrderDetailVOModel extends ApiCloudObject {
     private String itemUseUnit;
     @ApiCloudField(value="基本单位", example="公斤")
     private String itemUnit;
-    @ApiCloudField(value="生产日期", example="Thu Jun 06 08:00:00 CST 2024")
+    @ApiCloudField(value="生产日期", example="2024-06-06")
     private String productionDate;
     @ApiCloudField(value="批次号", example="20240606")
     private String lotNum;

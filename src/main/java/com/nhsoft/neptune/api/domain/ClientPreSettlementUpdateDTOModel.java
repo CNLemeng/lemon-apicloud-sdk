@@ -27,7 +27,7 @@ public class ClientPreSettlementUpdateDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="地址", example="宁波")
     private String preSettlementAddress;
-    @ApiCloudField(value="付款日期 格式：yyyy-MM-dd", example="Wed Jan 20 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="付款日期 格式：yyyy-MM-dd", example="2021-01-20", required=true)
     private String preSettlementDate;
     @ApiCloudField(value="付款方式", example="现金", required=true)
     private String preSettlementPaymentType;

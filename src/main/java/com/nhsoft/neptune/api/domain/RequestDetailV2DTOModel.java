@@ -34,4 +34,6 @@ public class RequestDetailV2DTOModel extends ApiCloudObject {
     private BigDecimal itemPresentBasicQty;
     @ApiCloudField(value="赠品单位", example="公斤")
     private String itemPresentUnit;
+    @ApiCloudField(value="建议订量", example="1.0")
+    private BigDecimal itemSugUseQty;
 }

@@ -34,4 +34,6 @@ public class BranchListV2DTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小(最大为1000)", example="10", required=true)
     private Integer pageSize;
+    @ApiCloudField(value="门店最后修改时间(根据最后修改时间增量查询)")
+    private String lastDownloadTime;
 }

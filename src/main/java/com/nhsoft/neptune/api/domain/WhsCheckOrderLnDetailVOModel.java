@@ -39,7 +39,7 @@ public class WhsCheckOrderLnDetailVOModel extends ApiCloudObject {
     private String lotNum;
     @ApiCloudField(value="备注", example="99")
     private String memo;
-    @ApiCloudField(value="生产日期", example="Sun Sep 18 08:00:00 CST 2022")
+    @ApiCloudField(value="生产日期", example="2022-09-18")
     private String productionDate;
     @ApiCloudField(value="盘点库存数量", example="0.0")
     private BigDecimal useQty;

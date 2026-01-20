@@ -23,7 +23,7 @@ public class PosItemSaveDTOModel extends ApiCloudObject {
     private String itemName;
     @ApiCloudField(value="商品别称", example="coke cola")
     private String itemEnName;
-    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品)", example="STANDARD", required=true)
+    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品)", example="1", required=true)
     private String itemType;
     @ApiCloudField(value="商品规格", example="1箱*10公斤")
     private String itemSpec;
@@ -113,11 +113,11 @@ public class PosItemSaveDTOModel extends ApiCloudObject {
     private Boolean itemPriceTagFlag;
     @ApiCloudField(value="前台打印标签", example="true")
     private Boolean itemPrintLabelFlag;
-    @ApiCloudField(value="一品多码")
+    @ApiCloudField(value="一品多码", example="")
     private List<PosItemBarCodeSaveVOModel> itemBars;
-    @ApiCloudField(value="组合明细")
+    @ApiCloudField(value="组合明细", example="")
     private List<PosItemCombineItemSaveVOModel> posItemCombineItems;
-    @ApiCloudField(value="规格明细")
+    @ApiCloudField(value="规格明细", example="")
     private List<PosItemSpecSaveVOModel> posItemSpecs;
     @ApiCloudField(value="是否允许门店调价 1 不允许 2 允许", example="1")
     private Integer itemPriceAdj;
@@ -147,4 +147,8 @@ public class PosItemSaveDTOModel extends ApiCloudObject {
     private PosItemCommissionSaveVOModel posItemCommission;
     @ApiCloudField(value="允许门店退货", example="false")
     private Boolean itemTransferReturnFlag;
+    @ApiCloudField(value="经营范围编号列表", example="[1]")
+    private List<Long> businessScopeList;
+    @ApiCloudField(value="是否允许批发订货超中心库存", example="true")
+    private Boolean wholesaleBookAllowOverCenterStock;
 }

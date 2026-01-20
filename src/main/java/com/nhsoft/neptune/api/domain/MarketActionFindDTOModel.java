@@ -20,9 +20,9 @@ public class MarketActionFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="时间类型(制单时间|审核时间|活动时间)", example="制单时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期", example="Sat Mar 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="开始日期", example="2025-03-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束日期", example="Tue Mar 04 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="结束日期", example="2025-03-04", required=true)
     private String dateTo;
     @ApiCloudField(value="time_from")
     private LocalTimeModel timeFrom;
@@ -40,6 +40,6 @@ public class MarketActionFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
     private Integer pageSize;
-    @ApiCloudField(value="新版本包含线上券")
+    @ApiCloudField(value="是否包含新版本(true:新老版本数据都返回；false:仅返回老版本数据)(不传默认为false)", example="true")
     private Boolean withNewVersion;
 }

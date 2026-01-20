@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PayLogExcelGenerateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="生成文件的日期", example="Tue Apr 01 08:00:00 CST 2025", required=true)
+    @ApiCloudField(value="生成文件的日期", example="2025-04-01", required=true)
     private String date;
 }

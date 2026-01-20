@@ -24,7 +24,7 @@ public class WhsOrderInvoiceUpdateDTOModel extends ApiCloudObject {
     private String invoiceNo;
     @ApiCloudField(value="发票状态 0=失败 1=成功 2=开票中")
     private Integer ticketStatus;
-    @ApiCloudField(value="单据状态")
+    @ApiCloudField(value="单据状态(ISSUED|FAIL_ISSUED|ISSUING|NOT_ISSUED|CANCELLED)", example="ISSUED")
     private String whsOrderDocumentStatus;
     @ApiCloudField(value="发票链接")
     private String einvoiceUrl;

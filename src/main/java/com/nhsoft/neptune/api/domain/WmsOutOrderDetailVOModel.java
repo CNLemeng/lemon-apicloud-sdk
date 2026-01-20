@@ -61,9 +61,9 @@ public class WmsOutOrderDetailVOModel extends ApiCloudObject {
     private String boxCode;
     @ApiCloudField(value="保质期", example="30")
     private Integer itemValidDay;
-    @ApiCloudField(value="生产日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="生产日期", example="2024-04-01")
     private String itemProductDate;
-    @ApiCloudField(value="有效日期", example="Mon Apr 01 08:00:00 CST 2024")
+    @ApiCloudField(value="有效日期", example="2024-04-01")
     private String itemValidDate;
     @ApiCloudField(value="体积", example="0.0")
     private BigDecimal productVolume;

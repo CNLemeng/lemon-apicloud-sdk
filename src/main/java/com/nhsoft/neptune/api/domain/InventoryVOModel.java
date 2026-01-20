@@ -111,13 +111,13 @@ public class InventoryVOModel extends ApiCloudObject {
     private Integer positionNum;
     @ApiCloudField(value="库位类型", example="发货集货")
     private String positionType;
-    @ApiCloudField(value="生产日期", example="Wed Jan 01 08:00:00 CST 2025")
+    @ApiCloudField(value="生产日期", example="2025-01-01")
     private String productionDate;
     @ApiCloudField(value="拆零标记", example="true")
     private Boolean splitFlag;
     @ApiCloudField(value="拆零数量", example="11.00件")
     private String splitQtyAndUnit;
-    @ApiCloudField(value="停留天数(入库时间到现在)", example="11")
+    @ApiCloudField(value="停留天数", example="11")
     private Integer stayDay;
     @ApiCloudField(value="在库天数", example="11.0")
     private BigDecimal inWarehouseDays;

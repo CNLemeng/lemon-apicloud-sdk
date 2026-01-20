@@ -28,9 +28,9 @@ public class PolicyDiscountSaveDTOModel extends ApiCloudObject {
     private String policyDiscountOperator;
     @ApiCloudField(value="超额折扣备注", example="备注信息")
     private String policyDiscountMemo;
-    @ApiCloudField(value="超额折扣开始日期(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="超额折扣开始日期(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String policyDiscountDateFrom;
-    @ApiCloudField(value="超额折扣结束日期(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="超额折扣结束日期(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String policyDiscountDateTo;
     @ApiCloudField(value="超额折扣开始时间(HH:mm)", example="00:00", required=true)
     private String policyDiscountTimeFrom;

@@ -22,9 +22,9 @@ public class InventoryPosItemSummaryFindDTOModel extends ApiCloudObject {
     private List<Integer> branchNums;
     @ApiCloudField(value="日期类型(操作日期|审核时间)", example="操作日期", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期", example="Mon Jan 01 08:00:00 CST 2024", required=true)
+    @ApiCloudField(value="开始日期", example="2024-01-01", required=true)
     private String dateStart;
-    @ApiCloudField(value="结束日期", example="Tue Jan 02 08:00:00 CST 2024", required=true)
+    @ApiCloudField(value="结束日期", example="2024-01-02", required=true)
     private String dateEnd;
     @ApiCloudField(value="商品编码列表", example="[1]")
     private List<Integer> itemNums;

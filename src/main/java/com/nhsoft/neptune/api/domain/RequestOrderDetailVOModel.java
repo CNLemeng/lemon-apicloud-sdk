@@ -60,4 +60,6 @@ public class RequestOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal itemStdQty;
     @ApiCloudField(value="参加超量促销的数量", example="1.0")
     private BigDecimal itemPolicyQty;
+    @ApiCloudField(value="建议订量(不支持修改)", example="1.0")
+    private BigDecimal itemSugUseQty;
 }

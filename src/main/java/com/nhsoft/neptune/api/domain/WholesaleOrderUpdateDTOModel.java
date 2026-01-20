@@ -45,6 +45,6 @@ public class WholesaleOrderUpdateDTOModel extends ApiCloudObject {
     private String wholesaleOrderExtend2;
     @ApiCloudField(value="扩展属性3", example="扩展属性3")
     private String wholesaleOrderExtend3;
-    @ApiCloudField(value="订单明细", required=true)
+    @ApiCloudField(value="订单明细", example="", required=true)
     private List<WholesaleOrderDetailUpdateDTOModel> wholesaleOrderDetails;
 }

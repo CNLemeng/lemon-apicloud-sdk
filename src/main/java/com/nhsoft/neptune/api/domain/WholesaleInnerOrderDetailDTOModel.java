@@ -45,15 +45,15 @@ public class WholesaleInnerOrderDetailDTOModel extends ApiCloudObject {
     private BigDecimal itemUseRate;
     @ApiCloudField(value="批复数量（小数点3位）", example="1.22")
     private BigDecimal itemApproveUseQty;
-    @ApiCloudField(value="申请备注")
+    @ApiCloudField(value="申请备注", example="")
     private String itemMemo;
-    @ApiCloudField(value="批复备注")
+    @ApiCloudField(value="批复备注", example="")
     private String itemApproveMemo;
     @ApiCloudField(value="批次号", example="10102654")
     private String itemLotNumber;
     @ApiCloudField(value="入货仓库编号", example="200300004")
     private Integer storehouseNum;
-    @ApiCloudField(value="生产日期", example="Sun Jan 03 08:00:00 CST 2021")
+    @ApiCloudField(value="生产日期", example="2021-01-03")
     private String itemProductDate;
     @ApiCloudField(value="批复赠品基本数量", example="1.0")
     private BigDecimal itemPresentAuditQty;
@@ -63,6 +63,6 @@ public class WholesaleInnerOrderDetailDTOModel extends ApiCloudObject {
     private BigDecimal itemPresentUseQty;
     @ApiCloudField(value="赠品基本数量")
     private BigDecimal itemPresentQty;
-    @ApiCloudField(value="赠品单位")
+    @ApiCloudField(value="赠品单位", example="")
     private String itemPresentUnit;
 }

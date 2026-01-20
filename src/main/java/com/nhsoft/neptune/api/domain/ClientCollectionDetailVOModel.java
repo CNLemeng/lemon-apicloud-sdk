@@ -27,7 +27,7 @@ public class ClientCollectionDetailVOModel extends ApiCloudObject {
     private String clientName;
     @ApiCloudField(value="门店编码", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="结算日期", example="Fri Sep 10 08:00:00 CST 2021")
+    @ApiCloudField(value="结算日期", example="2021-09-10")
     private String clientSettlementDate;
     @ApiCloudField(value="付款方式", example="现金")
     private String clientSettlementPaymentType;

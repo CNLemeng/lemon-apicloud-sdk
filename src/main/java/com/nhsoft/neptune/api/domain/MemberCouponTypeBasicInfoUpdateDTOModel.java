@@ -55,8 +55,8 @@ public class MemberCouponTypeBasicInfoUpdateDTOModel extends ApiCloudObject {
     private String memo;
     @ApiCloudField(value="活动门店", example="1")
     private List<Long> branchIds;
-    @ApiCloudField(value="exception_branch_ids")
+    @ApiCloudField(value="例外门店", example="[1]")
     private List<Long> exceptionBranchIds;
-    @ApiCloudField(value="券id(等同ticket_code)", required=true)
+    @ApiCloudField(value="券id(等同ticket_code)", example="", required=true)
     private String id;
 }

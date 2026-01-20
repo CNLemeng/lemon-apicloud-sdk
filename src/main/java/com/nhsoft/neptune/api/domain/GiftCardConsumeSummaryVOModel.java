@@ -25,7 +25,7 @@ public class GiftCardConsumeSummaryVOModel extends ApiCloudObject {
     private Integer cardTypeId;
     @ApiCloudField(value="礼品卡类型名称", example="1")
     private String cardTypeName;
-    @ApiCloudField(value="消费日期", example="Fri Jan 01 08:00:00 CST 2021")
+    @ApiCloudField(value="消费日期", example="2021-01-01")
     private String consumeDay;
     @ApiCloudField(value="消费总金额", example="100.0")
     private BigDecimal consumeSum;

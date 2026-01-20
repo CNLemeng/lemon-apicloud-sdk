@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PolicyQuantityDateToUpdateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="超量特价结束日期（yyyy-MM-dd）", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="超量特价结束日期（yyyy-MM-dd）", example="2021-01-01", required=true)
     private String policyQuantityDateTo;
     @ApiCloudField(value="促销单号", example="4344990002112", required=true)
     private String policyNo;

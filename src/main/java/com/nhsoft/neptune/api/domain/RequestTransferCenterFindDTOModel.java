@@ -20,9 +20,9 @@ public class RequestTransferCenterFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="时间类型:制单时间、审核时间、到期时间、要货时间、采购日", example="审核时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="开始日期(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束日期(yyyy-MM-dd)(与date_from时间间隔不能超过5天)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束日期(yyyy-MM-dd)(与date_from时间间隔不能超过5天)", example="2021-01-01", required=true)
     private String dateTo;
     @ApiCloudField(value="time_from")
     private LocalTimeModel timeFrom;

@@ -45,7 +45,7 @@ public class WarehouseSummaryVOModel extends ApiCloudObject {
     private String outOrderFid;
     @ApiCloudField(value="库位名称", example="zfb集货位")
     private String positionName;
-    @ApiCloudField(value="生产日期", example="Tue Apr 01 08:00:00 CST 2025")
+    @ApiCloudField(value="生产日期", example="2025-04-01")
     private String productionDate;
     @ApiCloudField(value="原因", example="入库")
     private String reason;

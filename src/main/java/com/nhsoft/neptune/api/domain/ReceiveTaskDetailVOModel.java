@@ -63,7 +63,7 @@ public class ReceiveTaskDetailVOModel extends ApiCloudObject {
     private BigDecimal presentUseQty;
     @ApiCloudField(value="赠品换算率", example="1.0")
     private BigDecimal presentUseRate;
-    @ApiCloudField(value="生产日期", example="Tue Apr 01 08:00:00 CST 2025")
+    @ApiCloudField(value="生产日期", example="2025-04-01")
     private String productionDate;
     @ApiCloudField(value="收货仓库名称", example="仓库A")
     private String receiveStorehouseName;

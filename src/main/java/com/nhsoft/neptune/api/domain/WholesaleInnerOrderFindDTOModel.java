@@ -22,9 +22,9 @@ public class WholesaleInnerOrderFindDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="时间类型(制单时间,审核时间,处理时间)", example="审核时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始日期(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="开始日期(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束日期(yyyy-MM-dd)", example="Sun Jan 03 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束日期(yyyy-MM-dd)", example="2021-01-03", required=true)
     private String dateTo;
     @ApiCloudField(value="单据状态(制单,待批复,批复通过,批复不通过)", example="制单")
     private String stateName;

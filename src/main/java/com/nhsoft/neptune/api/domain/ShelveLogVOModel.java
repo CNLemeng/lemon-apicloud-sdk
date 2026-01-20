@@ -45,7 +45,7 @@ public class ShelveLogVOModel extends ApiCloudObject {
     private String operateTime;
     @ApiCloudField(value="操作人", example="admin")
     private String operator;
-    @ApiCloudField(value="生产日期", example="Wed Jan 01 08:00:00 CST 2025")
+    @ApiCloudField(value="生产日期", example="2025-01-01")
     private String productionDate;
     @ApiCloudField(value="操作记录编号", example="1")
     private Integer shelveLogNum;

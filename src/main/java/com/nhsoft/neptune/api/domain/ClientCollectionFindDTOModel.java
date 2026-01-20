@@ -23,9 +23,9 @@ public class ClientCollectionFindDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="日期类型(制单时间|审核时间|收款日期)", example="制单时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始时间", required=true)
+    @ApiCloudField(value="开始时间", example="2024-01-01 00:00:00", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间", required=true)
+    @ApiCloudField(value="结束时间", example="2024-01-02 00:00:00", required=true)
     private String dateTo;
     @ApiCloudField(value="客户收款单号", example="CC99675990000027")
     private String collectionNo;

@@ -24,9 +24,9 @@ public class PriceAdjustmentFindDTOModel extends ApiCloudObject {
     private Integer applyBranchNum;
     @ApiCloudField(value="时间类型(审核时间|制单时间|最后修改时间)", example="审核时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateTo;
     @ApiCloudField(value="time_from")
     private LocalTimeModel timeFrom;

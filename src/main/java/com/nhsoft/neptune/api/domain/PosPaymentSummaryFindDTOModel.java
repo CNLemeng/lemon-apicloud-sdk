@@ -20,8 +20,8 @@ public class PosPaymentSummaryFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码", example="[1,2]")
     private List<Integer> branchNums;
-    @ApiCloudField(value="开始时间", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="开始时间", example="2021-01-01", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="结束时间", example="2021-01-01", required=true)
     private String dateTo;
 }

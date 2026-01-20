@@ -29,6 +29,6 @@ public class ProcessingOrderItemDetailSaveDTOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="批次", example="11")
     private String itemLotNumber;
-    @ApiCloudField(value="生产日期", example="Sat Jan 01 08:00:00 CST 2022")
+    @ApiCloudField(value="生产日期", example="2022-01-01")
     private String itemProducingDate;
 }

@@ -28,9 +28,9 @@ public class PriceAdjustmentSaveDTOModel extends ApiCloudObject {
     private String priceAdjustmentLevel;
     @ApiCloudField(value="应用门店编码列表", example="[1,2]", required=true)
     private List<Integer> branchNums;
-    @ApiCloudField(value="生效日期（yyyy-MM-dd）", example="Fri Jan 01 08:00:00 CST 2021", required=true)
+    @ApiCloudField(value="生效日期（yyyy-MM-dd）", example="2021-01-01", required=true)
     private String priceAdjustmentEffectiveDate;
-    @ApiCloudField(value="失效日期（yyyy-MM-dd）", example="Fri Jan 01 08:00:00 CST 2021")
+    @ApiCloudField(value="失效日期（yyyy-MM-dd）", example="2021-01-01")
     private String priceAdjustmentInvalidTime;
     @ApiCloudField(value="失效后价格选项(0:调整前价格、1:按当前商品档案价格、2:随商品档案价格)", example="1")
     private Integer priceAdjustmentReturnType;

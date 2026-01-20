@@ -25,7 +25,7 @@ public class ClientSettlementUpdateDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="客户编码", example="43440001", required=true)
     private String clientFid;
-    @ApiCloudField(value="结算时间 格式：yyyy-MM-dd", example="Mon Jan 01 08:00:00 CST 1990", required=true)
+    @ApiCloudField(value="结算时间 格式：yyyy-MM-dd", example="1990-01-01", required=true)
     private String clientSettlementDate;
     @ApiCloudField(value="付款方式", example="现金", required=true)
     private String clientSettlementPaymentType;
@@ -43,8 +43,8 @@ public class ClientSettlementUpdateDTOModel extends ApiCloudObject {
     private String settlementBank;
     @ApiCloudField(value="账号", example="123")
     private String settlementBankAccount;
-    @ApiCloudField(value="结算明细", required=true)
+    @ApiCloudField(value="结算明细", example="", required=true)
     private List<ClientSettlementDetailDTOModel> clientSettlementDetails;
-    @ApiCloudField(value="预收明细")
+    @ApiCloudField(value="预收明细", example="")
     private List<ClientPreSettlementDetailDTOModel> preSettlementDetails;
 }

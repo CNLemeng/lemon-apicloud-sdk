@@ -19,9 +19,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="到期日", example="Sat Aug 31 08:00:00 CST 2024")
+    @ApiCloudField(value="到期日", example="2024-08-31")
     private String expireTime;
-    @ApiCloudField(value="卡面背景")
+    @ApiCloudField(value="卡面背景", example="")
     private String cardFaceBackground;
     @ApiCloudField(value="表面卡号", example="209500000048000010")
     private String cardPrintedNum;

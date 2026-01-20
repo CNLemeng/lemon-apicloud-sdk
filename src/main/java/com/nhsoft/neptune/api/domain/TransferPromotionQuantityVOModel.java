@@ -24,9 +24,9 @@ public class TransferPromotionQuantityVOModel extends ApiCloudObject {
     private String promotionQuantityName;
     @ApiCloudField(value="门店编号", example="5")
     private Integer branchNum;
-    @ApiCloudField(value="促销开始日期", example="Sun Jan 01 08:00:00 CST 2023")
+    @ApiCloudField(value="促销开始日期", example="2023-01-01")
     private String promotionQuantityDateFrom;
-    @ApiCloudField(value="促销结束日期", example="Sun Dec 31 08:00:00 CST 2023")
+    @ApiCloudField(value="促销结束日期", example="2023-12-31")
     private String promotionQuantityDateTo;
     @ApiCloudField(value="促销开始时间", example="09:00")
     private String promotionQuantityTimeFrom;
