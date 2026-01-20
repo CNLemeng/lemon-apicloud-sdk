@@ -25,9 +25,9 @@ public class TransferPriceAdjustOrderUpdateDTOModel extends ApiCloudObject {
     @ApiCloudField(value="失效日期(yyyy-MM-dd)", example="2022-01-30")
     private String priceAdjustmentInvalidDate;
     @ApiCloudField(value="price_adjustment_time_from")
-    private LocalTimeModel priceAdjustmentTimeFrom;
+    private String priceAdjustmentTimeFrom;
     @ApiCloudField(value="price_adjustment_time_to")
-    private LocalTimeModel priceAdjustmentTimeTo;
+    private String priceAdjustmentTimeTo;
     @ApiCloudField(value="失效后价格（按调整前价格|按当前商品档案价格|随商品档案价格变动）", example="按调整前价格")
     private String priceAdjustmentReturnType;
     @ApiCloudField(value="备注", example="")

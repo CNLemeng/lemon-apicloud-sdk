@@ -25,9 +25,9 @@ public class MarketActionFindDTOModel extends ApiCloudObject {
     @ApiCloudField(value="结束日期", example="2025-03-04", required=true)
     private String dateTo;
     @ApiCloudField(value="time_from")
-    private LocalTimeModel timeFrom;
+    private String timeFrom;
     @ApiCloudField(value="time_to")
-    private LocalTimeModel timeTo;
+    private String timeTo;
     @ApiCloudField(value="活动类型(POS-POS消费赠券;DEPOSIT-卡存款赠券;LOTTERY-POS消费赠抽奖次数)", example="POS消费赠券")
     private String actionType;
     @ApiCloudField(value="状态(1-制单;3-制单|审核;7-制单|审核|作废)", example="[1]")

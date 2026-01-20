@@ -32,7 +32,7 @@ public class ClientSettlementFindV2DTOModel extends ApiCloudObject {
     @ApiCloudField(value="查询分页大小", example="20", required=true)
     private Integer pageSize;
     @ApiCloudField(value="time_from")
-    private LocalTimeModel timeFrom;
+    private String timeFrom;
     @ApiCloudField(value="time_to")
-    private LocalTimeModel timeTo;
+    private String timeTo;
 }

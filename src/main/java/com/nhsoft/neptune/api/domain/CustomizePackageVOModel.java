@@ -53,9 +53,9 @@ public class CustomizePackageVOModel extends ApiCloudObject {
     @ApiCloudField(value="结束日期（yyyy-MM-dd）", example="Wed Mar 26 08:00:00 CST 2025")
     private String dateTo;
     @ApiCloudField(value="time_from")
-    private LocalTimeModel timeFrom;
+    private String timeFrom;
     @ApiCloudField(value="time_to")
-    private LocalTimeModel timeTo;
+    private String timeTo;
     @ApiCloudField(value="星期一是否生效", example="true")
     private Boolean monActived;
     @ApiCloudField(value="星期二是否生效", example="true")

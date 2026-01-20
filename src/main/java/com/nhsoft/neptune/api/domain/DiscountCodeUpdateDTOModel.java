@@ -27,9 +27,9 @@ public class DiscountCodeUpdateDTOModel extends ApiCloudObject {
     @ApiCloudField(value="结束日期", example="2024-05-01", required=true)
     private String discountCodeDateTo;
     @ApiCloudField(value="discount_code_time_from", required=true)
-    private LocalTimeModel discountCodeTimeFrom;
+    private String discountCodeTimeFrom;
     @ApiCloudField(value="discount_code_time_to", required=true)
-    private LocalTimeModel discountCodeTimeTo;
+    private String discountCodeTimeTo;
     @ApiCloudField(value="应用门店(不传则为所有门店)", example="")
     private List<Integer> discountCodeAppliedBranches;
     @ApiCloudField(value="折扣类型(DISCOUNT:折扣;MONEY:金额;SPECIAL_PRICE:特价)", example="DISCOUNT", required=true)

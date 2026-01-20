@@ -29,9 +29,9 @@ public class PriceAdjustmentFindDTOModel extends ApiCloudObject {
     @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="2021-01-01", required=true)
     private String dateTo;
     @ApiCloudField(value="time_from")
-    private LocalTimeModel timeFrom;
+    private String timeFrom;
     @ApiCloudField(value="time_to")
-    private LocalTimeModel timeTo;
+    private String timeTo;
     @ApiCloudField(value="单据状态(1-制单;3-制单|审核;7-制单|审核|作废)", example="1")
     private Integer stateCode;
     @ApiCloudField(value="查询页码", example="1", required=true)
