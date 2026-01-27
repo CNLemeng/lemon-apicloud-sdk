@@ -3,37 +3,37 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.PriceAdjustmentSaveDTOModel;
+import com.nhsoft.neptune.api.domain.PriceAdjustmentReadDTOModel;
 
 import com.nhsoft.neptune.api.domain.PriceAdjustmentVOModel;
 
 import java.util.*;
 
 /**
- * save_23请求类
- * 商品调价新增
+ * read_34请求类
+ * 商品调价读取
  */
-public class BasicPriceadjSaveRequest implements ApiCloudRequest<PriceAdjustmentSaveDTOModel, PriceAdjustmentVOModel> {
+public class BasicPriceadjReadRequest implements ApiCloudRequest<PriceAdjustmentReadDTOModel, PriceAdjustmentVOModel> {
 
-    private PriceAdjustmentSaveDTOModel bizModel;
+    private PriceAdjustmentReadDTOModel bizModel;
 
     @Override
     public String method() {
-        return "POST";
+        return "GET";
     }
 
     @Override
     public String getApiMethodName() {
-        return "/nhsoft.amazon.basic.priceadj.save";
+        return "/nhsoft.amazon.basic.priceadj.read";
     }
 
     @Override
-    public PriceAdjustmentSaveDTOModel getBizModel() {
+    public PriceAdjustmentReadDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(PriceAdjustmentSaveDTOModel bizModel) {
+    public void setBizModel(PriceAdjustmentReadDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

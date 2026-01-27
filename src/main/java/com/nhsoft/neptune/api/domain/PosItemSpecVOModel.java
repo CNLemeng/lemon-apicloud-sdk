@@ -21,6 +21,10 @@ public class PosItemSpecVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="规格编码", example="9005")
     private Long specNum;
+    @ApiCloudField(value="是否主规格", example="true")
+    private Boolean mainSpecFlag;
+    @ApiCloudField(value="是否删除", example="true")
+    private Boolean deletedFlag;
     @ApiCloudField(value="规格代码", example="600990016980")
     private String specCode;
     @ApiCloudField(value="规格名称", example="2024050601")

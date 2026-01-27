@@ -12,14 +12,12 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * PosClientFindDTO模型
+ * MemberLevelPriceAdjustmentVO模型
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class PosClientFindDTOModel extends ApiCloudObject {
+public class MemberLevelPriceAdjustmentVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店编码", example="99")
-    private Integer branchNum;
-    @ApiCloudField(value="客户编码列表", example="004344990000347")
-    private List<String> clientFids;
+    @ApiCloudField(value="会员等级价格调整编号", example="DJTJ9967520260000002")
+    private String memberLevelPriceAdjustmentFid;
 }

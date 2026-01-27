@@ -162,8 +162,6 @@ public class PosItemUpdateV2DTOModel extends ApiCloudObject {
     private Integer itemTransferDay;
     @ApiCloudField(value="是否启用包装盒", example="true")
     private Boolean itemPackageActived;
-    @ApiCloudField(value="要货不允许超过中心库存", example="true")
-    private Boolean noStockNoRequest;
     @ApiCloudField(value="是否加工商品", example="false")
     private Boolean itemManufactureFlag;
     @ApiCloudField(value="联营扣率")

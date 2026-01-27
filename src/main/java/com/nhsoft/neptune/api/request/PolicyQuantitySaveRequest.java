@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyQuantityVOModel;
 import java.util.*;
 
 /**
- * save_14请求类
+ * save_15请求类
  * 超量特价保存
  */
 public class PolicyQuantitySaveRequest implements ApiCloudRequest<PolicyQuantitySaveDTOModel, PolicyQuantityVOModel> {

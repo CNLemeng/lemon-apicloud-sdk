@@ -36,9 +36,9 @@ public class CustomerPayOrderCreateDTOModel extends ApiCloudObject {
     private String paymentType;
     @ApiCloudField(value="推广人", example="张三")
     private String operator;
-    @ApiCloudField(value="branch_num", required=true)
+    @ApiCloudField(value="门店编号", example="10001", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="account_branch_num")
+    @ApiCloudField(value="到账门店编号", example="10001")
     private Integer accountBranchNum;
     @ApiCloudField(value="会员来源(WECHAT_OFFICIAL|WECHAT_MP|WECHAT_PAY|ALIPAY_PAY|MANUAL|OFFLINE|WECOM|OMS|ALI_MP|TIK_TOK|H5)", example="WECHAT_OFFICIAL", required=true)
     private String source;

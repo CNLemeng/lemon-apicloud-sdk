@@ -25,7 +25,7 @@ public class WholesaleOrderUpdateDTOModel extends ApiCloudObject {
     private String wholesaleOrderOperator;
     @ApiCloudField(value="备注", example="备注信息")
     private String wholesaleOrderMemo;
-    @ApiCloudField(value="配送方式")
+    @ApiCloudField(value="配送方式", example="")
     private String wholesaleOrderTransferType;
     @ApiCloudField(value="销售日期 格式：yyyy-MM-dd", example="2021-01-18", required=true)
     private String wholesaleOrderDate;

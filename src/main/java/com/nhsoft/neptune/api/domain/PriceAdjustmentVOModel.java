@@ -48,12 +48,14 @@ public class PriceAdjustmentVOModel extends ApiCloudObject {
     private String priceAdjustmentEffectiveDate;
     @ApiCloudField(value="生效标记", example="true")
     private Boolean priceAdjustmentEffectiveFlag;
-    @ApiCloudField(value="失效日期（yyyy-MM-dd HH:mm:ss）", example="2021-01-01 00:00:00")
+    @ApiCloudField(value="失效日期（yyyy-MM-dd）", example="2021-01-01")
     private String priceAdjustmentInvalidTime;
     @ApiCloudField(value="失效后价格选项(0:调整前价格、1:按当前商品档案价格、2:随商品档案价格)", example="1")
     private Integer priceAdjustmentReturnType;
     @ApiCloudField(value="备注", example="备注信息")
     private String priceAdjustmentMemo;
+    @ApiCloudField(value="通知时间类型(AUDIT:审核通过|EFFECTIVE:调价生效|INVALID:调价失效)", example="[AUDIT]")
+    private List<String> noticeTimeTypes;
     @ApiCloudField(value="明细", example="")
     private List<PriceAdjustmentDetailVOModel> priceAdjustmentDetails;
 }

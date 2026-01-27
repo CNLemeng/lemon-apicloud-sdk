@@ -150,6 +150,6 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private List<Long> businessScopeList;
     @ApiCloudField(value="是否允许批发订货超中心库存", example="true")
     private Boolean wholesaleBookAllowOverCenterStock;
-    @ApiCloudField(value="商品编号", example="102200551", required=true)
+    @ApiCloudField(value="商品编码", example="102200551", required=true)
     private Integer itemNum;
 }

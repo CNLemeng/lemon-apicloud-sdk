@@ -42,4 +42,6 @@ public class ReceiveFindV3DTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
     private Integer pageSize;
+    @ApiCloudField(value="结算状态 1 未结算 2 部分结算 3 已结算", example="[1]")
+    private List<Integer> settlementTypes;
 }

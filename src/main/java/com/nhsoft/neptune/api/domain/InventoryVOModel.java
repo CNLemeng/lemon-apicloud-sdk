@@ -119,7 +119,7 @@ public class InventoryVOModel extends ApiCloudObject {
     private String splitQtyAndUnit;
     @ApiCloudField(value="停留天数", example="11")
     private Integer stayDay;
-    @ApiCloudField(value="在库天数", example="11.0")
+    @ApiCloudField(value="在库天数", example="11")
     private BigDecimal inWarehouseDays;
     @ApiCloudField(value="库区名称", example="A区")
     private String storehouseAreaName;
