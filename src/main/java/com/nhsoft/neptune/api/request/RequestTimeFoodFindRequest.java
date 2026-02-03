@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ClientRequestTimeFoodVOModel;
 import java.util.*;
 
 /**
- * find_21请求类
+ * find_22请求类
  * 批发订货模板查询
  */
 public class RequestTimeFoodFindRequest implements ApiCloudRequest<ClientRequestTimeFoodFindDTOModel, List<ClientRequestTimeFoodVOModel>> {

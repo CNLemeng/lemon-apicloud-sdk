@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.CustomizePackageVOModel;
 import java.util.*;
 
 /**
- * read_21请求类
+ * read_22请求类
  * 自选套餐查询
  */
 public class RetailCustomizepackageReadRequest implements ApiCloudRequest<CustomizePackageIdDTOModel, CustomizePackageVOModel> {

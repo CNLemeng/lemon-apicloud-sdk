@@ -48,9 +48,9 @@ public class CustomizePackageVOModel extends ApiCloudObject {
     private String stateName;
     @ApiCloudField(value="备注", example="测试")
     private String remark;
-    @ApiCloudField(value="开始日期（yyyy-MM-dd）", example="Wed Mar 26 08:00:00 CST 2025")
+    @ApiCloudField(value="开始日期（yyyy-MM-dd）", example="2025-03-26")
     private String dateFrom;
-    @ApiCloudField(value="结束日期（yyyy-MM-dd）", example="Wed Mar 26 08:00:00 CST 2025")
+    @ApiCloudField(value="结束日期（yyyy-MM-dd）", example="2025-03-26")
     private String dateTo;
     @ApiCloudField(value="time_from")
     private String timeFrom;

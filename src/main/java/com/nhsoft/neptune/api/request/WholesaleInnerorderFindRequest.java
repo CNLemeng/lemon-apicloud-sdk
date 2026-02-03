@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WholesaleInnerOrderVOModel;
 import java.util.*;
 
 /**
- * find_31请求类
+ * find_32请求类
  * 售后申请单分页查询
  */
 public class WholesaleInnerorderFindRequest implements ApiCloudRequest<WholesaleInnerOrderFindDTOModel, List<WholesaleInnerOrderVOModel>> {

@@ -99,6 +99,6 @@ public class PosClientVOModel extends ApiCloudObject {
     private String clientParentFid;
     @ApiCloudField(value="用户中心合作伙伴id")
     private Long userCenterPartnerId;
-    @ApiCloudField(value="客户标签列表(仅读取接口返回)", example="")
+    @ApiCloudField(value="客户标签列表(仅读取接口返回)")
     private List<PosClientLabelVOModel> clientLabels;
 }

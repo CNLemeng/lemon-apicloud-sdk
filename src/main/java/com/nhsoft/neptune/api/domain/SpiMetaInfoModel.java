@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SpiMetaInfoModel extends ApiCloudObject {
 
+    @ApiCloudField(value="app_id")
+    private String appId;
     @ApiCloudField(value="merchant_id")
     private String merchantId;
     @ApiCloudField(value="spi_url")

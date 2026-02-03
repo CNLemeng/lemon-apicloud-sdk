@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeSimpleVOModel;
 import java.util.*;
 
 /**
- * find_27请求类
+ * find_28请求类
  * 折扣码查询
  */
 public class DiscountCodeFindRequest implements ApiCloudRequest<DiscountCodeFindDTOModel, List<DiscountCodeSimpleVOModel>> {

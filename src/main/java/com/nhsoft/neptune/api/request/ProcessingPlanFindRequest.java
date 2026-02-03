@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ProcessingPlanOrderV2DTOModel;
 import java.util.*;
 
 /**
- * find_35请求类
+ * find_36请求类
  * 生产计划单查询
  */
 public class ProcessingPlanFindRequest implements ApiCloudRequest<ProcessingPlanFindDTOModel, List<ProcessingPlanOrderV2DTOModel>> {

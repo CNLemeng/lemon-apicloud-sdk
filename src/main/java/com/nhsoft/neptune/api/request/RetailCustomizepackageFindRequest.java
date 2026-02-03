@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.CustomizePackageVOModel;
 import java.util.*;
 
 /**
- * find_18请求类
+ * find_19请求类
  * 自选套餐查询
  */
 public class RetailCustomizepackageFindRequest implements ApiCloudRequest<CustomizePackageFindDTOModel, List<CustomizePackageVOModel>> {
