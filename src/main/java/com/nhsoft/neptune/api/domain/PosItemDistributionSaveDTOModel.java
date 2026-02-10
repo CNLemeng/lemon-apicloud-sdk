@@ -20,6 +20,6 @@ public class PosItemDistributionSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="操作人", example="admin", required=true)
     private String operator;
-    @ApiCloudField(value="商品属性明细", example="", required=true)
+    @ApiCloudField(value="商品属性明细", required=true)
     private List<PosItemDistributionDetailSaveDTOModel> details;
 }

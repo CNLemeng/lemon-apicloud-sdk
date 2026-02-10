@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RetailPosOrderPaymentSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="支付编号(不填会自动生成)", example="")
+    @ApiCloudField(value="支付编号(不填会自动生成)")
     private String paymentNo;
     @ApiCloudField(value="收款方式(储值卡，微信支付，支付宝等)", example="储值卡", required=true)
     private String paymentPayBy;
@@ -30,6 +30,6 @@ public class RetailPosOrderPaymentSaveDTOModel extends ApiCloudObject {
     private String paymentBillNo;
     @ApiCloudField(value="备注", example="备注信息")
     private String paymentMemo;
-    @ApiCloudField(value="在线用户ID", example="")
+    @ApiCloudField(value="在线用户ID")
     private String onlineUserId;
 }

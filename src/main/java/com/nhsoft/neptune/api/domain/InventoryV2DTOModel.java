@@ -34,7 +34,7 @@ public class InventoryV2DTOModel extends ApiCloudObject {
     private BigDecimal inventoryPrice;
     @ApiCloudField(value="库存辅助数量", example="1.0")
     private BigDecimal inventoryAssistAmount;
-    @ApiCloudField(value="批次商品详细信息", example="")
+    @ApiCloudField(value="批次商品详细信息")
     private List<InventoryLnDetailV2DTOModel> inventoryLnDetails;
     @ApiCloudField(value="加权平均商品的生产日期", example="2025-07-01 00:00:00")
     private String productDate;

@@ -41,7 +41,7 @@ public class CustomerPayRecordVOModel extends ApiCloudObject {
     private BigDecimal receivedAmount;
     @ApiCloudField(value="应付金额")
     private BigDecimal receivableAmount;
-    @ApiCloudField(value="是否退款")
+    @ApiCloudField(value="是否退款", example="false")
     private Boolean ifRefund;
     @ApiCloudField(value="支付方式")
     private String paymentType;

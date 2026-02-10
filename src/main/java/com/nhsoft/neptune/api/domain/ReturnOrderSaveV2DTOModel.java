@@ -38,7 +38,7 @@ public class ReturnOrderSaveV2DTOModel extends ApiCloudObject {
     private String returnOrderEmployee;
     @ApiCloudField(value="退货日期（yyyy-MM-dd）", example="2021-01-20", required=true)
     private String returnOrderDate;
-    @ApiCloudField(value="退货明细", example="", required=true)
+    @ApiCloudField(value="退货明细", required=true)
     private List<ReturnOrderSaveDetailV2DTOModel> returnOrderDetails;
     @ApiCloudField(value="enable_custom_time")
     private Boolean enableCustomTime;

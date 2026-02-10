@@ -28,6 +28,6 @@ public class ElepriceadjSaveV2DTOModel extends ApiCloudObject {
     private String elementPriceAdjustmentLevel;
     @ApiCloudField(value="应用门店编码列表", example="[11,12]", required=true)
     private List<Integer> branchNums;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<ElepriceadjDetailSaveV2DTOModel> elementPriceAdjustmentDetails;
 }

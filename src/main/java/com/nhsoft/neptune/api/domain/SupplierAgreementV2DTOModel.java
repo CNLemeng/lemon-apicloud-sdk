@@ -64,8 +64,8 @@ public class SupplierAgreementV2DTOModel extends ApiCloudObject {
     private String agreementLastEditor;
     @ApiCloudField(value="最后修改时间", example="2022-01-01 10:00:00")
     private String agreementLastEditTime;
-    @ApiCloudField(value="合同商品列表", example="")
+    @ApiCloudField(value="合同商品列表")
     private List<SupplierAgreementPosItemV2DTOModel> agreementPosItems;
-    @ApiCloudField(value="合同押金列表", example="")
+    @ApiCloudField(value="合同押金列表")
     private List<SupplierAgreementPledgeV2DTOModel> agreementPledges;
 }

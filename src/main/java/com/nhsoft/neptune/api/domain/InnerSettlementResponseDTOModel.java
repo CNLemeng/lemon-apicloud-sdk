@@ -38,9 +38,9 @@ public class InnerSettlementResponseDTOModel extends ApiCloudObject {
     private BigDecimal innerSettlementTotalDiscount;
     @ApiCloudField(value="现金银行编号", example="123")
     private Integer accountBankNum;
-    @ApiCloudField(value="结算明细", example="")
+    @ApiCloudField(value="结算明细")
     private List<InnerSettlementDetailResponseDTOModel> innerSettlementDetails;
-    @ApiCloudField(value="预收明细", example="")
+    @ApiCloudField(value="预收明细")
     private List<InnerPreSettlementDetailResponseDTOModel> innerPreSettlementDetail;
     @ApiCloudField(value="备注", example="备注信息")
     private String innerSettlementMemo;

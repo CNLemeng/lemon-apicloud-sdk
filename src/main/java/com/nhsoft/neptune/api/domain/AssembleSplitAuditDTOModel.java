@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class AssembleSplitAuditDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="组合拆分单号", example="", required=true)
+    @ApiCloudField(value="组合拆分单号", required=true)
     private String assembleSplitFid;
     @ApiCloudField(value="商品档案", required=true)
     private Integer itemNum;
@@ -26,22 +26,22 @@ public class AssembleSplitAuditDTOModel extends ApiCloudObject {
     private Integer storehouseNum;
     @ApiCloudField(value="操作时间", required=true)
     private String assembleSplitDate;
-    @ApiCloudField(value="方式(组合|拆分)", example="", required=true)
+    @ApiCloudField(value="方式(组合|拆分)", required=true)
     private String assembleSplitType;
     @ApiCloudField(value="常用数量", required=true)
     private BigDecimal assembleSplitUseAmount;
-    @ApiCloudField(value="常用单位", example="", required=true)
+    @ApiCloudField(value="常用单位", required=true)
     private String assembleSplitUseUnit;
     @ApiCloudField(value="单价", required=true)
     private BigDecimal assembleSplitPrice;
-    @ApiCloudField(value="批次号", example="")
+    @ApiCloudField(value="批次号")
     private String assembleSplitLotNumber;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String assembleSplitMemo;
     @ApiCloudField(value="生产日期")
     private String assembleSplitProducingDate;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", required=true)
     private String operatorName;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<AssembleSplitSaveDetailDTOModel> assembleSplitDetails;
 }

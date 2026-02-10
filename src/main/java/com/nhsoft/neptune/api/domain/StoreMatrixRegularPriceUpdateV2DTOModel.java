@@ -22,6 +22,6 @@ public class StoreMatrixRegularPriceUpdateV2DTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
-    @ApiCloudField(value="明细(不能大于500条)", example="", required=true)
+    @ApiCloudField(value="明细(不能大于500条)", required=true)
     private List<StoreMatrixRegularPriceUpdateV2DetailDTOModel> details;
 }

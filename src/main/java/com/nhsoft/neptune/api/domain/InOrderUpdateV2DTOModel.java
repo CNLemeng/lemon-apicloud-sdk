@@ -34,6 +34,6 @@ public class InOrderUpdateV2DTOModel extends ApiCloudObject {
     private String outOrderFid;
     @ApiCloudField(value="仓库编码")
     private Integer storehouseNum;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<InOrderSaveDetailV2DTOModel> inOrderDetails;
 }

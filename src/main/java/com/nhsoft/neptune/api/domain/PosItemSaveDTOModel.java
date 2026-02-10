@@ -23,7 +23,7 @@ public class PosItemSaveDTOModel extends ApiCloudObject {
     private String itemName;
     @ApiCloudField(value="商品别称", example="coke cola")
     private String itemEnName;
-    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品)", example="STANDARD", required=true)
+    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品)", example="1", required=true)
     private String itemType;
     @ApiCloudField(value="商品规格", example="1箱*10公斤")
     private String itemSpec;

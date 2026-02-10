@@ -24,7 +24,7 @@ public class InnerApproveAndExecuteDTOModel extends ApiCloudObject {
     private String innerOrderOperator;
     @ApiCloudField(value="批复备注", example="备注信息")
     private String innerOrderApproveMemo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<InnerApproveDetailV2DTOModel> innerOrderDetails;
     @ApiCloudField(value="调入仓库编码", example="434400001", required=true)
     private Integer inStorehouseNum;

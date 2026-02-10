@@ -38,13 +38,13 @@ public class PolicyPromotionSaveDTOModel extends ApiCloudObject {
     private String policyPromotionTimeFrom;
     @ApiCloudField(value="促销特价结束时间（HH:mm）", example="23:59", required=true)
     private String policyPromotionTimeTo;
-    @ApiCloudField(value="例外日期", example="")
+    @ApiCloudField(value="例外日期")
     private List<Integer> policyPromotionExceptionDays;
     @ApiCloudField(value="促销特价是否仅适用会员卡", example="1", required=true)
     private Integer policyPromotionCardOnly;
     @ApiCloudField(value="仅企微群群友参加", example="true")
     private Boolean policyPromotionWecomCustomerOnly;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
     @ApiCloudField(value="星期一是否生效", example="1", required=true)
     private Integer policyPromotionMonActived;
@@ -76,9 +76,9 @@ public class PolicyPromotionSaveDTOModel extends ApiCloudObject {
     private Integer policyPromotionType;
     @ApiCloudField(value="例外商品明细编号", example="[433452342,433657341]")
     private List<Integer> policyPromotionExceptItems;
-    @ApiCloudField(value="例外商品明细编号(分级商品维度)", example="")
+    @ApiCloudField(value="例外商品明细编号(分级商品维度)")
     private List<PosVariantNumDTOModel> policyPromotionExceptItemsWithGrade;
-    @ApiCloudField(value="促销特价明细", example="")
+    @ApiCloudField(value="促销特价明细")
     private List<PolicyPromotionSaveDetailDTOModel> policyPromotionDetails;
     @ApiCloudField(value="促销期间所有会员卡不启用支付折扣", example="1")
     private Integer policyPromotionDisablePayDiscount;
@@ -94,12 +94,12 @@ public class PolicyPromotionSaveDTOModel extends ApiCloudObject {
     private String policyPromotionRepeatEnd;
     @ApiCloudField(value="会员等级编号", example="207200000037")
     private List<String> levelIds;
-    @ApiCloudField(value="促销档期id列表", example="")
+    @ApiCloudField(value="促销档期id列表")
     private List<Long> policyScheduleIds;
     @ApiCloudField(value="例外商品模板列表", example="[207200000037]")
     private List<String> policyItemTemplateNos;
     @ApiCloudField(value="销售单小票显示活动名称标记", example="false")
     private Boolean policyPromotionTicketShowName;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyPromotionOutBillNo;
 }

@@ -28,4 +28,6 @@ public class SpiMetaInfoModel extends ApiCloudObject {
     private String spiName;
     @ApiCloudField(value="timeout")
     private Long timeout;
+    @ApiCloudField(value="channel")
+    private String channel;
 }

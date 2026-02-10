@@ -138,11 +138,11 @@ public class PosItemUpdateV2DTOModel extends ApiCloudObject {
     private Integer appUserNum;
     @ApiCloudField(value="是否启用条码换算率", example="true")
     private Boolean itemEnableBarRate;
-    @ApiCloudField(value="一品多码", example="")
+    @ApiCloudField(value="一品多码")
     private List<PosItemBarCodeSaveV2DTOModel> itemBars;
-    @ApiCloudField(value="组合明细", example="")
+    @ApiCloudField(value="组合明细")
     private List<PosItemKitSaveV2DTOModel> posItemKits;
-    @ApiCloudField(value="分级明细", example="")
+    @ApiCloudField(value="分级明细")
     private List<PosItemGradeUpdateDTOModel> posItemGrades;
     @ApiCloudField(value="淘汰标记(0正常，1淘汰)", example="1")
     private Integer itemEliminativeFlag;

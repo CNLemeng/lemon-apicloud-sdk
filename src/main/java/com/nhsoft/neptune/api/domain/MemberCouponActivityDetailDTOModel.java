@@ -27,17 +27,17 @@ public class MemberCouponActivityDetailDTOModel extends ApiCloudObject {
     private String availStart;
     @ApiCloudField(value="账套号", example="2072", required=true)
     private String bookCode;
-    @ApiCloudField(value="门店编号")
+    @ApiCloudField(value="门店编号", example="[1,2,3]")
     private List<Integer> branchIds;
     @ApiCloudField(value="发券数量", example="100")
     private Integer count;
     @ApiCloudField(value="渠道信息")
     private List<MemberCouponActivityInfoDTOModel> infos;
-    @ApiCloudField(value="发券方式", example="H5")
+    @ApiCloudField(value="发券方式", example="可用值:H5,NORMAL,WXAPP")
     private String issueType;
     @ApiCloudField(value="回调地址")
     private String notifyUrl;
-    @ApiCloudField(value="仅发券门店可用")
+    @ApiCloudField(value="仅发券门店可用", example="false")
     private Boolean onlyCreateBranchAvail;
     @ApiCloudField(value="外部活动明细ID")
     private String outActivityDetailId;

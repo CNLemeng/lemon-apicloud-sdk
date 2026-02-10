@@ -20,11 +20,11 @@ public class AssembleSplitSaveDetailDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="商品编号")
     private Integer itemNum;
-    @ApiCloudField(value="常用单位", example="")
+    @ApiCloudField(value="常用单位")
     private String assembleSplitDetailUseUnit;
     @ApiCloudField(value="常用数量")
     private BigDecimal assembleSplitDetailUseQty;
-    @ApiCloudField(value="商品单位", example="")
+    @ApiCloudField(value="商品单位")
     private String assembleSplitDetailItemUnit;
     @ApiCloudField(value="商品数量")
     private BigDecimal assembleSplitDetailItemQty;
@@ -32,12 +32,12 @@ public class AssembleSplitSaveDetailDTOModel extends ApiCloudObject {
     private BigDecimal assembleSplitDetailUsePrice;
     @ApiCloudField(value="辅助数量")
     private BigDecimal assembleSplitDetailItemAssistQty;
-    @ApiCloudField(value="辅助单位", example="")
+    @ApiCloudField(value="辅助单位")
     private String assembleSplitDetailItemAssistUnit;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String assembleSplitDetailMemo;
-    @ApiCloudField(value="生产日期", example="")
+    @ApiCloudField(value="生产日期")
     private String assembleSplitDetailProducingDate;
-    @ApiCloudField(value="批次号", example="")
+    @ApiCloudField(value="批次号")
     private String assembleSplitDetailLotNumber;
 }

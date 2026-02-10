@@ -20,6 +20,6 @@ public class PurchaseAutoRequestSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PurchaseAutoRequestSaveDetailDTOModel> details;
 }

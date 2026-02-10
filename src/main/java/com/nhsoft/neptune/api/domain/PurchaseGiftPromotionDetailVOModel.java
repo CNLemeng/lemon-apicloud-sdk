@@ -30,6 +30,6 @@ public class PurchaseGiftPromotionDetailVOModel extends ApiCloudObject {
     private Integer presentItemNum;
     @ApiCloudField(value="赠送数量(商品档案的采购单位)", example="6.0")
     private BigDecimal presentQty;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String memo;
 }

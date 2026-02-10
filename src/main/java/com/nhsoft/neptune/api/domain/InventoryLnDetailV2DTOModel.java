@@ -24,7 +24,7 @@ public class InventoryLnDetailV2DTOModel extends ApiCloudObject {
     private Integer inventoryLnDetailNum;
     @ApiCloudField(value="商品编码")
     private Integer itemNum;
-    @ApiCloudField(value="批次号", example="")
+    @ApiCloudField(value="批次号")
     private String inventoryLnDetailLotNumber;
     @ApiCloudField(value="基本数量")
     private BigDecimal inventoryLnDetailAmount;
@@ -38,10 +38,10 @@ public class InventoryLnDetailV2DTOModel extends ApiCloudObject {
     private BigDecimal inventoryLnDetailInitAssistAmount;
     @ApiCloudField(value="换算率")
     private BigDecimal inventoryLnDetailUseRate;
-    @ApiCloudField(value="库存单位", example="")
+    @ApiCloudField(value="库存单位")
     private String inventoryLnDetailUseUnit;
     @ApiCloudField(value="数量")
     private BigDecimal inventoryLnDetailUseAmount;
-    @ApiCloudField(value="生产日期", example="")
+    @ApiCloudField(value="生产日期")
     private String inventoryLnDetailProducingDate;
 }

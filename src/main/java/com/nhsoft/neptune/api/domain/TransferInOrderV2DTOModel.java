@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class TransferInOrderV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="调出单编号", example="")
+    @ApiCloudField(value="调出单编号")
     private String inOrderFid;
     @ApiCloudField(value="调出时间(yyyy-mm-dd HH:MM:SS)", example="2021-01-20 00:00:00")
     private String inOrderDate;
@@ -50,9 +50,9 @@ public class TransferInOrderV2DTOModel extends ApiCloudObject {
     private String orderStateName;
     @ApiCloudField(value="总金额", example="1.0")
     private BigDecimal inOrderTotalMoney;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<TransferInOrderDetailV2DTOModel> details;
-    @ApiCloudField(value="调出单号", example="")
+    @ApiCloudField(value="调出单号")
     private String outOrderFid;
     @ApiCloudField(value="是否审核", example="false")
     private Boolean audit;

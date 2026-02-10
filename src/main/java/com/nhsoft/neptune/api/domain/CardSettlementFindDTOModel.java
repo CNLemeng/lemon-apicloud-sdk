@@ -22,11 +22,11 @@ public class CardSettlementFindDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="单据状态代码（1：制单3：制单|审核）")
     private Integer stateCode;
-    @ApiCloudField(value="时间类型（制单时间|审核时间|操作时间|最后修改时间）", example="", required=true)
+    @ApiCloudField(value="时间类型（制单时间|审核时间|操作时间|最后修改时间）", required=true)
     private String dateType;
-    @ApiCloudField(value="审核开始时间(yyyy-mm-dd HH:MM:SS)", example="", required=true)
+    @ApiCloudField(value="审核开始时间(yyyy-mm-dd HH:MM:SS)", required=true)
     private String dateFrom;
-    @ApiCloudField(value="审核结束时间(yyyy-mm-dd HH:MM:SS)", example="", required=true)
+    @ApiCloudField(value="审核结束时间(yyyy-mm-dd HH:MM:SS)", required=true)
     private String dateTo;
     @ApiCloudField(value="结算门店编号")
     private Integer toBranchNum;

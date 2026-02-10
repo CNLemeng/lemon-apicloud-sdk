@@ -24,6 +24,6 @@ public class ShiftTablePaymentVOModel extends ApiCloudObject {
     private String shiftTableNum;
     @ApiCloudField(value="营业日", example="20230313")
     private String shiftTableBizday;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<ShiftTablePaymentDetailVOModel> details;
 }

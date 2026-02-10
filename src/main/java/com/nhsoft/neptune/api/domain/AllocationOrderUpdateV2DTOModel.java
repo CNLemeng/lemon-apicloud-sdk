@@ -32,6 +32,6 @@ public class AllocationOrderUpdateV2DTOModel extends ApiCloudObject {
     private String allocationOrderRefBill;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String allocationOrderOutBillNo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<AllocationOrderSaveDetailV2DTOModel> allocationOrderDetails;
 }

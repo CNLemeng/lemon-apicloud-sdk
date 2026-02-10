@@ -52,6 +52,6 @@ public class AllocationOrderV2DTOModel extends ApiCloudObject {
     private BigDecimal allocationOrderMoney;
     @ApiCloudField(value="最后修改时间（yyyy-MM-dd HH:mm:ss）", example="2021-01-20 00:00:00")
     private String allocationOrderLastEditTime;
-    @ApiCloudField(value="转仓明细", example="")
+    @ApiCloudField(value="转仓明细")
     private List<AllocationOrderDetailV2DTOModel> allocationOrderDetails;
 }

@@ -38,7 +38,7 @@ public class PurchaseOrderSaveV3DTOModel extends ApiCloudObject {
     private String purchaseOrderDate;
     @ApiCloudField(value="交货期限 格式：yyyy-MM-dd", example="2021-01-20", required=true)
     private String purchaseOrderDeadline;
-    @ApiCloudField(value="订单明细", example="", required=true)
+    @ApiCloudField(value="订单明细", required=true)
     private List<PurchaseOrderDetailSaveV3DTOModel> purchaseOrderDetails;
     @ApiCloudField(value="request_order_fids")
     private List<String> requestOrderFids;

@@ -66,8 +66,8 @@ public class ReturnOrderV2DTOModel extends ApiCloudObject {
     private String returnOrderSettlementState;
     @ApiCloudField(value="结算时间", example="2024-05-11 10:37:12")
     private String returnOrderSettlementDate;
-    @ApiCloudField(value="退货方式", example="")
+    @ApiCloudField(value="退货方式")
     private String returnType;
-    @ApiCloudField(value="退货明细", example="")
+    @ApiCloudField(value="退货明细")
     private List<ReturnOrderDetailV2DTOModel> returnOrderDetails;
 }

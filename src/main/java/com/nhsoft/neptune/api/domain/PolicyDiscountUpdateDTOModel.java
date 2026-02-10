@@ -44,9 +44,9 @@ public class PolicyDiscountUpdateDTOModel extends ApiCloudObject {
     private Boolean policyDiscountCardFoldUp;
     @ApiCloudField(value="促销商品不计入消费金额", example="false")
     private Boolean policyItemNoIn;
-    @ApiCloudField(value="参与会员卡类型(和policy_discount_card_only搭配使用)", example="")
+    @ApiCloudField(value="参与会员卡类型(和policy_discount_card_only搭配使用)")
     private List<CardTypeDTOModel> cardTypes;
-    @ApiCloudField(value="会员等级ID列表(和policy_discount_card_only搭配使用)", example="")
+    @ApiCloudField(value="会员等级ID列表(和policy_discount_card_only搭配使用)")
     private List<Long> policyDiscountLevelIds;
     @ApiCloudField(value="超额折扣是否勾选星期一", example="1", required=true)
     private Integer policyDiscountMonActived;
@@ -78,7 +78,7 @@ public class PolicyDiscountUpdateDTOModel extends ApiCloudObject {
     private BigDecimal policyDiscountTotalDiscount;
     @ApiCloudField(value="超额折扣折扣率(超额类型为超额折扣时，该字段必填)", example="0.5")
     private BigDecimal policyDiscountDiscount;
-    @ApiCloudField(value="例外日期", example="")
+    @ApiCloudField(value="例外日期")
     private List<Integer> policyDiscountExceptionDay;
     @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品", example="[10110073,10110074]")
     private List<Integer> policyDiscountDetails;
@@ -90,13 +90,13 @@ public class PolicyDiscountUpdateDTOModel extends ApiCloudObject {
     private Boolean exceptBranch;
     @ApiCloudField(value="例外商品模板列表", example="[207200000037]")
     private List<String> policyItemTemplateNos;
-    @ApiCloudField(value="阶梯(超额类型为阶梯超额减免时,该字段必填)", example="")
+    @ApiCloudField(value="阶梯(超额类型为阶梯超额减免时,该字段必填)")
     private List<PolicyDiscountLadderDTOModel> policyDiscountLadder;
-    @ApiCloudField(value="促销档期id列表", example="")
+    @ApiCloudField(value="促销档期id列表")
     private List<Long> policyScheduleIds;
-    @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品(可以指定到分级明细)", example="")
+    @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品(可以指定到分级明细)")
     private List<PolicyDiscountDetailSaveDTOModel> policyDiscountWithGradeDetails;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyDiscountOutBillNo;
     @ApiCloudField(value="促销单号", example="4344990000324", required=true)
     private String policyDiscountNo;

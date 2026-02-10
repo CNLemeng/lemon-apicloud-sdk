@@ -42,7 +42,7 @@ public class PolicyPresentSaveDTOModel extends ApiCloudObject {
     private String policyPresentTimeTo;
     @ApiCloudField(value="赠品促销是否仅适用会员卡", example="0", required=true)
     private Integer policyPresentCardOnly;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
     @ApiCloudField(value="赠品促销是否勾选星期一", example="1", required=true)
     private Integer policyPresentMonActived;
@@ -68,28 +68,28 @@ public class PolicyPresentSaveDTOModel extends ApiCloudObject {
     private BigDecimal policyPresentFreeAmount;
     @ApiCloudField(value="促销档期编号列表", example="[58]")
     private List<Long> policyScheduleIds;
-    @ApiCloudField(value="等级类型", example="")
+    @ApiCloudField(value="等级类型")
     private List<Long> policyPresentLevelIds;
-    @ApiCloudField(value="例外日期", example="")
+    @ApiCloudField(value="例外日期")
     private List<Integer> policyPresentExceptionDay;
     @ApiCloudField(value="是否设置商品数量上限", example="false")
     private Boolean policyPresentItemQuantityLimit;
     @ApiCloudField(value="促销范围(指定商品|指定类别|全场)", example="指定商品")
     private String policyPresentScope;
-    @ApiCloudField(value="商品类别代码列表", example="")
+    @ApiCloudField(value="商品类别代码列表")
     private List<String> policyPresentItemCategory;
-    @ApiCloudField(value="例外商品(促销范围为指定类别、全场)", example="")
+    @ApiCloudField(value="例外商品(促销范围为指定类别、全场)")
     private List<PosVariantNumDTOModel> policyPresentExceptItem;
-    @ApiCloudField(value="赠品促销明细", example="")
+    @ApiCloudField(value="赠品促销明细")
     private List<PolicyPresentSaveDetailDTOModel> policyPresentDetails;
-    @ApiCloudField(value="赠品促销明细(指定分级商品)", example="")
+    @ApiCloudField(value="赠品促销明细(指定分级商品)")
     private List<PolicyPresentSaveDetailWithGradeDTOModel> policyPresentDetailsWithGrade;
-    @ApiCloudField(value="购买商品明细", example="")
+    @ApiCloudField(value="购买商品明细")
     private List<PolicyPresentBuyDetailDTOModel> policyPresentBuyDetails;
     @ApiCloudField(value="赠送上限类型(单倍总量|按商品明细设置)", example="按商品明细设置")
     private String giftLimitType;
     @ApiCloudField(value="赠送上限数量")
     private BigDecimal giftLimitQuantity;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyPresentOutBillNo;
 }

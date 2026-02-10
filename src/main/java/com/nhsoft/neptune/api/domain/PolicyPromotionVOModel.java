@@ -24,7 +24,7 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private String policyPromotionName;
     @ApiCloudField(value="申请门店编码", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="促销特价创建时间", example="2021-01-01 00:00:00")
     private String policyPromotionCreateTime;
@@ -68,9 +68,9 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private Boolean policyPromotionWecomCustomerOnly;
     @ApiCloudField(value="在会员折扣上折扣", example="false")
     private Boolean policyPromotionCardFoldUp;
-    @ApiCloudField(value="例外商品明细编号", example="")
+    @ApiCloudField(value="例外商品明细编号")
     private List<PosVariantNumDTOModel> policyPromotionExceptItemsWithGrade;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
     @ApiCloudField(value="星期一是否生效", example="1")
     private Integer policyPromotionMonActived;
@@ -90,7 +90,7 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private String policyPromotionPosCategory;
     @ApiCloudField(value="促销特价折扣率", example="1")
     private BigDecimal policyPromotionDiscount;
-    @ApiCloudField(value="促销特价商品品牌", example="")
+    @ApiCloudField(value="促销特价商品品牌")
     private String policyPromotionItemBrand;
     @ApiCloudField(value="促销特价商品类别", example="超量特价")
     private String policyPromotionItemCategory;
@@ -110,7 +110,7 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private Boolean specialPriceWithDiscountCoupon;
     @ApiCloudField(value="销售单小票显示活动名称标记", example="true")
     private Boolean policyPromotionTicketShowName;
-    @ApiCloudField(value="促销特价明细", example="")
+    @ApiCloudField(value="促销特价明细")
     private List<PolicyPromotionDetailVOModel> policyPromotionDetails;
     @ApiCloudField(value="重复类型（每年|每月|每日）", example="1")
     private String policyPromotionRepeatType;
@@ -124,6 +124,6 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private Long policyScheduleId;
     @ApiCloudField(value="促销档期编号列表", example="[58]")
     private List<Long> policyScheduleIds;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyPromotionOutBillNo;
 }

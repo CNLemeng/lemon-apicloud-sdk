@@ -24,7 +24,7 @@ public class PolicyMoneyVOModel extends ApiCloudObject {
     private String promotionMoneyName;
     @ApiCloudField(value="申请门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="超额奖励创建人", example="管理员")
     private String promotionMoneyCreator;
@@ -58,9 +58,9 @@ public class PolicyMoneyVOModel extends ApiCloudObject {
     private String promotionMoneyTimeTo;
     @ApiCloudField(value="超额奖励是否仅适用会员卡", example="0")
     private Integer promotionMoneyCardOnly;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
-    @ApiCloudField(value="会员类别等级", example="")
+    @ApiCloudField(value="会员类别等级")
     private List<Long> promotionMoneyLevelIds;
     @ApiCloudField(value="超额奖励是否勾选星期一", example="1")
     private Integer promotionMoneyMonActived;
@@ -96,9 +96,9 @@ public class PolicyMoneyVOModel extends ApiCloudObject {
     private BigDecimal promotionMoneyDiscount;
     @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)", example="[207210281]")
     private List<Integer> itemNums;
-    @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)(含分级商品)", example="")
+    @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)(含分级商品)")
     private List<PosVariantNumDTOModel> promotionMoneyItems;
-    @ApiCloudField(value="超额奖励明细(仅单品特价、单品折扣有效)", example="")
+    @ApiCloudField(value="超额奖励明细(仅单品特价、单品折扣有效)")
     private List<PolicyMoneyDetailVOModel> promotionMoneyDetails;
     @ApiCloudField(value="促销档期", example="58")
     private Long policyScheduleId;
@@ -116,6 +116,6 @@ public class PolicyMoneyVOModel extends ApiCloudObject {
     private Boolean exceptBranch;
     @ApiCloudField(value="例外日期", example="[10]")
     private List<Integer> promotionMoneyExceptionDay;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String promotionMoneyOutBillNo;
 }

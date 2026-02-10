@@ -32,6 +32,6 @@ public class PosItemLabelDTOModel extends ApiCloudObject {
     private Boolean appWholesaleBookType;
     @ApiCloudField(value="是否启用POS角标", example="true")
     private Boolean posCorner;
-    @ApiCloudField(value="POS角标", example="")
+    @ApiCloudField(value="POS角标")
     private String posCornerContent;
 }

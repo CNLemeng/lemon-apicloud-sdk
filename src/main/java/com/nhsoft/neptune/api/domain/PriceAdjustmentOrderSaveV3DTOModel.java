@@ -30,6 +30,6 @@ public class PriceAdjustmentOrderSaveV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderMemo;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String adjustmentOrderRefBill;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PriceAdjustmentOrderSaveDetailV3DTOModel> adjustmentOrderDetails;
 }

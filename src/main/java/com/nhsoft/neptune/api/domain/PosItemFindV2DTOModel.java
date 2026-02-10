@@ -162,11 +162,11 @@ public class PosItemFindV2DTOModel extends ApiCloudObject {
     private List<String> itemLabelNames;
     @ApiCloudField(value="是否启用条码换算率", example="true")
     private Boolean itemEnableBarRate;
-    @ApiCloudField(value="一品多码", example="")
+    @ApiCloudField(value="一品多码")
     private List<PosItemBarCodeV2DTOModel> itemBars;
-    @ApiCloudField(value="组合明细", example="")
+    @ApiCloudField(value="组合明细")
     private List<PosItemKitV2DTOModel> posItemKits;
-    @ApiCloudField(value="分级明细", example="")
+    @ApiCloudField(value="分级明细")
     private List<PosItemGradeV2DTOModel> posItemGrades;
     @ApiCloudField(value="是否允许门店调价 1 不允许 2 允许", example="1")
     private Integer itemPriceAdj;

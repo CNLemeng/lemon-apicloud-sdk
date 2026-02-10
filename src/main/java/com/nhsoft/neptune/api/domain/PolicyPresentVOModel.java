@@ -26,7 +26,7 @@ public class PolicyPresentVOModel extends ApiCloudObject {
     private String policyPresentName;
     @ApiCloudField(value="申请门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="赠品促销创建人", example="管理员")
     private String policyPresentCreator;
@@ -60,7 +60,7 @@ public class PolicyPresentVOModel extends ApiCloudObject {
     private String policyPresentTimeTo;
     @ApiCloudField(value="赠品促销是否仅适用会员卡", example="0")
     private Integer policyPresentCardOnly;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
     @ApiCloudField(value="赠品促销是否勾选星期一", example="1")
     private Integer policyPresentMonActived;
@@ -84,9 +84,9 @@ public class PolicyPresentVOModel extends ApiCloudObject {
     private BigDecimal policyPresentSaleAmount;
     @ApiCloudField(value="促销商品免单数量", example="1")
     private BigDecimal policyPresentFreeAmount;
-    @ApiCloudField(value="赠品促销明细", example="")
+    @ApiCloudField(value="赠品促销明细")
     private List<PolicyPresentDetailVOModel> policyPresentDetails;
-    @ApiCloudField(value="赠品购买明细", example="")
+    @ApiCloudField(value="赠品购买明细")
     private List<PolicyPresentBuyDetailVOModel> policyPresentBuyDetails;
     @ApiCloudField(value="促销档期", example="58")
     private Long policyScheduleId;
@@ -94,22 +94,22 @@ public class PolicyPresentVOModel extends ApiCloudObject {
     private List<Long> policyScheduleIds;
     @ApiCloudField(value="是否例外门店", example="false")
     private Boolean exceptBranch;
-    @ApiCloudField(value="等级类型", example="")
+    @ApiCloudField(value="等级类型")
     private List<Long> policyPresentLevelIds;
-    @ApiCloudField(value="例外日期", example="")
+    @ApiCloudField(value="例外日期")
     private List<Integer> policyPresentExceptionDay;
     @ApiCloudField(value="是否设置商品数量上限", example="false")
     private Boolean policyPresentItemQuantityLimit;
     @ApiCloudField(value="促销范围(指定商品|指定类别|全场)", example="指定商品")
     private String policyPresentScope;
-    @ApiCloudField(value="商品类别(促销范围为指定类别)", example="")
+    @ApiCloudField(value="商品类别(促销范围为指定类别)")
     private List<String> policyPresentItemCategory;
-    @ApiCloudField(value="例外商品(促销范围为指定类别、全场)", example="")
+    @ApiCloudField(value="例外商品(促销范围为指定类别、全场)")
     private List<PosVariantNumDTOModel> policyPresentExceptItem;
-    @ApiCloudField(value="赠送上限类型(单倍总量|商品明细)", example="")
+    @ApiCloudField(value="赠送上限类型(单倍总量|商品明细)")
     private String giftLimitType;
     @ApiCloudField(value="赠送上限数量")
     private BigDecimal giftLimitQuantity;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyPresentOutBillNo;
 }

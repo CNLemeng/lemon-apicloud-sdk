@@ -22,6 +22,6 @@ public class PolicyDiscountDetailSaveDTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="分级编码")
     private Integer itemGradeNum;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String itemMemo;
 }

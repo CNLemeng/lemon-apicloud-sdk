@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class TransferOutOrderItemExpirationGeneratorDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="调出单编号", example="", required=true)
+    @ApiCloudField(value="调出单编号", required=true)
     private String outOrderFid;
     @ApiCloudField(value="门店编码", example="99", required=true)
     private Integer branchNum;

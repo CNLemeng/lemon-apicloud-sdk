@@ -63,7 +63,7 @@ public class RetailPosOrderMainSaveDTOModel extends ApiCloudObject {
     private BigDecimal orderPostFee;
     @ApiCloudField(value="销售渠道(1:线下订单;2:线上-私域;3:线上-公域) 不传默认1", example="1")
     private Integer orderSaleChannel;
-    @ApiCloudField(value="销售类型(1-销售;2-微商城;3-拼团;4-乐团团;5-好货团;6-砍价;7-商品套餐;8-积分兑换;9-赠品;10-次卡兑换;11-京东到家;12-饿了么外卖;13-美团外卖;14-饿了么零售;15-美团外卖闪购;16-抖店小时达;17-抖音外卖;18-牵牛花;19-海博;20-快手电商)", example="1")
+    @ApiCloudField(value="销售类型(1-销售;2-微商城;3-拼团;4-乐团团;5-好货团;6-砍价;7-商品套餐;8-积分兑换;9-赠品;10-次卡兑换;11-京东到家;12-饿了么外卖;13-美团外卖;14-饿了么零售;15-美团外卖闪购;16-抖店小时达;17-抖音外卖;18-牵牛花;19-海博;20-快手电商;21-淘宝闪购·天猫;22-提货卡提货)", example="1")
     private Integer orderSaleType;
     @ApiCloudField(value="销售交易类型(1-销售;2-部分退货(有单);3-整单退货;4-无单退货;5-反结账退货;6-退款不退货;)", example="1")
     private Integer orderTransactionType;

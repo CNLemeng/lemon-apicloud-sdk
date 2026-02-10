@@ -50,7 +50,7 @@ public class RequestFindV2DTOModel extends ApiCloudObject {
     private Integer requestOrderSendType;
     @ApiCloudField(value="request_order_fids")
     private List<String> requestOrderFids;
-    @ApiCloudField(value="要货周期编号列表", example="")
+    @ApiCloudField(value="要货周期编号列表")
     private List<Long> requestBatchIds;
     @ApiCloudField(value="总部配送调出状态(0:待处理|1:拣货中|2:已过期|3:部分发货|4:全部发货)", example="[0]")
     private List<Integer> requestOrderTransferStateCodes;

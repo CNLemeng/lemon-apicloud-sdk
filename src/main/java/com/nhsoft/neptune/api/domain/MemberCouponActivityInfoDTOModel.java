@@ -23,6 +23,6 @@ public class MemberCouponActivityInfoDTOModel extends ApiCloudObject {
     private List<Integer> branchIds;
     @ApiCloudField(value="渠道名称", example="可用值:AMA,BARB,CRM,IWM,MER,MER2,WECOM")
     private String channel;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String memo;
 }

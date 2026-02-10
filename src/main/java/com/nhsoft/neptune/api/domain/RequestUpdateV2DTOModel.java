@@ -32,6 +32,6 @@ public class RequestUpdateV2DTOModel extends ApiCloudObject {
     private BigDecimal requestOrderFeeMoney;
     @ApiCloudField(value="配送日期", example="2024-04-03")
     private String requestOrderPurchaseDate;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<RequestDetailV2DTOModel> requestOrderDetails;
 }

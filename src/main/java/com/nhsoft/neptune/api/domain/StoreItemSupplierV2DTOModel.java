@@ -40,13 +40,13 @@ public class StoreItemSupplierV2DTOModel extends ApiCloudObject {
     private Boolean storeItemSupplierDefault;
     @ApiCloudField(value="进项税率", example="0.1")
     private BigDecimal storeItemSupplierTax;
-    @ApiCloudField(value="经营方式", example="")
+    @ApiCloudField(value="经营方式")
     private String managementStyleType;
     @ApiCloudField(value="扣率", example="0.1")
     private BigDecimal grossRate;
     @ApiCloudField(value="特价扣率", example="0.1")
     private BigDecimal specialGrossRate;
-    @ApiCloudField(value="合同单据号", example="")
+    @ApiCloudField(value="合同单据号")
     private String supplierAgreementNo;
     @ApiCloudField(value="采购周期")
     private Integer storeItemSupplierPurchasePeriod;

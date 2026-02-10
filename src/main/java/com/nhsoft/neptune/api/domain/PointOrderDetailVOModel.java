@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PointOrderDetailVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品名称", example="")
+    @ApiCloudField(value="商品名称")
     private String pointOrderDetailItemName;
     @ApiCloudField(value="积分要求")
     private BigDecimal pointOrderDetailPoint;

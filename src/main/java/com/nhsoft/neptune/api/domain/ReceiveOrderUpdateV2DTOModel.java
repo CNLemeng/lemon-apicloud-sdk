@@ -34,6 +34,6 @@ public class ReceiveOrderUpdateV2DTOModel extends ApiCloudObject {
     private String receiveOrderDate;
     @ApiCloudField(value="收货单外部单号", example="wb202106010001")
     private String receiveOrderOutBillNo;
-    @ApiCloudField(value="订单明细", example="", required=true)
+    @ApiCloudField(value="订单明细", required=true)
     private List<ReceiveOrderDetailUpdateV2DTOModel> receiveOrderDetails;
 }

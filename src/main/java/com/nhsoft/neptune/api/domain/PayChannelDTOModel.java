@@ -24,8 +24,8 @@ public class PayChannelDTOModel extends ApiCloudObject {
     private String channelId;
     @ApiCloudField(value="渠道名称", example="中国农业银行")
     private String channelName;
-    @ApiCloudField(value="子商户", example="")
+    @ApiCloudField(value="子商户")
     private List<PaySubChannelDTOModel> paySubChannels;
-    @ApiCloudField(value="主商户设置", example="")
+    @ApiCloudField(value="主商户设置")
     private Object paySettings;
 }

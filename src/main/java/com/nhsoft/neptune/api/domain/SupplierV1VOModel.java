@@ -104,7 +104,7 @@ public class SupplierV1VOModel extends ApiCloudObject {
     private BigDecimal supplierCarriage;
     @ApiCloudField(value="商品不推送到资金系统(调出单/调入单)", example="false")
     private Boolean itemNoPushFinance;
-    @ApiCloudField(value="银行账号列表", example="")
+    @ApiCloudField(value="银行账号列表")
     private List<SupplierBankAccountUpdateV2DTOModel> supplierAccountDetails;
     @ApiCloudField(value="扩展属性1", example="value")
     private String supplierExtend1;

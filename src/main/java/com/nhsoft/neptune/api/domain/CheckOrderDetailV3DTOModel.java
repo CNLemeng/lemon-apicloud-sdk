@@ -50,6 +50,8 @@ public class CheckOrderDetailV3DTOModel extends ApiCloudObject {
     private BigDecimal itemStockAmount;
     @ApiCloudField(value="盈亏基本数量(仅已审核+差异处理的商品返回)", example="1.0")
     private BigDecimal itemDiffAmount;
+    @ApiCloudField(value="盈亏辅助数量(仅已审核+差异处理的商品返回)", example="1.0")
+    private BigDecimal itemDiffAssistAmount;
     @ApiCloudField(value="盈亏金额(仅已审核+差异处理的商品返回)", example="1.0")
     private BigDecimal itemDiffMoney;
 }

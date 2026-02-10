@@ -20,45 +20,45 @@ public class SupplierUpdateV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="供应商编码", required=true)
     private Integer supplierNum;
-    @ApiCloudField(value="供应商代码", example="")
+    @ApiCloudField(value="供应商代码")
     private String supplierCode;
-    @ApiCloudField(value="供应商名称", example="")
+    @ApiCloudField(value="供应商名称")
     private String supplierName;
-    @ApiCloudField(value="速记码", example="")
+    @ApiCloudField(value="速记码")
     private String supplierPin;
-    @ApiCloudField(value="供应商类型", example="")
+    @ApiCloudField(value="供应商类型")
     private String supplierKind;
-    @ApiCloudField(value="税务号", example="")
+    @ApiCloudField(value="税务号")
     private String supplierTaxNo;
-    @ApiCloudField(value="联系人", example="")
+    @ApiCloudField(value="联系人")
     private String supplierLinkman;
-    @ApiCloudField(value="联系人电话", example="")
+    @ApiCloudField(value="联系人电话")
     private String supplierLinktel;
-    @ApiCloudField(value="电话号码", example="")
+    @ApiCloudField(value="电话号码")
     private String supplierPhone;
-    @ApiCloudField(value="传真", example="")
+    @ApiCloudField(value="传真")
     private String supplierFax;
-    @ApiCloudField(value="邮编", example="")
+    @ApiCloudField(value="邮编")
     private String supplierPostcode;
-    @ApiCloudField(value="电子邮箱", example="")
+    @ApiCloudField(value="电子邮箱")
     private String supplierEmail;
-    @ApiCloudField(value="地址", example="")
+    @ApiCloudField(value="地址")
     private String supplierAddr;
     @ApiCloudField(value="进项税率", example="0.13")
     private BigDecimal supplierTax;
-    @ApiCloudField(value="结算方式(临时指定、指定帐期、指定账期、指定日期、货到付款、款到发货)", example="")
+    @ApiCloudField(value="结算方式(临时指定、指定帐期、指定账期、指定日期、货到付款、款到发货)")
     private String supplierSettlementType;
     @ApiCloudField(value="结转周期")
     private Integer supplierSettlePeriod;
-    @ApiCloudField(value="经营方式（购销/联营/代销）", example="")
+    @ApiCloudField(value="经营方式（购销/联营/代销）")
     private String supplierMethod;
-    @ApiCloudField(value="结算模式(所属门店结算、业务发生门店结算)", example="")
+    @ApiCloudField(value="结算模式(所属门店结算、业务发生门店结算)")
     private String supplierSettlementModel;
     @ApiCloudField(value="采购周期")
     private Integer supplierPurchasePeriod;
-    @ApiCloudField(value="采购周期（天，周，月）", example="")
+    @ApiCloudField(value="采购周期（天，周，月）")
     private String supplierPurchasePeriodUnit;
-    @ApiCloudField(value="首次/上次采购时间", example="")
+    @ApiCloudField(value="首次/上次采购时间")
     private String supplierPurchaseDate;
     @ApiCloudField(value="交货期限")
     private Integer supplierPurchaseDeadline;

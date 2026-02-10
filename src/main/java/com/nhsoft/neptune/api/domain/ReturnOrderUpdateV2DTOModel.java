@@ -34,6 +34,6 @@ public class ReturnOrderUpdateV2DTOModel extends ApiCloudObject {
     private String returnOrderDate;
     @ApiCloudField(value="收货单号", example="PI2003990000002")
     private String receiveOrderFid;
-    @ApiCloudField(value="退货明细", example="", required=true)
+    @ApiCloudField(value="退货明细", required=true)
     private List<ReturnOrderSaveDetailV2DTOModel> returnOrderDetails;
 }

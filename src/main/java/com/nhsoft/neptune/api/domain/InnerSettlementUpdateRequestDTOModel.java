@@ -36,8 +36,8 @@ public class InnerSettlementUpdateRequestDTOModel extends ApiCloudObject {
     private BigDecimal innerSettlementTotalDiscount;
     @ApiCloudField(value="现金银行编号", example="43440001", required=true)
     private Integer accountBankNum;
-    @ApiCloudField(value="结算明细", example="", required=true)
+    @ApiCloudField(value="结算明细", required=true)
     private List<InnerSettlementDetailRequestDTOModel> innerSettlementDetails;
-    @ApiCloudField(value="预收明细", example="")
+    @ApiCloudField(value="预收明细")
     private List<InnerPreSettlementDetailRequestDTOModel> preSettlementDetails;
 }

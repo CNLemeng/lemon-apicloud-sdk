@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierDeleteDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="供应商编码", example="", required=true)
+    @ApiCloudField(value="供应商编码", required=true)
     private List<Integer> supplierNum;
 }

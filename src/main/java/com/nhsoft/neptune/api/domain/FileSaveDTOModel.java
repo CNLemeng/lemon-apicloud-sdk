@@ -30,12 +30,12 @@ public class FileSaveDTOModel extends ApiCloudObject {
     private String bizSubject;
     @ApiCloudField(value="操作人编号", required=true)
     private Integer appUserNum;
-    @ApiCloudField(value="文件信息(base64编码)", example="", required=true)
+    @ApiCloudField(value="文件信息(base64编码)", required=true)
     private String fileContent;
     @ApiCloudField(value="文件名称，含后缀", example="xxx.jpg", required=true)
     private String fileName;
     @ApiCloudField(value="商品编号")
     private Integer itemNum;
-    @ApiCloudField(value="商品批次", example="")
+    @ApiCloudField(value="商品批次")
     private String itemLotNumber;
 }

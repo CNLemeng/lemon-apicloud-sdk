@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RequestBatchCategorySaveDetailDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品类别代码", example="", required=true)
+    @ApiCloudField(value="商品类别代码", required=true)
     private String itemCategoryCode;
     @ApiCloudField(value="最低订购数量")
     private BigDecimal minOrderQty;

@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PolicyOutBillNoReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="外部单号(促销单号二选一)", example="")
+    @ApiCloudField(value="外部单号(促销单号二选一)")
     private String policyOutBillNo;
-    @ApiCloudField(value="促销单号(外部单号二选一)", example="")
+    @ApiCloudField(value="促销单号(外部单号二选一)")
     private String policyNo;
 }

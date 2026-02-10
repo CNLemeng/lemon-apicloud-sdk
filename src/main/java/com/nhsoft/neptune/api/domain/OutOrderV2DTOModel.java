@@ -82,10 +82,10 @@ public class OutOrderV2DTOModel extends ApiCloudObject {
     private String outOrderSettlementTime;
     @ApiCloudField(value="件数", example="10.0")
     private BigDecimal outOrderUseQty;
-    @ApiCloudField(value="门店收货状态", example="")
+    @ApiCloudField(value="门店收货状态")
     private String outOrderReceiveState;
     @ApiCloudField(value="调出单调入状态(0:未调入|1:部分调入|2:全部调入)", example="0")
     private Integer outInState;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<OutOrderDetailV2DTOModel> outOrderDetails;
 }

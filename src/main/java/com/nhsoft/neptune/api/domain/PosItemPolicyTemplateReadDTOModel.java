@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemPolicyTemplateReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="促销商品模板编号", example="", required=true)
+    @ApiCloudField(value="促销商品模板编号", required=true)
     private String templateNo;
 }

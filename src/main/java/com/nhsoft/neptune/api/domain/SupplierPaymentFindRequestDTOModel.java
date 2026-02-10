@@ -32,7 +32,7 @@ public class SupplierPaymentFindRequestDTOModel extends ApiCloudObject {
     private Integer accountBankNum;
     @ApiCloudField(value="审核状态", example="3")
     private Integer stateCode;
-    @ApiCloudField(value="供应商", example="")
+    @ApiCloudField(value="供应商")
     private List<Integer> supplierNums;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

@@ -28,6 +28,6 @@ public class ShiftTablePaymentDetailVOModel extends ApiCloudObject {
     private String shiftTablePaymentBankName;
     @ApiCloudField(value="收银时间", example="2023-03-13 00:00:00")
     private String shiftTablePaymentTime;
-    @ApiCloudField(value="收银单据号", example="")
+    @ApiCloudField(value="收银单据号")
     private String shiftTablePaymentBankBillNo;
 }

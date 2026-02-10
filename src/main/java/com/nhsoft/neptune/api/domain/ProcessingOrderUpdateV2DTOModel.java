@@ -36,9 +36,9 @@ public class ProcessingOrderUpdateV2DTOModel extends ApiCloudObject {
     private BigDecimal processingOrderQty;
     @ApiCloudField(value="加工日期(yyyy-mm-dd)", example="2022-01-01", required=true)
     private String processingOrderDate;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String processingOrderMemo;
-    @ApiCloudField(value="加工原料明细", example="", required=true)
+    @ApiCloudField(value="加工原料明细", required=true)
     private List<ProcessingOrderSaveDetailV2DTOModel> processingOrderDetails;
     @ApiCloudField(value="processing_order_item")
     private ProcessingOrderItemDetailSaveDTOModel processingOrderItem;

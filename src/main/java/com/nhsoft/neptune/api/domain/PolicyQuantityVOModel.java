@@ -24,7 +24,7 @@ public class PolicyQuantityVOModel extends ApiCloudObject {
     private String promotionQuantityName;
     @ApiCloudField(value="申请门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="超量特价创建时间", example="2021-01-01 00:00:00")
     private String promotionQuantityCreateTime;
@@ -62,9 +62,9 @@ public class PolicyQuantityVOModel extends ApiCloudObject {
     private Boolean promotionQuantityCardOnce;
     @ApiCloudField(value="在会员折扣上折扣", example="true")
     private Boolean promotionQuantityCardFoldUp;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
-    @ApiCloudField(value="参与会员等级", example="")
+    @ApiCloudField(value="参与会员等级")
     private List<String> promotionQuantityLevelIds;
     @ApiCloudField(value="超量特价是否勾选星期一", example="1")
     private Integer promotionQuantityMonActived;
@@ -86,19 +86,19 @@ public class PolicyQuantityVOModel extends ApiCloudObject {
     private Integer promotionQuantityPriceType;
     @ApiCloudField(value="超量特价折扣", example="0.6")
     private BigDecimal promotionQuantityDiscount;
-    @ApiCloudField(value="例外商品", example="")
+    @ApiCloudField(value="例外商品")
     private List<PosVariantNumDTOModel> promotionQuantityExceptItem;
-    @ApiCloudField(value="例外日期", example="")
+    @ApiCloudField(value="例外日期")
     private List<Integer> promotionQuantityExceptionDay;
-    @ApiCloudField(value="折扣范围", example="")
+    @ApiCloudField(value="折扣范围")
     private String promotionQuantityScopeType;
-    @ApiCloudField(value="商品类别", example="")
+    @ApiCloudField(value="商品类别")
     private List<String> promotionQuantityItemCategory;
-    @ApiCloudField(value="指定供应商列表", example="")
+    @ApiCloudField(value="指定供应商列表")
     private List<Integer> supplierNums;
-    @ApiCloudField(value="阶梯", example="")
+    @ApiCloudField(value="阶梯")
     private List<PolicyPromotionQuantityLadderDTOModel> promotionQuantityLadder;
-    @ApiCloudField(value="超量特价明细", example="")
+    @ApiCloudField(value="超量特价明细")
     private List<PolicyQuantityDetailVOModel> promotionQuantityDetails;
     @ApiCloudField(value="促销档期", example="58")
     private Long policyScheduleId;
@@ -114,6 +114,6 @@ public class PolicyQuantityVOModel extends ApiCloudObject {
     private Boolean promotionQuantityLadderSpecialPrice;
     @ApiCloudField(value="是否例外门店", example="true")
     private Boolean exceptBranch;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String promotionQuantityOutBillNo;
 }

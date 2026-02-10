@@ -18,11 +18,11 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierAppointTaskFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="状态代码 制单(1)|预约中(2)|预约完成(3)|作废(4)", example="")
+    @ApiCloudField(value="状态代码 制单(1)|预约中(2)|预约完成(3)|作废(4)")
     private List<Integer> stateCodes;
     @ApiCloudField(value="是否查询详情", example="false")
     private Boolean withDetail;
-    @ApiCloudField(value="创建时间|预约时间|确认时间|修改时间", example="")
+    @ApiCloudField(value="创建时间|预约时间|确认时间|修改时间")
     private String dateType;
     @ApiCloudField(value="开始时间")
     private String dateFrom;

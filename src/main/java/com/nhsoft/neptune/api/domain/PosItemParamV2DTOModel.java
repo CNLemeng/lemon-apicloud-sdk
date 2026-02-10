@@ -66,25 +66,25 @@ public class PosItemParamV2DTOModel extends ApiCloudObject {
     private String itemExtend9Type;
     @ApiCloudField(value="商品拓展属性10-类型", example="参数")
     private String itemExtend10Type;
-    @ApiCloudField(value="商品拓展属性1-值", example="")
+    @ApiCloudField(value="商品拓展属性1-值")
     private List<String> itemExtend1Values;
-    @ApiCloudField(value="商品拓展属性2-值", example="")
+    @ApiCloudField(value="商品拓展属性2-值")
     private List<String> itemExtend2Values;
-    @ApiCloudField(value="商品拓展属性3-值", example="")
+    @ApiCloudField(value="商品拓展属性3-值")
     private List<String> itemExtend3Values;
-    @ApiCloudField(value="商品拓展属性4-值", example="")
+    @ApiCloudField(value="商品拓展属性4-值")
     private List<String> itemExtend4Values;
-    @ApiCloudField(value="商品拓展属性5-值", example="")
+    @ApiCloudField(value="商品拓展属性5-值")
     private List<String> itemExtend5Values;
-    @ApiCloudField(value="商品拓展属性6-值", example="")
+    @ApiCloudField(value="商品拓展属性6-值")
     private List<String> itemExtend6Values;
-    @ApiCloudField(value="商品拓展属性7-值", example="")
+    @ApiCloudField(value="商品拓展属性7-值")
     private List<String> itemExtend7Values;
-    @ApiCloudField(value="商品拓展属性8-值", example="")
+    @ApiCloudField(value="商品拓展属性8-值")
     private List<String> itemExtend8Values;
-    @ApiCloudField(value="商品拓展属性9-值", example="")
+    @ApiCloudField(value="商品拓展属性9-值")
     private List<String> itemExtend9Values;
-    @ApiCloudField(value="商品拓展属性10-值", example="")
+    @ApiCloudField(value="商品拓展属性10-值")
     private List<String> itemExtend10Values;
     @ApiCloudField(value="门店拓展属性1", example="门店拓展属性1")
     private String branchExtend1Name;
@@ -126,25 +126,25 @@ public class PosItemParamV2DTOModel extends ApiCloudObject {
     private String branchExtend9Type;
     @ApiCloudField(value="门店拓展属性10-类型", example="参数")
     private String branchExtend10Type;
-    @ApiCloudField(value="门店拓展属性1-值", example="")
+    @ApiCloudField(value="门店拓展属性1-值")
     private List<String> branchExtend1Values;
-    @ApiCloudField(value="门店拓展属性2-值", example="")
+    @ApiCloudField(value="门店拓展属性2-值")
     private List<String> branchExtend2Values;
-    @ApiCloudField(value="门店拓展属性3-值", example="")
+    @ApiCloudField(value="门店拓展属性3-值")
     private List<String> branchExtend3Values;
-    @ApiCloudField(value="门店拓展属性4-值", example="")
+    @ApiCloudField(value="门店拓展属性4-值")
     private List<String> branchExtend4Values;
-    @ApiCloudField(value="门店拓展属性5-值", example="")
+    @ApiCloudField(value="门店拓展属性5-值")
     private List<String> branchExtend5Values;
-    @ApiCloudField(value="门店拓展属性6-值", example="")
+    @ApiCloudField(value="门店拓展属性6-值")
     private List<String> branchExtend6Values;
-    @ApiCloudField(value="门店拓展属性7-值", example="")
+    @ApiCloudField(value="门店拓展属性7-值")
     private List<String> branchExtend7Values;
-    @ApiCloudField(value="门店拓展属性8-值", example="")
+    @ApiCloudField(value="门店拓展属性8-值")
     private List<String> branchExtend8Values;
-    @ApiCloudField(value="门店拓展属性9-值", example="")
+    @ApiCloudField(value="门店拓展属性9-值")
     private List<String> branchExtend9Values;
-    @ApiCloudField(value="门店拓展属性10-值", example="")
+    @ApiCloudField(value="门店拓展属性10-值")
     private List<String> branchExtend10Values;
     @ApiCloudField(value="启用辅助单位替代常用单位", example="false")
     private Boolean enableAssistUnitAsUseUnit;

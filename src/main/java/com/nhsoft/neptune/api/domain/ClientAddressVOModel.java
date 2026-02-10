@@ -18,25 +18,25 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ClientAddressVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="id", example="")
+    @ApiCloudField(value="id")
     private String id;
-    @ApiCloudField(value="client_id", example="")
+    @ApiCloudField(value="client_id")
     private String clientId;
-    @ApiCloudField(value="contact_name", example="")
+    @ApiCloudField(value="contact_name")
     private String contactName;
-    @ApiCloudField(value="contact_phone", example="")
+    @ApiCloudField(value="contact_phone")
     private String contactPhone;
-    @ApiCloudField(value="province", example="")
+    @ApiCloudField(value="province")
     private String province;
-    @ApiCloudField(value="city", example="")
+    @ApiCloudField(value="city")
     private String city;
-    @ApiCloudField(value="area", example="")
+    @ApiCloudField(value="area")
     private String area;
-    @ApiCloudField(value="address_detail", example="")
+    @ApiCloudField(value="address_detail")
     private String addressDetail;
     @ApiCloudField(value="default_address", example="false")
     private Boolean defaultAddress;
-    @ApiCloudField(value="address_id", example="")
+    @ApiCloudField(value="address_id")
     private String addressId;
     @ApiCloudField(value="default_create_flag", example="false")
     private Boolean defaultCreateFlag;

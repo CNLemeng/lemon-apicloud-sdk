@@ -38,6 +38,6 @@ public class ReserveUpdateV2DTOModel extends ApiCloudObject {
     private String orderPurchaseDate;
     @ApiCloudField(value="关联单据号", example="434400991000011")
     private String orderPromotionNo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<ReserveDetailV2DTOModel> details;
 }

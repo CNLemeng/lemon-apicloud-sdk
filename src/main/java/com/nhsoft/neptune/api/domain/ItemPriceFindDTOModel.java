@@ -26,6 +26,6 @@ public class ItemPriceFindDTOModel extends ApiCloudObject {
     private Integer storehouseNum;
     @ApiCloudField(value=" 单据类型(要货单|调出单|调入单)", example="要货单")
     private String orderType;
-    @ApiCloudField(value=" 商品明细", example="", required=true)
+    @ApiCloudField(value=" 商品明细", required=true)
     private List<ItemPriceDetailFindDTOModel> itemPriceDetails;
 }

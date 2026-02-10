@@ -28,6 +28,6 @@ public class PricetagRequestSaveDTOModel extends ApiCloudObject {
     private String pricetagRequestMemo;
     @ApiCloudField(value="价签格式编号", example="7c61a4a4197d4326bb7840f66eb8fbd4")
     private String pricetagRequestReportId;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PricetagRequestSaveDetailDTOModel> pricetagRequestDetails;
 }

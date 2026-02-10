@@ -26,6 +26,6 @@ public class CouponBatchCreateDTOModel extends ApiCloudObject {
     private String operator;
     @ApiCloudField(value="第三方单据编号  用于撤销消费券发放(也可用作发券幂等)", example="52001201931190008", required=true)
     private String outTradeNo;
-    @ApiCloudField(value="券明细(最大数量为1000)", example="", required=true)
+    @ApiCloudField(value="券明细(最大数量为1000)", required=true)
     private List<CouponBatchCreateDetailDTOModel> couponDetails;
 }

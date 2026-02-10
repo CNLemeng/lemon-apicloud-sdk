@@ -26,7 +26,7 @@ public class WholesaleOrderVOModel extends ApiCloudObject {
     private String clientFid;
     @ApiCloudField(value="仓库编码", example="203000002")
     private Integer storehouseNum;
-    @ApiCloudField(value="配送方式", example="")
+    @ApiCloudField(value="配送方式")
     private String wholesaleOrderTransferType;
     @ApiCloudField(value="创建人", example="管理员")
     private String wholesaleOrderCreator;
@@ -46,13 +46,13 @@ public class WholesaleOrderVOModel extends ApiCloudObject {
     private String wholesaleOrderAuditTime;
     @ApiCloudField(value="状态代码")
     private Integer wholesaleOrderStateCode;
-    @ApiCloudField(value="状态名称", example="")
+    @ApiCloudField(value="状态名称")
     private String wholesaleOrderStateName;
-    @ApiCloudField(value="付款方式", example="")
+    @ApiCloudField(value="付款方式")
     private String wholesaleOrderPayType;
     @ApiCloudField(value="订单金额（小数点2位）")
     private BigDecimal wholesaleOrderTotalMoney;
-    @ApiCloudField(value="关联订单号", example="")
+    @ApiCloudField(value="关联订单号")
     private String wholesaleBookFids;
     @ApiCloudField(value="扩展属性1", example="扩展属性1")
     private String wholesaleOrderExtend1;
@@ -76,6 +76,6 @@ public class WholesaleOrderVOModel extends ApiCloudObject {
     private BigDecimal wholesaleOrderCostMoney;
     @ApiCloudField(value="拣货日期", example="2024-10-01 00:00:00")
     private String wholesaleOrderPickingTime;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<WholesaleOrderDetailDTOModel> wholesaleOrderDetails;
 }

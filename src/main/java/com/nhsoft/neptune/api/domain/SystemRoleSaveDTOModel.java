@@ -24,6 +24,6 @@ public class SystemRoleSaveDTOModel extends ApiCloudObject {
     private String systemRoleCategory;
     @ApiCloudField(value="只允许有角色管理权限的用户使用", example="false")
     private Boolean systemRoleShowFlag;
-    @ApiCloudField(value="角色权限关联关系", example="", required=true)
+    @ApiCloudField(value="角色权限关联关系", required=true)
     private List<SystemRolePrivilegeDTOModel> rolePrivilegeNews;
 }

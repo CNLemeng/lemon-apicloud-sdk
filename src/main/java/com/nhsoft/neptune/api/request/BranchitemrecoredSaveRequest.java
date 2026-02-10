@@ -11,7 +11,7 @@ import java.util.*;
  * save_21请求类
  * 新增单据商品的生产日期
  */
-public class BranchitemrecoredSaveRequest implements ApiCloudRequest<BranchItemRecordUpdateDTOModel, Object> {
+public class BranchitemrecoredSaveRequest implements ApiCloudRequest<BranchItemRecordUpdateDTOModel, Void> {
 
     private BranchItemRecordUpdateDTOModel bizModel;
 
@@ -36,8 +36,8 @@ public class BranchitemrecoredSaveRequest implements ApiCloudRequest<BranchItemR
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Object>>() {};
+    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<Void>>() {};
     }
 
 }

@@ -30,7 +30,7 @@ public class PolicyPromotionQuantityDetailVOModel extends ApiCloudObject {
     private BigDecimal promotionQuantityDetailMinAmount;
     @ApiCloudField(value="进价")
     private BigDecimal promotionQuantityDetailCost;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String promotionQuantityDetailMemo;
     @ApiCloudField(value="分级主键")
     private Integer itemGradeNum;
@@ -40,13 +40,13 @@ public class PolicyPromotionQuantityDetailVOModel extends ApiCloudObject {
     private BigDecimal promotionQuantityDetailBillLimit;
     @ApiCloudField(value="销售数量")
     private BigDecimal promotionQuantityDetailSaleAmount;
-    @ApiCloudField(value="批次号", example="")
+    @ApiCloudField(value="批次号")
     private String promotionQuantityLotNumber;
     @ApiCloudField(value="配送单位特价")
     private BigDecimal promotionQuantityDetailSpecialUsePrice;
     @ApiCloudField(value="销售数量")
     private BigDecimal promotionQuantityDetailUseRate;
-    @ApiCloudField(value="配送单位", example="")
+    @ApiCloudField(value="配送单位")
     private String promotionQuantityDetailUseUnit;
     @ApiCloudField(value="联营商品扣率%")
     private BigDecimal promotionQuantityDetailGross;
@@ -58,12 +58,12 @@ public class PolicyPromotionQuantityDetailVOModel extends ApiCloudObject {
     private BigDecimal promotionQuantityDetailLadderPrice3;
     @ApiCloudField(value="商品中止", example="false")
     private Boolean promotionQuantityDetailCancel;
-    @ApiCloudField(value="中止人", example="")
+    @ApiCloudField(value="中止人")
     private String policyPromotionQuantityDetailCancelOperator;
     @ApiCloudField(value="中止时间")
     private String policyPromotionQuantityDetailCancelTime;
     @ApiCloudField(value="促销进价")
     private BigDecimal promotionQuantityDetailPolicyCost;
-    @ApiCloudField(value="组合明细", example="")
+    @ApiCloudField(value="组合明细")
     private List<PolicyPromotionQuantityKitDetailVOModel> policyPromotionQuantityKitDetails;
 }

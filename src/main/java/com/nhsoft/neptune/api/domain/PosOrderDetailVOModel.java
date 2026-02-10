@@ -60,7 +60,7 @@ public class PosOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal orderDetailOnlineQty;
     @ApiCloudField(value="是否手动调价", example="true")
     private Boolean orderDetailManualChanged;
-    @ApiCloudField(value="商品组合明细", example="")
+    @ApiCloudField(value="商品组合明细")
     private List<PosOrderKitDetailVOModel> posOrderKitDetails;
     @ApiCloudField(value="促销折扣金额", example="10.0")
     private BigDecimal orderDetailPromotionDiscountMoney;

@@ -74,7 +74,7 @@ public class DirectPurchaseOrderVOModel extends ApiCloudObject {
     private BigDecimal purchaseOrderNoTaxMoney;
     @ApiCloudField(value="供应商送货金额")
     private BigDecimal purchaseOrderCustMoney;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String purchaseOrderOutBillNo;
     @ApiCloudField(value="件数", example="20.0")
     private BigDecimal purchaseOrderUseQty;
@@ -84,6 +84,6 @@ public class DirectPurchaseOrderVOModel extends ApiCloudObject {
     private BigDecimal purchaseOrderPurchaseReceivedMoney;
     @ApiCloudField(value="供货状态(已处理|未处理)", example="已处理")
     private String purchaseOrderLabel;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<DirectPurchaseOrderDetailVOModel> purchaseOrderDetails;
 }

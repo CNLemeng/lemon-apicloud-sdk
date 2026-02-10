@@ -52,6 +52,6 @@ public class AdjustmentOrderVOModel extends ApiCloudObject {
     private String adjustmentOrderCause;
     @ApiCloudField(value="调整方向", example="入库")
     private String adjustmentOrderDirection;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<AdjustmentOrderDetailVOModel> adjustmentOrderDetails;
 }

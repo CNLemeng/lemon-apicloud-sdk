@@ -48,8 +48,8 @@ public class PriceadjV2DTOModel extends ApiCloudObject {
     private Integer priceAdjustmentReturnType;
     @ApiCloudField(value="备注", example="备注信息")
     private String priceAdjustmentMemo;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchNameV2DTOModel> branchs;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<PriceadjDetailV2DTOModel> priceAdjustmentDetails;
 }

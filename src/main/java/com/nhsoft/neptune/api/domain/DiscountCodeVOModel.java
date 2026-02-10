@@ -18,10 +18,10 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class DiscountCodeVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品范围", example="")
+    @ApiCloudField(value="商品范围")
     private String discountCodeAssignedType;
-    @ApiCloudField(value="商品类别", example="")
+    @ApiCloudField(value="商品类别")
     private List<String> discountCodeAssignedCategories;
-    @ApiCloudField(value="商品", example="")
+    @ApiCloudField(value="商品")
     private List<DiscountCodeDetailVOModel> details;
 }

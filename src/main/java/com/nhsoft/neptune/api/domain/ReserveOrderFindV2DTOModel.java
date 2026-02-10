@@ -24,7 +24,7 @@ public class ReserveOrderFindV2DTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="活动名称", example="测试1")
     private String orderName;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchNameV2DTOModel> branchs;
     @ApiCloudField(value="制单人", example="管理员")
     private String orderCreator;
@@ -50,6 +50,6 @@ public class ReserveOrderFindV2DTOModel extends ApiCloudObject {
     private String orderPurchaseDate;
     @ApiCloudField(value="关联单据号", example="434400991000011")
     private String orderPromotionNo;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<ReserveOrderFindDetailV2DTOModel> details;
 }

@@ -18,14 +18,14 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BranchGroupingV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店分组编号", example="")
+    @ApiCloudField(value="门店分组编号")
     private String branchGroupingNum;
-    @ApiCloudField(value="门店分组代码", example="")
+    @ApiCloudField(value="门店分组代码")
     private String branchGroupingCode;
-    @ApiCloudField(value="门店分组名称", example="")
+    @ApiCloudField(value="门店分组名称")
     private String branchGroupingName;
-    @ApiCloudField(value="门店分组备注", example="")
+    @ApiCloudField(value="门店分组备注")
     private String branchGroupingMemo;
-    @ApiCloudField(value="门店分组明细", example="")
+    @ApiCloudField(value="门店分组明细")
     private List<BranchGroupingDetailV2DTOModel> branchGroupingDetails;
 }

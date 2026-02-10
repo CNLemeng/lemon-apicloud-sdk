@@ -48,8 +48,8 @@ public class ProcessingInOrderV2DTOModel extends ApiCloudObject {
     private String processingPlanOrderFid;
     @ApiCloudField(value="最后修改时间", example="2022-04-20 16:16:16")
     private String processingInOrderLastEditTime;
-    @ApiCloudField(value="关联单号", example="")
+    @ApiCloudField(value="关联单号")
     private List<String> relateOrderFids;
-    @ApiCloudField(value="入库商品明细", example="")
+    @ApiCloudField(value="入库商品明细")
     private List<ProcessingInOrderDetailV2DTOModel> processingInOrderDetails;
 }

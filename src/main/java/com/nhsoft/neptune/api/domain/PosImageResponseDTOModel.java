@@ -26,6 +26,6 @@ public class PosImageResponseDTOModel extends ApiCloudObject {
     private Boolean posImageDefault;
     @ApiCloudField(value="商品图片创建日期 格式：yyyy-MM-dd HH:mm:ss", example="2021-01-27 00:00:00")
     private String posImageCreationDate;
-    @ApiCloudField(value="商品图片地址", example="")
+    @ApiCloudField(value="商品图片地址")
     private String posImageUrl;
 }

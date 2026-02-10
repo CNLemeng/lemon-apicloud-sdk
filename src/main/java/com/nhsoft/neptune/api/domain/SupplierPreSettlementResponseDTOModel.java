@@ -62,6 +62,6 @@ public class SupplierPreSettlementResponseDTOModel extends ApiCloudObject {
     private String preSettlementLastEditTime;
     @ApiCloudField(value="现金银行编码", example="209500001")
     private Integer preSettlementAccountBankNum;
-    @ApiCloudField(value="关联采购订单", example="")
+    @ApiCloudField(value="关联采购订单")
     private List<PurchaseOrderFindV3DTOModel> purchaseOrders;
 }

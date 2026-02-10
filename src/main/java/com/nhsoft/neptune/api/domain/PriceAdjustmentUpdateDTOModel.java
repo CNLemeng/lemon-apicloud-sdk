@@ -36,6 +36,6 @@ public class PriceAdjustmentUpdateDTOModel extends ApiCloudObject {
     private Integer priceAdjustmentReturnType;
     @ApiCloudField(value="通知时间类型(AUDIT:审核通过|EFFECTIVE:调价生效|INVALID:调价失效)", example="[AUDIT]")
     private List<String> noticeTimeTypes;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PriceAdjustmentDetailSaveDTOModel> priceAdjustmentDetails;
 }

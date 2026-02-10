@@ -38,6 +38,6 @@ public class InnerPreSettlementSaveRequestDTOModel extends ApiCloudObject {
     private BigDecimal preSettlementPaid;
     @ApiCloudField(value="关联要货单号列表", example="[YH203099004]")
     private List<String> requestOrderFids;
-    @ApiCloudField(value="外部单号(新增并审核接口使用)", example="")
+    @ApiCloudField(value="外部单号(新增并审核接口使用)")
     private String preSettlementRefBillNo;
 }

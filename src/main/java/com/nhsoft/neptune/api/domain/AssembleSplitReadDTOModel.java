@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class AssembleSplitReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="组合拆分单号", example="", required=true)
+    @ApiCloudField(value="组合拆分单号", required=true)
     private String assembleSplitFid;
 }

@@ -38,6 +38,6 @@ public class SupplierAdjustmentSaveDetailDTOModel extends ApiCloudObject {
     private BigDecimal adjustmentDetailLevel4Price;
     @ApiCloudField(value="主供应商选中标记", example="false")
     private Boolean defaultSupplierSelectCase;
-    @ApiCloudField(value="单品备注", example="")
+    @ApiCloudField(value="单品备注")
     private String adjustmentDetailMemo;
 }

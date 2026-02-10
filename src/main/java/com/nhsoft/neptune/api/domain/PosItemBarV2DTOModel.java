@@ -22,7 +22,7 @@ public class PosItemBarV2DTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="条码编码")
     private Integer itemBarNum;
-    @ApiCloudField(value="条码", example="")
+    @ApiCloudField(value="条码")
     private String itemBarCode;
     @ApiCloudField(value="创建时间", example="2021-01-20 00:00:00")
     private String itemBarCreateDate;

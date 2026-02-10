@@ -22,6 +22,6 @@ public class PurchaseStorematrixSaveDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PurchaseStorematrixSaveDetailDTOModel> details;
 }

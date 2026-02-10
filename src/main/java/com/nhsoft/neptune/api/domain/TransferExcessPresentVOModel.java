@@ -18,13 +18,13 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class TransferExcessPresentVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据号", example="")
+    @ApiCloudField(value="单据号")
     private String transferExcessPresentFid;
     @ApiCloudField(value="门店编号")
     private Integer branchNum;
     @ApiCloudField(value="配送门店编号")
     private Integer transferBranchNum;
-    @ApiCloudField(value="配送门店名称", example="")
+    @ApiCloudField(value="配送门店名称")
     private String transferBranchName;
     @ApiCloudField(value="开始日期")
     private String transferExcessPresentDateFrom;
@@ -34,11 +34,11 @@ public class TransferExcessPresentVOModel extends ApiCloudObject {
     private Integer stateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="创建人", example="")
+    @ApiCloudField(value="创建人")
     private String transferExcessPresentCreator;
-    @ApiCloudField(value="审核人", example="")
+    @ApiCloudField(value="审核人")
     private String transferExcessPresentAuditor;
-    @ApiCloudField(value="取消人", example="")
+    @ApiCloudField(value="取消人")
     private String transferExcessPresentCancelor;
     @ApiCloudField(value="单据日期")
     private String transferExcessPresentDate;
@@ -50,9 +50,9 @@ public class TransferExcessPresentVOModel extends ApiCloudObject {
     private String transferExcessPresentCancelTime;
     @ApiCloudField(value="最后修改时间")
     private String transferExcessPresentLastEditTime;
-    @ApiCloudField(value="最后修改人", example="")
+    @ApiCloudField(value="最后修改人")
     private String transferExcessPresentLastEditor;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String transferExcessPresentMemo;
     @ApiCloudField(value="星期一", example="false")
     private Boolean transferExcessPresentMonActived;
@@ -72,9 +72,9 @@ public class TransferExcessPresentVOModel extends ApiCloudObject {
     private Boolean transferExcessPresentAppend;
     @ApiCloudField(value="限量按照每家门店单独计算", example="false")
     private Boolean asPerEveryBranch;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<TransferExcessPresentDetailVOModel> transferExcessPresentDetails;
-    @ApiCloudField(value="买N赠1时的赠送明细", example="")
+    @ApiCloudField(value="买N赠1时的赠送明细")
     private List<TransferExcessPresentGiftVOModel> transferExcessPresentGifts;
     @ApiCloudField(value="赠送类型：null、0按默认买一赠一；1买N赠1")
     private Integer transferExcessPresentType;

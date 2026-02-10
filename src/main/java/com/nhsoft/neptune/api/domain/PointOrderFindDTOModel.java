@@ -24,15 +24,15 @@ public class PointOrderFindDTOModel extends ApiCloudObject {
     private String dateFrom;
     @ApiCloudField(value="结束日期", example="2025-03-04", required=true)
     private String dateTo;
-    @ApiCloudField(value="积分兑换活动编号", example="")
+    @ApiCloudField(value="积分兑换活动编号")
     private String pointOrderFid;
     @ApiCloudField(value="状态码(1-制单；3-审核；7-作废)", example="1")
     private Integer stateCode;
-    @ApiCloudField(value="制单门店编号", example="")
+    @ApiCloudField(value="制单门店编号")
     private List<Integer> branchNums;
     @ApiCloudField(value="是否过期", example="false")
     private Boolean expired;
-    @ApiCloudField(value="商品编码", example="")
+    @ApiCloudField(value="商品编码")
     private List<Integer> itemNums;
     @ApiCloudField(value="是否查询明细", example="true")
     private Boolean withDetail;

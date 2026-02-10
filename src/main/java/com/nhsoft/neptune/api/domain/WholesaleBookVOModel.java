@@ -85,6 +85,6 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private List<String> wholesaleBookDepartments;
     @ApiCloudField(value="address_id", example="0060099990007553-1")
     private String addressId;
-    @ApiCloudField(value="收货地址", example="")
+    @ApiCloudField(value="收货地址")
     private String clientAddress;
 }

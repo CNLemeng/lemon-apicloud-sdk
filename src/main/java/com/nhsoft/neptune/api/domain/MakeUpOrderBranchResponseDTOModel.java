@@ -50,8 +50,8 @@ public class MakeUpOrderBranchResponseDTOModel extends ApiCloudObject {
     private String makeUpLastEditTime;
     @ApiCloudField(value="最后结算时间", example="2025-01-01 00:00:00")
     private String makeUpLastPaymentDate;
-    @ApiCloudField(value="关联单号", example="")
+    @ApiCloudField(value="关联单号")
     private String makeUpOutFid;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<MakeUpOrderBranchDetailResponseDTOModel> branchMakeUpOrderDetails;
 }

@@ -30,6 +30,6 @@ public class PosPaymentsFindV2DTOModel extends ApiCloudObject {
     private String paymentMemo;
     @ApiCloudField(value="渠道", example="POS消费")
     private String paymentAcctNo;
-    @ApiCloudField(value="在线用户ID", example="")
+    @ApiCloudField(value="在线用户ID")
     private String onlineUserId;
 }

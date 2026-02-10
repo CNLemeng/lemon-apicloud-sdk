@@ -20,7 +20,7 @@ public class DirectPurchaseReturnVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="供应商直退单", example="PR99675010000049")
     private String returnOrderFid;
-    @ApiCloudField(value="供应商直配单号", example="")
+    @ApiCloudField(value="供应商直配单号")
     private String purchaseOrderFid;
     @ApiCloudField(value="供应商编码", example="203000001")
     private Integer supplierNum;
@@ -84,6 +84,6 @@ public class DirectPurchaseReturnVOModel extends ApiCloudObject {
     private BigDecimal returnOrderPurchaseReceivedMoney;
     @ApiCloudField(value="供货状态(已处理|未处理)", example="已处理")
     private String returnOrderLabel;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<DirectPurchaseReturnDetailVOModel> returnOrderDetails;
 }

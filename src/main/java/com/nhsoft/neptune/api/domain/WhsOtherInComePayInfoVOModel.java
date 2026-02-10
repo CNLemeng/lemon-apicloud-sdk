@@ -24,6 +24,6 @@ public class WhsOtherInComePayInfoVOModel extends ApiCloudObject {
     private String accountId;
     @ApiCloudField(value="收款金额", example="376.0")
     private BigDecimal money;
-    @ApiCloudField(value="收款备注", example="")
+    @ApiCloudField(value="收款备注")
     private String memo;
 }

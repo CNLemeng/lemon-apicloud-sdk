@@ -66,6 +66,6 @@ public class ReceiveOrderFindV2DTOModel extends ApiCloudObject {
     private String receiveOrderSettlementState;
     @ApiCloudField(value="结算时间", example="2024-05-11 10:37:12")
     private String receiveOrderSettlementTime;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<ReceiveOrderDetailFindV2DTOModel> receiveOrderDetails;
 }

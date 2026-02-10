@@ -44,6 +44,6 @@ public class RequestSaveV2DTOModel extends ApiCloudObject {
     private Boolean requestOrderSplitFlag;
     @ApiCloudField(value="request_order_fund_apply_id")
     private String requestOrderFundApplyId;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<RequestDetailV2DTOModel> requestOrderDetails;
 }

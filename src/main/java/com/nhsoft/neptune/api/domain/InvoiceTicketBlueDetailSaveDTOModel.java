@@ -19,9 +19,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class InvoiceTicketBlueDetailSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="赠品标记")
+    @ApiCloudField(value="赠品标记", example="false")
     private Boolean freeGiftFlag;
-    @ApiCloudField(value="免税标记")
+    @ApiCloudField(value="免税标记", example="false")
     private Boolean freeTaxFlag;
     @ApiCloudField(value="商品名称")
     private String goodsName;

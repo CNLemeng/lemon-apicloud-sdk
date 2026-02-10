@@ -20,6 +20,6 @@ public class StoreItemSupplierBatchSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="供应商编码", example="1", required=true)
     private Integer supplierNum;
-    @ApiCloudField(value="供货关系明细(不超过500条)", example="", required=true)
+    @ApiCloudField(value="供货关系明细(不超过500条)", required=true)
     private List<StoreItemSupplierBatchSaveDetailDTOModel> details;
 }

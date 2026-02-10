@@ -22,9 +22,9 @@ public class PriceAdjustmentVOModel extends ApiCloudObject {
     private String priceAdjustmentFid;
     @ApiCloudField(value="申请门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店编码", example="")
+    @ApiCloudField(value="应用门店编码")
     private List<Integer> priceAdjustmentAppliedBranchNums;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="状态代码", example="1")
     private Integer priceAdjustmentStateCode;
@@ -60,6 +60,6 @@ public class PriceAdjustmentVOModel extends ApiCloudObject {
     private String priceAdjustmentMemo;
     @ApiCloudField(value="通知时间类型(AUDIT:审核通过|EFFECTIVE:调价生效|INVALID:调价失效)", example="[AUDIT]")
     private List<String> noticeTimeTypes;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<PriceAdjustmentDetailVOModel> priceAdjustmentDetails;
 }

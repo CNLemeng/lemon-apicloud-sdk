@@ -40,7 +40,7 @@ public class WhsOtherInComeUpdateDTOModel extends ApiCloudObject {
     private String remark;
     @ApiCloudField(value="制单人", example="admin")
     private String creator;
-    @ApiCloudField(value="收入明细", example="", required=true)
+    @ApiCloudField(value="收入明细", required=true)
     private List<WhsOtherInComeDetailDTOModel> itemList;
     @ApiCloudField(value="收款时间", required=true)
     private String receiveTime;
@@ -50,7 +50,7 @@ public class WhsOtherInComeUpdateDTOModel extends ApiCloudObject {
     private String receiverName;
     @ApiCloudField(value="收款备注", example="根据批发销售单[WO99679990000196]自动生成")
     private String receiveMemo;
-    @ApiCloudField(value="收款信息列表", example="")
+    @ApiCloudField(value="收款信息列表")
     private List<WhsOtherInComePayInfoDTOModel> payInfoList;
     @ApiCloudField(value="其他收入单据编号", example="DO996792504170002", required=true)
     private String whsOtherIncomeNo;

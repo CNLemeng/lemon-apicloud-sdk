@@ -36,6 +36,6 @@ public class InnerSaveV2DTOModel extends ApiCloudObject {
     private String innerOrderDeadline;
     @ApiCloudField(value="良品、次品标记 (当inner_order_type为退货申请时，该字段生效，不传默认为良品)", example="良品")
     private String innerOrderConditionType;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<InnerDetailV2DTOModel> innerOrderDetails;
 }

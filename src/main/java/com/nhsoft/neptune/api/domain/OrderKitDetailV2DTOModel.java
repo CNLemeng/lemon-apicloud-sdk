@@ -18,11 +18,11 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class OrderKitDetailV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="主键", example="")
+    @ApiCloudField(value="主键")
     private String orderKitDetailFid;
-    @ApiCloudField(value="单据类型", example="")
+    @ApiCloudField(value="单据类型")
     private String orderType;
-    @ApiCloudField(value="单据单号", example="")
+    @ApiCloudField(value="单据单号")
     private String orderFid;
     @ApiCloudField(value="原商品编码")
     private Integer itemNum;
@@ -34,15 +34,15 @@ public class OrderKitDetailV2DTOModel extends ApiCloudObject {
     private Integer storehouseNum;
     @ApiCloudField(value="单据时间")
     private String orderTime;
-    @ApiCloudField(value="单据时间", example="")
+    @ApiCloudField(value="单据时间")
     private String itemCode;
-    @ApiCloudField(value="商品名称", example="")
+    @ApiCloudField(value="商品名称")
     private String itemName;
     @ApiCloudField(value="原商品数量")
     private BigDecimal itemAmount;
-    @ApiCloudField(value="库存商品代码", example="")
+    @ApiCloudField(value="库存商品代码")
     private String kitItemCode;
-    @ApiCloudField(value="库存商品名称", example="")
+    @ApiCloudField(value="库存商品名称")
     private String kitItemName;
     @ApiCloudField(value="库存商品数量")
     private BigDecimal kitItemAmount;
@@ -50,8 +50,8 @@ public class OrderKitDetailV2DTOModel extends ApiCloudObject {
     private BigDecimal kitItemPrice;
     @ApiCloudField(value="库存商品金额")
     private BigDecimal kitItemMoney;
-    @ApiCloudField(value="原商品单位", example="")
+    @ApiCloudField(value="原商品单位")
     private String itemUnit;
-    @ApiCloudField(value="库存商品单位", example="")
+    @ApiCloudField(value="库存商品单位")
     private String kitItemUnit;
 }

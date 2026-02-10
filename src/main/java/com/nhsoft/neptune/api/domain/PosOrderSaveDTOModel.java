@@ -62,8 +62,8 @@ public class PosOrderSaveDTOModel extends ApiCloudObject {
     private String orderMemo;
     @ApiCloudField(value="运费金额（运费需要加入单据金额、应收金额、收款金额、付款金额）", example="10.0")
     private BigDecimal orderPostFee;
-    @ApiCloudField(value="单据明细", example="", required=true)
+    @ApiCloudField(value="单据明细", required=true)
     private List<PosOrderDetailSaveDTOModel> details;
-    @ApiCloudField(value="支付明细", example="", required=true)
+    @ApiCloudField(value="支付明细", required=true)
     private List<PosOrderPaymentSaveDTOModel> payments;
 }

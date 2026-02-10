@@ -82,9 +82,9 @@ public class TransferPromotionQuantityVOModel extends ApiCloudObject {
     private Boolean asPerEveryBranch;
     @ApiCloudField(value="按常用单价设置特价", example="true")
     private Boolean usePriceSetSpecialPrice;
-    @ApiCloudField(value="促销详情列表", example="")
+    @ApiCloudField(value="促销详情列表")
     private List<PolicyPromotionQuantityDetailVOModel> policyPromotionQuantityDetails;
-    @ApiCloudField(value="阶梯列表", example="")
+    @ApiCloudField(value="阶梯列表")
     private List<PolicyPromotionLadderVOModel> ladders;
     @ApiCloudField(value="应用门店列表", example="[1]")
     private List<Integer> branchNums;

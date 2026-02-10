@@ -24,7 +24,7 @@ public class PolicyDiscountVOModel extends ApiCloudObject {
     private String policyDiscountName;
     @ApiCloudField(value="申请门店编码", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> branchs;
     @ApiCloudField(value="超额折扣创建时间", example="2021-01-01 00:00:00")
     private String policyDiscountCreateTime;
@@ -80,13 +80,13 @@ public class PolicyDiscountVOModel extends ApiCloudObject {
     private Boolean policyDiscountCardFoldUp;
     @ApiCloudField(value="促销商品不计入消费金额", example="true")
     private Boolean policyItemNoIn;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
-    @ApiCloudField(value="会员等级列表", example="")
+    @ApiCloudField(value="会员等级列表")
     private List<Long> policyDiscountLevelIds;
     @ApiCloudField(value="重复类型(每日|每月|每年)", example="每日")
     private String policyDiscountRepeatType;
-    @ApiCloudField(value="重复截止日期", example="")
+    @ApiCloudField(value="重复截止日期")
     private String policyDiscountRepeatEnd;
     @ApiCloudField(value="是否例外门店", example="true")
     private Boolean exceptBranch;
@@ -108,16 +108,16 @@ public class PolicyDiscountVOModel extends ApiCloudObject {
     private BigDecimal policyDiscountDiscountMoney;
     @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品", example="[10110073,10110074]")
     private List<Integer> policyDiscountDetails;
-    @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品(该字段包含分级商品)", example="")
+    @ApiCloudField(value="指定类别、全场为例外商品,指定商品为对应商品(该字段包含分级商品)")
     private List<PosVariantNumDTOModel> policyDiscountWithGradeDetails;
     @ApiCloudField(value="例外商品模板列表", example="[207200000037]")
     private List<String> policyItemTemplateNos;
     @ApiCloudField(value="返利类型", example="SUPPLIER")
     private String policyDiscountReturnType;
-    @ApiCloudField(value="阶梯", example="")
+    @ApiCloudField(value="阶梯")
     private List<PolicyDiscountLadderDTOModel> policyDiscountLadder;
     @ApiCloudField(value="促销档期编号列表", example="[58]")
     private List<Long> policyScheduleIds;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String policyDiscountOutBillNo;
 }

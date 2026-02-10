@@ -38,6 +38,6 @@ public class AccountDepositUpdateV2DTOModel extends ApiCloudObject {
     private BigDecimal accountDepositMoney;
     @ApiCloudField(value="收款账户", example="1232322421", required=true)
     private Integer accountBankNum;
-    @ApiCloudField(value="充值明细", example="", required=true)
+    @ApiCloudField(value="充值明细", required=true)
     private List<AccountDepositDetailSaveV2DTOModel> details;
 }

@@ -20,7 +20,7 @@ public class PosImageSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="商品编码", example="102200551", required=true)
     private Integer itemNum;
-    @ApiCloudField(value="商品图片(最多支持五张)", example="", required=true)
+    @ApiCloudField(value="商品图片(最多支持五张)", required=true)
     private List<PosImageDetailSaveDTOModel> posImages;
     @ApiCloudField(value="enable_delete")
     private Boolean enableDelete;

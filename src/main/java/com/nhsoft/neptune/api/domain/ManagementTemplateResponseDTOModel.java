@@ -26,6 +26,6 @@ public class ManagementTemplateResponseDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="应用门店编码", example="1")
     private List<Integer> applyBranchNum;
-    @ApiCloudField(value="商品明细", example="")
+    @ApiCloudField(value="商品明细")
     private List<ManagementTemplateDetailResponseDTOModel> managementTemplateDetails;
 }

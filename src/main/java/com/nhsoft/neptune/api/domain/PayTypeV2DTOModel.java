@@ -38,6 +38,6 @@ public class PayTypeV2DTOModel extends ApiCloudObject {
     private Integer enableEjectCashBox;
     @ApiCloudField(value=" 启用第三方支付方式(1:允许,0:不允许)", example="1")
     private Integer enableThirdPart;
-    @ApiCloudField(value=" 应用门店", example="")
+    @ApiCloudField(value=" 应用门店")
     private List<BranchNameV2DTOModel> branchs;
 }

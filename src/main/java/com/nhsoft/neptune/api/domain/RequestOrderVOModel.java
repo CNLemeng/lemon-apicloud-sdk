@@ -68,7 +68,7 @@ public class RequestOrderVOModel extends ApiCloudObject {
     private Boolean requestOrderReserve;
     @ApiCloudField(value="最后修改时间", example="2021-01-20 00:00:00")
     private String requestOrderLastEditTime;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<RequestOrderDetailVOModel> requestOrderDetails;
     @ApiCloudField(value="结算状态(null,0,1-未付款,2-已付款)", example="2")
     private Integer requestOrderSettlementState;
@@ -78,4 +78,6 @@ public class RequestOrderVOModel extends ApiCloudObject {
     private Long requestBatchId;
     @ApiCloudField(value="是否生成调出单(find接口需要配合query_transfer_out使用)", example="false")
     private Boolean transferOut;
+    @ApiCloudField(value="调出单签收时间", example="2021-01-01 00:00:00")
+    private String requestOrderOutReceiveDate;
 }

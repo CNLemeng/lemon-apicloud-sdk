@@ -66,6 +66,6 @@ public class PurchaseOrderFindV3DTOModel extends ApiCloudObject {
     private String purchaseOrderReceiveState;
     @ApiCloudField(value="预付金额", example="100")
     private BigDecimal purchaseOrderPreMoney;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<PurchaseOrderFindDetailV3DTOModel> purchaseOrderDetails;
 }

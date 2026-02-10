@@ -50,6 +50,6 @@ public class CheckOrderV3DTOModel extends ApiCloudObject {
     private String checkOrderLastEditTime;
     @ApiCloudField(value="快照时间", example="2025-01-01 00:00:00")
     private String checkOrderSnapshotTime;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<CheckOrderDetailV3DTOModel> checkOrderDetails;
 }

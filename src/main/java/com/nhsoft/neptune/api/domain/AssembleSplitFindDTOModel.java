@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class AssembleSplitFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="日期类型(制单时间|审核时间|操作时间)", example="", required=true)
+    @ApiCloudField(value="日期类型(制单时间|审核时间|操作时间)", required=true)
     private String dateType;
     @ApiCloudField(value="开始日期", example="2025-01-01", required=true)
     private String dateFrom;

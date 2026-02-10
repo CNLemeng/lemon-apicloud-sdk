@@ -20,12 +20,12 @@ public class SystemRoleUpdateDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="角色编号", example="103790001", required=true)
     private Integer systemRoleNum;
-    @ApiCloudField(value="角色名称", example="")
+    @ApiCloudField(value="角色名称")
     private String systemRoleName;
-    @ApiCloudField(value="角色类别", example="")
+    @ApiCloudField(value="角色类别")
     private String systemRoleCategory;
     @ApiCloudField(value="是否显示 对应页面上 只允许有角色管理权限的用户使用", example="false")
     private Boolean systemRoleShowFlag;
-    @ApiCloudField(value="角色权限关联关系", example="")
+    @ApiCloudField(value="角色权限关联关系")
     private List<SystemRolePrivilegeDTOModel> rolePrivilegeNews;
 }

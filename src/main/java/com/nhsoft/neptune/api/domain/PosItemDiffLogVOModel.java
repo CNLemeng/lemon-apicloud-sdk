@@ -22,7 +22,7 @@ public class PosItemDiffLogVOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="商品编码列表", example="15")
     private Integer itemNum;
-    @ApiCloudField(value="变动日期", example="")
+    @ApiCloudField(value="变动日期")
     private String date;
     @ApiCloudField(value="库存变动数量")
     private BigDecimal inventoryInOutAmount;

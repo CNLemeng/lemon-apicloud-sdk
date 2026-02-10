@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class DiscountCodeUpdateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="折扣码名称", example="", required=true)
+    @ApiCloudField(value="折扣码名称", required=true)
     private String discountCodeName;
-    @ApiCloudField(value="折扣码条码", example="", required=true)
+    @ApiCloudField(value="折扣码条码", required=true)
     private String discountCodeBarcode;
     @ApiCloudField(value="开始日期", example="2024-01-01", required=true)
     private String discountCodeDateFrom;
@@ -30,7 +30,7 @@ public class DiscountCodeUpdateDTOModel extends ApiCloudObject {
     private String discountCodeTimeFrom;
     @ApiCloudField(value="discount_code_time_to", required=true)
     private String discountCodeTimeTo;
-    @ApiCloudField(value="应用门店(不传则为所有门店)", example="")
+    @ApiCloudField(value="应用门店(不传则为所有门店)")
     private List<Integer> discountCodeAppliedBranches;
     @ApiCloudField(value="折扣类型(DISCOUNT:折扣;MONEY:金额;SPECIAL_PRICE:特价)", example="DISCOUNT", required=true)
     private String discountCodeDiscountType;
@@ -46,10 +46,10 @@ public class DiscountCodeUpdateDTOModel extends ApiCloudObject {
     private String discountCodeAssignedType;
     @ApiCloudField(value="商品类别", example="测试类别")
     private List<String> discountCodeAssignedCategories;
-    @ApiCloudField(value="商品明细", example="")
+    @ApiCloudField(value="商品明细")
     private List<DiscountCodeDetailSaveDTOModel> details;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", required=true)
     private String operator;
-    @ApiCloudField(value="折扣码", example="")
+    @ApiCloudField(value="折扣码")
     private String discountCodeNo;
 }

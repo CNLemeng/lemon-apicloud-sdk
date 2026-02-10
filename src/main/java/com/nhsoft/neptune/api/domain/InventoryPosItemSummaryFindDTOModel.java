@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class InventoryPosItemSummaryFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店编码列表", example="", required=true)
+    @ApiCloudField(value="门店编码列表", required=true)
     private List<Integer> branchNums;
     @ApiCloudField(value="日期类型(操作日期|审核时间)", example="操作日期", required=true)
     private String dateType;

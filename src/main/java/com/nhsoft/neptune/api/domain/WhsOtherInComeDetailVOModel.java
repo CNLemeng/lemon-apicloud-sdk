@@ -24,7 +24,7 @@ public class WhsOtherInComeDetailVOModel extends ApiCloudObject {
     private String item;
     @ApiCloudField(value="收入金额", example="376.0")
     private BigDecimal money;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String memo;
     @ApiCloudField(value="关联单号", example="WO99679990000195")
     private String ref;

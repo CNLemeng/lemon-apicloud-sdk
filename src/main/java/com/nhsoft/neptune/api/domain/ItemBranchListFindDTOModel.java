@@ -20,7 +20,7 @@ public class ItemBranchListFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="最后修改时间（yyyy-MM-dd HH:mm:ss）", required=true)
     private String lastDownloadTime;
-    @ApiCloudField(value="商品系统编号列表", example="")
+    @ApiCloudField(value="商品系统编号列表")
     private List<Integer> itemNums;
     @ApiCloudField(value="门店编码", required=true)
     private Integer branchNum;

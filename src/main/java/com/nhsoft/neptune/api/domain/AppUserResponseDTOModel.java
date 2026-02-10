@@ -38,9 +38,9 @@ public class AppUserResponseDTOModel extends ApiCloudObject {
     private String branchRegionNum;
     @ApiCloudField(value="所属部门", example="测试部门,部门2")
     private String appUserDepartment;
-    @ApiCloudField(value="用户角色信息", example="")
+    @ApiCloudField(value="用户角色信息")
     private List<SystemRoleDTOModel> systemRoles;
-    @ApiCloudField(value="门店信息", example="")
+    @ApiCloudField(value="门店信息")
     private List<BranchDTOModel> branchs;
     @ApiCloudField(value="允许登录触摸屏销售终端", example="true")
     private Boolean touchPosUser;

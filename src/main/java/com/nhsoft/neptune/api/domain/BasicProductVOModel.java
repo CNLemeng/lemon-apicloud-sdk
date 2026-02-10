@@ -26,7 +26,7 @@ public class BasicProductVOModel extends ApiCloudObject {
     private String description;
     @ApiCloudField(value="是否启用", example="true")
     private Boolean enable;
-    @ApiCloudField(value="商品图片", example="")
+    @ApiCloudField(value="商品图片")
     private List<BasicResourceVOModel> images;
     @ApiCloudField(value="video")
     private BasicResourceVOModel video;
@@ -56,7 +56,7 @@ public class BasicProductVOModel extends ApiCloudObject {
     private String createdAt;
     @ApiCloudField(value="更新时间")
     private String updatedAt;
-    @ApiCloudField(value="商品规格", example="")
+    @ApiCloudField(value="商品规格")
     private List<BasicVariantVOModel> variants;
     @ApiCloudField(value="最低售价", example="1.0")
     private BigDecimal minStdPrice;
@@ -82,7 +82,7 @@ public class BasicProductVOModel extends ApiCloudObject {
     private Boolean syncInventory;
     @ApiCloudField(value="安全库存", example="1")
     private Long safeInventory;
-    @ApiCloudField(value="商品分组信息", example="")
+    @ApiCloudField(value="商品分组信息")
     private List<BasicProductGroupDTOModel> groups;
     @ApiCloudField(value="商品销量", example="1")
     private Long soldAmount;

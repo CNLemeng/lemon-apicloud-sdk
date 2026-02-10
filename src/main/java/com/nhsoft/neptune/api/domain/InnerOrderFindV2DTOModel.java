@@ -56,7 +56,7 @@ public class InnerOrderFindV2DTOModel extends ApiCloudObject {
     private String innerOrderReason;
     @ApiCloudField(value="原因名称", example="不需要了")
     private String innerOrderReasonName;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<InnerOrderFindDetailV2DTOModel> innerOrderDetails;
     @ApiCloudField(value="发货仓库号")
     private Integer storehouseNum;

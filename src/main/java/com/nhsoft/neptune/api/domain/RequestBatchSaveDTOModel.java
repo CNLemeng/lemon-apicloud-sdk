@@ -18,19 +18,19 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RequestBatchSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="模板名称", example="", required=true)
+    @ApiCloudField(value="模板名称", required=true)
     private String name;
     @ApiCloudField(value="是否启用", example="false")
     private Boolean enableRequestBatch;
-    @ApiCloudField(value="应用门店", example="")
+    @ApiCloudField(value="应用门店")
     private List<Integer> branchNums;
     @ApiCloudField(value="发货门店")
     private Integer sendBranchNum;
     @ApiCloudField(value="要货周期类型(0：线下要货周期|1：线上要货周期|2：直销要货周期)", example="0", required=true)
     private Integer requestBatchType;
-    @ApiCloudField(value="角色类型编号列表", example="")
+    @ApiCloudField(value="角色类型编号列表")
     private List<Integer> roleIds;
-    @ApiCloudField(value="用户编号列表", example="")
+    @ApiCloudField(value="用户编号列表")
     private List<Integer> appUserNums;
     @ApiCloudField(value="仓库编码")
     private Integer storehouseNum;
@@ -62,7 +62,7 @@ public class RequestBatchSaveDTOModel extends ApiCloudObject {
     private String startTime;
     @ApiCloudField(value="截止时间", example="20:00", required=true)
     private String endTime;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String requestBatchMemo;
     @ApiCloudField(value="截止后未要货，按建议订量自动生成", example="false")
     private Boolean requestBatchAutoRequest;
@@ -70,13 +70,13 @@ public class RequestBatchSaveDTOModel extends ApiCloudObject {
     private Boolean requestBatchBookingDelivery;
     @ApiCloudField(value="是否启用短信提醒", example="false")
     private Boolean requestBatchSmsReminder;
-    @ApiCloudField(value="类别", example="")
+    @ApiCloudField(value="类别")
     private List<RequestBatchCategorySaveDetailDTOModel> categoryDetails;
-    @ApiCloudField(value="商品部门", example="")
+    @ApiCloudField(value="商品部门")
     private List<String> requestBatchItemDepartmentCodes;
     @ApiCloudField(value="全部商品", example="false")
     private Boolean requestBatchItemAll;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<RequestBatchSaveDetailDTOModel> requestBatchDetails;
     @ApiCloudField(value="要货间隔天数")
     private Integer requestBatchIntervalDay;
@@ -86,7 +86,7 @@ public class RequestBatchSaveDTOModel extends ApiCloudObject {
     private Boolean requestBatchOnlineFlag;
     @ApiCloudField(value="类别等级(0-8;0为全部类别)", example="0")
     private Integer requestBatchCategoryLevel;
-    @ApiCloudField(value="操作人", example="")
+    @ApiCloudField(value="操作人")
     private String operator;
     @ApiCloudField(value="要货周期起订金额")
     private BigDecimal requestBatchMinMoney;

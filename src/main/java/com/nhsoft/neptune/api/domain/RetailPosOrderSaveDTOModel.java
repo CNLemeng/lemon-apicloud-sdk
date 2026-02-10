@@ -20,8 +20,8 @@ public class RetailPosOrderSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="main", required=true)
     private RetailPosOrderMainSaveDTOModel main;
-    @ApiCloudField(value="单据明细", example="", required=true)
+    @ApiCloudField(value="单据明细", required=true)
     private List<RetailPosOrderDetailSaveDTOModel> details;
-    @ApiCloudField(value="支付明细", example="", required=true)
+    @ApiCloudField(value="支付明细", required=true)
     private List<RetailPosOrderPaymentSaveDTOModel> payments;
 }

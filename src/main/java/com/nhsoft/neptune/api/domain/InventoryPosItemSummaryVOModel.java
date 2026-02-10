@@ -20,11 +20,11 @@ public class InventoryPosItemSummaryVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="商品编码")
     private Integer itemNum;
-    @ApiCloudField(value="汇总条件中的代码", example="")
+    @ApiCloudField(value="汇总条件中的代码")
     private String code;
-    @ApiCloudField(value="汇总条件中的名称", example="")
+    @ApiCloudField(value="汇总条件中的名称")
     private String name;
-    @ApiCloudField(value="基本单位", example="")
+    @ApiCloudField(value="基本单位")
     private String baseUnit;
     @ApiCloudField(value="进项税率")
     private BigDecimal itemInTax;
@@ -152,7 +152,7 @@ public class InventoryPosItemSummaryVOModel extends ApiCloudObject {
     private BigDecimal endMoney;
     @ApiCloudField(value="调整金额")
     private BigDecimal posItemLogAdjustMoney;
-    @ApiCloudField(value="营业日", example="")
+    @ApiCloudField(value="营业日")
     private String shiftTableBizday;
     @ApiCloudField(value="生产入库单数量")
     private BigDecimal processInAmount;
@@ -180,7 +180,7 @@ public class InventoryPosItemSummaryVOModel extends ApiCloudObject {
     private BigDecimal inventoryActualQty;
     @ApiCloudField(value="实际库存金额")
     private BigDecimal inventoryActualMoney;
-    @ApiCloudField(value="自定义列", example="")
+    @ApiCloudField(value="自定义列")
     private List<Object> nameAndValuesDtos;
     @ApiCloudField(value="积分兑换数量")
     private BigDecimal pointAmount;
@@ -206,28 +206,28 @@ public class InventoryPosItemSummaryVOModel extends ApiCloudObject {
     private BigDecimal inventoryDailyDiffQty;
     @ApiCloudField(value="本期库存差异金额")
     private BigDecimal inventoryDailyDiffMoney;
-    @ApiCloudField(value="删除标志", example="")
+    @ApiCloudField(value="删除标志")
     private Object delTag;
     @ApiCloudField(value="供应商编码")
     private Integer supplierNum;
-    @ApiCloudField(value="自定义列名list", example="")
+    @ApiCloudField(value="自定义列名list")
     private List<String> causes;
     @ApiCloudField(value="门店编码")
     private Integer branchNum;
-    @ApiCloudField(value="规格", example="")
+    @ApiCloudField(value="规格")
     private String spec;
-    @ApiCloudField(value="商品条码", example="")
+    @ApiCloudField(value="商品条码")
     private String itemBarCode;
-    @ApiCloudField(value="门店代码", example="")
+    @ApiCloudField(value="门店代码")
     private String branchCode;
-    @ApiCloudField(value="门店名称", example="")
+    @ApiCloudField(value="门店名称")
     private String branchName;
-    @ApiCloudField(value="部门", example="")
+    @ApiCloudField(value="部门")
     private String itemDepartment;
-    @ApiCloudField(value="商品类别代码", example="")
+    @ApiCloudField(value="商品类别代码")
     private String itemCategoryCode;
-    @ApiCloudField(value="商品类别名称", example="")
+    @ApiCloudField(value="商品类别名称")
     private String itemCategory;
-    @ApiCloudField(value="商品顶级类别", example="")
+    @ApiCloudField(value="商品顶级类别")
     private String itemCategoryTop;
 }

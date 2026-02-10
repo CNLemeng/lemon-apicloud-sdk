@@ -44,9 +44,9 @@ public class PolicyMoneySaveDTOModel extends ApiCloudObject {
     private Integer promotionMoneyCardOnly;
     @ApiCloudField(value="仅参与一次", example="true")
     private Boolean promotionMoneyCardOnce;
-    @ApiCloudField(value="参与会员卡类型", example="")
+    @ApiCloudField(value="参与会员卡类型")
     private List<CardTypeDTOModel> cardTypes;
-    @ApiCloudField(value="会员等级", example="")
+    @ApiCloudField(value="会员等级")
     private List<Long> promotionMoneyLevelIds;
     @ApiCloudField(value="超额奖励是否勾选星期一", example="1", required=true)
     private Integer promotionMoneyMonActived;
@@ -82,11 +82,11 @@ public class PolicyMoneySaveDTOModel extends ApiCloudObject {
     private BigDecimal promotionMoneyDiscount;
     @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)", example="[434419404,434419407]")
     private List<Integer> itemNums;
-    @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)(可以设置到分级明细)", example="")
+    @ApiCloudField(value="参与促销（例外）商品明细(指定类别、全场为例外商品)(可以设置到分级明细)")
     private List<PosVariantNumDTOModel> promotionMoneyItems;
-    @ApiCloudField(value="促销档期id列表", example="")
+    @ApiCloudField(value="促销档期id列表")
     private List<Long> policyScheduleIds;
-    @ApiCloudField(value="超额奖励明细(仅单品特价、单品折扣有效)", example="")
+    @ApiCloudField(value="超额奖励明细(仅单品特价、单品折扣有效)")
     private List<PolicyMoneySaveDetailDTOModel> promotionMoneyDetails;
     @ApiCloudField(value="例外商品模板列表", example="[207200000037]")
     private List<String> policyItemTemplateNos;
@@ -96,6 +96,6 @@ public class PolicyMoneySaveDTOModel extends ApiCloudObject {
     private Integer promotionMoneyBranchLimit;
     @ApiCloudField(value="最多奖励件数", example="10.0")
     private BigDecimal promotionMoneyMaxQty;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String promotionMoneyOutBillNo;
 }

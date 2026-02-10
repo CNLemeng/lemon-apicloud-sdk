@@ -82,7 +82,7 @@ public class RequestBatchVOModel extends ApiCloudObject {
     private Integer requestBatchType;
     @ApiCloudField(value="仓库编号", example="9967500001")
     private Integer storehouseNum;
-    @ApiCloudField(value="角色", example="")
+    @ApiCloudField(value="角色")
     private List<RequestBatchRoleVOModel> requestBatchRoles;
     @ApiCloudField(value="全部商品", example="true")
     private Boolean requestBatchItemAll;

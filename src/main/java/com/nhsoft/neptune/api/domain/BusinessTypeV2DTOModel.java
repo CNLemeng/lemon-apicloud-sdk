@@ -20,6 +20,6 @@ public class BusinessTypeV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="营业支付类型", example="营业收入")
     private String businessType;
-    @ApiCloudField(value="支付方式汇总", example="")
+    @ApiCloudField(value="支付方式汇总")
     private List<PaymentTypeV2DTOModel> paymentTypes;
 }

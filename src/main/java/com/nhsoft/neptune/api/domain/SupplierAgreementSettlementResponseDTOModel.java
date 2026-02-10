@@ -50,6 +50,6 @@ public class SupplierAgreementSettlementResponseDTOModel extends ApiCloudObject 
     private BigDecimal settlementOtherInoutMoney;
     @ApiCloudField(value="扣补金额", example="0.0")
     private BigDecimal settlementMakeOrderMoney;
-    @ApiCloudField(value="结算明细", example="")
+    @ApiCloudField(value="结算明细")
     private List<SupplierSettlementDetailResponseDTOModel> details;
 }

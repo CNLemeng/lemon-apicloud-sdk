@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ProductSpecGroupVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="选项列表", example="")
+    @ApiCloudField(value="选项列表")
     private List<String> group;
-    @ApiCloudField(value="选项组名", example="")
+    @ApiCloudField(value="选项组名")
     private String name;
 }

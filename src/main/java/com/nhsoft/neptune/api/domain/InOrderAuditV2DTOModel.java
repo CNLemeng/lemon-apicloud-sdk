@@ -32,6 +32,6 @@ public class InOrderAuditV2DTOModel extends ApiCloudObject {
     private String inOrderProposer;
     @ApiCloudField(value="关联调出单号", example="MO4344990004979")
     private String outOrderFid;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<InOrderSaveDetailV2DTOModel> inOrderDetails;
 }

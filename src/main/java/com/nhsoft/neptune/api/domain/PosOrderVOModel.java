@@ -106,11 +106,11 @@ public class PosOrderVOModel extends ApiCloudObject {
     private String orderSaleType;
     @ApiCloudField(value="交易类型(销售|部分退货(有单)|整单退货|无单退货|反结账冲销|仅退款)", example="整单退货")
     private String orderTransactionType;
-    @ApiCloudField(value="单据明细", example="")
+    @ApiCloudField(value="单据明细")
     private List<PosOrderDetailVOModel> details;
-    @ApiCloudField(value="支付明细", example="")
+    @ApiCloudField(value="支付明细")
     private List<PosPaymentVOModel> payments;
-    @ApiCloudField(value="消费券明细", example="")
+    @ApiCloudField(value="消费券明细")
     private List<PosCouponDetailVOModel> couponDetails;
     @ApiCloudField(value="会员编号")
     private Long orderCustomerId;

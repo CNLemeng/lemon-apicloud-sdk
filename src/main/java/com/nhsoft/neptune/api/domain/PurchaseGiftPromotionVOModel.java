@@ -52,6 +52,6 @@ public class PurchaseGiftPromotionVOModel extends ApiCloudObject {
     private String lastEditTime;
     @ApiCloudField(value="最后修改人", example="管理员")
     private String lastEditor;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<PurchaseGiftPromotionDetailVOModel> details;
 }

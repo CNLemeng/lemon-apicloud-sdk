@@ -18,12 +18,12 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SpiInnerRequestModel extends ApiCloudObject {
 
-    @ApiCloudField(value="spi_key")
+    @ApiCloudField(value="spi_key", required=true)
     private String spiKey;
-    @ApiCloudField(value="trace_id")
+    @ApiCloudField(value="trace_id", required=true)
     private String traceId;
-    @ApiCloudField(value="system_book_code")
+    @ApiCloudField(value="system_book_code", required=true)
     private String systemBookCode;
-    @ApiCloudField(value="params")
+    @ApiCloudField(value="params", required=true)
     private Object params;
 }

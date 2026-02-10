@@ -54,8 +54,8 @@ public class RequestTransferCenterFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10")
     private Integer pageSize;
-    @ApiCloudField(value="按拓展属性6过滤", example="")
+    @ApiCloudField(value="按拓展属性6过滤")
     private String filterByItemExtend6;
-    @ApiCloudField(value="供应商编号", example="")
+    @ApiCloudField(value="供应商编号")
     private List<Integer> supplierNums;
 }

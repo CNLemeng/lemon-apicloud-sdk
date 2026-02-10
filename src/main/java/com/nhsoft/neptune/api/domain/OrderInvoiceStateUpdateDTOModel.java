@@ -18,12 +18,12 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class OrderInvoiceStateUpdateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="订单号", example="PI99675000001", required=true)
+    @ApiCloudField(value="fid", example="PI99675000001", required=true)
     private String fid;
-    @ApiCloudField(value="开票状态状态", required=true)
+    @ApiCloudField(value="state", required=true)
     private String state;
-    @ApiCloudField(value="发票号", required=true)
+    @ApiCloudField(value="invoice_no", required=true)
     private String invoiceNo;
-    @ApiCloudField(value="二维码地址")
+    @ApiCloudField(value="qr_code_url")
     private String qrCodeUrl;
 }

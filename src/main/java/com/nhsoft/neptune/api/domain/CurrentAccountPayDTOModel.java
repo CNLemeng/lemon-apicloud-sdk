@@ -20,11 +20,11 @@ public class CurrentAccountPayDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编号")
     private Integer branchNum;
-    @ApiCloudField(value="门店名称", example="")
+    @ApiCloudField(value="门店名称")
     private String branchName;
     @ApiCloudField(value="配送中心编号")
     private Integer centerBranchNum;
-    @ApiCloudField(value="配送中心名称", example="")
+    @ApiCloudField(value="配送中心名称")
     private String centerBranchName;
     @ApiCloudField(value="上期应收")
     private BigDecimal lastDueMoney;

@@ -68,6 +68,6 @@ public class InOrderV2DTOModel extends ApiCloudObject {
     private String inOrderSettlementTime;
     @ApiCloudField(value="签收时间", example="2024-05-11 10:37:12")
     private String inOrderSignTime;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<InOrderDetailV2DTOModel> inOrderDetails;
 }

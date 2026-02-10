@@ -21,6 +21,6 @@ public class ClientRegionVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="区域编号")
     private Long regionNum;
-    @ApiCloudField(value="区域名称", example="")
+    @ApiCloudField(value="区域名称")
     private String regionName;
 }

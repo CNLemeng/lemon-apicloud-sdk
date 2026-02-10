@@ -22,6 +22,6 @@ public class StoreMatrixUpdateDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
-    @ApiCloudField(value="商品列表", example="", required=true)
+    @ApiCloudField(value="商品列表", required=true)
     private List<StoreMatrixUpdateDetailDTOModel> branchItems;
 }

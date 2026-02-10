@@ -26,6 +26,6 @@ public class RequestTemplateResponseDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="应用门店编码", example="1")
     private List<Integer> branchNums;
-    @ApiCloudField(value="门店要货模板详情", example="")
+    @ApiCloudField(value="门店要货模板详情")
     private List<RequestTemplateDetailResponseDTOModel> templateDetails;
 }

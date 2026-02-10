@@ -48,6 +48,6 @@ public class PriceAdjustmentOrderV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderStateName;
     @ApiCloudField(value="调整金额", example="1.0")
     private BigDecimal adjustmentOrderMoney;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<PriceAdjustmentOrderDetailV3DTOModel> adjustmentOrderDetails;
 }

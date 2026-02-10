@@ -90,11 +90,11 @@ public class PosOrderFindV2VOModel extends ApiCloudObject {
     private BigDecimal orderCouponTotalMoney;
     @ApiCloudField(value="券面值", example="20.0")
     private BigDecimal orderCouponPaymentMoney;
-    @ApiCloudField(value="单据明细", example="")
+    @ApiCloudField(value="单据明细")
     private List<PosOrderFindDetailV2DTOModel> details;
-    @ApiCloudField(value="支付明细", example="")
+    @ApiCloudField(value="支付明细")
     private List<PosPaymentsFindV2DTOModel> payments;
-    @ApiCloudField(value="消费券明细", example="")
+    @ApiCloudField(value="消费券明细")
     private List<PosCouponDetailV2DTOModel> couponDetails;
     @ApiCloudField(value="会员编号")
     private Long orderCustomerId;

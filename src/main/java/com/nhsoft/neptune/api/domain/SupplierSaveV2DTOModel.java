@@ -102,7 +102,7 @@ public class SupplierSaveV2DTOModel extends ApiCloudObject {
     private List<Integer> supplierShareRegions;
     @ApiCloudField(value="商品不推送到资金系统(调出单/调入单)", example="false")
     private Boolean itemNoPushFinance;
-    @ApiCloudField(value="银行账号列表", example="")
+    @ApiCloudField(value="银行账号列表")
     private List<SupplierBankAccountUpdateV2DTOModel> supplierAccountDetails;
     @ApiCloudField(value="纳税人类型", example="小规模纳税人")
     private String supplierTaxpayerType;

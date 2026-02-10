@@ -56,7 +56,7 @@ public class InnerPreSettlementResponseDTOModel extends ApiCloudObject {
     private String relationPreSettlementNo;
     @ApiCloudField(value="最后修改时间 格式：yyyy-MM-dd HH:mm:ss", example="2021-01-20 00:00:00")
     private String preSettlementLastEditTime;
-    @ApiCloudField(value="关联门店要货单", example="")
+    @ApiCloudField(value="关联门店要货单")
     private List<RequestOrderVOModel> requestOrders;
     @ApiCloudField(value="现金银行编号", example="950000179")
     private Integer accountBankNum;

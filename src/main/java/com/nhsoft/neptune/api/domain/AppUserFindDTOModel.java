@@ -24,6 +24,8 @@ public class AppUserFindDTOModel extends ApiCloudObject {
     private String roleName;
     @ApiCloudField(value="关键字查询", example="测试")
     private String keyword;
+    @ApiCloudField(value="是否删除(默认为false)", example="false")
+    private Boolean appUserDelTag;
     @ApiCloudField(value="查询页码 从1开始", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)

@@ -24,6 +24,6 @@ public class BranchItemRecordUpdateDTOModel extends ApiCloudObject {
     private Integer storehouseNum;
     @ApiCloudField(value="单据类型(1-收货单;2-调入单;3-盘点单;4-组合拆分单;5-生产入库单;6-成品入库单;7-调整单)", required=true)
     private Integer branchItemRecoredTypeCode;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<BranchItemRecordDetailUpdateDTOModel> details;
 }

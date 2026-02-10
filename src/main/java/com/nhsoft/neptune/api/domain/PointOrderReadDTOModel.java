@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PointOrderReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="积分兑换活动编号", example="")
+    @ApiCloudField(value="积分兑换活动编号")
     private String pointOrderFid;
 }

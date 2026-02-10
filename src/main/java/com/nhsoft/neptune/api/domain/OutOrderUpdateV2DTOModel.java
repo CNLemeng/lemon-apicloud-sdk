@@ -40,6 +40,6 @@ public class OutOrderUpdateV2DTOModel extends ApiCloudObject {
     private String outOrderBoxCodes;
     @ApiCloudField(value="out_order_receive_state")
     private String outOrderReceiveState;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<OutOrderSaveDetailV2DTOModel> outOrderDetails;
 }

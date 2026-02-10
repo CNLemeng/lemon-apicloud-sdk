@@ -25,7 +25,7 @@ public class MemberCouponActivityVOModel extends ApiCloudObject {
     private Boolean allpayCoupon;
     @ApiCloudField(value="账套号", example="true", required=true)
     private String bookCode;
-    @ApiCloudField(value="渠道", example="AMA", required=true)
+    @ApiCloudField(value="渠道", example="可用值:AMA,BARB,CRM,IWM,MER,MER2,WECOM", required=true)
     private String channel;
     @ApiCloudField(value="详情列表", required=true)
     private List<MemberCouponActivityDetailDTOModel> details;

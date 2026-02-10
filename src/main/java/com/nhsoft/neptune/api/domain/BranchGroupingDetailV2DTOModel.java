@@ -20,6 +20,6 @@ public class BranchGroupingDetailV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码")
     private Integer branchNum;
-    @ApiCloudField(value="门店名称", example="")
+    @ApiCloudField(value="门店名称")
     private String branchName;
 }

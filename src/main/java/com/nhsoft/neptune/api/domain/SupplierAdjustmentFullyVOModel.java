@@ -42,9 +42,9 @@ public class SupplierAdjustmentFullyVOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="应用门店列表", example="[1]")
     private List<Integer> appliedBranchNums;
-    @ApiCloudField(value="合同编号", example="")
+    @ApiCloudField(value="合同编号")
     private String supplierAgreementNo;
-    @ApiCloudField(value="调价范围", example="")
+    @ApiCloudField(value="调价范围")
     private String supplierAdjustmentLevel;
     @ApiCloudField(value="最后修改时间")
     private String supplierAdjustmentLastEditTime;
@@ -54,7 +54,7 @@ public class SupplierAdjustmentFullyVOModel extends ApiCloudObject {
     private String supplierAdjustmentEffectiveDate;
     @ApiCloudField(value="附件数量")
     private Integer objectCount;
-    @ApiCloudField(value="供应商名称", example="")
+    @ApiCloudField(value="供应商名称")
     private String supplierName;
     @ApiCloudField(value="失效时间")
     private String supplierAdjustmentInvalidTime;
@@ -62,6 +62,6 @@ public class SupplierAdjustmentFullyVOModel extends ApiCloudObject {
     private Integer supplierAdjustmentReturnType;
     @ApiCloudField(value="失效人", example="admin")
     private String supplierAdjustmentInvalidor;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<SupplierAdjustmentDetailVOModel> supplierAdjustmentDetails;
 }

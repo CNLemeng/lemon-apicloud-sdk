@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MemberCouponTypePlatformSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="券类型id", example="18010055021131225", required=true)
+    @ApiCloudField(value="券类型id", required=true)
     private String id;
     @ApiCloudField(value="第三方平台信息", required=true)
     private List<MemberCouponPlatformInfoVOModel> platformInfos;

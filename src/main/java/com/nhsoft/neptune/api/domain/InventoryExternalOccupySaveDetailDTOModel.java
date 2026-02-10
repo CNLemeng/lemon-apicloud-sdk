@@ -22,10 +22,10 @@ public class InventoryExternalOccupySaveDetailDTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="占用库存数量", required=true)
     private BigDecimal inventoryOccupyAmount;
-    @ApiCloudField(value="批次编号", example="")
+    @ApiCloudField(value="批次编号")
     private String lotNumber;
     @ApiCloudField(value="占用库存常用数量")
     private BigDecimal inventoryExternalOccupyUseQty;
-    @ApiCloudField(value="占用库存常用单位", example="")
+    @ApiCloudField(value="占用库存常用单位")
     private String inventoryExternalOccupyUseUnit;
 }

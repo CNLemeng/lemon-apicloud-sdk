@@ -18,11 +18,11 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemPolicyTemplateVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="促销商品模板编号", example="")
+    @ApiCloudField(value="促销商品模板编号")
     private String templateNo;
-    @ApiCloudField(value="促销商品模板名称", example="")
+    @ApiCloudField(value="促销商品模板名称")
     private String templateName;
-    @ApiCloudField(value="促销商品模板备注", example="")
+    @ApiCloudField(value="促销商品模板备注")
     private String templateRemark;
     @ApiCloudField(value="促销商品模板类型（例外商品:EXCEPT_ITEM）", example="EXCEPT_ITEM")
     private String templateType;
@@ -34,6 +34,6 @@ public class PosItemPolicyTemplateVOModel extends ApiCloudObject {
     private String templateUpdateTime;
     @ApiCloudField(value="更新人", example="admin")
     private String templateUpdater;
-    @ApiCloudField(value="促销活动明细", example="")
+    @ApiCloudField(value="促销活动明细")
     private List<PosItemPolicyTemplateDetailVOModel> details;
 }

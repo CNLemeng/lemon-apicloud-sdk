@@ -20,7 +20,7 @@ public class SupplierSettlementFindRequestV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码（时间类型为最后修改时间允许为空）", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="供应商编码列表", example="")
+    @ApiCloudField(value="供应商编码列表")
     private List<Integer> supplierNums;
     @ApiCloudField(value="时间类型(制单时间|审核时间|付款日期|最后修改时间|有效时间)", example="审核时间", required=true)
     private String dateType;

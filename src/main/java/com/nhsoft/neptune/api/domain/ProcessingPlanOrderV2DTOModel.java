@@ -30,7 +30,7 @@ public class ProcessingPlanOrderV2DTOModel extends ApiCloudObject {
     private Integer processingPlanOrderStateCode;
     @ApiCloudField(value="计划单状态名称", example="制单")
     private String processingPlanOrderStateName;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String processingPlanOrderMemo;
     @ApiCloudField(value="计划单创建人", example="业务员")
     private String processingPlanOrderCreator;
@@ -42,6 +42,6 @@ public class ProcessingPlanOrderV2DTOModel extends ApiCloudObject {
     private String processingPlanOrderCreateTime;
     @ApiCloudField(value="计划单审核时间", example="2022-08-22 16:12:06")
     private String processingPlanOrdeAuditTime;
-    @ApiCloudField(value="计划单明细", example="")
+    @ApiCloudField(value="计划单明细")
     private List<ProcessingPlanOrderDetailV2DTOModel> processingPlanOrderDetails;
 }

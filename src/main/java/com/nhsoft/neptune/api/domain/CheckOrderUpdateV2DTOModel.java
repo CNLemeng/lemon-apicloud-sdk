@@ -26,6 +26,6 @@ public class CheckOrderUpdateV2DTOModel extends ApiCloudObject {
     private String checkOrderDate;
     @ApiCloudField(value="备注", example="备注信息")
     private String checkOrderMemo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<CheckOrderSaveDetailV2DTOModel> checkOrderDetails;
 }

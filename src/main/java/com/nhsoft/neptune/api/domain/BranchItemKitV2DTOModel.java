@@ -22,6 +22,6 @@ public class BranchItemKitV2DTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="组合商品明细", example="")
+    @ApiCloudField(value="组合商品明细")
     private List<BranchItemKitDetailV2DTOModel> branchItemKitDetails;
 }

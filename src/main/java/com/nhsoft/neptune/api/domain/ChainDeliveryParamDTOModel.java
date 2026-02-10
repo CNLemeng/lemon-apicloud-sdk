@@ -70,17 +70,17 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean pickWholeOrderInform;
     @ApiCloudField(value="批发销售单审核通知", example="false")
     private Boolean orderWholeAuditInform;
-    @ApiCloudField(value="新批发订单通知内容", example="")
+    @ApiCloudField(value="新批发订单通知内容")
     private String smsNewWholeContext;
-    @ApiCloudField(value="发货单审核后短信通知收货方内容", example="")
+    @ApiCloudField(value="发货单审核后短信通知收货方内容")
     private String smsSendWholeContext;
-    @ApiCloudField(value="客户付款通知内容", example="")
+    @ApiCloudField(value="客户付款通知内容")
     private String smsPaymentWholeContext;
-    @ApiCloudField(value="中心确认到账通知内容", example="")
+    @ApiCloudField(value="中心确认到账通知内容")
     private String smsAffirmWholeContext;
-    @ApiCloudField(value="批发参数到货通知内容", example="")
+    @ApiCloudField(value="批发参数到货通知内容")
     private String smsPickWholeContext;
-    @ApiCloudField(value="批发销售单审核通知内容", example="")
+    @ApiCloudField(value="批发销售单审核通知内容")
     private String smsAuditWholeContext;
     @ApiCloudField(value="新订单", example="false")
     private Boolean newChainOrderInform;
@@ -94,21 +94,21 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean branchReceiveOrderInform;
     @ApiCloudField(value="中心调出单审核通知", example="false")
     private Boolean orderChainAuditInform;
-    @ApiCloudField(value="新要货单通知可用内容", example="")
+    @ApiCloudField(value="新要货单通知可用内容")
     private String smsNewChainContext;
-    @ApiCloudField(value="到货通知可用内容", example="")
+    @ApiCloudField(value="到货通知可用内容")
     private String smsPickChainContext;
-    @ApiCloudField(value="门店调入单短信可用内容", example="")
+    @ApiCloudField(value="门店调入单短信可用内容")
     private String smsBranchChainContext;
-    @ApiCloudField(value="中心调出单短信可用内容", example="")
+    @ApiCloudField(value="中心调出单短信可用内容")
     private String smsAuditChainContext;
     @ApiCloudField(value="发货单审核后短信提醒收货方", example="false")
     private Boolean smsShipOrder;
-    @ApiCloudField(value="提醒格式", example="")
+    @ApiCloudField(value="提醒格式")
     private String smsShipOrderContext;
-    @ApiCloudField(value="财务手机号码", example="")
+    @ApiCloudField(value="财务手机号码")
     private String financePhone;
-    @ApiCloudField(value="仓库管理员手机号码", example="")
+    @ApiCloudField(value="仓库管理员手机号码")
     private String storehousePhone;
     @ApiCloudField(value="批发订单中心库存去除已要货未销售的数量", example="false")
     private Boolean centerInvenoryRemoveWholeBook;
@@ -116,9 +116,9 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean purChaseAuditInform;
     @ApiCloudField(value="供应商预付单审核通知供应商", example="false")
     private Boolean preSettlementInform;
-    @ApiCloudField(value="格式", example="")
+    @ApiCloudField(value="格式")
     private String smsPurChaseAuditContext;
-    @ApiCloudField(value="格式", example="")
+    @ApiCloudField(value="格式")
     private String smsPreSettlementContext;
     @ApiCloudField(value="调出单相同商品合并打印", example="false")
     private Boolean printTogetherByChain;
@@ -238,11 +238,11 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean transferPriceRounding;
     @ApiCloudField(value="起始金额")
     private BigDecimal transferPriceRoundFrom;
-    @ApiCloudField(value="舍零方式", example="")
+    @ApiCloudField(value="舍零方式")
     private String transferPriceRoundType;
-    @ApiCloudField(value="精确到", example="")
+    @ApiCloudField(value="精确到")
     private String transferPriceRoundTo;
-    @ApiCloudField(value="经销商订货系统默认生成批发订单状态  制单/审核", example="")
+    @ApiCloudField(value="经销商订货系统默认生成批发订单状态  制单/审核")
     private String wholesaleBookDefaultState;
     @ApiCloudField(value="门店要货不可以超过中心库存量", example="false")
     private Boolean requestNotOverCenterStock;
@@ -264,9 +264,9 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean wholesalePriceRounding;
     @ApiCloudField(value="起始金额")
     private BigDecimal wholesalePriceRoundFrom;
-    @ApiCloudField(value="舍零方式", example="")
+    @ApiCloudField(value="舍零方式")
     private String wholesalePriceRoundType;
-    @ApiCloudField(value="精确到", example="")
+    @ApiCloudField(value="精确到")
     private String wholesalePriceRoundTo;
     @ApiCloudField(value="启用要货金额控制", example="false")
     private Boolean enableRequestMoney;
@@ -320,7 +320,7 @@ public class ChainDeliveryParamDTOModel extends ApiCloudObject {
     private Boolean enablePurchaseCheckPriceParam;
     @ApiCloudField(value="采购订单只允许添加主供应商的商品", example="false")
     private Boolean onlyAddDefaultSupplierItem;
-    @ApiCloudField(value="采购订单只允许添加主供应商的商品(单据)", example="")
+    @ApiCloudField(value="采购订单只允许添加主供应商的商品(单据)")
     private String defaultSupplierItemOrder;
     @ApiCloudField(value="采购订单审核后通知供应商平台用户", example="false")
     private Boolean purchaseAuditNoticeSupplierUser;

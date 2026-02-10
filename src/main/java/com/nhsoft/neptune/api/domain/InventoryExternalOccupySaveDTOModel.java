@@ -22,8 +22,8 @@ public class InventoryExternalOccupySaveDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="仓库编号", required=true)
     private Integer storehouseNum;
-    @ApiCloudField(value="单据编号", example="", required=true)
+    @ApiCloudField(value="单据编号", required=true)
     private String orderFid;
-    @ApiCloudField(value="占用明细", example="", required=true)
+    @ApiCloudField(value="占用明细", required=true)
     private List<InventoryExternalOccupySaveDetailDTOModel> details;
 }

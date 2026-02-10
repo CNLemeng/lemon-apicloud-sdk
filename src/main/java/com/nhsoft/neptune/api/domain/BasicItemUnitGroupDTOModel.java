@@ -20,6 +20,6 @@ public class BasicItemUnitGroupDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="计量单位组", example="分组1")
     private String groupName;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<BasicItemUnitGroupDetailDTOModel> itemUnits;
 }

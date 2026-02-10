@@ -36,11 +36,11 @@ public class PointOrderVOModel extends ApiCloudObject {
     private String pointOrderAuditor;
     @ApiCloudField(value="审核时间", example="2025-01-01 00:00:00")
     private String pointOrderAuditTime;
-    @ApiCloudField(value="作废人", example="")
+    @ApiCloudField(value="作废人")
     private String pointOrderCancelOperator;
     @ApiCloudField(value="作废时间", example="2025-01-01 00:00:00")
     private String pointOrderCancelTime;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String pointOrderMemo;
     @ApiCloudField(value="周配置", example="[1]")
     private List<Integer> pointOrderWeek;
@@ -48,6 +48,6 @@ public class PointOrderVOModel extends ApiCloudObject {
     private String stateName;
     @ApiCloudField(value="状态码", example="3")
     private Integer stateCode;
-    @ApiCloudField(value="商品明细", example="")
+    @ApiCloudField(value="商品明细")
     private List<PointOrderDetailVOModel> pointOrderDetails;
 }

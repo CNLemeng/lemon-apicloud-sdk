@@ -34,6 +34,6 @@ public class PurchaseGiftPromotionSaveDTOModel extends ApiCloudObject {
     private Boolean append;
     @ApiCloudField(value="备注", example="备注信息")
     private String memo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PurchaseGiftPromotionDetailSaveDTOModel> details;
 }

@@ -25,11 +25,11 @@ public class BasicVariantProductVOModel extends ApiCloudObject {
     private String itemName;
     @ApiCloudField(value="商品代码")
     private String itemCode;
-    @ApiCloudField(value="是否停售")
+    @ApiCloudField(value="是否停售", example="false")
     private Boolean stopSale;
-    @ApiCloudField(value="称重标记")
+    @ApiCloudField(value="称重标记", example="false")
     private Boolean weightingFlag;
-    @ApiCloudField(value="开启总库存")
+    @ApiCloudField(value="开启总库存", example="false")
     private Boolean variantInventory;
     @ApiCloudField(value="创建时间")
     private String createdAt;

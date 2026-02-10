@@ -29,7 +29,7 @@ public class OnlineMemberInfoModel extends ApiCloudObject {
     private String openid;
     @ApiCloudField(value="用户来源(公众号|小程序|微信支付|支付宝支付|导入|线下开卡|企业微信|第三方平台|支付宝小程序)", example="小程序")
     private String source;
-    @ApiCloudField(value="unionid", example="")
+    @ApiCloudField(value="unionid")
     private String unionid;
     @ApiCloudField(value="头像", example="https://nhsoft-dev-oss-cn-hangzhou.aliyuncs.com/mercury-file/99676/test.png")
     private String avatar;

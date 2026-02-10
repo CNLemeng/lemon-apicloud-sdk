@@ -32,6 +32,6 @@ public class AdjustmentOrderUpdateV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderOutBillNo;
     @ApiCloudField(value="调整原因", example="手动入库")
     private String adjustmentOrderCause;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<AdjustmentOrderSaveDetailV3DTOModel> adjustmentOrderDetails;
 }

@@ -31,7 +31,7 @@ public class MemberCouponCreateDetailDTOModel extends ApiCloudObject {
     private String cardId;
     @ApiCloudField(value="创建门店")
     private Integer createBranchId;
-    @ApiCloudField(value="创建渠道", example="AMA")
+    @ApiCloudField(value="创建渠道", example="可用值:AMA,BARB,CRM,IWM,MER,MER2,WECOM")
     private String createChannel;
     @ApiCloudField(value="创建单据号")
     private String createOrderNo;
