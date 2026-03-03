@@ -34,6 +34,8 @@ public class RequestAuditV2DTOModel extends ApiCloudObject {
     private String requestOrderPurchaseDate;
     @ApiCloudField(value="request_order_fund_apply_id")
     private String requestOrderFundApplyId;
+    @ApiCloudField(value="是否校验资金参数", example="false")
+    private Boolean checkFundParam;
     @ApiCloudField(value="明细", required=true)
     private List<RequestDetailV2DTOModel> requestOrderDetails;
 }

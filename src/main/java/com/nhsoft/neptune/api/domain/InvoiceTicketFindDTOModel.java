@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class InvoiceTicketFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="appType")
+    @ApiCloudField(value="应用类型")
     private String appType;
     @ApiCloudField(value="查询结束时间")
     private String dateEnd;

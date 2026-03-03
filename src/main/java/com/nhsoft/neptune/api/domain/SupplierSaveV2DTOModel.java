@@ -54,7 +54,9 @@ public class SupplierSaveV2DTOModel extends ApiCloudObject {
     private String supplierAddr;
     @ApiCloudField(value="结算方式(临时指定、指定帐期、指定账期、指定日期、货到付款、款到发货)", example="临时指定", required=true)
     private String supplierSettlementType;
-    @ApiCloudField(value="月结日期", example="10")
+    @ApiCloudField(value="月结日期", example="10,11")
+    private String supplierSettleDays;
+    @ApiCloudField(value="月结日期(废弃)", example="10")
     private Integer supplierSettleDayOfMonth;
     @ApiCloudField(value="结转周期", example="30")
     private Integer supplierSettlePeriod;

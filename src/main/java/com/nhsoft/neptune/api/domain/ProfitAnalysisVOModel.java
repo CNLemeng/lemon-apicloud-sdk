@@ -26,4 +26,6 @@ public class ProfitAnalysisVOModel extends ApiCloudObject {
     private BigDecimal saleMoney;
     @ApiCloudField(value="商品销售毛利(券售价)", example="5.0")
     private BigDecimal profitMoney;
+    @ApiCloudField(value="含税毛利", example="5.0")
+    private BigDecimal taxProfit;
 }

@@ -43,6 +43,10 @@ public class WholesaleReturnVOModel extends ApiCloudObject {
     private String wholesaleReturnAuditor;
     @ApiCloudField(value="审核时间")
     private String wholesaleReturnAuditTime;
+    @ApiCloudField(value="最后修改人", example="admin")
+    private String wholesaleReturnLastEditor;
+    @ApiCloudField(value="最后修改时间", example="2021-01-19 00:00:00")
+    private String wholesaleReturnLastEditTime;
     @ApiCloudField(value="状态代码", example="1")
     private Integer wholesaleReturnStateCode;
     @ApiCloudField(value="状态名称", example="制单")

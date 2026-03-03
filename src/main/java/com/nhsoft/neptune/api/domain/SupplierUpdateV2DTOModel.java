@@ -48,6 +48,8 @@ public class SupplierUpdateV2DTOModel extends ApiCloudObject {
     private BigDecimal supplierTax;
     @ApiCloudField(value="结算方式(临时指定、指定帐期、指定账期、指定日期、货到付款、款到发货)")
     private String supplierSettlementType;
+    @ApiCloudField(value="月结日期", example="10,11")
+    private String supplierSettleDays;
     @ApiCloudField(value="结转周期")
     private Integer supplierSettlePeriod;
     @ApiCloudField(value="经营方式（购销/联营/代销）")

@@ -26,7 +26,7 @@ public class AssembleSplitSaveDTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="仓库编号", required=true)
     private Integer storehouseNum;
-    @ApiCloudField(value="方式(组合|拆分)", required=true)
+    @ApiCloudField(value="方式(组合|拆分|分割品拆分)", required=true)
     private String assembleSplitType;
     @ApiCloudField(value="常用数量", required=true)
     private BigDecimal assembleSplitUseAmount;

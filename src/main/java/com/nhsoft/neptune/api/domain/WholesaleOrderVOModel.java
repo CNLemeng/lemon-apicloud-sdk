@@ -36,6 +36,8 @@ public class WholesaleOrderVOModel extends ApiCloudObject {
     private String wholesaleOrderMemo;
     @ApiCloudField(value="外部流水号", example="A0001")
     private String wholesaleOrderOutBillNo;
+    @ApiCloudField(value="手工单号", example="202601040001")
+    private String wholesaleOrderInnerNo;
     @ApiCloudField(value="销售员", example="管理员")
     private String wholesaleOrderSeller;
     @ApiCloudField(value="创建时间", example="2021-01-18 00:00:00")

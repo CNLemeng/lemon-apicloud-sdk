@@ -80,4 +80,6 @@ public class WholesaleOrderDetailDTOModel extends ApiCloudObject {
     private BigDecimal itemAssistQty;
     @ApiCloudField(value="赠品基本数量")
     private BigDecimal itemPresentBasicQty;
+    @ApiCloudField(value="标准售价", example="10.0")
+    private BigDecimal orderDetailStdPrice;
 }

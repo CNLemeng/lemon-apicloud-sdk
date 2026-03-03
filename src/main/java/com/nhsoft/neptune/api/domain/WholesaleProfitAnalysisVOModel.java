@@ -26,4 +26,6 @@ public class WholesaleProfitAnalysisVOModel extends ApiCloudObject {
     private BigDecimal itemWholesaleMoney;
     @ApiCloudField(value="商品批发毛利", example="5.0")
     private BigDecimal itemWholesaleProfit;
+    @ApiCloudField(value="含税毛利", example="5.0")
+    private BigDecimal itemWhosaleTaxProfit;
 }

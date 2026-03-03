@@ -46,6 +46,8 @@ public class ReceiveOrderFindV2DTOModel extends ApiCloudObject {
     private String receiveOrderPaymentDate;
     @ApiCloudField(value="采购订单号", example="PO2030990000001")
     private String purchaseOrderFid;
+    @ApiCloudField(value="发票号")
+    private String receiveOrderInvoiceNo;
     @ApiCloudField(value="状态代码", example="1")
     private Integer receiveOrderStateCode;
     @ApiCloudField(value="状态名称", example="制单")

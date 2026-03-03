@@ -48,8 +48,10 @@ public class SupplierV1VOModel extends ApiCloudObject {
     private String supplierAddr;
     @ApiCloudField(value="结算方式", example="临时指定")
     private String supplierSettlementType;
-    @ApiCloudField(value="月结日期", example="10")
+    @ApiCloudField(value="月结日期(废弃)", example="10")
     private Integer supplierSettleDayOfMonth;
+    @ApiCloudField(value="月结日期", example="10,11")
+    private String supplierSettleDays;
     @ApiCloudField(value="结转周期", example="30")
     private Integer supplierSettlePeriod;
     @ApiCloudField(value="经营方式（购销/联营）", example="购销")
