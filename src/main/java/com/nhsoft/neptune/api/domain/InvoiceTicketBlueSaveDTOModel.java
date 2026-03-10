@@ -49,7 +49,7 @@ public class InvoiceTicketBlueSaveDTOModel extends ApiCloudObject {
     private String invoiceDate;
     @ApiCloudField(value="发票类型")
     private String invoiceType;
-    @ApiCloudField(value="是否是小规模纳税人")
+    @ApiCloudField(value="是否是小规模纳税人", example="false")
     private Boolean isSmallTaxpayer;
     @ApiCloudField(value="订单号")
     private String orderNo;

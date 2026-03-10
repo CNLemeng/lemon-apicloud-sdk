@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MemberCouponTypeVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="券类型编号", example="11331")
+    @ApiCloudField(value="券类型编号(等同ticket_code)", example="11331")
     private String id;
     @ApiCloudField(value="券类型名称", example="年货大礼包")
     private String name;

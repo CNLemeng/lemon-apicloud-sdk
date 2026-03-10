@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品编号", example="102200551")
+    @ApiCloudField(value="商品编码", example="102200551")
     private Integer itemNum;
     @ApiCloudField(value="商品代码", example="00000004")
     private String itemCode;
@@ -155,7 +155,7 @@ public class PosItemVOModel extends ApiCloudObject {
     private Boolean itemDiscounted;
     @ApiCloudField(value="要货不允许超过中心库存", example="true")
     private Boolean noStockNoRequest;
-    @ApiCloudField(value="是否加工商品")
+    @ApiCloudField(value="是否加工商品", example="false")
     private Boolean itemManufactureFlag;
     @ApiCloudField(value="是否允许批发订货超中心库存", example="true")
     private Boolean wholesaleBookAllowOverCenterStock;

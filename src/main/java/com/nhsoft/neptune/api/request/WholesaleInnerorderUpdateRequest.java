@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WholesaleInnerOrderVOModel;
 import java.util.*;
 
 /**
- * update_8请求类
+ * update_9请求类
  * 售后申请单修改
  */
 public class WholesaleInnerorderUpdateRequest implements ApiCloudRequest<WholesaleInnerOrderUpdateDTOModel, WholesaleInnerOrderVOModel> {

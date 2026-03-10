@@ -83,4 +83,6 @@ public class MemberDetailV1VOModel extends ApiCloudObject {
     private String district;
     @ApiCloudField(value="详细地址", example="浙江省宁波市江北区")
     private String address;
+    @ApiCloudField(value="会员标签列表")
+    private List<CustomerLabelSimpleVOModel> labels;
 }

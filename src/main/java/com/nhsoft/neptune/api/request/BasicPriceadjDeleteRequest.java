@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.PriceAdjustmentIdDTOModel;
 import java.util.*;
 
 /**
- * delete_8请求类
+ * delete_9请求类
  * 商品调价删除
  */
 public class BasicPriceadjDeleteRequest implements ApiCloudRequest<PriceAdjustmentIdDTOModel, Void> {

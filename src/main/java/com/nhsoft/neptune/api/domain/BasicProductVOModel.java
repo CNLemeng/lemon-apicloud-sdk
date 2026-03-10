@@ -88,4 +88,6 @@ public class BasicProductVOModel extends ApiCloudObject {
     private Long soldAmount;
     @ApiCloudField(value="是否停售", example="true")
     private Boolean stopSale;
+    @ApiCloudField(value="商品详情")
+    private String detail;
 }
