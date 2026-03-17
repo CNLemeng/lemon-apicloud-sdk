@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PosOtherInoutVOModel;
 import java.util.*;
 
 /**
- * read_29请求类
+ * read_30请求类
  * POS其他收支读取
  */
 public class PosOtherinoutReadRequest implements ApiCloudRequest<PosOtherInoutReadDTOModel, PosOtherInoutVOModel> {

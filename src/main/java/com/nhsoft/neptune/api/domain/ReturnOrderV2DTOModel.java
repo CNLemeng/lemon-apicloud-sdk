@@ -68,6 +68,8 @@ public class ReturnOrderV2DTOModel extends ApiCloudObject {
     private String returnOrderSettlementDate;
     @ApiCloudField(value="退货方式")
     private String returnType;
+    @ApiCloudField(value="货币币种代码", example="USD")
+    private String returnOrderCurrencyIso;
     @ApiCloudField(value="退货明细")
     private List<ReturnOrderDetailV2DTOModel> returnOrderDetails;
 }

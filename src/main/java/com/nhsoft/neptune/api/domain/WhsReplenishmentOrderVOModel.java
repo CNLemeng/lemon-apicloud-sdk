@@ -38,4 +38,6 @@ public class WhsReplenishmentOrderVOModel extends ApiCloudObject {
     private String auditUser;
     @ApiCloudField(value="批发销售单号", example="WO1099990000239")
     private String wholesaleOrderFid;
+    @ApiCloudField(value="货币币种代码", example="USD")
+    private String clientPreferredCurrencyIso;
 }

@@ -35,4 +35,6 @@ public class MemberFindDTOModel extends ApiCloudObject {
     private Boolean queryCount;
     @ApiCloudField(value="是否查询余额(默认为false)", example="true")
     private Boolean queryBalance;
+    @ApiCloudField(value="key_word")
+    private String keyWord;
 }

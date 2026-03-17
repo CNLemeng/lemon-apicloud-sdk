@@ -87,4 +87,6 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private String addressId;
     @ApiCloudField(value="收货地址")
     private String clientAddress;
+    @ApiCloudField(value="货币币种代码", example="USD")
+    private String clientPreferredCurrencyIso;
 }

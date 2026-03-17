@@ -20,7 +20,7 @@ import lombok.EqualsAndHashCode;
 public class MemberCouponCreateDetailDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="活动明细ID", required=true)
-    private Integer activityDetailId;
+    private Long activityDetailId;
     @ApiCloudField(value="可用结束时间", example="2022-01-01 00:00:00")
     private String availEnd;
     @ApiCloudField(value="可用开始时间", example="2022-01-01 00:00:00", required=true)
@@ -38,7 +38,7 @@ public class MemberCouponCreateDetailDTOModel extends ApiCloudObject {
     @ApiCloudField(value="创建用户中心门店编号")
     private Integer createUserCenterBranchId;
     @ApiCloudField(value="创建用户中心渠道")
-    private Integer customerId;
+    private Long customerId;
     @ApiCloudField(value="创建用户中心单据号")
     private String memo;
     @ApiCloudField(value="OPENID")

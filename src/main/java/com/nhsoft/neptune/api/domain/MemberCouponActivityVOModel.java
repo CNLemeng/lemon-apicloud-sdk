@@ -20,7 +20,7 @@ import lombok.EqualsAndHashCode;
 public class MemberCouponActivityVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="ID", required=true)
-    private Integer id;
+    private Long id;
     @ApiCloudField(value="是否使用商家券", example="true")
     private Boolean allpayCoupon;
     @ApiCloudField(value="账套号", example="true", required=true)

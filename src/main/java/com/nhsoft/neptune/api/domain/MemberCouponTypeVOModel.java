@@ -27,6 +27,14 @@ public class MemberCouponTypeVOModel extends ApiCloudObject {
     private String category;
     @ApiCloudField(value="消费券折扣", example="0.8")
     private BigDecimal discount;
+    @ApiCloudField(value="随机金额标记", example="false")
+    private Boolean randomValueFlag;
+    @ApiCloudField(value="随机金额面值券的最小面值")
+    private BigDecimal randomMiniValue;
+    @ApiCloudField(value="商品券抵扣数量")
+    private BigDecimal amount;
+    @ApiCloudField(value=" 券类型图片")
+    private String image;
     @ApiCloudField(value="券状态(true:启用|false:未启用)", example="true")
     private Boolean enable;
     @ApiCloudField(value="优惠券转赠", example="true")
