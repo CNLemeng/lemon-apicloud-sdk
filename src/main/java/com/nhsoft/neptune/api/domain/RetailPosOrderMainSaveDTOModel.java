@@ -19,8 +19,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RetailPosOrderMainSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据号(不填会自动生成)", example="2072012500100001")
-    private String orderNo;
     @ApiCloudField(value="门店编码", example="1", required=true)
     private Integer branchNum;
     @ApiCloudField(value="班次号", example="22001", required=true)

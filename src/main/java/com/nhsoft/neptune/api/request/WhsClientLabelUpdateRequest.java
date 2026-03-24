@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PosClientLabelVOModel;
 import java.util.*;
 
 /**
- * update_8请求类
+ * update_9请求类
  * 批发客户标签修改
  */
 public class WhsClientLabelUpdateRequest implements ApiCloudRequest<WholesaleClientLabelUpdateDTOModel, PosClientLabelVOModel> {

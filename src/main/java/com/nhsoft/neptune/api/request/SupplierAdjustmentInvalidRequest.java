@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.SupplierAdjustmentReadDTOModel;
 import java.util.*;
 
 /**
- * invalid请求类
+ * invalid_1请求类
  * 供应商调价单作废
  */
 public class SupplierAdjustmentInvalidRequest implements ApiCloudRequest<SupplierAdjustmentReadDTOModel, Object> {

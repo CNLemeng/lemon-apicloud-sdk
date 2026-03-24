@@ -97,4 +97,8 @@ public class PosClientUpdateDTOModel extends ApiCloudObject {
     private String clientParentFid;
     @ApiCloudField(value="是否重置客户父级编号(client_parent_fid为null时，是否重置父级编号)", example="false")
     private Boolean resetParentFid;
+    @ApiCloudField(value="共享门店(指定门店，不传为所有门店)")
+    private List<Integer> clientSharedBranchNums;
+    @ApiCloudField(value="币种 偏好货币ISO", example="USD")
+    private String clientPreferredCurrencyIso;
 }

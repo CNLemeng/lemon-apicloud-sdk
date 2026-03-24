@@ -130,6 +130,8 @@ public class SupplierUpdateV2DTOModel extends ApiCloudObject {
     private String supplierExtend9;
     @ApiCloudField(value="扩展属性10", example="value")
     private String supplierExtend10;
+    @ApiCloudField(value="偏好货币ISO", example="CNY")
+    private String supplierPreferredCurrencyIso;
     @ApiCloudField(value="supplier_settle_day_of_month")
     private Integer supplierSettleDayOfMonth;
 }

@@ -68,7 +68,7 @@ public class PolicyQuantitySaveDTOModel extends ApiCloudObject {
     private Integer promotionQuantitySunActived;
     @ApiCloudField(value="超量特价类型(单品超量特价、范围超量特价、偶数特价、阶梯范围超量特价)", example="单品超量特价", required=true)
     private String promotionQuantityType;
-    @ApiCloudField(value="促销方式：0 特价/ 1 折扣", example="1", required=true)
+    @ApiCloudField(value="促销方式：0 特价; 1 折扣; 2:一口价", example="1", required=true)
     private Integer promotionQuantityPriceType;
     @ApiCloudField(value="超量特价折扣率", example="0.5")
     private BigDecimal promotionQuantityDiscount;

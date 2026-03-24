@@ -20,7 +20,7 @@ public class PosItemGradeSaveV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="分级代码", example="0021", required=true)
     private String itemGradeCode;
-    @ApiCloudField(value="分级条码", example="23435120001", required=true)
+    @ApiCloudField(value="分级条码", example="23435120001")
     private String itemGradeBarcode;
     @ApiCloudField(value="分级名称", example="一级", required=true)
     private String itemGradeName;

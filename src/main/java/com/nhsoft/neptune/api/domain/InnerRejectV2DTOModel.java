@@ -22,4 +22,6 @@ public class InnerRejectV2DTOModel extends ApiCloudObject {
     private String innerOrderFid;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String innerOrderOperator;
+    @ApiCloudField(value="批复退回备注", example="原因不符")
+    private String innerOrderApproveMemo;
 }

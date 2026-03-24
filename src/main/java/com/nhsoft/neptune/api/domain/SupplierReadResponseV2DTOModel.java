@@ -128,4 +128,6 @@ public class SupplierReadResponseV2DTOModel extends ApiCloudObject {
     private Boolean itemNoPushFinance;
     @ApiCloudField(value="仅支持添加批次商品", example="true")
     private Boolean supplierOnlyLnItem;
+    @ApiCloudField(value="偏好货币ISO", example="CNY")
+    private String supplierPreferredCurrencyIso;
 }

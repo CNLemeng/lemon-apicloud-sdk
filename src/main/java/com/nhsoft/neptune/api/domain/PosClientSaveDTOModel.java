@@ -89,4 +89,8 @@ public class PosClientSaveDTOModel extends ApiCloudObject {
     private Integer clientActived;
     @ApiCloudField(value="是否共享(1共享,0不共享）", example="1", required=true)
     private Integer clientShared;
+    @ApiCloudField(value="共享门店(指定门店，不传为所有门店)")
+    private List<Integer> clientSharedBranchNums;
+    @ApiCloudField(value="币种 偏好货币ISO", example="USD")
+    private String clientPreferredCurrencyIso;
 }
