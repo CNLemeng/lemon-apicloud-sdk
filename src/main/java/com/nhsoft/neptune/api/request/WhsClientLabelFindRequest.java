@@ -11,7 +11,7 @@ import com.nhsoft.neptune.api.domain.PosClientLabelVOModel;
 import java.util.*;
 
 /**
- * find_33请求类
+ * find_34请求类
  * 批发客户标签查询
  */
 public class WhsClientLabelFindRequest implements ApiCloudRequest<Void, List<PosClientLabelVOModel>> {

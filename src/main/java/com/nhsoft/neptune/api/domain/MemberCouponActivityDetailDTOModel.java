@@ -29,6 +29,10 @@ public class MemberCouponActivityDetailDTOModel extends ApiCloudObject {
     private String bookCode;
     @ApiCloudField(value="门店编号", example="[1,2,3]")
     private List<Integer> branchIds;
+    @ApiCloudField(value="例外门店", example="[1,2,3]")
+    private List<Long> exceptionBranchIds;
+    @ApiCloudField(value="可用场景", example="[ONLINE, OFFLINE]")
+    private List<String> scenes;
     @ApiCloudField(value="发券数量", example="100")
     private Integer count;
     @ApiCloudField(value="渠道信息")

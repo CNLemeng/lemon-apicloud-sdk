@@ -3,17 +3,17 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.OutOrderIdDTOModel;
+import com.nhsoft.neptune.api.domain.WhsInnerOrderInvalidDTOModel;
 
 import java.util.*;
 
 /**
- * outOrderDelete请求类
- * 调出单删除
+ * invalid请求类
+ * 售后申请单作废
  */
-public class ChainOutorderDeleteRequest implements ApiCloudRequest<OutOrderIdDTOModel, Void> {
+public class WholesaleInnerorderInvaildRequest implements ApiCloudRequest<WhsInnerOrderInvalidDTOModel, Void> {
 
-    private OutOrderIdDTOModel bizModel;
+    private WhsInnerOrderInvalidDTOModel bizModel;
 
     @Override
     public String method() {
@@ -22,16 +22,16 @@ public class ChainOutorderDeleteRequest implements ApiCloudRequest<OutOrderIdDTO
 
     @Override
     public String getApiMethodName() {
-        return "/nhsoft.amazon.chain.outorder.delete";
+        return "/nhsoft.amazon.wholesale.innerorder.invaild";
     }
 
     @Override
-    public OutOrderIdDTOModel getBizModel() {
+    public WhsInnerOrderInvalidDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(OutOrderIdDTOModel bizModel) {
+    public void setBizModel(WhsInnerOrderInvalidDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

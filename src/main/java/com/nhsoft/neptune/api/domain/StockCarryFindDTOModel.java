@@ -30,8 +30,4 @@ public class StockCarryFindDTOModel extends ApiCloudObject {
     private List<Integer> status;
     @ApiCloudField(value="是否预结转(空：都查；true:只查预结转；false:只查非预结转)", example="true")
     private Boolean stockCarryPreStock;
-    @ApiCloudField(value="查询页码", example="1", required=true)
-    private Integer pageNo;
-    @ApiCloudField(value="查询分页大小", example="200", required=true)
-    private Integer pageSize;
 }

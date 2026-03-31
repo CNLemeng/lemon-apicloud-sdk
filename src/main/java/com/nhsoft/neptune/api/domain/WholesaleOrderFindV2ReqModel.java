@@ -25,7 +25,7 @@ public class WholesaleOrderFindV2ReqModel extends ApiCloudObject {
     private String clientFid;
     @ApiCloudField(value="仓库编码", example="150200002")
     private Integer storehouseNum;
-    @ApiCloudField(value="时间类型:审核时间、最后修改时间、制单时间、销售日期", example="审核时间", required=true)
+    @ApiCloudField(value="时间类型:审核时间、最后修改时间、制单时间、销售日期、签收时间", example="审核时间", required=true)
     private String dateType;
     @ApiCloudField(value="开始时间 格式：yyyy-MM-dd", example="2021-01-18", required=true)
     private String dateFrom;

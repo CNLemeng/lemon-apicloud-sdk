@@ -12,14 +12,12 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * OutOrderReadV2DTO模型
+ * OutOrderIdDTO模型
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class OutOrderReadV2DTOModel extends ApiCloudObject {
+public class OutOrderIdDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="调出单号", example="MO4344990004979")
+    @ApiCloudField(value="调出单号", example="MO4344990004979", required=true)
     private String outOrderFid;
-    @ApiCloudField(value="外部单号", example="A202603010000001")
-    private String outOrderOutBillNo;
 }
