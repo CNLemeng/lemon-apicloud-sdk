@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WmsItemVOModel;
 import java.util.*;
 
 /**
- * find_7请求类
+ * find_8请求类
  * wms商品档案查询
  */
 public class WmsItemFindRequest implements ApiCloudRequest<WmsItemFindDTOModel, List<WmsItemVOModel>> {

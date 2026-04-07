@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.SupplierAdjustmentVOModel;
 import java.util.*;
 
 /**
- * find_23请求类
+ * find_24请求类
  * 供应商调价单查询
  */
 public class SupplierAdjustmentFindRequest implements ApiCloudRequest<SupplierAdjustmentFindDTOModel, List<SupplierAdjustmentVOModel>> {

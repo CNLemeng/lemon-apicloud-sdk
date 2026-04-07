@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.CheckPlanVOModel;
 import java.util.*;
 
 /**
- * find_11请求类
+ * find_12请求类
  * 盘点任务查询
  */
 public class WmsCheckPlanFindRequest implements ApiCloudRequest<CheckPlanFindDTOModel, List<CheckPlanVOModel>> {

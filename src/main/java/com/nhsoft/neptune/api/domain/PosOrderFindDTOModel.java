@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosOrderFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="分店编号", example="99", required=true)
+    @ApiCloudField(value="分店编号", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="营业日(yyyyMMdd)", example="20200119", required=true)
+    @ApiCloudField(value="营业日(yyyyMMdd)")
     private String shiftTableBizday;
     @ApiCloudField(value="结账开始时间(HH:MM)", example="12:00")
     private String startTime;
@@ -30,4 +30,6 @@ public class PosOrderFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小(最大300)", example="300", required=true)
     private Integer pageSize;
+    @ApiCloudField(value="order_customer_id", example="996580001")
+    private Long orderCustomerId;
 }

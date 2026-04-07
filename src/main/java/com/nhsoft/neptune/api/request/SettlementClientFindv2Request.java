@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ClientSettlementVOModel;
 import java.util.*;
 
 /**
- * find_37请求类
+ * find_38请求类
  * 客户结算单查询
  */
 public class SettlementClientFindv2Request implements ApiCloudRequest<ClientSettlementFindV2DTOModel, List<ClientSettlementVOModel>> {

@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.InventoryVOModel;
 import java.util.*;
 
 /**
- * find_8请求类
+ * find_9请求类
  * 库存查询
  */
 public class WmsInventoryFindRequest implements ApiCloudRequest<WmsInventoryFindDTOModel, List<InventoryVOModel>> {

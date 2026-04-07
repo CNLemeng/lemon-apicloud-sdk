@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WorkFlowVOModel;
 import java.util.*;
 
 /**
- * find_18请求类
+ * find_19请求类
  * 审批流记录查询
  */
 public class UsercenterWorkflowManageFindRequest implements ApiCloudRequest<WorkFlowFindDTOModel, List<WorkFlowVOModel>> {

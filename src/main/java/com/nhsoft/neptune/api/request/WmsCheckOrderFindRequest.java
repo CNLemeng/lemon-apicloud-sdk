@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WmsCheckOrderVOModel;
 import java.util.*;
 
 /**
- * find_12请求类
+ * find_13请求类
  * 盘点单查询
  */
 public class WmsCheckOrderFindRequest implements ApiCloudRequest<WmsCheckOrderFindDTOModel, List<WmsCheckOrderVOModel>> {

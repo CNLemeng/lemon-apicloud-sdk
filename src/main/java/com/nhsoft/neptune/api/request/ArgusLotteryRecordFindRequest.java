@@ -4,12 +4,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.LotteryRecordFindDTOModel;
-
-import java.util.List;
 import com.nhsoft.neptune.api.domain.LotteryRecordVOModel;
 
+import java.util.List;
+
 /**
- * find_22请求类
+ * find_23请求类
  * 会员抽奖记录查询
  */
 public class ArgusLotteryRecordFindRequest implements ApiCloudRequest<LotteryRecordFindDTOModel, List<LotteryRecordVOModel>> {
@@ -38,7 +38,8 @@ public class ArgusLotteryRecordFindRequest implements ApiCloudRequest<LotteryRec
 
     @Override
     public TypeReference<ApiCloudResponse<List<LotteryRecordVOModel>>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<List<LotteryRecordVOModel>>>() {};
+        return new TypeReference<ApiCloudResponse<List<LotteryRecordVOModel>>>() {
+        };
     }
 
 }

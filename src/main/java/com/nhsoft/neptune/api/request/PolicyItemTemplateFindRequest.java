@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PosItemPolicyTemplateVOModel;
 import java.util.*;
 
 /**
- * find_27请求类
+ * find_28请求类
  * 促销商品模版查询
  */
 public class PolicyItemTemplateFindRequest implements ApiCloudRequest<PosItemPolicyTemplateFindDTOModel, List<PosItemPolicyTemplateVOModel>> {

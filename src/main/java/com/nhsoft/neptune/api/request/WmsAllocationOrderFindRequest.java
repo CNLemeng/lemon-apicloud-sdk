@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.AllocationOrderDetailVOModel;
 import java.util.*;
 
 /**
- * find_13请求类
+ * find_14请求类
  * 移库明细查询
  */
 public class WmsAllocationOrderFindRequest implements ApiCloudRequest<AllocationOrderDetailFindDTOModel, List<AllocationOrderDetailVOModel>> {

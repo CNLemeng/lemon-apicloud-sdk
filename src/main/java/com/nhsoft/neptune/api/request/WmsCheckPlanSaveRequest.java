@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.CheckPlanSaveDTOModel;
 import java.util.*;
 
 /**
- * find_10请求类
+ * find_11请求类
  * 盘点计划保存
  */
 public class WmsCheckPlanSaveRequest implements ApiCloudRequest<CheckPlanSaveDTOModel, Void> {
