@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosImageDetailSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品图片资源（字节流）", example="[B@5460cf3a", required=true)
+    @ApiCloudField(value="商品图片资源（字节流）", example="[B@4b29d1d2", required=true)
     private String posImageResource;
     @ApiCloudField(value="是否默认图片", example="true", required=true)
     private Boolean posImageDefault;

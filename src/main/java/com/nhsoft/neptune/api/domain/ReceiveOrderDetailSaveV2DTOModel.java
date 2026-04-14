@@ -42,4 +42,6 @@ public class ReceiveOrderDetailSaveV2DTOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="皮重", example="1.0")
     private BigDecimal itemTare;
+    @ApiCloudField(value="税率")
+    private BigDecimal itemTaxRate;
 }

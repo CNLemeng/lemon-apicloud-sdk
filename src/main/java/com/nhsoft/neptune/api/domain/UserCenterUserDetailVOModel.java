@@ -45,4 +45,8 @@ public class UserCenterUserDetailVOModel extends ApiCloudObject {
     private List<Integer> storehouseNums;
     @ApiCloudField(value="管理部门列表", example="[部门1]")
     private List<String> departments;
+    @ApiCloudField(value="合作伙伴id", example="99675000001")
+    private Long partnerId;
+    @ApiCloudField(value="合作伙伴类型", example="SUPPLIER")
+    private String partnerType;
 }

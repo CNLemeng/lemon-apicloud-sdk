@@ -25,9 +25,9 @@ public class CustomerPayRecordFindDTOModel extends ApiCloudObject {
     private String start;
     @ApiCloudField(value="结束时间")
     private String end;
-    @ApiCloudField(value="是否退款", example="false")
+    @ApiCloudField(value="是否退款")
     private Boolean refund;
-    @ApiCloudField(value="是否线下", example="false")
+    @ApiCloudField(value="是否线下")
     private Boolean offline;
     @ApiCloudField(value="会员ID")
     private Long customerId;

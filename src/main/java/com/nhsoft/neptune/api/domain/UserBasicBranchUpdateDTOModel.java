@@ -29,7 +29,7 @@ public class UserBasicBranchUpdateDTOModel extends ApiCloudObject {
     private String pinyin;
     @ApiCloudField(value="门店区域ID", example="1")
     private Long regionId;
-    @ApiCloudField(value="加盟商ID", example="1")
+    @ApiCloudField(value="加盟商类型(0:直营店 1:加盟店)", example="1")
     private Integer franchiseeId;
     @ApiCloudField(value="中心标记", example="true")
     private Boolean center;
@@ -57,4 +57,8 @@ public class UserBasicBranchUpdateDTOModel extends ApiCloudObject {
     private BigDecimal latitude;
     @ApiCloudField(value="导航开关", example="true")
     private Boolean navigationFlag;
+    @ApiCloudField(value="税率(小规模纳税人)")
+    private BigDecimal taxRate;
+    @ApiCloudField(value="外部名称")
+    private String externalName;
 }

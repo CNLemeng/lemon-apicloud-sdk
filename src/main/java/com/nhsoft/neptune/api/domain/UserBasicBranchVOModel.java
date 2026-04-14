@@ -37,7 +37,7 @@ public class UserBasicBranchVOModel extends ApiCloudObject {
     private String regionId;
     @ApiCloudField(value="门店区域名称", example="所有区域")
     private String regionName;
-    @ApiCloudField(value="加盟商ID", example="1")
+    @ApiCloudField(value="加盟商类型(0:直营店 1:加盟店)", example="1")
     private Integer franchiseeId;
     @ApiCloudField(value="中心标记", example="true")
     private Boolean center;
@@ -69,4 +69,14 @@ public class UserBasicBranchVOModel extends ApiCloudObject {
     private String latitude;
     @ApiCloudField(value="门店证书禁用", example="true")
     private Boolean licenseDisable;
+    @ApiCloudField(value="navigation_flag")
+    private Boolean navigationFlag;
+    @ApiCloudField(value="ent_propty", example="SMALL")
+    private String entPropty;
+    @ApiCloudField(value="density_type", example="DISTRIBUTED")
+    private String densityType;
+    @ApiCloudField(value="tax_rate")
+    private BigDecimal taxRate;
+    @ApiCloudField(value="external_name")
+    private String externalName;
 }

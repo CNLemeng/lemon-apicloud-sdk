@@ -74,4 +74,6 @@ public class ReceiveOrderDetailFindV2DTOModel extends ApiCloudObject {
     private String detailPeriod;
     @ApiCloudField(value="最近进价", example="1.25")
     private BigDecimal detailLastPrice;
+    @ApiCloudField(value="税率")
+    private BigDecimal itemTaxRate;
 }
