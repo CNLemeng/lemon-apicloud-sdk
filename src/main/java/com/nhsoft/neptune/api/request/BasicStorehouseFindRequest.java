@@ -13,7 +13,7 @@ import java.util.*;
  * storehouseFind请求类
  * 仓库查询
  */
-public class BasicStorehouseFindRequest implements ApiCloudRequest<StorehouseFindV2DTOModel, StorehouseUpdateV2DTOModel> {
+public class BasicStorehouseFindRequest implements ApiCloudRequest<StorehouseFindV2DTOModel, List<StorehouseUpdateV2DTOModel>> {
 
     private StorehouseFindV2DTOModel bizModel;
 
@@ -38,8 +38,8 @@ public class BasicStorehouseFindRequest implements ApiCloudRequest<StorehouseFin
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<StorehouseUpdateV2DTOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<StorehouseUpdateV2DTOModel>>() {};
+    public TypeReference<ApiCloudResponse<List<StorehouseUpdateV2DTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<StorehouseUpdateV2DTOModel>>>() {};
     }
 
 }
