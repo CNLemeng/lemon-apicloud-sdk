@@ -20,7 +20,7 @@ import lombok.EqualsAndHashCode;
 public class MemberV2VOModel extends ApiCloudObject {
 
     @ApiCloudField(value="会员ID", example="207200025932")
-    private Integer customerId;
+    private Long customerId;
     @ApiCloudField(value="姓名", example="姓名")
     private String name;
     @ApiCloudField(value="手机号", example="18058533000")
