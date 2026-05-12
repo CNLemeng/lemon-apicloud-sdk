@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ManagementTemplateDetailV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品编码")
+    @ApiCloudField(value="商品编码", example="")
     private Object itemNum;
-    @ApiCloudField(value="经营范围编码")
+    @ApiCloudField(value="经营范围编码", example="")
     private Object managementTemplateNum;
 }

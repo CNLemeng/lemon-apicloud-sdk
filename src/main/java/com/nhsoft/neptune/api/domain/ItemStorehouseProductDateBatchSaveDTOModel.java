@@ -20,6 +20,6 @@ public class ItemStorehouseProductDateBatchSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编码（删除该门店下单商品生产日期）", example="1", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<ItemStorehouseProductDateBatchSaveDetailDTOModel> details;
 }

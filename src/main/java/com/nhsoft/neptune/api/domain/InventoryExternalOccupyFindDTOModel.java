@@ -22,8 +22,8 @@ public class InventoryExternalOccupyFindDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="仓库编号", required=true)
     private Integer storehouseNum;
-    @ApiCloudField(value="单据编号")
+    @ApiCloudField(value="单据编号", example="")
     private String orderFid;
-    @ApiCloudField(value="商品编码")
+    @ApiCloudField(value="商品编码", example="")
     private List<Integer> itemNums;
 }

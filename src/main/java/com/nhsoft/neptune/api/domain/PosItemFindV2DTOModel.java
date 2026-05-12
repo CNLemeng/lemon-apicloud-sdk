@@ -162,11 +162,11 @@ public class PosItemFindV2DTOModel extends ApiCloudObject {
     private List<String> itemLabelNames;
     @ApiCloudField(value="是否启用条码换算率", example="true")
     private Boolean itemEnableBarRate;
-    @ApiCloudField(value="一品多码")
+    @ApiCloudField(value="一品多码", example="")
     private List<PosItemBarCodeV2DTOModel> itemBars;
-    @ApiCloudField(value="组合明细")
+    @ApiCloudField(value="组合明细", example="")
     private List<PosItemKitV2DTOModel> posItemKits;
-    @ApiCloudField(value="分级明细")
+    @ApiCloudField(value="分级明细", example="")
     private List<PosItemGradeV2DTOModel> posItemGrades;
     @ApiCloudField(value="是否允许门店调价 1 不允许 2 允许", example="1")
     private Integer itemPriceAdj;
@@ -196,4 +196,8 @@ public class PosItemFindV2DTOModel extends ApiCloudObject {
     private Boolean itemManufactureFlag;
     @ApiCloudField(value="免税标记", example="true")
     private Boolean freeTaxFlag;
+    @ApiCloudField(value="动销天数", example="10")
+    private Integer itemTransferDay;
+    @ApiCloudField(value="是否启用包装盒", example="true")
+    private Boolean itemPackageActived;
 }

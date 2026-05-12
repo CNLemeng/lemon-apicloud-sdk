@@ -60,7 +60,7 @@ public class DirectPurchaseOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal itemTaxRate;
     @ApiCloudField(value="生产日期", example="2021-01-01")
     private String itemProducingDate;
-    @ApiCloudField(value="批次号")
+    @ApiCloudField(value="批次号", example="")
     private String itemLotNumber;
     @ApiCloudField(value="备注", example="备注信息")
     private String itemMemo;

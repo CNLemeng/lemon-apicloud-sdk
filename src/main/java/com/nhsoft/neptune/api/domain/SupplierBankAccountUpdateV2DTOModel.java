@@ -18,14 +18,14 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierBankAccountUpdateV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="开户银行")
+    @ApiCloudField(value="开户银行", example="")
     private String supplierBank;
-    @ApiCloudField(value="银行账号")
+    @ApiCloudField(value="银行账号", example="")
     private String supplierBankAccount;
-    @ApiCloudField(value="开户名")
+    @ApiCloudField(value="开户名", example="")
     private String supplierBankAccountName;
     @ApiCloudField(value="是否默认", example="false")
     private Boolean supplierBankDefaultFlag;
-    @ApiCloudField(value="银行联行号")
+    @ApiCloudField(value="银行联行号", example="")
     private String supplierBankAccountRef;
 }

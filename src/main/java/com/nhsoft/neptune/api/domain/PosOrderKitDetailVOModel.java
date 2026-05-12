@@ -46,4 +46,6 @@ public class PosOrderKitDetailVOModel extends ApiCloudObject {
     private String managementStyleType;
     @ApiCloudField(value="成本金额（小数点2位）", example="10.0")
     private BigDecimal orderKitDetailCostMoney;
+    @ApiCloudField(value="批次", example="20260401")
+    private String orderKitDetailLotNumber;
 }

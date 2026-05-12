@@ -42,7 +42,7 @@ public class PolicyPromotionOrderV2DTOModel extends ApiCloudObject {
     private String allowOrderFid;
     @ApiCloudField(value="促销类型", example="促销特价")
     private String allowOrderType;
-    @ApiCloudField(value="返利类型")
+    @ApiCloudField(value="返利类型", example="")
     private String policyPromotionType;
     @ApiCloudField(value="促销开始时间")
     private String policyPromotionFrom;
@@ -66,17 +66,17 @@ public class PolicyPromotionOrderV2DTOModel extends ApiCloudObject {
     private BigDecimal storeMatrixUpperStock;
     @ApiCloudField(value="补货基数")
     private Integer storeMatrixOrderBase;
-    @ApiCloudField(value="扩展属性1")
+    @ApiCloudField(value="扩展属性1", example="")
     private String itemExtend1;
-    @ApiCloudField(value="扩展属性2")
+    @ApiCloudField(value="扩展属性2", example="")
     private String itemExtend2;
-    @ApiCloudField(value="扩展属性3")
+    @ApiCloudField(value="扩展属性3", example="")
     private String itemExtend3;
-    @ApiCloudField(value="扩展属性4")
+    @ApiCloudField(value="扩展属性4", example="")
     private String itemExtend4;
-    @ApiCloudField(value="扩展属性5")
+    @ApiCloudField(value="扩展属性5", example="")
     private String itemExtend5;
-    @ApiCloudField(value="扩展属性6")
+    @ApiCloudField(value="扩展属性6", example="")
     private String itemExtend6;
     @ApiCloudField(value="促销销量", example="20.0")
     private BigDecimal policySaleAmountSum;

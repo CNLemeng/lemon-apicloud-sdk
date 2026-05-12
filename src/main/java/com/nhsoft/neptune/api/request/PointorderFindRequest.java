@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PointOrderVOModel;
 import java.util.*;
 
 /**
- * find_29请求类
+ * find_30请求类
  * 积分活动查询
  */
 public class PointorderFindRequest implements ApiCloudRequest<PointOrderFindDTOModel, List<PointOrderVOModel>> {

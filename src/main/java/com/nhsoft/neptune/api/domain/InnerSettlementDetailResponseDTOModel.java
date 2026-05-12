@@ -36,4 +36,6 @@ public class InnerSettlementDetailResponseDTOModel extends ApiCloudObject {
     private BigDecimal innerSettlementDetailDiscount;
     @ApiCloudField(value="备注", example="备注信息")
     private String innerSettlementDetailMemo;
+    @ApiCloudField(value="税额（小数点2位）", example="0.0")
+    private BigDecimal innerSettlementTaxMoney;
 }

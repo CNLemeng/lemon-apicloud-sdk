@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MemberCouponTypeVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="券类型编号", example="11331")
+    @ApiCloudField(value="券类型编号(等同ticket_code)", example="11331")
     private String id;
     @ApiCloudField(value="券类型名称", example="年货大礼包")
     private String name;
@@ -33,7 +33,7 @@ public class MemberCouponTypeVOModel extends ApiCloudObject {
     private BigDecimal randomMiniValue;
     @ApiCloudField(value="商品券抵扣数量")
     private BigDecimal amount;
-    @ApiCloudField(value=" 券类型图片")
+    @ApiCloudField(value=" 券类型图片", example="")
     private String image;
     @ApiCloudField(value="券状态(true:启用|false:未启用)", example="true")
     private Boolean enable;
@@ -67,6 +67,6 @@ public class MemberCouponTypeVOModel extends ApiCloudObject {
     private List<Long> branchIds;
     @ApiCloudField(value="排除门店", example="1")
     private List<Long> exceptionBranchIds;
-    @ApiCloudField(value="第三方券信息")
+    @ApiCloudField(value="第三方券信息", example="")
     private List<MemberCouponPlatformInfoVOModel> platformInfos;
 }

@@ -82,8 +82,8 @@ public class SupplierAdjustmentDetailVOModel extends ApiCloudObject {
     private BigDecimal adjustmentDetailLevel4Price;
     @ApiCloudField(value="主供应商选中标记", example="true")
     private Boolean defaultSupplierSelectCase;
-    @ApiCloudField(value="单品备注")
+    @ApiCloudField(value="单品备注", example="")
     private String adjustmentDetailMemo;
-    @ApiCloudField(value="报表打印使用属性")
+    @ApiCloudField(value="报表打印使用属性", example="")
     private String useQtyString;
 }

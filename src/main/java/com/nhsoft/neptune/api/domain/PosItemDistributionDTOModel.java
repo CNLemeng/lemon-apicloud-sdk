@@ -34,17 +34,17 @@ public class PosItemDistributionDTOModel extends ApiCloudObject {
     private BigDecimal dcmRequestMultiple;
     @ApiCloudField(value="配送中心调出忽略库存", example="false")
     private Boolean centerOutIgnoreInventory;
-    @ApiCloudField(value="商品名称")
+    @ApiCloudField(value="商品名称", example="")
     private String itemName;
-    @ApiCloudField(value="商品代码")
+    @ApiCloudField(value="商品代码", example="")
     private String itemCode;
-    @ApiCloudField(value="商品条码")
+    @ApiCloudField(value="商品条码", example="")
     private String itemBarcode;
-    @ApiCloudField(value="商品规格")
+    @ApiCloudField(value="商品规格", example="")
     private String itemSpec;
-    @ApiCloudField(value="商品类别名称")
+    @ApiCloudField(value="商品类别名称", example="")
     private String itemCategory;
-    @ApiCloudField(value="商品配送单位")
+    @ApiCloudField(value="商品配送单位", example="")
     private String itemTransferUnit;
     @ApiCloudField(value="商品配送价率")
     private BigDecimal itemTransferRate;

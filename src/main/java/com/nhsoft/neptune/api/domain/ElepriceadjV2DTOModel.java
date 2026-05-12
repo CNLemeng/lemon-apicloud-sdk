@@ -38,8 +38,8 @@ public class ElepriceadjV2DTOModel extends ApiCloudObject {
     private String elementPriceAdjustmentAuditTime;
     @ApiCloudField(value="备注", example="备注信息")
     private String elementPriceAdjustmentMemo;
-    @ApiCloudField(value="应用门店列表")
+    @ApiCloudField(value="应用门店列表", example="")
     private List<BranchNameV2DTOModel> branchs;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<ElepriceadjDetailV2DTOModel> elementPriceAdjustmentDetails;
 }

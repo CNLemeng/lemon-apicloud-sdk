@@ -21,7 +21,7 @@ public class BaseFieldControlSaveDTOModel extends ApiCloudObject {
     @ApiCloudField(value="字段名称(对外标识)", required=true)
     private String name;
     @ApiCloudField(value="是否启用管控, 默认true", example="true", required=true)
-    private Boolean controlFlag;
+    private Boolean controlledFlag;
     @ApiCloudField(value="模块代码,可用值:ITEM,SUPPLIER,WHOLESALER", example="ITEM", required=true)
     private String moduleCode;
 }

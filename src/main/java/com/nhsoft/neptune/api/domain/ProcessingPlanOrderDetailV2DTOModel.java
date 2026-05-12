@@ -34,6 +34,6 @@ public class ProcessingPlanOrderDetailV2DTOModel extends ApiCloudObject {
     private BigDecimal itemUseQty;
     @ApiCloudField(value="常用单位", example="公斤")
     private String itemUseUnit;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String itemMemo;
 }

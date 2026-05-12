@@ -27,6 +27,10 @@ public class PointConvertSaveDTOModel extends ApiCloudObject {
     private BigDecimal pointConvertValue;
     @ApiCloudField(value="关联商品编号", example="2072001")
     private Integer pointConverItemNum;
+    @ApiCloudField(value="point_convert_item_grade_num")
+    private Integer pointConvertItemGradeNum;
     @ApiCloudField(value="应用门店列表（该字段不填，则应用于所有门店）")
     private List<Integer> appliedBranchNums;
+    @ApiCloudField(value="name_is_item_name")
+    private Boolean nameIsItemName;
 }

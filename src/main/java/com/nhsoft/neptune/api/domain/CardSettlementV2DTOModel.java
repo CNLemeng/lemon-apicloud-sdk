@@ -18,49 +18,49 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CardSettlementV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单号")
+    @ApiCloudField(value="单号", example="")
     private String orderFid;
-    @ApiCloudField(value="单据类型")
+    @ApiCloudField(value="单据类型", example="")
     private String orderType;
     @ApiCloudField(value="单据状态代码（1：制单3：制单|审核）")
     private Integer stateCode;
-    @ApiCloudField(value="制单时间（yyyy-mm-dd HH:MM:SS）")
+    @ApiCloudField(value="制单时间（yyyy-mm-dd HH:MM:SS）", example="")
     private String createTime;
-    @ApiCloudField(value="制单人")
+    @ApiCloudField(value="制单人", example="")
     private String creator;
-    @ApiCloudField(value="修改时间")
+    @ApiCloudField(value="修改时间", example="")
     private String editTime;
-    @ApiCloudField(value="修改人")
+    @ApiCloudField(value="修改人", example="")
     private String editor;
-    @ApiCloudField(value="审核时间（yyyy-mm-dd HH:MM:SS）")
+    @ApiCloudField(value="审核时间（yyyy-mm-dd HH:MM:SS）", example="")
     private String auditTime;
-    @ApiCloudField(value="审核人")
+    @ApiCloudField(value="审核人", example="")
     private String auditor;
     @ApiCloudField(value="制单门店编号")
     private Integer branchNum;
-    @ApiCloudField(value="制单门店名称")
+    @ApiCloudField(value="制单门店名称", example="")
     private String branchName;
     @ApiCloudField(value="结算门店编号")
     private Integer toBranchNum;
-    @ApiCloudField(value="结算门店名称")
+    @ApiCloudField(value="结算门店名称", example="")
     private String toBranchName;
-    @ApiCloudField(value="上次结算日期")
+    @ApiCloudField(value="上次结算日期", example="")
     private String cardSettlementLastPaymentDate;
-    @ApiCloudField(value="最后修改时间")
+    @ApiCloudField(value="最后修改时间", example="")
     private String cardSettlementLastEditTime;
-    @ApiCloudField(value="结算截止日期")
+    @ApiCloudField(value="结算截止日期", example="")
     private String cardSettlementDate;
-    @ApiCloudField(value="付款方式")
+    @ApiCloudField(value="付款方式", example="")
     private String cardSettlementPaymentType;
-    @ApiCloudField(value="结算状态 （未结算 部分结算 全部结算）")
+    @ApiCloudField(value="结算状态 （未结算 部分结算 全部结算）", example="")
     private String cardSettlementType;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String memo;
-    @ApiCloudField(value="存款明细")
+    @ApiCloudField(value="存款明细", example="")
     private List<CardDepositV2DTOModel> cardDepositDetails;
-    @ApiCloudField(value="消费明细")
+    @ApiCloudField(value="消费明细", example="")
     private List<CardConsumeResponseDTOModel> cardConsumeDetails;
-    @ApiCloudField(value="补扣明细")
+    @ApiCloudField(value="补扣明细", example="")
     private List<CardConsumeResponseDTOModel> recardDetails;
     @ApiCloudField(value="存款现金", example="1800.0")
     private BigDecimal cardSettlementDepositCash;

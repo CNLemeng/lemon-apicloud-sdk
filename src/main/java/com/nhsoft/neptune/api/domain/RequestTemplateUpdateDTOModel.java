@@ -24,6 +24,6 @@ public class RequestTemplateUpdateDTOModel extends ApiCloudObject {
     private String templateName;
     @ApiCloudField(value="应用门店", example="1")
     private List<Integer> branchNums;
-    @ApiCloudField(value="门店要货模板详情")
+    @ApiCloudField(value="门店要货模板详情", example="")
     private List<RequestTemplateDetailSaveDTOModel> templateDetails;
 }

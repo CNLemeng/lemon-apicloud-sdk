@@ -103,8 +103,6 @@ public class InventoryVOModel extends ApiCloudObject {
     private String itemWholesaleUnit;
     @ApiCloudField(value="批次号", example="20250101")
     private String lotNum;
-    @ApiCloudField(value="金额", example="1.0")
-    private BigDecimal money;
     @ApiCloudField(value="库位名称", example="zfb集货位")
     private String positionName;
     @ApiCloudField(value="库位ID", example="325704")
@@ -117,9 +115,9 @@ public class InventoryVOModel extends ApiCloudObject {
     private Boolean splitFlag;
     @ApiCloudField(value="拆零数量", example="11.00件")
     private String splitQtyAndUnit;
-    @ApiCloudField(value="停留天数(入库时间到现在)", example="11")
+    @ApiCloudField(value="停留天数", example="11")
     private Integer stayDay;
-    @ApiCloudField(value="在库天数", example="11.0")
+    @ApiCloudField(value="在库天数", example="11")
     private BigDecimal inWarehouseDays;
     @ApiCloudField(value="库区名称", example="A区")
     private String storehouseAreaName;

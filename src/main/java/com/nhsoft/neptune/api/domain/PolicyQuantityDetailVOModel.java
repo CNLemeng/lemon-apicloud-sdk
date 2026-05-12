@@ -36,9 +36,9 @@ public class PolicyQuantityDetailVOModel extends ApiCloudObject {
     private BigDecimal itemLadderPrice3;
     @ApiCloudField(value="是否单品中止", example="false")
     private Boolean itemCancel;
-    @ApiCloudField(value="中止操作人")
+    @ApiCloudField(value="中止操作人", example="")
     private String itemCancelOperator;
-    @ApiCloudField(value="中止操作时间")
+    @ApiCloudField(value="中止操作时间", example="")
     private String itemCancelTime;
     @ApiCloudField(value="联营商品扣率")
     private BigDecimal itemGross;

@@ -84,9 +84,9 @@ public class BranchV2DTOModel extends ApiCloudObject {
     private String newBranchDeadline;
     @ApiCloudField(value="branch_matrix")
     private BranchMatrixV2DTOModel branchMatrix;
-    @ApiCloudField(value="门店标签信息")
+    @ApiCloudField(value="门店标签信息", example="")
     private List<BranchLabelV2DTOModel> branchLabels;
-    @ApiCloudField(value="门店创建时间")
+    @ApiCloudField(value="门店创建时间", example="")
     private String branchCreateTime;
     @ApiCloudField(value="用户中心门店ID")
     private Long userCenterId;
@@ -96,7 +96,7 @@ public class BranchV2DTOModel extends ApiCloudObject {
     private BigDecimal branchArea;
     @ApiCloudField(value="门店租金", example="12222.0")
     private BigDecimal branchRent;
-    @ApiCloudField(value="外部门店名称")
+    @ApiCloudField(value="外部门店名称", example="")
     private String outBranchName;
     @ApiCloudField(value="业务操作启用进销项税", example="true")
     private Boolean branchEnableTax;

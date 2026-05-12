@@ -22,7 +22,7 @@ public class UserBasicUserVOModel extends ApiCloudObject {
     @ApiCloudField(value="用户ID", example="1")
     private Integer userId;
     @ApiCloudField(value="公司用户ID", example="1")
-    private Integer companyUserId;
+    private Long companyUserId;
     @ApiCloudField(value="公司用户代码")
     private Integer companyUserCode;
     @ApiCloudField(value="用户类型（OWNER|ADMIN|NORMAL|PARTNER|OPEN", example="OWNER")
@@ -37,7 +37,7 @@ public class UserBasicUserVOModel extends ApiCloudObject {
     private String name;
     @ApiCloudField(value="手机号码", example="18667885599")
     private String phone;
-    @ApiCloudField(value="用户角色")
+    @ApiCloudField(value="用户角色", example="")
     private List<UserBasicRoleVOModel> simpleRoles;
     @ApiCloudField(value="管理门店列表（门店id列表）", example="[1]")
     private List<Integer> extraBranchIds;

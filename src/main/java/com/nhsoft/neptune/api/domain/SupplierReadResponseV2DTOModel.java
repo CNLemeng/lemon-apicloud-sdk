@@ -86,11 +86,11 @@ public class SupplierReadResponseV2DTOModel extends ApiCloudObject {
     private String supplierMemo;
     @ApiCloudField(value="起订金额", example="2.25")
     private BigDecimal supplierMinOrderMoney;
-    @ApiCloudField(value="供应商共享门店信息")
+    @ApiCloudField(value="供应商共享门店信息", example="")
     private List<SupplierShareBranchV2DTOModel> supplierSharedBranches;
-    @ApiCloudField(value="供应商共享区域信息")
+    @ApiCloudField(value="供应商共享区域信息", example="")
     private List<SupplierShareRegionV2DTOModel> supplierShareRegions;
-    @ApiCloudField(value="银行账号列表")
+    @ApiCloudField(value="银行账号列表", example="")
     private List<SupplierBankAccountUpdateV2DTOModel> supplierAccountDetails;
     @ApiCloudField(value="扩展属性1", example="value")
     private String supplierExtend1;

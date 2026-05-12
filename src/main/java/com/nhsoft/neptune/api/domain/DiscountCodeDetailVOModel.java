@@ -22,15 +22,15 @@ public class DiscountCodeDetailVOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="商品分级编码")
     private Integer itemGradeNum;
-    @ApiCloudField(value="商品代码")
+    @ApiCloudField(value="商品代码", example="")
     private String itemCode;
-    @ApiCloudField(value="商品条码")
+    @ApiCloudField(value="商品条码", example="")
     private String itemBarcode;
-    @ApiCloudField(value="商品名称")
+    @ApiCloudField(value="商品名称", example="")
     private String itemName;
-    @ApiCloudField(value="商品规格")
+    @ApiCloudField(value="商品规格", example="")
     private String itemSpec;
-    @ApiCloudField(value="基本单位")
+    @ApiCloudField(value="基本单位", example="")
     private String itemUnit;
     @ApiCloudField(value="标准售价")
     private BigDecimal regularPrice;

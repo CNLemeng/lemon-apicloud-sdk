@@ -84,8 +84,8 @@ public class WhsOtherInComeFullyVOModel extends ApiCloudObject {
     private String stateName;
     @ApiCloudField(value="门店编号", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="收入明细")
+    @ApiCloudField(value="收入明细", example="")
     private List<WhsOtherInComeDetailVOModel> itemList;
-    @ApiCloudField(value="收款信息")
+    @ApiCloudField(value="收款信息", example="")
     private List<WhsOtherInComePayInfoVOModel> payInfoList;
 }

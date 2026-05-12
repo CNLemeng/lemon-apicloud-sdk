@@ -30,10 +30,10 @@ public class TransferPriceAdjustOrderUpdateDTOModel extends ApiCloudObject {
     private String priceAdjustmentTimeTo;
     @ApiCloudField(value="失效后价格（按调整前价格|按当前商品档案价格|随商品档案价格变动）", example="按调整前价格")
     private String priceAdjustmentReturnType;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String priceAdjustmentMemo;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String priceAdjustmentOperator;
-    @ApiCloudField(value="明细", required=true)
+    @ApiCloudField(value="明细", example="", required=true)
     private List<TransferPriceAdjustOrderDetailSaveDTOModel> details;
 }

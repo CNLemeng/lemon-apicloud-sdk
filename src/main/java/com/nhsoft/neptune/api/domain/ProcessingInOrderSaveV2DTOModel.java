@@ -28,8 +28,8 @@ public class ProcessingInOrderSaveV2DTOModel extends ApiCloudObject {
     private String processingInOrderOperator;
     @ApiCloudField(value="入库日期(yyyy-mm-dd)", example="2022-01-01", required=true)
     private String processingInOrderDate;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String processingInOrderMemo;
-    @ApiCloudField(value="入库明细", required=true)
+    @ApiCloudField(value="入库明细", example="", required=true)
     private List<ProcessingInOrderSaveDetailV2DTOModel> processingInOrderDetails;
 }

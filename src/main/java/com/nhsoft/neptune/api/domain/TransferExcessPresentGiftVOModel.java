@@ -22,7 +22,7 @@ public class TransferExcessPresentGiftVOModel extends ApiCloudObject {
     private Integer transferExcessPresentGiftNum;
     @ApiCloudField(value="商品编号")
     private Integer itemNum;
-    @ApiCloudField(value="赠品单位")
+    @ApiCloudField(value="赠品单位", example="")
     private String presentItemUseUnit;
     @ApiCloudField(value="赠送数量")
     private BigDecimal presentItemUseQty;
@@ -30,8 +30,8 @@ public class TransferExcessPresentGiftVOModel extends ApiCloudObject {
     private BigDecimal giftLimitPresentItemUseQty;
     @ApiCloudField(value="剩余赠品限量常用数量")
     private BigDecimal residueLimitPresentItemUseQty;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String transferExcessPresentGiftMemo;
-    @ApiCloudField(value="商品条码")
+    @ApiCloudField(value="商品条码", example="")
     private String itemBarCode;
 }

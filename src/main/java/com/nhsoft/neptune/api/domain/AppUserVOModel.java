@@ -32,7 +32,7 @@ public class AppUserVOModel extends ApiCloudObject {
     private Boolean appUserEnable;
     @ApiCloudField(value="是否删除", example="false")
     private Boolean appUserDelTag;
-    @ApiCloudField(value="门店分组编码")
+    @ApiCloudField(value="门店分组编码", example="")
     private List<Long> branchGroupNums;
     @ApiCloudField(value="允许登录触摸屏销售终端", example="true")
     private Boolean touchPosUser;
@@ -40,16 +40,16 @@ public class AppUserVOModel extends ApiCloudObject {
     private BigDecimal userMaxDiscount;
     @ApiCloudField(value="最大经理折扣率(0表示不限制)")
     private BigDecimal userMaxDiscountRate;
-    @ApiCloudField(value="照片")
+    @ApiCloudField(value="照片", example="")
     private String pictureUrl;
     @ApiCloudField(value="最大挂单数")
     private Integer userMaxOrderNumber;
     @ApiCloudField(value="最大手改折扣率")
     private BigDecimal appUserMaxHandDiscount;
-    @ApiCloudField(value="授权卡号")
+    @ApiCloudField(value="授权卡号", example="")
     private String appUserAuthorizeCard;
-    @ApiCloudField(value="终端类型")
+    @ApiCloudField(value="终端类型", example="")
     private List<String> appUserPosTypes;
-    @ApiCloudField(value="前台密码")
+    @ApiCloudField(value="前台密码", example="")
     private String appUserPassword;
 }

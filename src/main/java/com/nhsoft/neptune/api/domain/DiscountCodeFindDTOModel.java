@@ -18,11 +18,11 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class DiscountCodeFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="关键字")
+    @ApiCloudField(value="关键字", example="")
     private String keywords;
     @ApiCloudField(value="状态", example="false")
     private Boolean status;
-    @ApiCloudField(value="应用门店范围")
+    @ApiCloudField(value="应用门店范围", example="")
     private List<Integer> appliedBranchNums;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

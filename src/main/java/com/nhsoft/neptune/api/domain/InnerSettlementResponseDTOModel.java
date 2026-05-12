@@ -22,6 +22,8 @@ public class InnerSettlementResponseDTOModel extends ApiCloudObject {
     private String innerSettlementNo;
     @ApiCloudField(value="门店编码", example="1")
     private Integer branchNum;
+    @ApiCloudField(value="结算门店编号", example="99")
+    private Integer centerBranchNum;
     @ApiCloudField(value="结算时间 格式：yyyy-MM-dd", example="2021-01-01")
     private String innerSettlementDate;
     @ApiCloudField(value="付款方式", example="现金")
@@ -38,9 +40,9 @@ public class InnerSettlementResponseDTOModel extends ApiCloudObject {
     private BigDecimal innerSettlementTotalDiscount;
     @ApiCloudField(value="现金银行编号", example="123")
     private Integer accountBankNum;
-    @ApiCloudField(value="结算明细")
+    @ApiCloudField(value="结算明细", example="")
     private List<InnerSettlementDetailResponseDTOModel> innerSettlementDetails;
-    @ApiCloudField(value="预收明细")
+    @ApiCloudField(value="预收明细", example="")
     private List<InnerPreSettlementDetailResponseDTOModel> innerPreSettlementDetail;
     @ApiCloudField(value="备注", example="备注信息")
     private String innerSettlementMemo;

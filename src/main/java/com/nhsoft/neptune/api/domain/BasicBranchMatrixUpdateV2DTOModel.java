@@ -28,24 +28,24 @@ public class BasicBranchMatrixUpdateV2DTOModel extends ApiCloudObject {
     private String branchMatrixPurchaseDealine;
     @ApiCloudField(value="要货汇总必须审核后生成", example="true")
     private Boolean branchMatrixCollectNeedAudit;
-    @ApiCloudField(value="扩展字段1")
+    @ApiCloudField(value="扩展字段1", example="")
     private String branchExtend1;
-    @ApiCloudField(value="扩展字段2")
+    @ApiCloudField(value="扩展字段2", example="")
     private String branchExtend2;
-    @ApiCloudField(value="扩展字段3")
+    @ApiCloudField(value="扩展字段3", example="")
     private String branchExtend3;
-    @ApiCloudField(value="扩展字段4")
+    @ApiCloudField(value="扩展字段4", example="")
     private String branchExtend4;
-    @ApiCloudField(value="扩展字段5")
+    @ApiCloudField(value="扩展字段5", example="")
     private String branchExtend5;
-    @ApiCloudField(value="扩展字段6")
+    @ApiCloudField(value="扩展字段6", example="")
     private String branchExtend6;
-    @ApiCloudField(value="扩展字段7")
+    @ApiCloudField(value="扩展字段7", example="")
     private String branchExtend7;
-    @ApiCloudField(value="扩展字段8")
+    @ApiCloudField(value="扩展字段8", example="")
     private String branchExtend8;
-    @ApiCloudField(value="扩展字段9")
+    @ApiCloudField(value="扩展字段9", example="")
     private String branchExtend9;
-    @ApiCloudField(value="扩展字段10")
+    @ApiCloudField(value="扩展字段10", example="")
     private String branchExtend10;
 }

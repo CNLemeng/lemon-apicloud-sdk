@@ -21,6 +21,8 @@ public class MemberCouponTypeQueryDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="券类型名称", example="测试券", required=true)
     private String name;
+    @ApiCloudField(value="ids", example="[1]")
+    private List<Long> ids;
     @ApiCloudField(value="券类型分类(MONEY:面值券|ITEM:商品券|DEPOSIT:储值券|DISCOUNT:折扣券|FEE:运费券)", example="MONEY")
     private List<String> categories;
     @ApiCloudField(value="查券类型分组:true=查,false或null则不查", example="false")

@@ -20,25 +20,25 @@ public class PosActionParamVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="订单超额累加", example="false")
     private Boolean actionIncrease;
-    @ApiCloudField(value="活动门店")
+    @ApiCloudField(value="活动门店", example="")
     private List<Integer> branchs;
-    @ApiCloudField(value="支付方式")
+    @ApiCloudField(value="支付方式", example="")
     private List<String> paymentTypes;
-    @ApiCloudField(value="商品范围类型")
+    @ApiCloudField(value="商品范围类型", example="")
     private String actionType;
     @ApiCloudField(value="单次最多赠券份数")
     private Integer mostCount;
-    @ApiCloudField(value="指定商品编号")
+    @ApiCloudField(value="指定商品编号", example="")
     private List<Integer> itemNums;
-    @ApiCloudField(value="指定类别代码")
+    @ApiCloudField(value="指定类别代码", example="")
     private List<String> itemTypes;
-    @ApiCloudField(value="例外商品编号")
+    @ApiCloudField(value="例外商品编号", example="")
     private List<Integer> otherItemNums;
-    @ApiCloudField(value="例外日期")
+    @ApiCloudField(value="例外日期", example="")
     private List<Integer> exceptDate;
-    @ApiCloudField(value="储值卡类型")
+    @ApiCloudField(value="储值卡类型", example="")
     private List<String> cardUserTypes;
-    @ApiCloudField(value="会员等级")
+    @ApiCloudField(value="会员等级", example="")
     private List<Long> vipLevelOfflines;
     @ApiCloudField(value="首次存款赠券", example="false")
     private Boolean firstAction;

@@ -76,6 +76,8 @@ public class SupplierSettlementResponseDTOModel extends ApiCloudObject {
     private BigDecimal settlementOtherInoutMoney;
     @ApiCloudField(value="销售成本金额（小数点2位）", example="95.0")
     private BigDecimal settlementSaleCostMoney;
+    @ApiCloudField(value="外部关联单号", example="")
+    private String settlementOutBillNo;
     @ApiCloudField(value="结算明细单", example="95")
     private List<SupplierSettlementDetailResponseDTOModel> settlementDetails;
     @ApiCloudField(value="预付明细", example="预付明细")

@@ -34,4 +34,6 @@ public class InnerSettlementFindRequestV2DTOModel extends ApiCloudObject {
     private String timeFrom;
     @ApiCloudField(value="结束时间(HH:mm:ss)", example="14:00:00")
     private String timeTo;
+    @ApiCloudField(value="with_details")
+    private Boolean withDetails;
 }

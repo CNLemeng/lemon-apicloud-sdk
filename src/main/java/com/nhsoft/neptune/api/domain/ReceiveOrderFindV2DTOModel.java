@@ -46,7 +46,7 @@ public class ReceiveOrderFindV2DTOModel extends ApiCloudObject {
     private String receiveOrderPaymentDate;
     @ApiCloudField(value="采购订单号", example="PO2030990000001")
     private String purchaseOrderFid;
-    @ApiCloudField(value="发票号")
+    @ApiCloudField(value="发票号", example="")
     private String receiveOrderInvoiceNo;
     @ApiCloudField(value="状态代码", example="1")
     private Integer receiveOrderStateCode;
@@ -70,6 +70,12 @@ public class ReceiveOrderFindV2DTOModel extends ApiCloudObject {
     private String receiveOrderSettlementTime;
     @ApiCloudField(value="货币币种代码", example="USD")
     private String receiveOrderCurrencyIso;
-    @ApiCloudField(value="订单明细")
+    @ApiCloudField(value="冲红标记", example="true")
+    private Boolean receiveOrderAntiFlag;
+    @ApiCloudField(value="被冲红标记", example="true")
+    private Boolean receiveOrderRepealFlag;
+    @ApiCloudField(value="冲红复制原单号", example="")
+    private String receiveOrderBillNo;
+    @ApiCloudField(value="订单明细", example="")
     private List<ReceiveOrderDetailFindV2DTOModel> receiveOrderDetails;
 }

@@ -18,20 +18,20 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class InventoryExternalOccupyVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="库存占用id")
+    @ApiCloudField(value="库存占用id", example="")
     private String inventoryExternalOccupyId;
     @ApiCloudField(value="门店编号")
     private Integer branchNum;
     @ApiCloudField(value="仓库编号")
     private Integer storehouseNum;
-    @ApiCloudField(value="单据编号")
+    @ApiCloudField(value="单据编号", example="")
     private String orderFid;
-    @ApiCloudField(value="占用时间")
+    @ApiCloudField(value="占用时间", example="")
     private String updateTime;
     @ApiCloudField(value="商品编号")
     private Integer itemNum;
     @ApiCloudField(value="占用库存数量")
     private BigDecimal inventoryExternalOccupyAmount;
-    @ApiCloudField(value="批次号")
+    @ApiCloudField(value="批次号", example="")
     private String lotNumber;
 }

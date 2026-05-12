@@ -26,22 +26,22 @@ public class SupplierAdjustmentUpdateDTOModel extends ApiCloudObject {
     private List<Integer> appliedBranchNums;
     @ApiCloudField(value="生效时间", required=true)
     private String supplierAdjustmentEffectiveDate;
-    @ApiCloudField(value="合同编号")
+    @ApiCloudField(value="合同编号", example="")
     private String supplierAgreementNo;
-    @ApiCloudField(value="调价范围")
+    @ApiCloudField(value="调价范围", example="")
     private String supplierAdjustmentLevel;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String supplierAdjustmentMemo;
-    @ApiCloudField(value="创建人")
+    @ApiCloudField(value="创建人", example="")
     private String supplierAdjustmentCreator;
     @ApiCloudField(value="失效时间")
     private String supplierAdjustmentInvalidTime;
     @ApiCloudField(value="失效后价格调整", example="0")
     private Integer supplierAdjustmentReturnType;
-    @ApiCloudField(value="失效人")
+    @ApiCloudField(value="失效人", example="")
     private String supplierAdjustmentInvalidor;
-    @ApiCloudField(value="明细", required=true)
+    @ApiCloudField(value="明细", example="", required=true)
     private List<SupplierAdjustmentSaveDetailDTOModel> supplierAdjustmentDetails;
-    @ApiCloudField(value="单据编号", required=true)
+    @ApiCloudField(value="单据编号", example="", required=true)
     private String supplierAdjustmentFid;
 }

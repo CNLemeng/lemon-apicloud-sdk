@@ -68,7 +68,7 @@ public class RequestOrderVOModel extends ApiCloudObject {
     private Boolean requestOrderReserve;
     @ApiCloudField(value="最后修改时间", example="2021-01-20 00:00:00")
     private String requestOrderLastEditTime;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<RequestOrderDetailVOModel> requestOrderDetails;
     @ApiCloudField(value="结算状态(null,0,1-未付款,2-已付款)", example="2")
     private Integer requestOrderSettlementState;

@@ -80,7 +80,7 @@ public class BasicProductParamVOModel extends ApiCloudObject {
     private String componentPosition;
     @ApiCloudField(value="商品限购人群,可用值:NONE,MEMBER,WE_COM", example="NONE")
     private String limitBuyCrowd;
-    @ApiCloudField(value="商品限购会员等级")
+    @ApiCloudField(value="商品限购会员等级", example="")
     private List<LimitBuyCrowdMemberLevelVOModel> limitBuyCrowdMemberLevels;
     @ApiCloudField(value="启用积分抵扣", example="true")
     private Boolean disablePointDeduction;
@@ -88,8 +88,8 @@ public class BasicProductParamVOModel extends ApiCloudObject {
     private Boolean disablePointPresent;
     @ApiCloudField(value="同城续重收费", example="true")
     private Boolean enableWeightFee;
-    @ApiCloudField(value="规格分组选项")
+    @ApiCloudField(value="规格分组选项", example="")
     private List<ProductSpecGroupVOModel> specGroups;
-    @ApiCloudField(value="分享图片")
+    @ApiCloudField(value="分享图片", example="")
     private String sharedImage;
 }

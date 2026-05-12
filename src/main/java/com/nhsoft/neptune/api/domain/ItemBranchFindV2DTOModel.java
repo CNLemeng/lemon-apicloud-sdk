@@ -22,8 +22,8 @@ public class ItemBranchFindV2DTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", required=true)
     private Integer pageSize;
-    @ApiCloudField(value="商品编码")
+    @ApiCloudField(value="商品编码", example="")
     private List<Integer> itemNums;
-    @ApiCloudField(value="门店编码", required=true)
+    @ApiCloudField(value="门店编码", example="", required=true)
     private List<Integer> branchNums;
 }

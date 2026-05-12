@@ -40,7 +40,7 @@ public class TransferPriceAdjustOrderDTOModel extends ApiCloudObject {
     private Integer stateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String priceAdjustmentMemo;
     @ApiCloudField(value="创建人", example="管理员")
     private String priceAdjustmentCreator;
@@ -50,6 +50,6 @@ public class TransferPriceAdjustOrderDTOModel extends ApiCloudObject {
     private String priceAdjustmentAuditor;
     @ApiCloudField(value="审核时间", example="2022-01-01 10:00:00")
     private String priceAdjustmentAuditTime;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<TransferPriceAdjustOrderDetailDTOModel> details;
 }

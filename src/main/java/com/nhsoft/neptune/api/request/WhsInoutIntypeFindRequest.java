@@ -11,7 +11,7 @@ import com.nhsoft.neptune.api.domain.WhsInOutInTypeVOModel;
 import java.util.*;
 
 /**
- * find_34请求类
+ * find_37请求类
  * 批发收入类型查询
  */
 public class WhsInoutIntypeFindRequest implements ApiCloudRequest<Void, List<WhsInOutInTypeVOModel>> {

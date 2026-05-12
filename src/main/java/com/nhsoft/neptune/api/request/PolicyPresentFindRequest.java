@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PolicyPresentVOModel;
 import java.util.*;
 
 /**
- * find_43请求类
+ * find_46请求类
  * 赠品促销查询
  */
 public class PolicyPresentFindRequest implements ApiCloudRequest<PolicyFindDTOModel, List<PolicyPresentVOModel>> {

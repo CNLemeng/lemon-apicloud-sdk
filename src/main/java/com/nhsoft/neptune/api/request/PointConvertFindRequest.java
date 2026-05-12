@@ -4,9 +4,9 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import java.util.List;
-import com.nhsoft.neptune.api.domain.PointConvertDTOModel;
+import com.nhsoft.neptune.api.domain.PointConvertVOModel;
 
-import com.nhsoft.neptune.api.domain.PointConvertDTOModel;
+import com.nhsoft.neptune.api.domain.PointConvertVOModel;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ import java.util.*;
  * findPointConvert请求类
  * 积分兑换物查询
  */
-public class PointConvertFindRequest implements ApiCloudRequest<Void, List<PointConvertDTOModel>> {
+public class PointConvertFindRequest implements ApiCloudRequest<Void, List<PointConvertVOModel>> {
 
     private Void bizModel;
 
@@ -39,8 +39,8 @@ public class PointConvertFindRequest implements ApiCloudRequest<Void, List<Point
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<List<PointConvertDTOModel>>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<List<PointConvertDTOModel>>>() {};
+    public TypeReference<ApiCloudResponse<List<PointConvertVOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<PointConvertVOModel>>>() {};
     }
 
 }

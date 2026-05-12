@@ -28,4 +28,6 @@ public class SupplierFindDTOModel extends ApiCloudObject {
     private String keyword;
     @ApiCloudField(value="search_all")
     private Boolean searchAll;
+    @ApiCloudField(value="include_deleted")
+    private Boolean includeDeleted;
 }

@@ -32,7 +32,7 @@ public class SupplierPaymentResponseDTOModel extends ApiCloudObject {
     private String paymentDateTime;
     @ApiCloudField(value="付款类型", example="现金")
     private String paymentType;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String paymentMemo;
     @ApiCloudField(value="创建人", example="zxnb")
     private String paymentCreator;
@@ -56,12 +56,12 @@ public class SupplierPaymentResponseDTOModel extends ApiCloudObject {
     private String paymentLastEditor;
     @ApiCloudField(value="预付款金额", example="0.0")
     private BigDecimal paymentPreMoney;
-    @ApiCloudField(value="开户名")
+    @ApiCloudField(value="开户名", example="")
     private String supplierBankAccountName;
-    @ApiCloudField(value="结算方式")
+    @ApiCloudField(value="结算方式", example="")
     private String settlementStyle;
     @ApiCloudField(value="折扣金额", example="0.0")
     private BigDecimal paymentDiscountMoney;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<SupplierPaymentDetailResponseDTOModel> settlementPaymentDetails;
 }

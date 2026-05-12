@@ -49,7 +49,11 @@ public class AllocationApplyOrderVOModel extends ApiCloudObject {
     @ApiCloudField(value="allocation_apply_order_money")
     private BigDecimal allocationApplyOrderMoney;
     @ApiCloudField(value="state")
-    private StateModel state;
+    private BaseStateDTOModel state;
+    @ApiCloudField(value="allocation_apply_order_state_code", example="1")
+    private Integer allocationApplyOrderStateCode;
+    @ApiCloudField(value="allocation_apply_order_state_name", example="制单")
+    private String allocationApplyOrderStateName;
     @ApiCloudField(value="allocation_apply_order_memo")
     private String allocationApplyOrderMemo;
     @ApiCloudField(value="allocation_apply_order_uuid")

@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class TransferInOrderDetailV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="主键")
+    @ApiCloudField(value="主键", example="")
     private String inOrderFid;
     @ApiCloudField(value="明细编号", example="1")
     private Integer inOrderDetailNum;

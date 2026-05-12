@@ -32,9 +32,9 @@ public class WholesaleInnerOrderFindDTOModel extends ApiCloudObject {
     private List<String> clientFids;
     @ApiCloudField(value="单据编号", example="NT2072990001259")
     private String orderFid;
-    @ApiCloudField(value="原因")
+    @ApiCloudField(value="原因", example="")
     private String innerOrderReason;
-    @ApiCloudField(value="商品档案编号")
+    @ApiCloudField(value="商品档案编号", example="")
     private List<Integer> itemNums;
     @ApiCloudField(value="是否携带明细", example="true")
     private Boolean withDetail;
