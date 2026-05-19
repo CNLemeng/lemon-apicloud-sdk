@@ -38,4 +38,6 @@ public class LotteryRecordVOModel extends ApiCloudObject {
     private String prizeDraw;
     @ApiCloudField(value="奖品名称")
     private String rewardName;
+    @ApiCloudField(value="ref_bill_no")
+    private String refBillNo;
 }

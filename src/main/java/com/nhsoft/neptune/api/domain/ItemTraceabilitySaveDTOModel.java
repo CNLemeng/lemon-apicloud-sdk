@@ -34,8 +34,6 @@ public class ItemTraceabilitySaveDTOModel extends ApiCloudObject {
     private String relationFactoryCode;
     @ApiCloudField(value="check_code")
     private String checkCode;
-    @ApiCloudField(value="item_traceability_details")
-    private List<ItemTraceabilityDetailSaveDTOModel> itemTraceabilityDetails;
     @ApiCloudField(value="url")
     private String url;
     @ApiCloudField(value="pos_variant_num")

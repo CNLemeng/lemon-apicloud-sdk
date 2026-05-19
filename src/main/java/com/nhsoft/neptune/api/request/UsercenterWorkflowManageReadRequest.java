@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WorkFlowVOModel;
 import java.util.*;
 
 /**
- * read_21请求类
+ * read_22请求类
  * 审批流记录读取
  */
 public class UsercenterWorkflowManageReadRequest implements ApiCloudRequest<WorkFlowReadDTOModel, WorkFlowVOModel> {

@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ItemTraceabilityDetailSaveDTOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="item_traceability_detail_id")
+    private String itemTraceabilityDetailId;
     @ApiCloudField(value="in_branch_num", example="99", required=true)
     private Integer inBranchNum;
     @ApiCloudField(value="in_storehouse_num", example="996750000001", required=true)
@@ -34,4 +36,6 @@ public class ItemTraceabilityDetailSaveDTOModel extends ApiCloudObject {
     private String orderNo;
     @ApiCloudField(value="editor")
     private String editor;
+    @ApiCloudField(value="edit_time")
+    private String editTime;
 }

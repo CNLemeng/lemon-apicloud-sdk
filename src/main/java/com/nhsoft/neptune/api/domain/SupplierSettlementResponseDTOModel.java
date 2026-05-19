@@ -82,4 +82,6 @@ public class SupplierSettlementResponseDTOModel extends ApiCloudObject {
     private List<SupplierSettlementDetailResponseDTOModel> settlementDetails;
     @ApiCloudField(value="预付明细", example="预付明细")
     private List<SupplierPreSettlementDetailResponseDTOModel> preSettlementDetails;
+    @ApiCloudField(value="电子发票ID（多个逗号分隔）", example="")
+    private String electronicInvoiceId;
 }

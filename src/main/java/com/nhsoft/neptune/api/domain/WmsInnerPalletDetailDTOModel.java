@@ -26,4 +26,6 @@ public class WmsInnerPalletDetailDTOModel extends ApiCloudObject {
     private String itemUnit;
     @ApiCloudField(value="item_qty", example="2.0")
     private BigDecimal itemQty;
+    @ApiCloudField(value="box_code", example="B1998722601290001")
+    private String boxCode;
 }

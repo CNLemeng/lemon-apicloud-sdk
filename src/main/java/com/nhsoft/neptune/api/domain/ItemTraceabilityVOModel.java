@@ -38,8 +38,6 @@ public class ItemTraceabilityVOModel extends ApiCloudObject {
     private String relationFactoryCode;
     @ApiCloudField(value="check_code")
     private String checkCode;
-    @ApiCloudField(value="system_book_code")
-    private String systemBookCode;
     @ApiCloudField(value="creator")
     private String creator;
     @ApiCloudField(value="create_time")

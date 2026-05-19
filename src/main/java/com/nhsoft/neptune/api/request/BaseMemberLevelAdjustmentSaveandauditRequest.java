@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.MemberLevelPriceAdjustmentVOModel;
 import java.util.*;
 
 /**
- * save_10请求类
+ * save_12请求类
  * 会员等级价调整新增并审核
  */
 public class BaseMemberLevelAdjustmentSaveandauditRequest implements ApiCloudRequest<MemberLevelPriceAdjustmentSaveDTOModel, MemberLevelPriceAdjustmentVOModel> {

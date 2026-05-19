@@ -34,6 +34,6 @@ public class AdjustmentFindV3DTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
     private Integer pageSize;
-    @ApiCloudField(value="时间类型(制单时间|审核时间|最后修改时间)", example="审核时间", required=true)
+    @ApiCloudField(value="时间类型(制单时间|审核时间|最后修改时间|调整时间)", example="审核时间", required=true)
     private String dateType;
 }

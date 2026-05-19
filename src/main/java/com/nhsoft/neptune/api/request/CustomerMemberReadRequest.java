@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.MemberV2VOModel;
 import java.util.*;
 
 /**
- * readMemberByPhone请求类
+ * readMemberByPhone_1请求类
  * 根据手机号或会员ID读取全渠道会员信息
  */
 public class CustomerMemberReadRequest implements ApiCloudRequest<MemberReadDTOModel, MemberV2VOModel> {

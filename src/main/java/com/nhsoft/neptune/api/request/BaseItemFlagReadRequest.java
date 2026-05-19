@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ItemFlagVOModel;
 import java.util.*;
 
 /**
- * read_23请求类
+ * read_24请求类
  * 商品查询模板读取
  */
 public class BaseItemFlagReadRequest implements ApiCloudRequest<ItemFlagIdDTOModel, ItemFlagVOModel> {

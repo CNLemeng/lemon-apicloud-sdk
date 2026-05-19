@@ -42,4 +42,6 @@ public class RetailPosOrderDetailSaveDTOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="是否有组合商品明细(如果传入商品是组合商品，则该值应传true)", example="false")
     private Boolean itemHasKit;
+    @ApiCloudField(value="item_share_discount", example="0.0")
+    private BigDecimal itemShareDiscount;
 }

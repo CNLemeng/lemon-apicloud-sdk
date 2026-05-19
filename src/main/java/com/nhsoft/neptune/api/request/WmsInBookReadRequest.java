@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WmsInBookVOModel;
 import java.util.*;
 
 /**
- * read_16请求类
+ * read_17请求类
  * 入库订单读取
  */
 public class WmsInBookReadRequest implements ApiCloudRequest<WmsInBookReadDTOModel, WmsInBookVOModel> {

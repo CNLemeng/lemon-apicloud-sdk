@@ -24,7 +24,7 @@ public class CardCouponALLV2DTOModel extends ApiCloudObject {
     @ApiCloudField(value="查询分页大小(最大为100)", example="10", required=true)
     private Integer pageSize;
     @ApiCloudField(value="卡编码", example="150200002", required=true)
-    private String cardUserNum;
+    private Integer cardUserNum;
     @ApiCloudField(value="0有效 1已使用  2 已过期", example="1")
     private Integer state;
     @ApiCloudField(value="查询起始日期（全渠道会员）", example="2021-01-01")

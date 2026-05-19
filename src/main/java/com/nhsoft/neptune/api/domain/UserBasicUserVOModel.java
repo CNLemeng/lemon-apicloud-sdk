@@ -47,4 +47,6 @@ public class UserBasicUserVOModel extends ApiCloudObject {
     private List<String> departments;
     @ApiCloudField(value="更新时间")
     private String updatedAt;
+    @ApiCloudField(value="应用类型列表", example="[AMA]")
+    private List<String> appTypes;
 }

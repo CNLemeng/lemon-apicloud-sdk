@@ -86,6 +86,8 @@ public class OutOrderV2DTOModel extends ApiCloudObject {
     private String outOrderReceiveState;
     @ApiCloudField(value="调出单调入状态(0:未调入|1:部分调入|2:全部调入)", example="0")
     private Integer outInState;
+    @ApiCloudField(value="运费", example="0.0")
+    private BigDecimal outOrderFreight;
     @ApiCloudField(value="明细", example="")
     private List<OutOrderDetailV2DTOModel> outOrderDetails;
 }

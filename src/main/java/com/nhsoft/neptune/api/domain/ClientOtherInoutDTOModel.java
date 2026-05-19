@@ -50,4 +50,8 @@ public class ClientOtherInoutDTOModel extends ApiCloudObject {
     private String otherInoutStateName;
     @ApiCloudField(value="费用金额（小数点2位）", example="1.0")
     private BigDecimal otherInoutMoney;
+    @ApiCloudField(value="税率", example="1.0")
+    private BigDecimal otherInoutOtherTaxRate;
+    @ApiCloudField(value="税额", example="1.0")
+    private BigDecimal otherInoutOtherTaxMoney;
 }

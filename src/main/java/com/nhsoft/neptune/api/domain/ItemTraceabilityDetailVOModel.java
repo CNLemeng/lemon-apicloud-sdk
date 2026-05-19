@@ -22,8 +22,8 @@ public class ItemTraceabilityDetailVOModel extends ApiCloudObject {
     private String itemTraceabilityDetailId;
     @ApiCloudField(value="item_traceability_id")
     private String itemTraceabilityId;
-    @ApiCloudField(value="system_book_code")
-    private String systemBookCode;
+    @ApiCloudField(value="item_traceability_code")
+    private String itemTraceabilityCode;
     @ApiCloudField(value="in_branch_num")
     private Integer inBranchNum;
     @ApiCloudField(value="in_branch_name")

@@ -22,7 +22,7 @@ public class MercuryBasicStoreFindRequest implements ApiCloudRequest<BasicStoreF
 
     @Override
     public String method() {
-        return "GET";
+        return "POST";
     }
 
     @Override

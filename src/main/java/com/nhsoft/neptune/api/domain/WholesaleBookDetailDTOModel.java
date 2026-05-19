@@ -49,4 +49,12 @@ public class WholesaleBookDetailDTOModel extends ApiCloudObject {
     private BigDecimal itemPresentQty;
     @ApiCloudField(value="赠品基本数量")
     private BigDecimal itemPresentBasicQty;
+    @ApiCloudField(value="税额", example="0.13")
+    private BigDecimal itemTaxMoney;
+    @ApiCloudField(value="税率", example="0.13")
+    private BigDecimal itemTaxRate;
+    @ApiCloudField(value="不含税金额", example="0.0")
+    private BigDecimal itemNoTaxMoney;
+    @ApiCloudField(value="含税金额", example="0.0")
+    private BigDecimal itemMoney;
 }

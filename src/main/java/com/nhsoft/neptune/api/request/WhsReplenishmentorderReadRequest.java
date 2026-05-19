@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WhsReplenishmentOrderFullyVOModel;
 import java.util.*;
 
 /**
- * read_19请求类
+ * read_20请求类
  * 批发补货单读取
  */
 public class WhsReplenishmentorderReadRequest implements ApiCloudRequest<WhsReplenishmentOrderReadDTOModel, WhsReplenishmentOrderFullyVOModel> {

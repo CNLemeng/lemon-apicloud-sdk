@@ -71,6 +71,10 @@ public class TicketSendDetailV2DTOModel extends ApiCloudObject {
     private String ticketSendDetailSendTime;
     @ApiCloudField(value="消费券核销时间", example="2020-08-23 10:35:40")
     private String ticketSendDetailUseTime;
+    @ApiCloudField(value="ticket_send_detail_consume_time", example="2026-01-01 00:00:00")
+    private String ticketSendDetailConsumeTime;
+    @ApiCloudField(value="ticket_send_detail_invalid_time", example="2026-01-01 00:00:00")
+    private String ticketSendDetailInvalidTime;
     @ApiCloudField(value="券应用门店xml列表(该字段弃用)", example="xml")
     private String ticketSendDetailBranch;
     @ApiCloudField(value="适用商品范围", example="[2500,25100]")

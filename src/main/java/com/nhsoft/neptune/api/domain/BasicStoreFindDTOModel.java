@@ -19,10 +19,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BasicStoreFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="最后编辑时间开始", example="2021-01-26 00:00:00", required=true)
-    private String lastEditStartTime;
-    @ApiCloudField(value="最后编辑时间结束", example="2021-01-26 00:00:00", required=true)
-    private String lastEditEndTime;
+    @ApiCloudField(value="ids", example="[1]")
+    private List<Long> ids;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)

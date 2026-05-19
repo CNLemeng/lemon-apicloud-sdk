@@ -27,7 +27,7 @@ public class CustomerSourceSaveDTOModel extends ApiCloudObject {
     private String customerId;
     @ApiCloudField(value="三方渠道会员标识", example="2088000211", required=true)
     private String openid;
-    @ApiCloudField(value="来源渠道 WECHAT_OFFICIAL(公众号)|WECHAT_MP(小程序)|WECHAT_PAY(微信支付)|ALIPAY_PAY(支付宝支付)|MANUAL(导入/新增)|OFFLINE(线下开卡)|WECOM(企业微信)|OMS(第三方平台)", example="WECHAT_OFFICIAL", required=true)
+    @ApiCloudField(value="来源渠道 WECHAT_OFFICIAL(公众号)|WECHAT_MP(小程序)|WECHAT_PAY(微信支付)|ALIPAY_PAY(支付宝支付)|MANUAL(导入/新增)|OFFLINE(线下开卡)|WECOM(企业微信)|OMS(第三方平台|ALI_MP(支付宝小程序)|TIK_TOK(抖音会员)|H5(纯h5)|MEI_TUAN(美团))", example="WECHAT_OFFICIAL", required=true)
     private String source;
     @ApiCloudField(value="三方平台应用id(如微信小程序appid)", example="akmkmm5222211a", required=true)
     private String appid;
