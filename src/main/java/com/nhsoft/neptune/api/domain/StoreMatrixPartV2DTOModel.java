@@ -46,4 +46,10 @@ public class StoreMatrixPartV2DTOModel extends ApiCloudObject {
     private Integer storeMatrixPosDiscount;
     @ApiCloudField(value="商品", example="1")
     private List<PosItemLabelDTOModel> itemLabelList;
+    @ApiCloudField(value="拓展属性1", example="1")
+    private String storeMatrixExtend1;
+    @ApiCloudField(value="拓展属性2", example="2")
+    private String storeMatrixExtend2;
+    @ApiCloudField(value="拓展属性3", example="3")
+    private String storeMatrixExtend3;
 }

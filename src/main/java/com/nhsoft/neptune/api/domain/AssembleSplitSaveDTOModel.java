@@ -30,6 +30,8 @@ public class AssembleSplitSaveDTOModel extends ApiCloudObject {
     private String assembleSplitType;
     @ApiCloudField(value="常用数量", required=true)
     private BigDecimal assembleSplitUseAmount;
+    @ApiCloudField(value="基本数量", example="10.0")
+    private BigDecimal assembleSplitAmount;
     @ApiCloudField(value="常用单位", example="", required=true)
     private String assembleSplitUseUnit;
     @ApiCloudField(value="基本单价", required=true)

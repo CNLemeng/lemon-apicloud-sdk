@@ -18,6 +18,16 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class UserCenterEmployeeFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="branch_id", example="996750001", required=true)
+    @ApiCloudField(value="branch_id", example="996750001")
     private Long branchId;
+    @ApiCloudField(value="phone", example="13800000000")
+    private String phone;
+    @ApiCloudField(value="name", example="张三")
+    private String name;
+    @ApiCloudField(value="enable", example="true")
+    private Boolean enable;
+    @ApiCloudField(value="page_no", example="1", required=true)
+    private Integer pageNo;
+    @ApiCloudField(value="page_size", example="200", required=true)
+    private Integer pageSize;
 }

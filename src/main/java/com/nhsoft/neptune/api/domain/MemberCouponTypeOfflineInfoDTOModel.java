@@ -25,6 +25,8 @@ public class MemberCouponTypeOfflineInfoDTOModel extends ApiCloudObject {
     private Boolean allItem;
     @ApiCloudField(value="指定分组", example="true")
     private List<String> categoryCodes;
+    @ApiCloudField(value="except_category_codes")
+    private List<String> exceptCategoryCodes;
     @ApiCloudField(value="全部商品和指定分组时存例外商品;指定商品时存允许折扣商品", example="true")
     private List<Integer> itemNums;
     @ApiCloudField(value="消费券支付方式 逗号间隔串", example="积分消费,储值卡")

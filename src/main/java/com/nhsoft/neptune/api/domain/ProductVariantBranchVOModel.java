@@ -72,4 +72,8 @@ public class ProductVariantBranchVOModel extends ApiCloudObject {
     private Boolean negativeInventory;
     @ApiCloudField(value="on_sale", example="true")
     private Boolean onSale;
+    @ApiCloudField(value="product_images")
+    private List<String> productImages;
+    @ApiCloudField(value="product_description")
+    private String productDescription;
 }

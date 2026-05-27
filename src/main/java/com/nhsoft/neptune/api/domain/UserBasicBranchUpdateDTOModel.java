@@ -61,4 +61,6 @@ public class UserBasicBranchUpdateDTOModel extends ApiCloudObject {
     private BigDecimal taxRate;
     @ApiCloudField(value="外部名称")
     private String externalName;
+    @ApiCloudField(value="开业时间")
+    private String openingHours;
 }

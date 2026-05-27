@@ -29,7 +29,7 @@ public class PosClientSaveDTOModel extends ApiCloudObject {
     private String clientCode;
     @ApiCloudField(value="速记码", example="PFKH")
     private String clientPinyin;
-    @ApiCloudField(value="联系电话", example="18888888881", required=true)
+    @ApiCloudField(value="联系电话", example="18888888881")
     private String clientMobile;
     @ApiCloudField(value="联系人", example="批发客户1")
     private String clientLinkman;

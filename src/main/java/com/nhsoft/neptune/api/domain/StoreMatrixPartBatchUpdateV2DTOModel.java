@@ -46,4 +46,10 @@ public class StoreMatrixPartBatchUpdateV2DTOModel extends ApiCloudObject {
     private Integer storeMatrixPosDiscount;
     @ApiCloudField(value="商品标签名称列表", example="品牌")
     private List<String> itemLabelNames;
+    @ApiCloudField(value="拓展属性1", example="1")
+    private String storeMatrixExtend1;
+    @ApiCloudField(value="拓展属性2", example="2")
+    private String storeMatrixExtend2;
+    @ApiCloudField(value="拓展属性3", example="3")
+    private String storeMatrixExtend3;
 }

@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CallCenterOrderDetailModel extends ApiCloudObject {
 
+    @ApiCloudField(value="quantity")
+    private BigDecimal quantity;
     @ApiCloudField(value="order_detail_id", required=true)
     private String orderDetailId;
     @ApiCloudField(value="item_num", required=true)

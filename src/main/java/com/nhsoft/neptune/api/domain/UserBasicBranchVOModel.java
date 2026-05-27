@@ -79,4 +79,6 @@ public class UserBasicBranchVOModel extends ApiCloudObject {
     private BigDecimal taxRate;
     @ApiCloudField(value="external_name")
     private String externalName;
+    @ApiCloudField(value="opening_hours", example="2026-05-01 00:00:00")
+    private String openingHours;
 }

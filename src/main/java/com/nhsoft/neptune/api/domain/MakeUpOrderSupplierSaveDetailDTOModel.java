@@ -28,4 +28,6 @@ public class MakeUpOrderSupplierSaveDetailDTOModel extends ApiCloudObject {
     private BigDecimal itemMakeUpMoney;
     @ApiCloudField(value="make_up_order_detail_memo")
     private String makeUpOrderDetailMemo;
+    @ApiCloudField(value="item_lot_number")
+    private String itemLotNumber;
 }

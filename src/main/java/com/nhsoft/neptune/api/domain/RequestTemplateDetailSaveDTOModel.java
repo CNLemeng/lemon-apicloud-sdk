@@ -26,4 +26,6 @@ public class RequestTemplateDetailSaveDTOModel extends ApiCloudObject {
     private BigDecimal transferGross;
     @ApiCloudField(value="标签", example="水果")
     private String itemLabel;
+    @ApiCloudField(value="是否固定毛利率", example="true")
+    private Boolean transferFixedGross;
 }
