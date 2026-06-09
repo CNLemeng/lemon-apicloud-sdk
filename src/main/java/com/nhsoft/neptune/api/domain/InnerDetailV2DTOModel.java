@@ -32,4 +32,6 @@ public class InnerDetailV2DTOModel extends ApiCloudObject {
     private String itemProductDate;
     @ApiCloudField(value="备注", example="备注信息")
     private String itemMemo;
+    @ApiCloudField(value="申请基本数量", example="1.0")
+    private BigDecimal itemQty;
 }

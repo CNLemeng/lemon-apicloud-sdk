@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * innerRead请求类
- * 内部申请单读取
+ * 内部申请单作废
  */
 public class ChainInnerReadRequest implements ApiCloudRequest<InnerReadV2DTOModel, InnerOrderFindV2DTOModel> {
 

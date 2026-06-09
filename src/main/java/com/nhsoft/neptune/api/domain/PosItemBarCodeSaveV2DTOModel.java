@@ -22,6 +22,6 @@ public class PosItemBarCodeSaveV2DTOModel extends ApiCloudObject {
     private String itemBarCode;
     @ApiCloudField(value="换算率（小数点2位）", example="1.0")
     private BigDecimal itemBarRate;
-    @ApiCloudField(value="单位(启用条码换算率才生效)", example="1.00")
+    @ApiCloudField(value="单位", example="1.00")
     private String itemBarUnit;
 }

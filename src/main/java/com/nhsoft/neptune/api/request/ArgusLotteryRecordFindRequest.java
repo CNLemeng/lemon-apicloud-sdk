@@ -9,7 +9,7 @@ import java.util.List;
 import com.nhsoft.neptune.api.domain.LotteryRecordVOModel;
 
 /**
- * find_24请求类
+ * find_25请求类
  * 会员抽奖记录查询
  */
 public class ArgusLotteryRecordFindRequest implements ApiCloudRequest<LotteryRecordFindDTOModel, List<LotteryRecordVOModel>> {

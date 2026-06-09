@@ -42,4 +42,8 @@ public class WorkFlowVOModel extends ApiCloudObject {
     private List<String> currentApproverNameList;
     @ApiCloudField(value="最近审批时间", example="2026-01-27 17:11:19")
     private String lastApproveTime;
+    @ApiCloudField(value="applicant_id")
+    private Long applicantId;
+    @ApiCloudField(value="relation_item_id")
+    private Long relationItemId;
 }

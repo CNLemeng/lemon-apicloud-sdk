@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WhsReplenishmentOrderVOModel;
 import java.util.*;
 
 /**
- * find_16请求类
+ * find_17请求类
  * 批发补货单查询
  */
 public class WhsReplenishmentorderFindRequest implements ApiCloudRequest<WhsReplenishmentOrderFindDTOModel, List<WhsReplenishmentOrderVOModel>> {

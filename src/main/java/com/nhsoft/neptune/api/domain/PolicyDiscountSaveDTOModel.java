@@ -72,8 +72,10 @@ public class PolicyDiscountSaveDTOModel extends ApiCloudObject {
     private String policyDiscountAssignedCategory;
     @ApiCloudField(value="超额折扣减免金额(超额类型为超额减免时，该字段必填)", example="5.0")
     private BigDecimal policyDiscountDiscountMoney;
-    @ApiCloudField(value="在会员价基础上减免", example="false")
+    @ApiCloudField(value="在会员价基础上减免(字段废弃，请使用card_discount_type)", example="false")
     private Boolean policyDiscountCardFoldUpMoney;
+    @ApiCloudField(value="超额减免方式(STACK_ON_CARD_PRICE:在会员价基础上减免|USE_BEST_PRICE:与会员价自动应用最优惠价格|STACK_ON_PAYMENT_DISCOUNT:在支付折扣基础上进行减免)", example="STACK_ON_CARD_PRICE")
+    private String cardDiscountType;
     @ApiCloudField(value="超额折扣单笔最高减免", example="5.0")
     private BigDecimal policyDiscountTotalDiscount;
     @ApiCloudField(value="超额折扣折扣率(超额类型为超额折扣时，该字段必填)", example="0.5")

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeVOModel;
 import java.util.*;
 
 /**
- * read_34请求类
+ * read_35请求类
  * 折扣码读取
  */
 public class DiscountCodeReadRequest implements ApiCloudRequest<DiscountCodeReadDTOModel, DiscountCodeVOModel> {

@@ -22,6 +22,8 @@ public class WorkFlowApprovalDTOModel extends ApiCloudObject {
     private Long approverId;
     @ApiCloudField(value="审批记录编号列表", example="[SP99658202601270000025]", required=true)
     private List<String> instanceIdList;
+    @ApiCloudField(value="approval_source_type_list", example="[EXTERNAL]")
+    private List<String> approvalSourceTypeList;
     @ApiCloudField(value="审批类型(APPROVE:审批通过|REJECT:审批驳回)", example="APPROVE", required=true)
     private String approveType;
     @ApiCloudField(value="审批消息")

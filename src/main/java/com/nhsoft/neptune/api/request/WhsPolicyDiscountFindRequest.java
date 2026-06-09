@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WhsPolicyDiscountVOModel;
 import java.util.*;
 
 /**
- * find_17请求类
+ * find_18请求类
  * 批发超额折扣查询
  */
 public class WhsPolicyDiscountFindRequest implements ApiCloudRequest<WhsPolicyDiscountFindDTOModel, List<WhsPolicyDiscountVOModel>> {

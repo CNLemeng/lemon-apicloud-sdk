@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PickTaskDetailVOModel;
 import java.util.*;
 
 /**
- * find_6请求类
+ * find_7请求类
  * 拣货明细查询
  */
 public class WmsPickTaskDetailFindRequest implements ApiCloudRequest<PickTaskDetailFindDTOModel, List<PickTaskDetailVOModel>> {

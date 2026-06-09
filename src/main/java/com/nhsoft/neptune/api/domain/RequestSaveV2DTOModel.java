@@ -48,4 +48,8 @@ public class RequestSaveV2DTOModel extends ApiCloudObject {
     private List<RequestDetailV2DTOModel> requestOrderDetails;
     @ApiCloudField(value="是否校验资金参数", example="false")
     private Boolean checkFundParam;
+    @ApiCloudField(value="单据来源ID", example="")
+    private String requestOrderSourceId;
+    @ApiCloudField(value="单据来源名称", example="")
+    private String requestOrderSourceName;
 }

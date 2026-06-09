@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientCollectionVOModel;
 import java.util.*;
 
 /**
- * read_37请求类
+ * read_38请求类
  * 客户收款单读取
  */
 public class ClientCollectionReadRequest implements ApiCloudRequest<ClientCollectionReadDTOModel, ClientCollectionVOModel> {

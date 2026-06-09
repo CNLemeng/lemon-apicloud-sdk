@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosClientFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店编码", example="99")
+    @ApiCloudField(value="门店编号", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="客户编码列表", example="004344990000347")
+    @ApiCloudField(value="客户编码列表", example="[004344990000347]")
     private List<String> clientFids;
     @ApiCloudField(value="是否包含已经删除的客户", example="true")
     private Boolean includeDeleted;

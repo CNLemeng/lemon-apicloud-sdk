@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WhsOtherInComeVOModel;
 import java.util.*;
 
 /**
- * find_18请求类
+ * find_19请求类
  * 批发其他收入单查询
  */
 public class WhsOtherIncomeFindRequest implements ApiCloudRequest<WhsOtherInComeFindDTOModel, List<WhsOtherInComeVOModel>> {

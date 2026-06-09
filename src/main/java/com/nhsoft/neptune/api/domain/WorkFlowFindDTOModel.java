@@ -34,6 +34,8 @@ public class WorkFlowFindDTOModel extends ApiCloudObject {
     private List<Long> applicantIdList;
     @ApiCloudField(value="审批人id(company_user_id)", example="[441637]")
     private List<Long> currentApproverIdList;
+    @ApiCloudField(value="flow_instance_id_list")
+    private List<String> flowInstanceIdList;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小（最大为200）", example="10", required=true)

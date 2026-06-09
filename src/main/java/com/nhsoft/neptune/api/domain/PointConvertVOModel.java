@@ -33,8 +33,8 @@ public class PointConvertVOModel extends ApiCloudObject {
     private Integer pointConvertItemGradeNum;
     @ApiCloudField(value="point_convert_spec_num")
     private Long pointConvertSpecNum;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> appliedBranchs;
-    @ApiCloudField(value="应用于所有门店(该字段为true时，applied_branchs为空集合)", example="false")
+    @ApiCloudField(value="应用于所有门店(该字段为true时，applied_branchs为空集合)")
     private Boolean applyAllBranch;
 }

@@ -24,7 +24,7 @@ public class SupplierSettlementUpdateRequestDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="供应商编码", example="43440001", required=true)
     private Integer supplierNum;
-    @ApiCloudField(value="结算时间 格式：yyyy-MM-dd", example="1990-01-01", required=true)
+    @ApiCloudField(value="结算时间 格式：yyyy-MM-dd", example="1990-01-01")
     private String supplierSettlementDate;
     @ApiCloudField(value="付款方式", example="现金", required=true)
     private String supplierSettlementPaymentType;

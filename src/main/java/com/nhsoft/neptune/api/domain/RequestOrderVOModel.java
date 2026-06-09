@@ -80,4 +80,8 @@ public class RequestOrderVOModel extends ApiCloudObject {
     private Boolean transferOut;
     @ApiCloudField(value="调出单签收时间", example="2021-01-01 00:00:00")
     private String requestOrderOutReceiveDate;
+    @ApiCloudField(value="单据来源ID", example="")
+    private String requestOrderSourceId;
+    @ApiCloudField(value="单据来源名称", example="")
+    private String requestOrderSourceName;
 }
