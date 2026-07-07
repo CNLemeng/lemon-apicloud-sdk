@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.MemberCouponTypeFullyVOModel;
 import java.util.*;
 
 /**
- * readCouponType请求类
+ * readCouponType_1请求类
  * 消费券类型读取
  */
 public class CouponCenterCoupontypeReadRequest implements ApiCloudRequest<MemberCouponTypeReadDTOModel, MemberCouponTypeFullyVOModel> {

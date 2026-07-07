@@ -24,6 +24,8 @@ public class ProcessingOrderSaveV2DTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="仓库编号", example="43440001", required=true)
     private Integer storehouseNum;
+    @ApiCloudField(value="入库仓库编号", example="43440000001")
+    private Integer inStorehouseNum;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String processingOrderOperator;
     @ApiCloudField(value="加工计划单编号", example="JP4344990001", required=true)

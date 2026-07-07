@@ -76,4 +76,6 @@ public class ProductVariantBranchVOModel extends ApiCloudObject {
     private List<String> productImages;
     @ApiCloudField(value="product_description")
     private String productDescription;
+    @ApiCloudField(value="brand")
+    private String brand;
 }

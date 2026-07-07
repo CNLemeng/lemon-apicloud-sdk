@@ -3,6 +3,8 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
+import com.nhsoft.neptune.api.domain.FileReadDTOModel;
+
 import com.nhsoft.neptune.api.domain.FileDTOModel;
 
 import java.util.*;
@@ -11,9 +13,9 @@ import java.util.*;
  * readFile请求类
  * 单据附件读取
  */
-public class BasicFileReadRequest implements ApiCloudRequest<String, FileDTOModel> {
+public class BasicFileReadRequest implements ApiCloudRequest<FileReadDTOModel, FileDTOModel> {
 
-    private String bizModel;
+    private FileReadDTOModel bizModel;
 
     @Override
     public String method() {
@@ -26,12 +28,12 @@ public class BasicFileReadRequest implements ApiCloudRequest<String, FileDTOMode
     }
 
     @Override
-    public String getBizModel() {
+    public FileReadDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(String bizModel) {
+    public void setBizModel(FileReadDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

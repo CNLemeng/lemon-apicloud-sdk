@@ -53,17 +53,17 @@ public class BasicProductParamVOModel extends ApiCloudObject {
     @ApiCloudField(value="预售天数", example="0")
     private Long selfPickDays;
     @ApiCloudField(value="self_pick_day_time")
-    private SettingTimeVOModel selfPickDayTime;
+    private String selfPickDayTime;
     @ApiCloudField(value="self_pick_separation_time")
-    private SettingTimeVOModel selfPickSeparationTime;
+    private String selfPickSeparationTime;
     @ApiCloudField(value="预售分段时间点前预售小时", example="1")
     private Long selfPickSeparationTimeBeforeHours;
     @ApiCloudField(value="预售分段时间点后预售小时", example="1")
     private Long selfPickSeparationTimeAfterHours;
     @ApiCloudField(value="self_pick_separation_time_before_day_time")
-    private SettingTimeVOModel selfPickSeparationTimeBeforeDayTime;
+    private String selfPickSeparationTimeBeforeDayTime;
     @ApiCloudField(value="self_pick_separation_time_after_day_time")
-    private SettingTimeVOModel selfPickSeparationTimeAfterDayTime;
+    private String selfPickSeparationTimeAfterDayTime;
     @ApiCloudField(value="预售持续天数", example="1")
     private Long selfPickSupportDays;
     @ApiCloudField(value="启用同城配送", example="true")

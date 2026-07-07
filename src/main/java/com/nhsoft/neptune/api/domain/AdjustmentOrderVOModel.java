@@ -50,6 +50,8 @@ public class AdjustmentOrderVOModel extends ApiCloudObject {
     private BigDecimal adjustmentOrderMoney;
     @ApiCloudField(value="调整原因", example="手动入库")
     private String adjustmentOrderCause;
+    @ApiCloudField(value="调整原因代码", example="手动入库")
+    private String adjustmentOrderCauseCode;
     @ApiCloudField(value="调整方向", example="入库")
     private String adjustmentOrderDirection;
     @ApiCloudField(value="明细", example="")

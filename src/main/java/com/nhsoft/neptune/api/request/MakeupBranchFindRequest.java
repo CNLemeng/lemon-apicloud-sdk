@@ -5,6 +5,9 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.MakeUpOrderBranchFindRequestDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.MakeUpOrderBranchResponseDTOModel;
+
 import com.nhsoft.neptune.api.domain.MakeUpOrderBranchResponseDTOModel;
 
 import java.util.*;
@@ -13,7 +16,7 @@ import java.util.*;
  * findBranchMakeUpOrder请求类
  * 门店扣补单查询
  */
-public class MakeupBranchFindRequest implements ApiCloudRequest<MakeUpOrderBranchFindRequestDTOModel, MakeUpOrderBranchResponseDTOModel> {
+public class MakeupBranchFindRequest implements ApiCloudRequest<MakeUpOrderBranchFindRequestDTOModel, List<MakeUpOrderBranchResponseDTOModel>> {
 
     private MakeUpOrderBranchFindRequestDTOModel bizModel;
 
@@ -38,8 +41,8 @@ public class MakeupBranchFindRequest implements ApiCloudRequest<MakeUpOrderBranc
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<MakeUpOrderBranchResponseDTOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<MakeUpOrderBranchResponseDTOModel>>() {};
+    public TypeReference<ApiCloudResponse<List<MakeUpOrderBranchResponseDTOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<MakeUpOrderBranchResponseDTOModel>>>() {};
     }
 
 }

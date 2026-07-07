@@ -34,8 +34,12 @@ public class MakeUpOrderBranchDetailResponseDTOModel extends ApiCloudObject {
     private BigDecimal itemCostPrice;
     @ApiCloudField(value="配送数量", example="4.0")
     private BigDecimal itemDeliveryQty;
+    @ApiCloudField(value="扣补数量", example="1.0")
+    private BigDecimal itemQty;
     @ApiCloudField(value="扣补单价", example="10.0")
     private BigDecimal itemMakeUpPrice;
     @ApiCloudField(value="扣补金额", example="4370.0")
     private BigDecimal itemMakeUpMoney;
+    @ApiCloudField(value="item_lot_number", example="20260101")
+    private String itemLotNumber;
 }

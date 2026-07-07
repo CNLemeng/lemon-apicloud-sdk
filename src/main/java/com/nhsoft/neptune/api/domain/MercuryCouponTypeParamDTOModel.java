@@ -44,6 +44,8 @@ public class MercuryCouponTypeParamDTOModel extends ApiCloudObject {
     private BigDecimal minRandomValue;
     @ApiCloudField(value="allow_overlay")
     private Boolean allowOverlay;
+    @ApiCloudField(value="为空表示不限制")
+    private Integer overlayCount;
     @ApiCloudField(value="coupon_incompatible")
     private Boolean couponIncompatible;
 }

@@ -123,6 +123,24 @@ public class PosItemVOModel extends ApiCloudObject {
     private Integer itemWholesaleFixType;
     @ApiCloudField(value="批发毛利(小数点4位，页面显示是带%)", example="10.0")
     private BigDecimal itemWholesaleGross;
+    @ApiCloudField(value="是否锁定批发毛利2", example="true")
+    private Boolean itemWholesaleFixedGross2;
+    @ApiCloudField(value="是否锁定批发毛利3", example="true")
+    private Boolean itemWholesaleFixedGross3;
+    @ApiCloudField(value="是否锁定批发毛利4", example="true")
+    private Boolean itemWholesaleFixedGross4;
+    @ApiCloudField(value="批发价2锁定毛利方式(1:按比例,2:按金额)", example="1")
+    private Integer itemWholesaleFixType2;
+    @ApiCloudField(value="批发价3锁定毛利方式(1:按比例,2:按金额)", example="1")
+    private Integer itemWholesaleFixType3;
+    @ApiCloudField(value="批发价4锁定毛利方式(1:按比例,2:按金额)", example="1")
+    private Integer itemWholesaleFixType4;
+    @ApiCloudField(value="锁定批发毛利比例2", example="0.1")
+    private BigDecimal itemWholesaleGross2;
+    @ApiCloudField(value="锁定批发毛利比例3", example="0.1")
+    private BigDecimal itemWholesaleGross3;
+    @ApiCloudField(value="锁定批发毛利比例4", example="0.1")
+    private BigDecimal itemWholesaleGross4;
     @ApiCloudField(value="商品标签", example="[水果, 品牌]")
     private List<String> itemLabelNames;
     @ApiCloudField(value="一品多码")
@@ -137,6 +155,44 @@ public class PosItemVOModel extends ApiCloudObject {
     private String itemTaxCode;
     @ApiCloudField(value="收货单需要输入生产日期", example="false")
     private Boolean itemNeedProductDate;
+    @ApiCloudField(value="联营扣率", example="0.1")
+    private BigDecimal itemGrossRate;
+    @ApiCloudField(value="锁定辅助单位进货价", example="true")
+    private Boolean itemFixAssistCostPrice;
+    @ApiCloudField(value="锁定辅助单位配送价", example="true")
+    private Boolean itemFixAssistTransferPrice;
+    @ApiCloudField(value="锁定辅助单位批发价", example="true")
+    private Boolean itemFixAssistWholesalePrice;
+    @ApiCloudField(value="售价2", example="20.0")
+    private BigDecimal itemLevel2Price;
+    @ApiCloudField(value="批发2级价格", example="20.0")
+    private BigDecimal itemLevel2Wholesale;
+    @ApiCloudField(value="售价3", example="20.0")
+    private BigDecimal itemLevel3Price;
+    @ApiCloudField(value="批发3级价格", example="20.0")
+    private BigDecimal itemLevel3Wholesale;
+    @ApiCloudField(value="售价4", example="20.0")
+    private BigDecimal itemLevel4Price;
+    @ApiCloudField(value="批发4级价格", example="20.0")
+    private BigDecimal itemLevel4Wholesale;
+    @ApiCloudField(value="前台议价", example="true")
+    private Boolean itemPosChangePriceFlag;
+    @ApiCloudField(value="启用包装盒", example="true")
+    private Boolean itemPackageActived;
+    @ApiCloudField(value="免税标记", example="true")
+    private Boolean freeTaxFlag;
+    @ApiCloudField(value="注意事项", example="注意事项")
+    private String itemNoteInfo;
+    @ApiCloudField(value="动销天数", example="1")
+    private Integer itemTransferDay;
+    @ApiCloudField(value="联营/直营扣率", example="0.1")
+    private BigDecimal itemDirectRate;
+    @ApiCloudField(value="商品查询模板ID", example="[1]")
+    private List<Integer> itemFlagNums;
+    @ApiCloudField(value="要货周期ID列表", example="[1]")
+    private List<Long> requestBatchIds;
+    @ApiCloudField(value="最低批发价", example="1.0")
+    private BigDecimal wholesaleMinPrice;
     @ApiCloudField(value="pos_item_commission")
     private PosItemCommissionVOModel posItemCommission;
     @ApiCloudField(value="规格明细")
@@ -161,4 +217,6 @@ public class PosItemVOModel extends ApiCloudObject {
     private Boolean wholesaleBookAllowOverCenterStock;
     @ApiCloudField(value="经营范围编号列表", example="[1]")
     private List<Long> businessScopeList;
+    @ApiCloudField(value="商品描述(富文本)")
+    private String description;
 }

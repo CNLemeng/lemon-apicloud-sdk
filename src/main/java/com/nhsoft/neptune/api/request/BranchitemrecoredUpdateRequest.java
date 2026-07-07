@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.BranchItemRecordUpdateDTOModel;
 import java.util.*;
 
 /**
- * update_26请求类
+ * update_28请求类
  * 更新单据商品的生产日期
  */
 public class BranchitemrecoredUpdateRequest implements ApiCloudRequest<BranchItemRecordUpdateDTOModel, Object> {

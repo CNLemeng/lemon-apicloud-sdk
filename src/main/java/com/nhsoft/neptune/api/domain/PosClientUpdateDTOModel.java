@@ -101,4 +101,8 @@ public class PosClientUpdateDTOModel extends ApiCloudObject {
     private List<Integer> clientSharedBranchNums;
     @ApiCloudField(value="币种 偏好货币ISO", example="USD")
     private String clientPreferredCurrencyIso;
+    @ApiCloudField(value="client_service_tax_enable", example="true")
+    private Boolean clientServiceTaxEnable;
+    @ApiCloudField(value="client_service_tax", example="0.3")
+    private BigDecimal clientServiceTax;
 }

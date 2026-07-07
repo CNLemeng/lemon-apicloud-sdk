@@ -49,4 +49,6 @@ public class UserBasicUserVOModel extends ApiCloudObject {
     private String updatedAt;
     @ApiCloudField(value="应用类型列表", example="[AMA]")
     private List<String> appTypes;
+    @ApiCloudField(value="开放应用ID列表", example="[ba2ac5d7ebd64cbf9f109ae0801b1464]")
+    private List<String> openAppIds;
 }

@@ -32,8 +32,10 @@ public class AdjustmentOrderSaveV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderRefBill;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String adjustmentOrderOutBillNo;
-    @ApiCloudField(value="调整原因", example="手动入库", required=true)
+    @ApiCloudField(value="调整原因", example="手动入库")
     private String adjustmentOrderCause;
+    @ApiCloudField(value="调整原因代码", example="手动入库")
+    private String adjustmentOrderCauseCode;
     @ApiCloudField(value="调整方向(出库、入库)", example="入库", required=true)
     private String adjustmentOrderDirection;
     @ApiCloudField(value="明细", example="", required=true)

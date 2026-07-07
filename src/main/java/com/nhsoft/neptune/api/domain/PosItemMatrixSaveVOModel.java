@@ -39,4 +39,26 @@ public class PosItemMatrixSaveVOModel extends ApiCloudObject {
     private String itemExtend9;
     @ApiCloudField(value="扩展属性value10", example="value10")
     private String itemExtend10;
+    @ApiCloudField(value="扩展属性value11", example="value11")
+    private String itemExtend11;
+    @ApiCloudField(value="扩展属性value12", example="value12")
+    private String itemExtend12;
+    @ApiCloudField(value="扩展属性value13", example="value13")
+    private String itemExtend13;
+    @ApiCloudField(value="扩展属性value14", example="value14")
+    private String itemExtend14;
+    @ApiCloudField(value="扩展属性value15", example="value15")
+    private String itemExtend15;
+    @ApiCloudField(value="扩展属性value16", example="value16")
+    private String itemExtend16;
+    @ApiCloudField(value="扩展属性value17", example="value17")
+    private String itemExtend17;
+    @ApiCloudField(value="扩展属性value18", example="value18")
+    private String itemExtend18;
+    @ApiCloudField(value="扩展属性value19", example="value19")
+    private String itemExtend19;
+    @ApiCloudField(value="扩展属性value20", example="value20")
+    private String itemExtend20;
+    @ApiCloudField(value="扩展属性value21", example="value21")
+    private String itemExtend21;
 }

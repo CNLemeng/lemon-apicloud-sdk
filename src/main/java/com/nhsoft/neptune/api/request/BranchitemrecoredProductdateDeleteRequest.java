@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.BranchItemRecordProductDeleteDTOModel;
 import java.util.*;
 
 /**
- * delete_9请求类
+ * delete_10请求类
  * 删除单据商品的生产日期
  */
 public class BranchitemrecoredProductdateDeleteRequest implements ApiCloudRequest<BranchItemRecordProductDeleteDTOModel, Void> {

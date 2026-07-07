@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.AllocationApplyOrderVOModel;
 import java.util.*;
 
 /**
- * save_25请求类
+ * save_27请求类
  * 库存转仓申请单保存
  */
 public class InventoryAllocationApplySaveRequest implements ApiCloudRequest<AllocationApplyOrderSaveDTOModel, AllocationApplyOrderVOModel> {

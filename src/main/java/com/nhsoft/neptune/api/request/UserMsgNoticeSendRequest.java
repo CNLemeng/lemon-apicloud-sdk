@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.MsgNoticeVOModel;
 import java.util.*;
 
 /**
- * save_8请求类
+ * save_9请求类
  * 发送站内信
  */
 public class UserMsgNoticeSendRequest implements ApiCloudRequest<MsgNoticeSaveDTOModel, List<MsgNoticeVOModel>> {

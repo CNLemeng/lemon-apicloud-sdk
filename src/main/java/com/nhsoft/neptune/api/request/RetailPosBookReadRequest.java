@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PosBookVOModel;
 import java.util.*;
 
 /**
- * read_23请求类
+ * read_24请求类
  * 呼叫中心订单保存
  */
 public class RetailPosBookReadRequest implements ApiCloudRequest<PosBookReadDTOModel, PosBookVOModel> {

@@ -39,7 +39,7 @@ public class BasicProductFindDTOModel extends ApiCloudObject {
     @ApiCloudField(value="商品ID(支持多商品，逗号分开)", example="1")
     private String id;
     @ApiCloudField(value="外部商品名称 商品规格值 商品条码", example="乐事薯片")
-    private String itemNameOrCodeOrBarcode;
+    private String nameOrCodeOrBarcode;
     @ApiCloudField(value="商品标签ID", example="1")
     private Long labelId;
     @ApiCloudField(value="是否手工指定商品", example="true")

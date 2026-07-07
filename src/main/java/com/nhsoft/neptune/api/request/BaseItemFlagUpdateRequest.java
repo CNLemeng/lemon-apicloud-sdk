@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.ItemFlagUpdateDTOModel;
 import java.util.*;
 
 /**
- * update_12请求类
+ * update_13请求类
  * 商品查询模板修改
  */
 public class BaseItemFlagUpdateRequest implements ApiCloudRequest<ItemFlagUpdateDTOModel, Object> {

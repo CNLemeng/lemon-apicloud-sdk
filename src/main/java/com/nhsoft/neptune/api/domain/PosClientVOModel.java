@@ -107,4 +107,8 @@ public class PosClientVOModel extends ApiCloudObject {
     private List<Integer> clientSharedBranchNums;
     @ApiCloudField(value="client_del_tag", example="true")
     private Boolean clientDelTag;
+    @ApiCloudField(value="client_service_tax_enable", example="true")
+    private Boolean clientServiceTaxEnable;
+    @ApiCloudField(value="client_service_tax", example="0.3")
+    private BigDecimal clientServiceTax;
 }

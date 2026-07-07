@@ -22,6 +22,8 @@ public class MakeUpOrderBranchResponseDTOModel extends ApiCloudObject {
     private String branchMakeUpOrderFid;
     @ApiCloudField(value="结算门店编码", example="1")
     private Integer settlementBranchNum;
+    @ApiCloudField(value="门店编号", example="99")
+    private Integer branchNum;
     @ApiCloudField(value="仓库编码", example="999910002")
     private Integer storehouseNum;
     @ApiCloudField(value="扣补类型", example="配送扣补")
@@ -34,21 +36,21 @@ public class MakeUpOrderBranchResponseDTOModel extends ApiCloudObject {
     private Integer makeUpStateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String makeUpStateName;
-    @ApiCloudField(value="开始日期", example="2022-07-17 12:00:00")
+    @ApiCloudField(value="开始日期")
     private String makeUpDateFrom;
-    @ApiCloudField(value="结束日期", example="2022-07-24 12:00:00")
+    @ApiCloudField(value="结束日期")
     private String makeUpDateTo;
     @ApiCloudField(value="创建人", example="admin")
     private String makeUpCreator;
-    @ApiCloudField(value="创建时间", example="admin")
+    @ApiCloudField(value="创建时间")
     private String makeUpCreateTime;
     @ApiCloudField(value="审核人", example="admin")
     private String makeUpAuditor;
-    @ApiCloudField(value="审核时间", example="2025-01-01 00:00:00")
+    @ApiCloudField(value="审核时间")
     private String makeUpAuditTime;
-    @ApiCloudField(value="最后修改时间", example="2025-01-01 00:00:00")
+    @ApiCloudField(value="最后修改时间")
     private String makeUpLastEditTime;
-    @ApiCloudField(value="最后结算时间", example="2025-01-01 00:00:00")
+    @ApiCloudField(value="最后结算时间")
     private String makeUpLastPaymentDate;
     @ApiCloudField(value="关联单号", example="")
     private String makeUpOutFid;

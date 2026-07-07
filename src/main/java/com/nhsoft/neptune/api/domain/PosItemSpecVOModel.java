@@ -35,6 +35,18 @@ public class PosItemSpecVOModel extends ApiCloudObject {
     private String specUnitName;
     @ApiCloudField(value="换算率", example="1")
     private BigDecimal convertRate;
+    @ApiCloudField(value="订购基数", example="1")
+    private BigDecimal specMultiple;
+    @ApiCloudField(value="起订数量", example="1")
+    private BigDecimal specOffsetQty;
+    @ApiCloudField(value="每日订购上限", example="1")
+    private BigDecimal specUpperLimit;
+    @ApiCloudField(value="批发价", example="1")
+    private BigDecimal specWholesalePrice;
+    @ApiCloudField(value="不允许退货", example="true")
+    private Boolean unAllowReturn;
+    @ApiCloudField(value="建议零售价", example="1")
+    private BigDecimal specRegularPrice;
     @ApiCloudField(value="称重商品", example="true")
     private Boolean weightFlag;
     @ApiCloudField(value="应用范围（ONLINE, OFFLINE, WHOLESALE）", example="一级")
@@ -49,6 +61,10 @@ public class PosItemSpecVOModel extends ApiCloudObject {
     private BigDecimal itemGradeLevel3Price;
     @ApiCloudField(value="售价4", example="10")
     private BigDecimal itemGradeLevel4Price;
+    @ApiCloudField(value="最高售价", example="10")
+    private BigDecimal itemGradeMaxPrice;
+    @ApiCloudField(value="最低售价", example="1")
+    private BigDecimal itemGradeMinPrice;
     @ApiCloudField(value="前台议价", example="true")
     private Boolean itemGradeChangePriceFlag;
     @ApiCloudField(value="允许折扣", example="true")

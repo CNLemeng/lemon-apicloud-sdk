@@ -30,4 +30,6 @@ public class SupplierFindDTOModel extends ApiCloudObject {
     private Boolean searchAll;
     @ApiCloudField(value="include_deleted")
     private Boolean includeDeleted;
+    @ApiCloudField(value="最后更新时间")
+    private String supplierLastEditTime;
 }

@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.ItemFlagIdDTOModel;
 import java.util.*;
 
 /**
- * delete_4请求类
+ * delete_5请求类
  * 商品查询模板删除
  */
 public class BaseItemFlagDeleteRequest implements ApiCloudRequest<ItemFlagIdDTOModel, Object> {

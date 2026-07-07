@@ -88,6 +88,10 @@ public class OutOrderV2DTOModel extends ApiCloudObject {
     private Integer outInState;
     @ApiCloudField(value="运费", example="0.0")
     private BigDecimal outOrderFreight;
+    @ApiCloudField(value="关联单号", example="")
+    private String outOrderBillNo;
+    @ApiCloudField(value="单据来源", example="")
+    private String outOrderSource;
     @ApiCloudField(value="明细", example="")
     private List<OutOrderDetailV2DTOModel> outOrderDetails;
 }

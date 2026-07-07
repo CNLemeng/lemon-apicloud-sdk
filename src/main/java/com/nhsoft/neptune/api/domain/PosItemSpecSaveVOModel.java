@@ -23,6 +23,20 @@ public class PosItemSpecSaveVOModel extends ApiCloudObject {
     private Long specNum;
     @ApiCloudField(value="规格代码", example="600990016980")
     private String specCode;
+    @ApiCloudField(value="是否主规格", example="true")
+    private Boolean mainSpecFlag;
+    @ApiCloudField(value="起订数量", example="1")
+    private BigDecimal specMultiple;
+    @ApiCloudField(value="订购基数", example="1")
+    private BigDecimal specOffsetQty;
+    @ApiCloudField(value="每日订购上限", example="1")
+    private BigDecimal specUpperLimit;
+    @ApiCloudField(value="批发价", example="1")
+    private BigDecimal specWholesalePrice;
+    @ApiCloudField(value="不允许退货", example="true")
+    private Boolean unAllowReturn;
+    @ApiCloudField(value="spec_regular_price", example="1")
+    private BigDecimal specRegularPrice;
     @ApiCloudField(value="规格名称", example="2024050601", required=true)
     private String specName;
     @ApiCloudField(value="速记码", example="2024050601")
@@ -45,13 +59,17 @@ public class PosItemSpecSaveVOModel extends ApiCloudObject {
     private BigDecimal itemGradeLevel3Price;
     @ApiCloudField(value="售价4", example="10")
     private BigDecimal itemGradeLevel4Price;
+    @ApiCloudField(value="最高售价", example="10")
+    private BigDecimal itemGradeMaxPrice;
+    @ApiCloudField(value="最低售价", example="1")
+    private BigDecimal itemGradeMinPrice;
     @ApiCloudField(value="前台议价", example="true")
     private Boolean itemGradeChangePriceFlag;
     @ApiCloudField(value="允许折扣", example="true")
     private Boolean itemGradeDiscounted;
     @ApiCloudField(value="积分", example="true")
     private Boolean itemGradePointActived;
-    @ApiCloudField(value="包装盒", example="true")
+    @ApiCloudField(value="停售标记", example="true")
     private Boolean itemGradeSaleCeaseFlag;
     @ApiCloudField(value="是否启用包装盒", example="true")
     private Boolean itemGradePackageActived;

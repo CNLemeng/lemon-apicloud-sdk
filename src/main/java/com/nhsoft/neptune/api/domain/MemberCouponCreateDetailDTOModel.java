@@ -25,6 +25,8 @@ public class MemberCouponCreateDetailDTOModel extends ApiCloudObject {
     private String availEnd;
     @ApiCloudField(value="可用开始时间", example="2022-01-01 00:00:00", required=true)
     private String availStart;
+    @ApiCloudField(value="条码", example="")
+    private String barcode;
     @ApiCloudField(value="条码前缀")
     private String barcodePrefix;
     @ApiCloudField(value="会员卡号")

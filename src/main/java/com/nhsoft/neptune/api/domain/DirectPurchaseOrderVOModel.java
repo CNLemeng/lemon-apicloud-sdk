@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class DirectPurchaseOrderVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="采购订单号", example="PO2030990000001")
+    @ApiCloudField(value="供应商直送单号", example="PO2030990000001")
     private String purchaseOrderFid;
     @ApiCloudField(value="供应商编码", example="203000001")
     private Integer supplierNum;

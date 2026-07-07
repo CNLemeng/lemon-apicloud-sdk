@@ -67,6 +67,8 @@ public class MemberCouponTypeVOModel extends ApiCloudObject {
     private List<Long> branchIds;
     @ApiCloudField(value="排除门店", example="1")
     private List<Long> exceptionBranchIds;
+    @ApiCloudField(value="price_point")
+    private Boolean pricePoint;
     @ApiCloudField(value="第三方券信息")
     private List<MemberCouponPlatformInfoVOModel> platformInfos;
 }
