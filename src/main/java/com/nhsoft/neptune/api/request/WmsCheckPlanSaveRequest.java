@@ -5,13 +5,15 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.CheckPlanSaveDTOModel;
 
+import com.nhsoft.neptune.api.domain.CheckPlanVOModel;
+
 import java.util.*;
 
 /**
- * find_12请求类
+ * find_13请求类
  * 盘点计划保存
  */
-public class WmsCheckPlanSaveRequest implements ApiCloudRequest<CheckPlanSaveDTOModel, Void> {
+public class WmsCheckPlanSaveRequest implements ApiCloudRequest<CheckPlanSaveDTOModel, CheckPlanVOModel> {
 
     private CheckPlanSaveDTOModel bizModel;
 
@@ -36,8 +38,8 @@ public class WmsCheckPlanSaveRequest implements ApiCloudRequest<CheckPlanSaveDTO
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Void>>() {};
+    public TypeReference<ApiCloudResponse<CheckPlanVOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<CheckPlanVOModel>>() {};
     }
 
 }

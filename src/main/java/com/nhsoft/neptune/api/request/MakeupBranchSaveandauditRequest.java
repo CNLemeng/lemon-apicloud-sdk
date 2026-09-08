@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.MakeUpOrderBranchResponseDTOModel;
 import java.util.*;
 
 /**
- * saveAndAudit_12请求类
+ * saveAndAudit_13请求类
  * 门店扣补单新增并审核
  */
 public class MakeupBranchSaveandauditRequest implements ApiCloudRequest<MakeUpOrderBranchSaveDTOModel, MakeUpOrderBranchResponseDTOModel> {

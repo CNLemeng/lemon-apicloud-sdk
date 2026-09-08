@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ItemCategoryVOModel;
 import java.util.*;
 
 /**
- * update_3请求类
+ * update_4请求类
  * wms商品类别查询
  */
 public class WmsItemCategoryFindRequest implements ApiCloudRequest<ItemCategoryFindDTOModel, List<ItemCategoryVOModel>> {

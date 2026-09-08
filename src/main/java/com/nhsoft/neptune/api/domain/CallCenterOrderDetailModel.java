@@ -28,4 +28,8 @@ public class CallCenterOrderDetailModel extends ApiCloudObject {
     private Integer itemGradeNum;
     @ApiCloudField(value="spec_num")
     private Long specNum;
+    @ApiCloudField(value="gift_flag")
+    private Boolean giftFlag;
+    @ApiCloudField(value="detail_memo")
+    private String detailMemo;
 }

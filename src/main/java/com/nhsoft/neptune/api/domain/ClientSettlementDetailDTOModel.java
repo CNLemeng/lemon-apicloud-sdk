@@ -25,6 +25,8 @@ public class ClientSettlementDetailDTOModel extends ApiCloudObject {
     private String wholesaleOrderFid;
     @ApiCloudField(value="批发退货单号", example="WR2003990000001")
     private String wholesaleReturnOrderFid;
+    @ApiCloudField(value="批发货补单编号", example="RSO0010990000000006")
+    private String replenishmentOrderId;
     @ApiCloudField(value="结算金额（小数点2位）", example="100.0", required=true)
     private BigDecimal supplierSettlementDetailMoney;
     @ApiCloudField(value="折扣金额（小数点2位）", example="1.0", required=true)

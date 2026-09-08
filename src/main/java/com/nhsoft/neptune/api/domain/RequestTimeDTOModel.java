@@ -28,4 +28,6 @@ public class RequestTimeDTOModel extends ApiCloudObject {
     private String requestTimeTo;
     @ApiCloudField(value="星期(周一到周日：1,2,3,4,5,6,7,)", example="99")
     private String requestPeriodDays;
+    @ApiCloudField(value="单双日：0/null表示没选 ，1单日；2双日")
+    private Integer requestDayType;
 }

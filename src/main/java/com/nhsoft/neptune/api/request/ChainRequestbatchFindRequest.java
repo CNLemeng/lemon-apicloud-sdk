@@ -5,6 +5,9 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.RequestBatchFindDTOModel;
 
+import java.util.List;
+import com.nhsoft.neptune.api.domain.RequestBatchVOModel;
+
 import com.nhsoft.neptune.api.domain.RequestBatchVOModel;
 
 import java.util.*;
@@ -13,7 +16,7 @@ import java.util.*;
  * requestBatchFind请求类
  * 要货周期查询
  */
-public class ChainRequestbatchFindRequest implements ApiCloudRequest<RequestBatchFindDTOModel, RequestBatchVOModel> {
+public class ChainRequestbatchFindRequest implements ApiCloudRequest<RequestBatchFindDTOModel, List<RequestBatchVOModel>> {
 
     private RequestBatchFindDTOModel bizModel;
 
@@ -38,8 +41,8 @@ public class ChainRequestbatchFindRequest implements ApiCloudRequest<RequestBatc
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<RequestBatchVOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<RequestBatchVOModel>>() {};
+    public TypeReference<ApiCloudResponse<List<RequestBatchVOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<RequestBatchVOModel>>>() {};
     }
 
 }

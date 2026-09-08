@@ -61,4 +61,6 @@ public class WmsClientVOModel extends ApiCloudObject {
     private Boolean transferCenter;
     @ApiCloudField(value="是否激活", example="true")
     private Boolean wmsClientActived;
+    @ApiCloudField(value="wms_out_num", example="0099658990000002")
+    private String wmsOutNum;
 }

@@ -3,7 +3,7 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.ChainDeliveryParamDTOModel;
+import com.nhsoft.neptune.api.domain.ChainDeliveryParamVOModel;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ import java.util.*;
  * readChainParam请求类
  * 读取连锁系统参数
  */
-public class ChainDeliveryParamReadRequest implements ApiCloudRequest<Void, ChainDeliveryParamDTOModel> {
+public class ChainDeliveryParamReadRequest implements ApiCloudRequest<Void, ChainDeliveryParamVOModel> {
 
     private Void bizModel;
 
@@ -36,8 +36,8 @@ public class ChainDeliveryParamReadRequest implements ApiCloudRequest<Void, Chai
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<ChainDeliveryParamDTOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<ChainDeliveryParamDTOModel>>() {};
+    public TypeReference<ApiCloudResponse<ChainDeliveryParamVOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<ChainDeliveryParamVOModel>>() {};
     }
 
 }

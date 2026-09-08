@@ -68,4 +68,6 @@ public class CouponVOModel extends ApiCloudObject {
     private List<Integer> exceptionBranchNums;
     @ApiCloudField(value="券状态(NOT_YET:未生效|IN_TIME：生效|EXPIRED：已过期)")
     private String validState;
+    @ApiCloudField(value="coupon_type_id", example="1")
+    private Long couponTypeId;
 }

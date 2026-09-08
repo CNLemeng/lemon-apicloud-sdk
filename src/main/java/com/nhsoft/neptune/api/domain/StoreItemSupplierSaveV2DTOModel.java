@@ -28,11 +28,11 @@ public class StoreItemSupplierSaveV2DTOModel extends ApiCloudObject {
     private BigDecimal storeItemSupplierCost;
     @ApiCloudField(value="是否主供应商", example="true")
     private Boolean storeItemSupplierDefault;
-    @ApiCloudField(value="进项税率", example="0.1", required=true)
+    @ApiCloudField(value="进项税率", example="0.1")
     private BigDecimal storeItemSupplierTax;
     @ApiCloudField(value="经营方式", example="购销", required=true)
     private String managementStyleType;
-    @ApiCloudField(value="采购周期", example="10", required=true)
+    @ApiCloudField(value="采购周期")
     private Integer storeItemSupplierPurchasePeriod;
     @ApiCloudField(value="起订量", example="10.0", required=true)
     private BigDecimal storeItemSupplierMin;
@@ -42,4 +42,6 @@ public class StoreItemSupplierSaveV2DTOModel extends ApiCloudObject {
     private BigDecimal specialGrossRate;
     @ApiCloudField(value="优先级(非负整数，0优先级最高)", example="0", required=true)
     private Integer storeItemSupplierPri;
+    @ApiCloudField(value="将传入null的字段置为null（该字段不传或者false，null值对应字段不做修改）", example="true")
+    private Boolean clearField;
 }

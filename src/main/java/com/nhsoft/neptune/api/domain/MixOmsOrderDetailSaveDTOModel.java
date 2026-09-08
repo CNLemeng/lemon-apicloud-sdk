@@ -36,4 +36,6 @@ public class MixOmsOrderDetailSaveDTOModel extends ApiCloudObject {
     private Integer totalMoney;
     @ApiCloudField(value="payment_money", example="100")
     private Integer paymentMoney;
+    @ApiCloudField(value="discount_list")
+    private List<MixDiscountDTOModel> discountList;
 }

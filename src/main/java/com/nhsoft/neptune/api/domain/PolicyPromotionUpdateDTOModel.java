@@ -64,12 +64,14 @@ public class PolicyPromotionUpdateDTOModel extends ApiCloudObject {
     private String policyPromotionPosCategory;
     @ApiCloudField(value="促销特价折扣率", example="0.5", required=true)
     private BigDecimal policyPromotionDiscount;
-    @ApiCloudField(value="促销特价商品类别", example="11|进口水果,999901|生鲜")
+    @ApiCloudField(value="促销特价商品类别", example="11,999901")
     private String policyPromotionItemCategory;
     @ApiCloudField(value="促销特价商品品牌", example="品牌一,品牌二")
     private String policyPromotionItemBrand;
-    @ApiCloudField(value="单数限制", example="1", required=true)
+    @ApiCloudField(value="单数限制", example="1")
     private Integer policyPromotionTotalLimit;
+    @ApiCloudField(value="指定范围商品不参与促销(SALE_PRICE_TWO:有门店售价2)", example="[\"SALE_PRICE_TWO\"]")
+    private List<String> notAllowedItemRanges;
     @ApiCloudField(value="在促销价基础上结算折扣券", example="true")
     private Boolean specialPriceWithDiscountCoupon;
     @ApiCloudField(value="返利类型(1:供应商返利,2:总部返利)", example="1")

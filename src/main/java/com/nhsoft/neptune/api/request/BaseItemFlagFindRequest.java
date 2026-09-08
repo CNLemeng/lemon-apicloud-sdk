@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ItemFlagVOModel;
 import java.util.*;
 
 /**
- * find_24请求类
+ * find_27请求类
  * 商品查询模板查询
  */
 public class BaseItemFlagFindRequest implements ApiCloudRequest<ItemFlagFindDTOModel, List<ItemFlagVOModel>> {

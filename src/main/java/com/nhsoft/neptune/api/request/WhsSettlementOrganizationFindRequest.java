@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WhsSettlementOrganizationVOModel;
 import java.util.*;
 
 /**
- * find_16请求类
+ * find_17请求类
  * 批发结算组织查询
  */
 public class WhsSettlementOrganizationFindRequest implements ApiCloudRequest<WhsSettlementOrganizationFindDTOModel, List<WhsSettlementOrganizationVOModel>> {

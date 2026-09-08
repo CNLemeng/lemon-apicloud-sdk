@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.ItemUpdateDTOModel;
 import java.util.*;
 
 /**
- * update_1请求类
+ * update_2请求类
  * wms商品档案修改
  */
 public class WmsItemUpdateRequest implements ApiCloudRequest<ItemUpdateDTOModel, Void> {

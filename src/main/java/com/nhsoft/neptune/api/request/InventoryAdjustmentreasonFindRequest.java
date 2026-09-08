@@ -4,9 +4,9 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import java.util.List;
-import com.nhsoft.neptune.api.domain.AdjustmentReasonV2DTOModel;
+import com.nhsoft.neptune.api.domain.AdjustmentReasonVOModel;
 
-import com.nhsoft.neptune.api.domain.AdjustmentReasonV2DTOModel;
+import com.nhsoft.neptune.api.domain.AdjustmentReasonVOModel;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ import java.util.*;
  * adjustmentReasonFind请求类
  * 调整原因查询
  */
-public class InventoryAdjustmentreasonFindRequest implements ApiCloudRequest<Void, List<AdjustmentReasonV2DTOModel>> {
+public class InventoryAdjustmentreasonFindRequest implements ApiCloudRequest<Void, List<AdjustmentReasonVOModel>> {
 
     private Void bizModel;
 
@@ -39,8 +39,8 @@ public class InventoryAdjustmentreasonFindRequest implements ApiCloudRequest<Voi
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<List<AdjustmentReasonV2DTOModel>>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<List<AdjustmentReasonV2DTOModel>>>() {};
+    public TypeReference<ApiCloudResponse<List<AdjustmentReasonVOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<AdjustmentReasonVOModel>>>() {};
     }
 
 }

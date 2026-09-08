@@ -18,50 +18,50 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosBookVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="book_id")
+    @ApiCloudField(value="销售预订单编号", example="Y9965801261532080004")
     private String bookId;
-    @ApiCloudField(value="order_no")
+    @ApiCloudField(value="销售单号", example="9965801261532080004")
     private String orderNo;
-    @ApiCloudField(value="branch_num")
+    @ApiCloudField(value="门店编号", example="1")
     private Integer branchNum;
-    @ApiCloudField(value="shift_table_bizday")
+    @ApiCloudField(value="营业日", example="20260602")
     private String shiftTableBizday;
-    @ApiCloudField(value="pick_type")
+    @ApiCloudField(value="提货方式", example="DELIVERY")
     private String pickType;
-    @ApiCloudField(value="state")
+    @ApiCloudField(value="状态", example="SHIPPED")
     private String state;
-    @ApiCloudField(value="buyer_name")
+    @ApiCloudField(value="购买人名称", example="wse")
     private String buyerName;
-    @ApiCloudField(value="buyer_phone")
+    @ApiCloudField(value="购买人手机号", example="176442196980")
     private String buyerPhone;
-    @ApiCloudField(value="picker_name")
+    @ApiCloudField(value="收货人名称", example="wse")
     private String pickerName;
-    @ApiCloudField(value="picker_phone")
+    @ApiCloudField(value="收货人手机号", example="176442196980")
     private String pickerPhone;
-    @ApiCloudField(value="pick_date")
+    @ApiCloudField(value="取货时间/发货时间")
     private String pickDate;
-    @ApiCloudField(value="pick_address")
+    @ApiCloudField(value="取货地址", example="浙江省宁波市江北区")
     private String pickAddress;
-    @ApiCloudField(value="memo")
+    @ApiCloudField(value="备注", example="ces1")
     private String memo;
-    @ApiCloudField(value="created_at")
+    @ApiCloudField(value="创建时间")
     private String createdAt;
-    @ApiCloudField(value="created_by_name")
+    @ApiCloudField(value="制单人", example="ces1")
     private String createdByName;
-    @ApiCloudField(value="shipped_at")
+    @ApiCloudField(value="完成时间")
     private String shippedAt;
-    @ApiCloudField(value="shipped_by_name")
+    @ApiCloudField(value="发货人", example="ces1")
     private String shippedByName;
-    @ApiCloudField(value="request_order_fid")
+    @ApiCloudField(value="要货单号", example="YH996750000001")
     private String requestOrderFid;
-    @ApiCloudField(value="pick_up_no")
+    @ApiCloudField(value="取餐号 账套号-门店-当天 唯一", example="004")
     private String pickUpNo;
-    @ApiCloudField(value="book_type")
+    @ApiCloudField(value="预订单类型", example="PREPAID")
     private String bookType;
-    @ApiCloudField(value="order_total_money")
+    @ApiCloudField(value="单据总额", example="0.0")
     private BigDecimal orderTotalMoney;
-    @ApiCloudField(value="discount_total_money")
+    @ApiCloudField(value="优惠合计", example="0.0")
     private BigDecimal discountTotalMoney;
-    @ApiCloudField(value="receive_total_money")
+    @ApiCloudField(value="应收合计", example="0.0")
     private BigDecimal receiveTotalMoney;
 }

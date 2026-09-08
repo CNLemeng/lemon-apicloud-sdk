@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.WmsInBookVOModel;
 import java.util.*;
 
 /**
- * find_11请求类
+ * find_12请求类
  * 入库订单查询
  */
 public class WmsInBookFindRequest implements ApiCloudRequest<WmsInBookFindDTOModel, List<WmsInBookVOModel>> {

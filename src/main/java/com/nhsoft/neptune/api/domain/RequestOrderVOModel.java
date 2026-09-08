@@ -44,6 +44,8 @@ public class RequestOrderVOModel extends ApiCloudObject {
     private String requestOrderAuditTime;
     @ApiCloudField(value="作废时间", example="2021-01-01 00:00:00")
     private String requestOrderCancelTime;
+    @ApiCloudField(value="作废人", example="admin")
+    private String requestOrderCancelor;
     @ApiCloudField(value="有效日期", example="2021-01-01")
     private String requestOrderDeadline;
     @ApiCloudField(value="状态代码", example="3")

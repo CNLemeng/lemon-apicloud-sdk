@@ -3,22 +3,22 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.CardSettlementFindV2DTOModel;
+import com.nhsoft.neptune.api.domain.CardSettlementFindDTOModel;
 
 import java.util.List;
-import com.nhsoft.neptune.api.domain.CardSettlementV2DTOModel;
+import com.nhsoft.neptune.api.domain.CardSettlementVOModel;
 
-import com.nhsoft.neptune.api.domain.CardSettlementV2DTOModel;
+import com.nhsoft.neptune.api.domain.CardSettlementVOModel;
 
 import java.util.*;
 
 /**
- * cardSettlementFindV2请求类
- * 会员卡结算单查询(资金)
+ * cardSettlementFind请求类
+ * 会员卡结算单查询
  */
-public class SettlementCardFindv2Request implements ApiCloudRequest<CardSettlementFindV2DTOModel, List<CardSettlementV2DTOModel>> {
+public class SettlementCardFindv2Request implements ApiCloudRequest<CardSettlementFindDTOModel, List<CardSettlementVOModel>> {
 
-    private CardSettlementFindV2DTOModel bizModel;
+    private CardSettlementFindDTOModel bizModel;
 
     @Override
     public String method() {
@@ -31,18 +31,18 @@ public class SettlementCardFindv2Request implements ApiCloudRequest<CardSettleme
     }
 
     @Override
-    public CardSettlementFindV2DTOModel getBizModel() {
+    public CardSettlementFindDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(CardSettlementFindV2DTOModel bizModel) {
+    public void setBizModel(CardSettlementFindDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<List<CardSettlementV2DTOModel>>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<List<CardSettlementV2DTOModel>>>() {};
+    public TypeReference<ApiCloudResponse<List<CardSettlementVOModel>>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<List<CardSettlementVOModel>>>() {};
     }
 
 }

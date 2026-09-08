@@ -100,6 +100,12 @@ public class SupplierAppointTaskVOModel extends ApiCloudObject {
     private BigDecimal itemDeliveredUseQtySum;
     @ApiCloudField(value="赠品数量汇总", example="1")
     private BigDecimal itemPresentUseQtySum;
+    @ApiCloudField(value="月台编号", example="335")
+    private Integer dockNum;
+    @ApiCloudField(value="月台名称", example="月台二号")
+    private String dockName;
+    @ApiCloudField(value="入库订单号", example="RD996589926216000001")
+    private String warehouseBookOrderFid;
     @ApiCloudField(value="预约明细", example="")
     private List<SupplierAppointTaskDetailVOModel> wmsSupplierAppointTaskDetails;
 }

@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CardCouponCancelDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="消费券标志", example="N15LLX284KFRCY6972KT80OQW5VMQDVK", required=true)
+    @ApiCloudField(value="消费券标志", example="N15LLX284KFRCY6972KT80OQW5VMQDVK")
     private String ticketSendDetailUuid;
-    @ApiCloudField(value="消费券券号", example="98001201931170003", required=true)
+    @ApiCloudField(value="消费券券号", example="98001201931170003")
     private String ticketSendDetailPrintNum;
     @ApiCloudField(value="作废原因备注", example="备注")
     private String memo;

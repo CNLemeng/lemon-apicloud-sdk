@@ -61,6 +61,8 @@ public class ClientSettlementVOModel extends ApiCloudObject {
     private BigDecimal clientSettlementTotalMoney;
     @ApiCloudField(value="折扣金额（小数点2位）", example="5.0")
     private BigDecimal clientSettlementTotalDiscount;
+    @ApiCloudField(value="settlement_payment_money", example="5.0")
+    private BigDecimal settlementPaymentMoney;
     @ApiCloudField(value="结算明细单", example="95")
     private List<ClientSettlementDetailVOModel> settlementDetails;
     @ApiCloudField(value="预收明细", example="预收明细")

@@ -49,4 +49,12 @@ public class WhsReplenishmentOrderDetailVOModel extends ApiCloudObject {
     private String memo;
     @ApiCloudField(value="批次号", example="2023-01-01")
     private String lotNumber;
+    @ApiCloudField(value="allocation_supplier_num", example="996790001")
+    private Integer allocationSupplierNum;
+    @ApiCloudField(value="allocation_supplier_name", example="供应商A")
+    private String allocationSupplierName;
+    @ApiCloudField(value="allocation_price", example="0.5")
+    private BigDecimal allocationPrice;
+    @ApiCloudField(value="allocation_money", example="5.0")
+    private BigDecimal allocationMoney;
 }

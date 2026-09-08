@@ -108,6 +108,8 @@ public class PolicyPromotionVOModel extends ApiCloudObject {
     private Boolean exceptBranch;
     @ApiCloudField(value="在促销价基础上结算折扣券", example="false")
     private Boolean specialPriceWithDiscountCoupon;
+    @ApiCloudField(value="指定范围商品不参与促销(SALE_PRICE_TWO:有门店售价2)", example="[\"SALE_PRICE_TWO\"]")
+    private List<String> notAllowedItemRanges;
     @ApiCloudField(value="销售单小票显示活动名称标记", example="true")
     private Boolean policyPromotionTicketShowName;
     @ApiCloudField(value="促销特价明细", example="")

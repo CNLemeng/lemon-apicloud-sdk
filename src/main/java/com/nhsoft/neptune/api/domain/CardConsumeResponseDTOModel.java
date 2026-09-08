@@ -13,6 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * CardConsumeResponseDTO模型
+ * 储值卡消费响应参数
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -20,23 +21,23 @@ public class CardConsumeResponseDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="消费流水号", example="2072992036300016")
     private String consumeFid;
-    @ApiCloudField(value="门店编码", example="99")
+    @ApiCloudField(value="门店编码", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="班次号", example="22001")
+    @ApiCloudField(value="班次号", example="22001", required=true)
     private Integer shiftTableNum;
-    @ApiCloudField(value="交班日期(yyyyMMdd)", example="20210221")
+    @ApiCloudField(value="交班日期(yyyyMMdd)", example="20210221", required=true)
     private String shiftTableBizday;
-    @ApiCloudField(value="卡编码", example="150200002")
+    @ApiCloudField(value="卡编码", example="150200002", required=true)
     private String cardUserNum;
     @ApiCloudField(value="消费可获得积分", example="1.0")
     private BigDecimal consumePoint;
-    @ApiCloudField(value="消费折扣", example="1.0")
+    @ApiCloudField(value="消费折扣", example="1.0", required=true)
     private BigDecimal consumeDiscount;
-    @ApiCloudField(value="消费舍出", example="1.0")
+    @ApiCloudField(value="消费舍出", example="1.0", required=true)
     private BigDecimal consumeRound;
-    @ApiCloudField(value="实际消费金额", example="1.0")
+    @ApiCloudField(value="实际消费金额", example="1.0", required=true)
     private BigDecimal consumeMoney;
-    @ApiCloudField(value="消费操作人", example="管理员")
+    @ApiCloudField(value="消费操作人", example="管理员", required=true)
     private String consumeOperator;
     @ApiCloudField(value="关联单据号", example="2072990000008")
     private String consumeBillNum;
@@ -54,7 +55,7 @@ public class CardConsumeResponseDTOModel extends ApiCloudObject {
     private BigDecimal consumeBalance;
     @ApiCloudField(value=" 发票金额", example="1.0")
     private BigDecimal consumeInvoice;
-    @ApiCloudField(value="消费时间", example="2021-01-21 00:00:00")
+    @ApiCloudField(value="消费时间")
     private String consumeDate;
     @ApiCloudField(value=" 消费次数", example="1")
     private Integer consumeCount;
@@ -74,4 +75,6 @@ public class CardConsumeResponseDTOModel extends ApiCloudObject {
     private Integer consumeCardType;
     @ApiCloudField(value="消费赠送金额", example="2.0")
     private BigDecimal consumePresentMoney;
+    @ApiCloudField(value="系统账套代码")
+    private String systemBookCode;
 }

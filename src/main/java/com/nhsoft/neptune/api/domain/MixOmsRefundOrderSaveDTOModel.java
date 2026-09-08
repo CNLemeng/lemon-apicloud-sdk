@@ -36,6 +36,12 @@ public class MixOmsRefundOrderSaveDTOModel extends ApiCloudObject {
     private String refundReason;
     @ApiCloudField(value="refund_type")
     private String refundType;
+    @ApiCloudField(value="order_point", example="1")
+    private Integer orderPoint;
+    @ApiCloudField(value="discount_money", example="1000")
+    private Integer discountMoney;
+    @ApiCloudField(value="discount_name", example="打包一口价")
+    private String discountName;
     @ApiCloudField(value="order_item_list")
     private List<MixOmsOrderDetailSaveDTOModel> orderItemList;
 }

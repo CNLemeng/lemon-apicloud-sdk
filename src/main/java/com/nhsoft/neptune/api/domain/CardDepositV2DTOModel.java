@@ -13,6 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * CardDepositV2DTO模型
+ * 储值卡存款响应参数
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -20,31 +21,31 @@ public class CardDepositV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="卡存款单据编号", example="207299203430590001")
     private String depositFid;
-    @ApiCloudField(value="门店编码", example="99")
+    @ApiCloudField(value="门店编码", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="班次号", example="22001")
+    @ApiCloudField(value="班次号", example="22001", required=true)
     private Integer shiftTableNum;
-    @ApiCloudField(value="交班日期(yyyyMMdd)", example="20210221")
+    @ApiCloudField(value="交班日期(yyyyMMdd)", example="20210221", required=true)
     private String shiftTableBizday;
-    @ApiCloudField(value="卡编码", example="150200002")
-    private String cardUserNum;
-    @ApiCloudField(value="表面卡号", example="100000000666")
+    @ApiCloudField(value="卡编码", example="150200002", required=true)
+    private Integer cardUserNum;
+    @ApiCloudField(value="表面卡号", example="100000000666", required=true)
     private String cardPrintNum;
     @ApiCloudField(value="会员名称", example="张三")
     private String cardUserName;
     @ApiCloudField(value="会员手机号", example="15804789563")
     private String cardUserPhone;
-    @ApiCloudField(value="付款金额", example="1.0")
+    @ApiCloudField(value="付款金额", example="1.0", required=true)
     private BigDecimal depositCash;
-    @ApiCloudField(value="存款金额", example="1.0")
+    @ApiCloudField(value="存款金额", example="1.0", required=true)
     private BigDecimal depositMoney;
     @ApiCloudField(value="存款可获得积分", example="1.0")
     private BigDecimal depositPoint;
-    @ApiCloudField(value="操作人", example="管理员")
+    @ApiCloudField(value="操作人", example="管理员", required=true)
     private String depositOperator;
     @ApiCloudField(value="存款类型", example="存款")
     private String depositType;
-    @ApiCloudField(value="存款支付方式名称（储值类型）", example="现金")
+    @ApiCloudField(value="存款支付方式名称（储值类型）", example="现金", required=true)
     private String depositPaymentTypeName;
     @ApiCloudField(value="存款支付银行名称", example="中国银行")
     private String depositBankName;
@@ -58,7 +59,7 @@ public class CardDepositV2DTOModel extends ApiCloudObject {
     private String depositMachine;
     @ApiCloudField(value="付款前余额(查询参数)", example="1.0")
     private BigDecimal depositBalance;
-    @ApiCloudField(value="存款时间(查询参数)", example="2020-09-17 16:24:25")
+    @ApiCloudField(value="存款时间(查询参数)")
     private String depositDate;
     @ApiCloudField(value="存款次数(查询参数)", example="1")
     private Integer depositCount;

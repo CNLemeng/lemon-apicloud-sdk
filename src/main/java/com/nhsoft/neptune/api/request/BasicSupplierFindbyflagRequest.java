@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.SupplierReadResponseV2DTOModel;
 import java.util.*;
 
 /**
- * findSupplierByFlag请求类
+ * findSupplierByFlag_1请求类
  * 根据标签查询供应商
  */
 public class BasicSupplierFindbyflagRequest implements ApiCloudRequest<SupplierFindByFlagDTOModel, List<SupplierReadResponseV2DTOModel>> {

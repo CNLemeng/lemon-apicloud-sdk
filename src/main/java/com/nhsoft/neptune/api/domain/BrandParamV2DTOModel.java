@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BrandParamV2DTOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="品牌id", example="9967500003659")
+    private Long brandId;
     @ApiCloudField(value="品牌代码", example="001")
     private String brandCode;
     @ApiCloudField(value="品牌名称", example="红富士")

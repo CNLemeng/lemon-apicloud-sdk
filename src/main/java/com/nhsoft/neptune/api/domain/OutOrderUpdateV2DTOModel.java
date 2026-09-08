@@ -44,6 +44,8 @@ public class OutOrderUpdateV2DTOModel extends ApiCloudObject {
     private String outOrderReceiveState;
     @ApiCloudField(value="单据来源", example="")
     private String outOrderSource;
+    @ApiCloudField(value="uuid（幂等使用）", example="")
+    private String outOrderUuid;
     @ApiCloudField(value="明细", example="", required=true)
     private List<OutOrderSaveDetailV2DTOModel> outOrderDetails;
 }

@@ -28,6 +28,14 @@ public class PriceAdjustmentOrderUpdateV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderMemo;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String adjustmentOrderRefBill;
+    @ApiCloudField(value="成本调整方向：入库、出库", example="入库")
+    private String adjustmentOrderCostDirection;
+    @ApiCloudField(value="成本调整类型：库存成本调整、成本调差", example="")
+    private String adjustmentOrderCostAdjustType;
+    @ApiCloudField(value="成本调差来源单据类型", example="")
+    private String adjustmentOrderCostBillType;
+    @ApiCloudField(value="成本调差来源单据原因", example="")
+    private String adjustmentOrderCostBillCause;
     @ApiCloudField(value="明细", example="", required=true)
     private List<PriceAdjustmentOrderSaveDetailV3DTOModel> adjustmentOrderDetails;
 }

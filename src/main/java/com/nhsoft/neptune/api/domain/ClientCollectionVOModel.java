@@ -41,6 +41,8 @@ public class ClientCollectionVOModel extends ApiCloudObject {
     private String collectionAuditTime;
     @ApiCloudField(value="收款金额", example="500.0")
     private BigDecimal collectionTotalMoney;
+    @ApiCloudField(value="collection_discount_money", example="10.0")
+    private BigDecimal collectionDiscountMoney;
     @ApiCloudField(value="现金银行编号", example="43440001")
     private Integer accountBankNum;
     @ApiCloudField(value="最后更新时间")
@@ -55,6 +57,10 @@ public class ClientCollectionVOModel extends ApiCloudObject {
     private Integer stateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="结算明细")
+    @ApiCloudField(value="collection_memo")
+    private String collectionMemo;
+    @ApiCloudField(value="结算明细", example="")
     private List<ClientCollectionDetailVOModel> clientCollectionDetails;
+    @ApiCloudField(value="client_collection_payment_details")
+    private List<ClientCollectionPaymentDetailVOModel> clientCollectionPaymentDetails;
 }

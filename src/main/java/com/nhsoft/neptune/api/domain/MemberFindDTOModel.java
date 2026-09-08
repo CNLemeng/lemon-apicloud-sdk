@@ -23,6 +23,10 @@ public class MemberFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小（最大200）", example="10", required=true)
     private Integer pageSize;
+    @ApiCloudField(value="create_time_from", example="2019-07-10")
+    private String createTimeFrom;
+    @ApiCloudField(value="create_time_to", example="2019-07-12")
+    private String createTimeTo;
     @ApiCloudField(value="成为会员查询开始时间", example="2022-01-21 10:00:00", required=true)
     private String memberTimeFrom;
     @ApiCloudField(value="成为会员查询结束时间", example="2022-01-21 12:00:00", required=true)

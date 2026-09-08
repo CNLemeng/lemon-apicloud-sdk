@@ -27,15 +27,17 @@ public class WmsStorehouseVOModel extends ApiCloudObject {
     private String storehouseName;
     @ApiCloudField(value="是否激活", example="true", required=true)
     private Boolean storehouseActived;
+    @ApiCloudField(value="storehouse_linktel")
+    private String storehouseLinktel;
     @ApiCloudField(value="是否收货仓库", example="true", required=true)
     private Boolean storehouseReceiveTag;
     @ApiCloudField(value="是否发货仓库", example="true", required=true)
     private Boolean storehouseStoreTag;
     @ApiCloudField(value="是否调拨仓库", example="true", required=true)
     private Boolean storehouseTransferTag;
-    @ApiCloudField(value="是否启用库存", example="true", required=true)
+    @ApiCloudField(value="是否启用库位", example="true", required=true)
     private Boolean storehouseEnableStorage;
-    @ApiCloudField(value="是否退货库存", example="true", required=true)
+    @ApiCloudField(value="是否退货仓", example="true", required=true)
     private Boolean storehouseReturnTag;
     @ApiCloudField(value="创建时间", required=true)
     private String createTime;
@@ -49,4 +51,10 @@ public class WmsStorehouseVOModel extends ApiCloudObject {
     private Boolean autoGenerateReceiveTask;
     @ApiCloudField(value="是否启用入库", example="true", required=true)
     private Boolean inStorehouseFlag;
+    @ApiCloudField(value="intelligent_warehouse")
+    private Boolean intelligentWarehouse;
+    @ApiCloudField(value="appoint_auto_generate_receive_task")
+    private Boolean appointAutoGenerateReceiveTask;
+    @ApiCloudField(value="front_warehouse_tag")
+    private Boolean frontWarehouseTag;
 }

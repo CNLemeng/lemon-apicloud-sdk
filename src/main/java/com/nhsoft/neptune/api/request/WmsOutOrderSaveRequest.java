@@ -5,13 +5,15 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.WmsOutOrderSaveDTOModel;
 
+import com.nhsoft.neptune.api.domain.WmsOutOrderVOModel;
+
 import java.util.*;
 
 /**
  * save_1请求类
  * 出库单保存
  */
-public class WmsOutOrderSaveRequest implements ApiCloudRequest<WmsOutOrderSaveDTOModel, Void> {
+public class WmsOutOrderSaveRequest implements ApiCloudRequest<WmsOutOrderSaveDTOModel, WmsOutOrderVOModel> {
 
     private WmsOutOrderSaveDTOModel bizModel;
 
@@ -36,8 +38,8 @@ public class WmsOutOrderSaveRequest implements ApiCloudRequest<WmsOutOrderSaveDT
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Void>>() {};
+    public TypeReference<ApiCloudResponse<WmsOutOrderVOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<WmsOutOrderVOModel>>() {};
     }
 
 }

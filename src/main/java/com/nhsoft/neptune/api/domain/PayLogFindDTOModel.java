@@ -42,4 +42,6 @@ public class PayLogFindDTOModel extends ApiCloudObject {
     private List<String> outSubIds;
     @ApiCloudField(value="单据类型(卡存款|换卡|续卡|全渠道会员|POS其他收支|POS消费|码牌支付|交班收入)", example="卡存款")
     private String orderType;
+    @ApiCloudField(value="单据号", example="207299220801140002")
+    private String orderNo;
 }

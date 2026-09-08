@@ -44,6 +44,8 @@ public class PurchaseOrderFindDetailV3DTOModel extends ApiCloudObject {
     private String itemPresentUnit;
     @ApiCloudField(value="赠品数量（小数点3位）", example="1.0")
     private BigDecimal itemPresentQty;
+    @ApiCloudField(value="赠品基本数量", example="1.0")
+    private BigDecimal itemPresentBasicQty;
     @ApiCloudField(value="成本金额（小数点2位）", example="1.0")
     private BigDecimal detailSubTotal;
     @ApiCloudField(value="不含税金额（小数点2位）", example="1.0")

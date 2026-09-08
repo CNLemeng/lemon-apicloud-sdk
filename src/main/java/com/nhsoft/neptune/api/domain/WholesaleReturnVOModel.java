@@ -65,6 +65,8 @@ public class WholesaleReturnVOModel extends ApiCloudObject {
     private BigDecimal wholesaleReturnPaidMoney;
     @ApiCloudField(value="货币币种代码", example="USD")
     private String clientPreferredCurrencyIso;
-    @ApiCloudField(value="订单明细")
+    @ApiCloudField(value="wholesale_return_reason", example="其他")
+    private String wholesaleReturnReason;
+    @ApiCloudField(value="订单明细", example="")
     private List<WholesaleReturnDetailDTOModel> wholesaleReturnDetails;
 }

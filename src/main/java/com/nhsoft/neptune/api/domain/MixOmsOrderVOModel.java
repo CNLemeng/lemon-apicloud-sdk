@@ -62,6 +62,8 @@ public class MixOmsOrderVOModel extends ApiCloudObject {
     private String title;
     @ApiCloudField(value="total_fee")
     private BigDecimal totalFee;
+    @ApiCloudField(value="need_package")
+    private Boolean needPackage;
     @ApiCloudField(value="order_items")
     private List<MixOmsOrderDetailVOModel> orderItems;
 }

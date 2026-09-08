@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ForceRequestOrderFindDTOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="中心门店编号", example="99")
+    private Integer centerBranchNum;
     @ApiCloudField(value="应用门店编码", example="1")
     private Integer branchNum;
 }

@@ -30,4 +30,6 @@ public class ProductVariantBranchFindDTOModel extends ApiCloudObject {
     private List<Long> productIds;
     @ApiCloudField(value="variant_ids", example="[1]")
     private List<Long> variantIds;
+    @ApiCloudField(value="updated_at")
+    private String updatedAt;
 }

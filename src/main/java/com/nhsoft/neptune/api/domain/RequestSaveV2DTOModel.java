@@ -52,4 +52,6 @@ public class RequestSaveV2DTOModel extends ApiCloudObject {
     private String requestOrderSourceId;
     @ApiCloudField(value="单据来源名称", example="")
     private String requestOrderSourceName;
+    @ApiCloudField(value="请求uuid（幂等使用）", example="")
+    private String requestOrderUuid;
 }

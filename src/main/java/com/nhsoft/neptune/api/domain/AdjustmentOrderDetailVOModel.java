@@ -48,4 +48,6 @@ public class AdjustmentOrderDetailVOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="含税金额", example="40.0")
     private BigDecimal adjustmentOrderDetailSubtotal;
+    @ApiCloudField(value="零售价", example="2.0054")
+    private BigDecimal adjustmentOrderDetailSalePrice;
 }

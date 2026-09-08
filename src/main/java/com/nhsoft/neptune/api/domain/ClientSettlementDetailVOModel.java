@@ -35,4 +35,6 @@ public class ClientSettlementDetailVOModel extends ApiCloudObject {
     private WholesaleReturnVOModel wholesaleReturn;
     @ApiCloudField(value="other_inout")
     private ClientOtherInoutVOModel otherInout;
+    @ApiCloudField(value="replenishment_order")
+    private WhsReplenishmentOrderFullyVOModel replenishmentOrder;
 }

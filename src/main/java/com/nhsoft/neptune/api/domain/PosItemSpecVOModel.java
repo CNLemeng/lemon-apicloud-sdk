@@ -71,7 +71,7 @@ public class PosItemSpecVOModel extends ApiCloudObject {
     private Boolean itemGradeDiscounted;
     @ApiCloudField(value="积分", example="true")
     private Boolean itemGradePointActived;
-    @ApiCloudField(value="包装盒", example="true")
+    @ApiCloudField(value="停售标记", example="true")
     private Boolean itemGradeSaleCeaseFlag;
     @ApiCloudField(value="是否启用包装盒", example="true")
     private Boolean itemGradePackageActived;

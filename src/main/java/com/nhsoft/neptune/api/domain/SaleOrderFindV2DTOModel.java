@@ -27,7 +27,7 @@ public class SaleOrderFindV2DTOModel extends ApiCloudObject {
     private String payStartTime;
     @ApiCloudField(value="支付结束时间", example="2023-01-01 10:00:00")
     private String payEndTime;
-    @ApiCloudField(value="支付时间类型（支付时间|发货时间）不传默认为支付时间", example="支付时间")
+    @ApiCloudField(value="支付时间类型（支付时间|发货时间|核销/送达时间）不传默认为支付时间", example="支付时间")
     private String dateType;
     @ApiCloudField(value="开始时间(配合date_type使用)", example="2023-01-01 00:00:00")
     private String dateFrom;

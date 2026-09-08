@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.WhsPosItemUpdateDTOModel;
 import java.util.*;
 
 /**
- * update_8请求类
+ * update_9请求类
  * 批发商品档案修改
  */
 public class WhsItemcenterItemUpdateRequest implements ApiCloudRequest<WhsPosItemUpdateDTOModel, Void> {

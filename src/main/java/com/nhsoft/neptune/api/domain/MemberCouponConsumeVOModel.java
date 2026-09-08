@@ -61,4 +61,6 @@ public class MemberCouponConsumeVOModel extends ApiCloudObject {
     private List<Long> branchIds;
     @ApiCloudField(value="应用渠道列表(ONLINE:线上商城|OFFLINE:线下门店)", example="[ONLINE,OFFLINE]")
     private List<String> scenes;
+    @ApiCloudField(value="invalided_at", example="2026-07-08 00:00:00")
+    private String invalidedAt;
 }

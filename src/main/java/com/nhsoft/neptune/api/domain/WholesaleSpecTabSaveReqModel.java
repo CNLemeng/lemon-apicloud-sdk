@@ -20,6 +20,8 @@ public class WholesaleSpecTabSaveReqModel extends ApiCloudObject {
 
     @ApiCloudField(value="spec_num", example="9967500001", required=true)
     private Long specNum;
+    @ApiCloudField(value="spec_wholesale_price", example="20.0")
+    private BigDecimal specWholesalePrice;
     @ApiCloudField(value="float_rate_enable", example="true")
     private Boolean floatRateEnable;
     @ApiCloudField(value="independent_price_enable", example="true")

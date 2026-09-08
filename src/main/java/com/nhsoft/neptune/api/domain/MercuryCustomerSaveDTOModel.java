@@ -35,7 +35,7 @@ public class MercuryCustomerSaveDTOModel extends ApiCloudObject {
     private String platform;
     @ApiCloudField(value="性别(0-未知,1-男,2-女)", example="0")
     private Integer gender;
-    @ApiCloudField(value="用户来源(公众号|小程序|微信支付|支付宝支付|导入|线下开卡|企业微信|第三方平台)", example="支付宝支付")
+    @ApiCloudField(value="用户来源(公众号|小程序|微信支付|支付宝支付|导入|线下开卡|企业微信|第三方平台)", example="支付宝支付", required=true)
     private String source;
     @ApiCloudField(value="门店编号", example="1")
     private Integer branchNum;

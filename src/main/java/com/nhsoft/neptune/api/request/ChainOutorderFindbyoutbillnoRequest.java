@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.OutOrderV2DTOModel;
 import java.util.*;
 
 /**
- * findByOutBillNo请求类
+ * findByOutBillNo_1请求类
  * 根据外部单号查询调出单(不返回明细)
  */
 public class ChainOutorderFindbyoutbillnoRequest implements ApiCloudRequest<OutOrderOutBillNoFindDTOModel, List<OutOrderV2DTOModel>> {

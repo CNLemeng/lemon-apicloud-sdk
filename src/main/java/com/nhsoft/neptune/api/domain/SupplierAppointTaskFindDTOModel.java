@@ -30,6 +30,18 @@ public class SupplierAppointTaskFindDTOModel extends ApiCloudObject {
     private String dateTo;
     @ApiCloudField(value="门店编号", example="99", required=true)
     private Integer branchNum;
+    @ApiCloudField(value="dock_num")
+    private Integer dockNum;
+    @ApiCloudField(value="purchase_order_fids", example="[PO996589900000001]")
+    private List<String> purchaseOrderFids;
+    @ApiCloudField(value="supplier_appoint_task_fid", example="[996589926216000001]")
+    private String supplierAppointTaskFid;
+    @ApiCloudField(value="supplier_nums", example="[9965800001]")
+    private List<Integer> supplierNums;
+    @ApiCloudField(value="unloading_type", example="仓卸")
+    private String unloadingType;
+    @ApiCloudField(value="warehouse_book_order_fid", example="RD996589926216000001")
+    private String warehouseBookOrderFid;
     @ApiCloudField(value="查询分页页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小(最大300)", example="300", required=true)

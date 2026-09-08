@@ -33,4 +33,6 @@ public class CardOnlineDepositV2DTOModel extends ApiCloudObject {
     private String paymentType;
     @ApiCloudField(value="表面卡号（仅当储值卡为IC卡时必填）", example="20215613151651")
     private String cardPrintedNum;
+    @ApiCloudField(value="存款类型(存款|反存款)", example="存款")
+    private String depositType;
 }

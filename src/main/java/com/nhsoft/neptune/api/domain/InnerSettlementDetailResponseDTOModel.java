@@ -30,6 +30,8 @@ public class InnerSettlementDetailResponseDTOModel extends ApiCloudObject {
     private String receiveOrderFid;
     @ApiCloudField(value="退货单号", example="RO2003990000001")
     private String returnOrderFid;
+    @ApiCloudField(value="门店扣补单", example="BM9967500991000063")
+    private String branchMakeUpOrderFid;
     @ApiCloudField(value="结算金额（小数点2位）", example="100.0")
     private BigDecimal innerSettlementDetailMoney;
     @ApiCloudField(value="折扣金额（小数点2位）", example="0.0")

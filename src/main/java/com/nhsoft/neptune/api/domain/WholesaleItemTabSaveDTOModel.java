@@ -18,10 +18,12 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesaleItemTabSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="company_user_id", example="996750001", required=true)
+    @ApiCloudField(value="company_user_id", example="996750001")
     private Long companyUserId;
     @ApiCloudField(value="item_num", example="1", required=true)
     private Integer itemNum;
+    @ApiCloudField(value="item_wholesale_price", example="20.0")
+    private BigDecimal itemWholesalePrice;
     @ApiCloudField(value="specs", required=true)
     private List<WholesaleSpecTabSaveReqModel> specs;
 }

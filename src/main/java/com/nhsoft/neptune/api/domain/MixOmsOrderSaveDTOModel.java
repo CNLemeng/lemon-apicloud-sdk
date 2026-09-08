@@ -66,6 +66,14 @@ public class MixOmsOrderSaveDTOModel extends ApiCloudObject {
     private String estimateArriveTime;
     @ApiCloudField(value="day_seq", example="2")
     private Integer daySeq;
+    @ApiCloudField(value="order_point", example="1")
+    private Integer orderPoint;
+    @ApiCloudField(value="need_package", example="true")
+    private Boolean needPackage;
+    @ApiCloudField(value="discount_list")
+    private List<MixDiscountDTOModel> discountList;
     @ApiCloudField(value="order_item_list", required=true)
     private List<MixOmsOrderDetailSaveDTOModel> orderItemList;
+    @ApiCloudField(value="order_sale_type")
+    private String orderSaleType;
 }

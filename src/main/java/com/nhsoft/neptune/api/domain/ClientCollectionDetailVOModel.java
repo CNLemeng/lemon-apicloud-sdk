@@ -61,10 +61,22 @@ public class ClientCollectionDetailVOModel extends ApiCloudObject {
     private BigDecimal clientSettlementTotalMoney;
     @ApiCloudField(value="折扣金额（小数点2位）", example="5.0")
     private BigDecimal clientSettlementTotalDiscount;
+    @ApiCloudField(value="settlement_payment_money", example="5.0")
+    private BigDecimal settlementPaymentMoney;
     @ApiCloudField(value="结算明细单", example="95")
     private List<ClientSettlementDetailVOModel> settlementDetails;
     @ApiCloudField(value="预收明细", example="预收明细")
     private List<ClientPreSettlementDetailVOModel> preSettlementDetails;
-    @ApiCloudField(value="收款明细编号", example="1")
+    @ApiCloudField(value="明细编号", example="1")
     private Integer detailNum;
+    @ApiCloudField(value="settlement_collection_detail_money", example="113.0")
+    private BigDecimal settlementCollectionDetailMoney;
+    @ApiCloudField(value="settlement_collection_detail_discount_money")
+    private BigDecimal settlementCollectionDetailDiscountMoney;
+    @ApiCloudField(value="settlement_collection_detail_need_paid_money")
+    private BigDecimal settlementCollectionDetailNeedPaidMoney;
+    @ApiCloudField(value="settlement_detail_paid_money")
+    private BigDecimal settlementDetailPaidMoney;
+    @ApiCloudField(value="settlement_detail_un_paid_money")
+    private BigDecimal settlementDetailUnPaidMoney;
 }

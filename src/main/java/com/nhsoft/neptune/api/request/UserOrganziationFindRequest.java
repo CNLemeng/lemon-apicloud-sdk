@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.UserCenterOrganizationVOModel;
 import java.util.*;
 
 /**
- * find_21请求类
+ * find_23请求类
  * 组织查询
  */
 public class UserOrganziationFindRequest implements ApiCloudRequest<UserCenterOrganizationFindDTOModel, List<UserCenterOrganizationVOModel>> {

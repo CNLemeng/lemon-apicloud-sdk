@@ -22,7 +22,7 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private String itemName;
     @ApiCloudField(value="商品别称", example="coke cola")
     private String itemEnName;
-    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品)", example="STANDARD", required=true)
+    @ApiCloudField(value="商品类型(STANDARD:标准,COMBINED:组合商品,NONE_INVENTORY:非库存商品,DOC_MAKE_COMBINE:制单组合,CUSTOME_COMBINE:自定义组合商品,COMPONENT:成分商品,DOC_LEVEL_COMBINE:混合商品)", example="STANDARD", required=true)
     private String itemType;
     @ApiCloudField(value="商品规格", example="1箱*10公斤")
     private String itemSpec;
@@ -154,7 +154,7 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private String madeIn;
     @ApiCloudField(value="门店要货不可以超过中心库存量,无库存不允许要货", example="true")
     private Boolean noStockNoRequest;
-    @ApiCloudField(value="一品多码")
+    @ApiCloudField(value="一品多码", example="")
     private List<PosItemBarCodeSaveVOModel> itemBars;
     @ApiCloudField(value="组合明细")
     private List<PosItemCombineItemSaveVOModel> posItemCombineItems;
@@ -212,6 +212,6 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private Boolean itemPackageActived;
     @ApiCloudField(value="商品描述(富文本)")
     private String description;
-    @ApiCloudField(value="商品编号", example="102200551", required=true)
+    @ApiCloudField(value="商品编码", example="102200551", required=true)
     private Integer itemNum;
 }

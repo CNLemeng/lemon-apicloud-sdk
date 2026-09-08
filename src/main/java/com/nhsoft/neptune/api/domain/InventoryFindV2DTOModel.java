@@ -22,6 +22,8 @@ public class InventoryFindV2DTOModel extends ApiCloudObject {
     private Integer storehouseNum;
     @ApiCloudField(value="商品编码列表", example="[1,2]")
     private List<Integer> itemNums;
+    @ApiCloudField(value="with_ln_details", example="false")
+    private Boolean withLnDetails;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="100", required=true)

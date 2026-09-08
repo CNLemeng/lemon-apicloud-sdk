@@ -68,6 +68,8 @@ public class PurchaseOrderFindV3DTOModel extends ApiCloudObject {
     private BigDecimal purchaseOrderPreMoney;
     @ApiCloudField(value="货币币种代码", example="USD")
     private String purchaseOrderCurrencyIso;
+    @ApiCloudField(value="简写单号", example="")
+    private String shortOrderNo;
     @ApiCloudField(value="订单明细", example="")
     private List<PurchaseOrderFindDetailV3DTOModel> purchaseOrderDetails;
 }

@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosSummaryFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店编码", example="[1]")
+    @ApiCloudField(value="门店编号列表（最多10个门第）", example="[1]")
     private List<Integer> branchNums;
     @ApiCloudField(value="商品编码", example="[434400001]")
     private List<Integer> itemNums;

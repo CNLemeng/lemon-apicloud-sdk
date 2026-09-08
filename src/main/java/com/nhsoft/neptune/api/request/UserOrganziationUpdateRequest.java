@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.UserCenterOrganizationSimpleVOModel;
 import java.util.*;
 
 /**
- * update_11请求类
+ * update_13请求类
  * 组织修改
  */
 public class UserOrganziationUpdateRequest implements ApiCloudRequest<UserCenterOrganizationUpdateDTOModel, UserCenterOrganizationSimpleVOModel> {

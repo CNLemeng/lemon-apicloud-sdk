@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.PosItemDeleteDTOModel;
 import java.util.*;
 
 /**
- * delete_6请求类
+ * delete_7请求类
  * 刪除商品档案
  */
 public class BaseBasicItemDeleteRequest implements ApiCloudRequest<PosItemDeleteDTOModel, Object> {

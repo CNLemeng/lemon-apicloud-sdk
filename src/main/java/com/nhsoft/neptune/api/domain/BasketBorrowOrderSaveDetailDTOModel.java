@@ -19,8 +19,10 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BasketBorrowOrderSaveDetailDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="容器名称", required=true)
+    @ApiCloudField(value="容器名称", example="", required=true)
     private String containerName;
     @ApiCloudField(value="数量", required=true)
     private BigDecimal qty;
+    @ApiCloudField(value="price", example="2.0")
+    private BigDecimal price;
 }

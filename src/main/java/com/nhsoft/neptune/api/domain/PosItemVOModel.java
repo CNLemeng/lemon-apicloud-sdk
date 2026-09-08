@@ -37,6 +37,8 @@ public class PosItemVOModel extends ApiCloudObject {
     private String itemDepartment;
     @ApiCloudField(value="商品类别名称", example="默认类别")
     private String itemCategory;
+    @ApiCloudField(value="item_category_code")
+    private String itemCategoryCode;
     @ApiCloudField(value="经营方式", example="购销")
     private String itemMethod;
     @ApiCloudField(value="采购单位", example="公斤")

@@ -60,6 +60,8 @@ public class BasicProductFindDTOModel extends ApiCloudObject {
     private List<Long> variantIds;
     @ApiCloudField(value="商品规格是否同步库存", example="true")
     private Boolean variantInventory;
+    @ApiCloudField(value="updated_at")
+    private String updatedAt;
     @ApiCloudField(value="查询页码 从1开始", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小， 最大200", example="100", required=true)

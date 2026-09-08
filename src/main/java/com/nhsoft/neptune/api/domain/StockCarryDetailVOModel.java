@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class StockCarryDetailVOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="storehouse_num")
+    private Integer storehouseNum;
     @ApiCloudField(value="item_code")
     private String itemCode;
     @ApiCloudField(value="item_name")

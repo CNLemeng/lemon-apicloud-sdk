@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.BaseCenterBrandVOModel;
 import java.util.*;
 
 /**
- * find_25请求类
+ * find_28请求类
  * 商品品牌查询
  */
 public class BaseItemBrandFindRequest implements ApiCloudRequest<BaseCenterBrandFindDTOModel, List<BaseCenterBrandVOModel>> {

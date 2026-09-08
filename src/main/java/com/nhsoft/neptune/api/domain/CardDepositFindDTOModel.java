@@ -23,9 +23,9 @@ public class CardDepositFindDTOModel extends ApiCloudObject {
     private Integer cardUserNum;
     @ApiCloudField(value="门店编码(会员卡与门店二选一进行查询)", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="初始时间(yyyy-MM-dd HH:mm:ss)(按门店查询时必传,会员卡查询时选传)")
+    @ApiCloudField(value="初始时间(yyyy-MM-dd HH:mm:ss)(按门店查询时必传,会员卡查询时选传)(针对shift_table_bizday拉取一整天的数据，时分秒无效)")
     private String dateFrom;
-    @ApiCloudField(value="结束时间(yyyy-MM-dd HH:mm:ss)(按门店查询时必传,会员卡查询时选传)")
+    @ApiCloudField(value="结束时间(yyyy-MM-dd HH:mm:ss)(按门店查询时必传,会员卡查询时选传)(针对shift_table_bizday拉取一整天的数据，时分秒无效)")
     private String dateTo;
     @ApiCloudField(value="查询页码", example="1")
     private Integer pageNo;

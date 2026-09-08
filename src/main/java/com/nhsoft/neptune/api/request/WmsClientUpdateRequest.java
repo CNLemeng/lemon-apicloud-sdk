@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WmsClientVOModel;
 import java.util.*;
 
 /**
- * update_4请求类
+ * update_5请求类
  * wms客户修改
  */
 public class WmsClientUpdateRequest implements ApiCloudRequest<WmsClientUpdateDTOModel, WmsClientVOModel> {
