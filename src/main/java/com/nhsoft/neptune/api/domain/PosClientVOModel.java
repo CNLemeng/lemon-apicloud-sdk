@@ -101,7 +101,7 @@ public class PosClientVOModel extends ApiCloudObject {
     private Long userCenterPartnerId;
     @ApiCloudField(value="币种 偏好货币ISO", example="USD")
     private String clientPreferredCurrencyIso;
-    @ApiCloudField(value="客户标签列表(仅读取接口返回)", example="")
+    @ApiCloudField(value="客户标签列表(仅读取接口返回)")
     private List<PosClientLabelVOModel> clientLabels;
     @ApiCloudField(value="共享门店(指定门店，空集合为所有门店)")
     private List<Integer> clientSharedBranchNums;

@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.OtherInoutShareOrderVOModel;
 import java.util.*;
 
 /**
- * find_39请求类
+ * find_42请求类
  * 费用分摊单查询
  */
 public class OtherinoutshareorderFindRequest implements ApiCloudRequest<OtherInoutShareOrderFindDTOModel, List<OtherInoutShareOrderVOModel>> {

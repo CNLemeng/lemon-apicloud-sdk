@@ -46,6 +46,4 @@ public class ItemTraceabilitySaveDTOModel extends ApiCloudObject {
     private String canceler;
     @ApiCloudField(value="cancel_time")
     private String cancelTime;
-    @ApiCloudField(value="pos_variant_num")
-    private PosVariantNumModel posVariantNum;
 }

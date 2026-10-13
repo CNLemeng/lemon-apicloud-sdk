@@ -27,7 +27,7 @@ public class SaleOrderFindV2DTOModel extends ApiCloudObject {
     private String payStartTime;
     @ApiCloudField(value="支付结束时间", example="2023-01-01 10:00:00")
     private String payEndTime;
-    @ApiCloudField(value="支付时间类型（支付时间|发货时间|核销/送达时间）不传默认为支付时间", example="支付时间")
+    @ApiCloudField(value="支付时间类型（支付时间|发货时间）不传默认为支付时间", example="支付时间")
     private String dateType;
     @ApiCloudField(value="开始时间(配合date_type使用)", example="2023-01-01 00:00:00")
     private String dateFrom;
@@ -43,4 +43,6 @@ public class SaleOrderFindV2DTOModel extends ApiCloudObject {
     private Integer pageSize;
     @ApiCloudField(value="订退款状态(NONE：未退款|REFUNDING：退款中|PART：部分退款|ALL：已退款)", example="[NONE]")
     private List<String> saleOrderRefundedStates;
+    @ApiCloudField(value="pick_types", example="[\"SELF_PICK\"]")
+    private List<String> pickTypes;
 }

@@ -20,6 +20,8 @@ public class WmsItemFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="门店编号", example="99", required=true)
     private Integer branchNum;
+    @ApiCloudField(value="item_nums", example="[\"1\"]")
+    private List<Integer> itemNums;
     @ApiCloudField(value="查询分页", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)

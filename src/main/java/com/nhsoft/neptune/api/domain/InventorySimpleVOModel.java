@@ -28,9 +28,9 @@ public class InventorySimpleVOModel extends ApiCloudObject {
     private BigDecimal inventoryValidAmount;
     @ApiCloudField(value="占用基本数量（小数点3位）", example="1.0")
     private BigDecimal inventoryLockAmount;
-    @ApiCloudField(value="库存金额", example="1.0")
+    @ApiCloudField(value="库存金额（小数点2位）", example="1.0")
     private BigDecimal inventoryMoney;
-    @ApiCloudField(value="库存辅助数量", example="1.0")
+    @ApiCloudField(value="库存辅助数量（小数点3位）", example="1.0")
     private BigDecimal inventoryAssistAmount;
     @ApiCloudField(value="last_edit_time", example="2026-01-01 00:00:00")
     private String lastEditTime;

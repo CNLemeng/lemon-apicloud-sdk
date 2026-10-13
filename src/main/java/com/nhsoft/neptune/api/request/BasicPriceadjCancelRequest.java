@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PriceAdjustmentVOModel;
 import java.util.*;
 
 /**
- * cancel_8请求类
+ * cancel_9请求类
  * 商品调价失效
  */
 public class BasicPriceadjCancelRequest implements ApiCloudRequest<PriceAdjustmentIdDTOModel, PriceAdjustmentVOModel> {

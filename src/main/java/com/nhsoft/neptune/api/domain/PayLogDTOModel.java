@@ -54,4 +54,6 @@ public class PayLogDTOModel extends ApiCloudObject {
     private String outSubId;
     @ApiCloudField(value="子商户名称", example="株洲市炎帝广场店")
     private String subAppName;
+    @ApiCloudField(value="结算日期(yyyy-MM-dd HH:mm:ss),时分秒为0")
+    private String settlementDate;
 }

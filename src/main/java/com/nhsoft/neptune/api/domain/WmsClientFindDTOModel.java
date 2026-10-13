@@ -26,4 +26,6 @@ public class WmsClientFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小(最大为200)", example="10", required=true)
     private Integer pageSize;
+    @ApiCloudField(value="contains_un_active", example="true")
+    private Boolean containsUnActive;
 }

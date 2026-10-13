@@ -32,6 +32,8 @@ public class ReceiveOrderSaveV2DTOModel extends ApiCloudObject {
     private String receiveOrderMemo;
     @ApiCloudField(value="receive_order_bill_no")
     private String receiveOrderBillNo;
+    @ApiCloudField(value="请求UUID，同一制单请求重试时保持不变", example="")
+    private String receiveOrderUuid;
     @ApiCloudField(value="业务员", example="业务员名称", required=true)
     private String receiveOrderEmployee;
     @ApiCloudField(value="收货日期 格式：yyyy-MM-dd", example="2021-01-20", required=true)

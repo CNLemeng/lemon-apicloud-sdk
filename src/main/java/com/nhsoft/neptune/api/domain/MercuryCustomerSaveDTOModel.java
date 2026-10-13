@@ -25,7 +25,7 @@ public class MercuryCustomerSaveDTOModel extends ApiCloudObject {
     private String nickname;
     @ApiCloudField(value="全渠道会员ID", example="207200001")
     private String customerId;
-    @ApiCloudField(value="第三方会员标识", example="2088000211")
+    @ApiCloudField(value="第三方会员标识", example="2088000211", required=true)
     private String openid;
     @ApiCloudField(value="微信unionid", example="2088000211")
     private String unionid;

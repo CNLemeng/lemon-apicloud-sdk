@@ -76,6 +76,8 @@ public class ReceiveOrderFindV2DTOModel extends ApiCloudObject {
     private Boolean receiveOrderRepealFlag;
     @ApiCloudField(value="冲红复制原单号", example="")
     private String receiveOrderBillNo;
+    @ApiCloudField(value="请求UUID，同一制单请求重试时保持不变", example="")
+    private String receiveOrderUuid;
     @ApiCloudField(value="订单明细", example="")
     private List<ReceiveOrderDetailFindV2DTOModel> receiveOrderDetails;
 }

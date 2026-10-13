@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.CardSettlementVOModel;
 import java.util.*;
 
 /**
- * cardSettlementFind请求类
+ * cardSettlementFindV2请求类
  * 会员卡结算单查询
  */
 public class SettlementCardFindv2Request implements ApiCloudRequest<CardSettlementFindDTOModel, List<CardSettlementVOModel>> {

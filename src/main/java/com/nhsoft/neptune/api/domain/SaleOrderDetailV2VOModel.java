@@ -41,4 +41,6 @@ public class SaleOrderDetailV2VOModel extends ApiCloudObject {
     private String productAttribute;
     @ApiCloudField(value="基本单位数量转化率", example="5.0")
     private BigDecimal itemRate;
+    @ApiCloudField(value="buyer_refund_amount", example="10")
+    private Integer buyerRefundAmount;
 }

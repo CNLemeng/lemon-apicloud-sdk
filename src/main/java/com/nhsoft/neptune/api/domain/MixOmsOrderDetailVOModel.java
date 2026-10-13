@@ -42,4 +42,6 @@ public class MixOmsOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal totalAmaNum;
     @ApiCloudField(value="total_fee")
     private BigDecimal totalFee;
+    @ApiCloudField(value="remark")
+    private String remark;
 }

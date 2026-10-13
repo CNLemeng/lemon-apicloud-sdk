@@ -70,4 +70,6 @@ public class InnerOrderFindV2DTOModel extends ApiCloudObject {
     private BigDecimal innerOrderMoney;
     @ApiCloudField(value="批复金额")
     private BigDecimal innerOrderReplyMoney;
+    @ApiCloudField(value="是否无货退款", example="true")
+    private Boolean innerOrderNoStockRefund;
 }

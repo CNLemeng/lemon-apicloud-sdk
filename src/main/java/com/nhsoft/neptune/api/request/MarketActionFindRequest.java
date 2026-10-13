@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.MarketActionVOModel;
 import java.util.*;
 
 /**
- * find_40请求类
+ * find_43请求类
  * 查询营销活动
  */
 public class MarketActionFindRequest implements ApiCloudRequest<MarketActionFindDTOModel, List<MarketActionVOModel>> {

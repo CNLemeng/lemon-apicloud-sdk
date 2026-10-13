@@ -68,8 +68,10 @@ public class SupplierReadResponseV2DTOModel extends ApiCloudObject {
     private String supplierPurchasePeriodUnit;
     @ApiCloudField(value="首次/上次采购时间", example="2021-01-01")
     private String supplierPurchaseDate;
-    @ApiCloudField(value="交货期限")
+    @ApiCloudField(value="有效日期", example="10")
     private Integer supplierPurchaseDeadline;
+    @ApiCloudField(value="交货期限", example="10")
+    private Integer deliveryDeadline;
     @ApiCloudField(value="是否共享（1共享，0不共享）", example="1")
     private Integer supplierShared;
     @ApiCloudField(value="是否启用（1启用，0不启用）", example="1")

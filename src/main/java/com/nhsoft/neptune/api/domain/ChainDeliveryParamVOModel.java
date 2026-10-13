@@ -466,4 +466,6 @@ public class ChainDeliveryParamVOModel extends ApiCloudObject {
     private Boolean allowRequest;
     @ApiCloudField(value="管理中心允许非要货时段保存审核要货单", example="true")
     private Boolean centerAllowRequest;
+    @ApiCloudField(value="app推荐类别展示", example="true")
+    private Boolean appShowRecommendedCategoryFlag;
 }

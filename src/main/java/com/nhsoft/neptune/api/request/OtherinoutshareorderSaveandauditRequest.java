@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.OtherInoutShareOrderFullyVOModel;
 import java.util.*;
 
 /**
- * saveAndAudit_12请求类
+ * saveAndAudit_14请求类
  * 费用分摊单保存并审核
  */
 public class OtherinoutshareorderSaveandauditRequest implements ApiCloudRequest<OtherInoutShareOrderSaveDTOModel, OtherInoutShareOrderFullyVOModel> {

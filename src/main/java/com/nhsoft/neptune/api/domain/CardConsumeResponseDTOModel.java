@@ -49,26 +49,16 @@ public class CardConsumeResponseDTOModel extends ApiCloudObject {
     private String consumeOrderNo;
     @ApiCloudField(value="消费分类(1.pos消费2.线上消费.3ic卡消费)", example="1")
     private Integer consumeCategory;
-    @ApiCloudField(value=" 消费类型", example="消费")
+    @ApiCloudField(value="消费类型", example="消费")
     private String consumeType;
-    @ApiCloudField(value=" 消费前余额", example="1.0")
+    @ApiCloudField(value="消费前余额", example="1.0")
     private BigDecimal consumeBalance;
-    @ApiCloudField(value=" 发票金额", example="1.0")
+    @ApiCloudField(value="发票金额", example="1.0")
     private BigDecimal consumeInvoice;
     @ApiCloudField(value="消费时间")
     private String consumeDate;
-    @ApiCloudField(value=" 消费次数", example="1")
+    @ApiCloudField(value="消费次数", example="1")
     private Integer consumeCount;
-    @ApiCloudField(value=" 是否发送短信", example="false")
-    private Boolean sendSmsFlag;
-    @ApiCloudField(value="加密属性", example="lemon")
-    private String consumeCrypt;
-    @ApiCloudField(value="crm主键", example="2072992036300012")
-    private String customerId;
-    @ApiCloudField(value="卡类型编号", example="99")
-    private String cardUserTypeCode;
-    @ApiCloudField(value="卡类型名称", example="电子卡")
-    private String cardUserTypeName;
     @ApiCloudField(value="表面卡号", example="100000000666")
     private String consumePrintedNum;
     @ApiCloudField(value="卡类型代码", example="99")

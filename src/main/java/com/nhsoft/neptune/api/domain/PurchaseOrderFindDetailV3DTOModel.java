@@ -72,4 +72,6 @@ public class PurchaseOrderFindDetailV3DTOModel extends ApiCloudObject {
     private BigDecimal detailOtherTaxRate;
     @ApiCloudField(value="业务系统未启用进销税项时税额（小数点2位）", example="1.0")
     private BigDecimal detailOtherTaxMoney;
+    @ApiCloudField(value="交货期限", example="2026-09-01 00:00:00")
+    private String deliveryDeadline;
 }

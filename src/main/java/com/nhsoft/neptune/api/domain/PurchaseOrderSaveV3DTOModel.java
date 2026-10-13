@@ -42,4 +42,6 @@ public class PurchaseOrderSaveV3DTOModel extends ApiCloudObject {
     private List<PurchaseOrderDetailSaveV3DTOModel> purchaseOrderDetails;
     @ApiCloudField(value="request_order_fids")
     private List<String> requestOrderFids;
+    @ApiCloudField(value="uuid幂等使用", example="")
+    private String purchaseOrderUuid;
 }

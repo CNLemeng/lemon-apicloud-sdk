@@ -26,6 +26,8 @@ public class ClientOtherInoutDTOModel extends ApiCloudObject {
     private String clientFid;
     @ApiCloudField(value="费用项目", example="运费")
     private String otherInoutKind;
+    @ApiCloudField(value="费用项目代码", example="1000006")
+    private String otherInoutKindCode;
     @ApiCloudField(value="收支方向(0-支出,1-收入)", example="1")
     private Integer otherInoutFlag;
     @ApiCloudField(value="创建人", example="管理员")

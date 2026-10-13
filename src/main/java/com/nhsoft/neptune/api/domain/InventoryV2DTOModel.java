@@ -32,10 +32,18 @@ public class InventoryV2DTOModel extends ApiCloudObject {
     private BigDecimal inventoryMoney;
     @ApiCloudField(value="基本单价", example="1.0")
     private BigDecimal inventoryPrice;
+    @ApiCloudField(value="库存单价", example="1.0")
+    private BigDecimal itemPrice;
     @ApiCloudField(value="库存辅助数量", example="1.0")
     private BigDecimal inventoryAssistAmount;
     @ApiCloudField(value="批次商品详细信息", example="")
     private List<InventoryLnDetailV2DTOModel> inventoryLnDetails;
     @ApiCloudField(value="加权平均商品的生产日期", example="2025-07-01 00:00:00")
     private String productDate;
+    @ApiCloudField(value="收货间隔天数", example="1")
+    private Integer diffDays;
+    @ApiCloudField(value="最近进价", example="10.0")
+    private BigDecimal itemLastPrice;
+    @ApiCloudField(value="库存单位", example="件")
+    private String itemInventoryUnit;
 }

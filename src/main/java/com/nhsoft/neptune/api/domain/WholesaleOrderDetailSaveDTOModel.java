@@ -41,4 +41,6 @@ public class WholesaleOrderDetailSaveDTOModel extends ApiCloudObject {
     private BigDecimal itemPresentBasicQty;
     @ApiCloudField(value="基本数量（小数点3位）", example="1.0")
     private BigDecimal itemQty;
+    @ApiCloudField(value="order_detail_tare")
+    private BigDecimal orderDetailTare;
 }

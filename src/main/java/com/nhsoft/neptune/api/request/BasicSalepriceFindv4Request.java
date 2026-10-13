@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.SalePriceVOModel;
 import java.util.*;
 
 /**
- * salePriceFind_1请求类
+ * salePriceFind_2请求类
  * 门店分级商品价格查询
  */
 public class BasicSalepriceFindv4Request implements ApiCloudRequest<SalePriceFindDTOModel, List<SalePriceVOModel>> {

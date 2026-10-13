@@ -40,4 +40,6 @@ public class ReturnOrderSaveDetailV2DTOModel extends ApiCloudObject {
     private String itemMemo;
     @ApiCloudField(value="基本数量（小数点3位）", example="1.0")
     private BigDecimal itemQty;
+    @ApiCloudField(value="税率（小数点2位）", example="0.03")
+    private BigDecimal detailTaxRate;
 }

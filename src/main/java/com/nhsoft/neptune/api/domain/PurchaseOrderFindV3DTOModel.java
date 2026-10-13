@@ -48,8 +48,10 @@ public class PurchaseOrderFindV3DTOModel extends ApiCloudObject {
     private String purchaseOrderCancelTime;
     @ApiCloudField(value="最后修改时间", example="2021-01-20 00:00:00")
     private String purchaseOrderLastEditTime;
-    @ApiCloudField(value="交货期限", example="2021-01-20")
+    @ApiCloudField(value="有效日期", example="2021-01-20")
     private String purchaseOrderDeadline;
+    @ApiCloudField(value="交货期限", example="2026-09-01 00:00:00")
+    private String deliveryDeadline;
     @ApiCloudField(value="状态代码", example="1")
     private Integer purchaseOrderStateCode;
     @ApiCloudField(value="状态名称", example="制单")

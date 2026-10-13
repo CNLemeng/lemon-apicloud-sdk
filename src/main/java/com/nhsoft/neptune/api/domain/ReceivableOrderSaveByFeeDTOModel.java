@@ -21,7 +21,7 @@ public class ReceivableOrderSaveByFeeDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="业务类型（储值卡|商品|业务费用|费用|拓展单据类型1|拓展单据类型2）", example="储值卡", required=true)
     private String businessType;
-    @ApiCloudField(value="快速生成单据类型(批发销售单|批发退货单|卡存款单|全渠道会员卡存款单|调出单|调入单|应收费用单|应付费用单)", example="应收费用单")
+    @ApiCloudField(value="快速生成单据类型(批发销售单|批发退货单|卡存款单|全渠道会员卡存款单|调出单|调入单|应收费用单|应付费用单|外部费用单)", example="应收费用单")
     private String quickOrderType;
     @ApiCloudField(value="目标用户中心门店ID(和合作伙伴ID二选一)", example="1")
     private String dstBranchId;
@@ -41,8 +41,8 @@ public class ReceivableOrderSaveByFeeDTOModel extends ApiCloudObject {
     private String operator;
     @ApiCloudField(value="操作时间", example="2022-01-01 00:00:00")
     private String operatorTime;
-    @ApiCloudField(value="费用项目明细", example="", required=true)
+    @ApiCloudField(value="费用项目明细", required=true)
     private List<FeeItemDetailDTOModel> details;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PayablePlanRequestDTOModel> planRequests;
 }

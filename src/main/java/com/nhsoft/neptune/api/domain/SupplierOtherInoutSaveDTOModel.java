@@ -38,4 +38,8 @@ public class SupplierOtherInoutSaveDTOModel extends ApiCloudObject {
     private String otherInoutDate;
     @ApiCloudField(value="费用金额（小数点2位）", example="10.0", required=true)
     private BigDecimal otherInoutMoney;
+    @ApiCloudField(value="other_inout_other_tax_rate")
+    private BigDecimal otherInoutOtherTaxRate;
+    @ApiCloudField(value="other_inout_other_tax_money")
+    private BigDecimal otherInoutOtherTaxMoney;
 }

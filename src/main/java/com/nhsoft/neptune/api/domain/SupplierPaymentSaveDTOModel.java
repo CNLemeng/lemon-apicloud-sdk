@@ -22,9 +22,9 @@ public class SupplierPaymentSaveDTOModel extends ApiCloudObject {
     private Integer supplierNum;
     @ApiCloudField(value="门店编号", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="银行名称", example="农业银行", required=true)
+    @ApiCloudField(value="银行名称", example="农业银行")
     private String paymentBank;
-    @ApiCloudField(value="银行账号", example="65554985621452356", required=true)
+    @ApiCloudField(value="银行账号", example="65554985621452356")
     private String paymentBankAccount;
     @ApiCloudField(value="付款时间", required=true)
     private String paymentDateTime;

@@ -154,7 +154,7 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private String madeIn;
     @ApiCloudField(value="门店要货不可以超过中心库存量,无库存不允许要货", example="true")
     private Boolean noStockNoRequest;
-    @ApiCloudField(value="一品多码", example="")
+    @ApiCloudField(value="一品多码")
     private List<PosItemBarCodeSaveVOModel> itemBars;
     @ApiCloudField(value="组合明细")
     private List<PosItemCombineItemSaveVOModel> posItemCombineItems;
@@ -212,6 +212,6 @@ public class PosItemUpdateDTOModel extends ApiCloudObject {
     private Boolean itemPackageActived;
     @ApiCloudField(value="商品描述(富文本)")
     private String description;
-    @ApiCloudField(value="商品编码", example="102200551", required=true)
+    @ApiCloudField(value="商品编号", example="102200551", required=true)
     private Integer itemNum;
 }

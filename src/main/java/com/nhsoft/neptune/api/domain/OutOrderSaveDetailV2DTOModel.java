@@ -52,4 +52,6 @@ public class OutOrderSaveDetailV2DTOModel extends ApiCloudObject {
     private BigDecimal outOrderDetailFreight;
     @ApiCloudField(value="out_order_detail_quantity")
     private BigDecimal outOrderDetailQuantity;
+    @ApiCloudField(value="out_order_detail_tare")
+    private BigDecimal outOrderDetailTare;
 }

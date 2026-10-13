@@ -32,6 +32,8 @@ public class ReturnOrderSaveV2DTOModel extends ApiCloudObject {
     private String returnOrderMemo;
     @ApiCloudField(value="return_order_bill_no")
     private String returnOrderBillNo;
+    @ApiCloudField(value="请求UUID，同一制单请求重试时保持不变", example="")
+    private String returnOrderUuid;
     @ApiCloudField(value="外部流水号(长度小于50)", example="A00001")
     private String returnOrderOutBillNo;
     @ApiCloudField(value="业务员", example="业务员名称")

@@ -34,4 +34,6 @@ public class AllocationOrderSaveDetailV2DTOModel extends ApiCloudObject {
     private String itemInLotNumber;
     @ApiCloudField(value="转仓基本数量", example="1.0")
     private BigDecimal itemQty;
+    @ApiCloudField(value="拆零基本数量", example="2.0")
+    private BigDecimal itemQtyAppand;
 }

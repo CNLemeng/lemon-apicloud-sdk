@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyMoneyVOModel;
 import java.util.*;
 
 /**
- * cancel_6请求类
+ * cancel_7请求类
  * 超额奖励作废
  */
 public class PolicyMoneyCancelRequest implements ApiCloudRequest<PolicyCancelDTOModel, PolicyMoneyVOModel> {

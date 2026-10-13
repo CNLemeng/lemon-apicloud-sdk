@@ -44,4 +44,6 @@ public class PayLogFindDTOModel extends ApiCloudObject {
     private String orderType;
     @ApiCloudField(value="单据号", example="207299220801140002")
     private String orderNo;
+    @ApiCloudField(value="结算日期(yyyy-MM-dd HH:mm:ss),时分秒为0")
+    private String settlementDate;
 }

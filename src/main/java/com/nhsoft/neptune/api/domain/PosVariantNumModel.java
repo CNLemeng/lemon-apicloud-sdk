@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosVariantNumModel extends ApiCloudObject {
 
-    @ApiCloudField(value="item_num")
+    @ApiCloudField(value="item_num", required=true)
     private Integer itemNum;
     @ApiCloudField(value="item_grade_num")
     private Integer itemGradeNum;

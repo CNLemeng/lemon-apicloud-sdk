@@ -23,7 +23,7 @@ public class SystemItemCategorySaleAnalysisFindDTOModel extends ApiCloudObject {
     private String bizdayStart;
     @ApiCloudField(value="营业结束日，格式 yyyy-MM-dd；与营业开始日含首尾最多查询 31 天", example="2026-08-07", required=true)
     private String bizdayEnd;
-    @ApiCloudField(value="门店编号列表，必传，最多 100 家；不进行用户门店权限校验", example="[1,2]", required=true)
+    @ApiCloudField(value="门店编号列表，必传,不进行用户门店权限校验", example="[1,2]", required=true)
     private List<Integer> branchNums;
     @ApiCloudField(value="商品编号列表；item_nums 与 category_codes 至少传一个", example="[2160]")
     private List<Integer> itemNums;

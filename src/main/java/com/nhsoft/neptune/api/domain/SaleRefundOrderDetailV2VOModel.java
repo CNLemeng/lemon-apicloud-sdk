@@ -21,6 +21,8 @@ public class SaleRefundOrderDetailV2VOModel extends ApiCloudObject {
 
     @ApiCloudField(value="明细编号", example="1")
     private Integer num;
+    @ApiCloudField(value="order_detail_num", example="1")
+    private Integer orderDetailNum;
     @ApiCloudField(value="商品编码", example="676916")
     private Integer itemNum;
     @ApiCloudField(value="商品名称", example="苹果")

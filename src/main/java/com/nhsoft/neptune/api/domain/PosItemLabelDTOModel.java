@@ -34,4 +34,12 @@ public class PosItemLabelDTOModel extends ApiCloudObject {
     private Boolean posCorner;
     @ApiCloudField(value="POS角标", example="")
     private String posCornerContent;
+    @ApiCloudField(value="APP商品展示", example="true")
+    private Boolean appItem;
+    @ApiCloudField(value="app类别展示（门店类型) 0或null为门店，1为配送中心", example="0")
+    private Integer appBranchType;
+    @ApiCloudField(value="APP类别展示 应用门店", example="")
+    private List<Integer> branchNums;
+    @ApiCloudField(value="APP类别下按商品添加顺序展示", example="false")
+    private Boolean appItemSortBySerial;
 }

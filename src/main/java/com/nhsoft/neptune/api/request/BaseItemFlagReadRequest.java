@@ -5,7 +5,7 @@ import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
 import com.nhsoft.neptune.api.domain.ItemFlagIdDTOModel;
 
-import com.nhsoft.neptune.api.domain.ItemFlagVOModel;
+import com.nhsoft.neptune.api.domain.ItemFlagFullyVOModel;
 
 import java.util.*;
 
@@ -13,7 +13,7 @@ import java.util.*;
  * read_26请求类
  * 商品查询模板读取
  */
-public class BaseItemFlagReadRequest implements ApiCloudRequest<ItemFlagIdDTOModel, ItemFlagVOModel> {
+public class BaseItemFlagReadRequest implements ApiCloudRequest<ItemFlagIdDTOModel, ItemFlagFullyVOModel> {
 
     private ItemFlagIdDTOModel bizModel;
 
@@ -38,8 +38,8 @@ public class BaseItemFlagReadRequest implements ApiCloudRequest<ItemFlagIdDTOMod
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<ItemFlagVOModel>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<ItemFlagVOModel>>() {};
+    public TypeReference<ApiCloudResponse<ItemFlagFullyVOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<ItemFlagFullyVOModel>>() {};
     }
 
 }

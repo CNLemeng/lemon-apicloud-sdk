@@ -21,19 +21,19 @@ public class WholesalePriceAdjustOrderDetailSaveDTOModel extends ApiCloudObject 
 
     @ApiCloudField(value="商品编码", example="434400001", required=true)
     private Integer itemNum;
-    @ApiCloudField(value="原批发价", example="20.0", required=true)
+    @ApiCloudField(value="原批发价", example="20.0")
     private BigDecimal oriWholesalePrice;
-    @ApiCloudField(value="原批发价", example="22.0", required=true)
+    @ApiCloudField(value="现批发价", example="22.0", required=true)
     private BigDecimal wholesalePrice;
-    @ApiCloudField(value="原批发价2", example="22.0", required=true)
+    @ApiCloudField(value="原批发价2", example="22.0")
     private BigDecimal oriWholesaleLevel2Price;
     @ApiCloudField(value="现批发价2", example="22.0", required=true)
     private BigDecimal wholesaleLevel2Price;
-    @ApiCloudField(value="原批发价3", example="22.0", required=true)
+    @ApiCloudField(value="原批发价3", example="22.0")
     private BigDecimal oriWholesaleLevel3Price;
     @ApiCloudField(value="现批发价3", example="22.0", required=true)
     private BigDecimal wholesaleLevel3Price;
-    @ApiCloudField(value="原批发价4", example="22.0", required=true)
+    @ApiCloudField(value="原批发价4", example="22.0")
     private BigDecimal oriWholesaleLevel4Price;
     @ApiCloudField(value="现批发价4", example="22.0", required=true)
     private BigDecimal wholesaleLevel4Price;

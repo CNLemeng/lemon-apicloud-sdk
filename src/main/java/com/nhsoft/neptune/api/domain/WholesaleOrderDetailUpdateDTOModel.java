@@ -45,4 +45,6 @@ public class WholesaleOrderDetailUpdateDTOModel extends ApiCloudObject {
     private BigDecimal wholesaleOrderDetailUseQty;
     @ApiCloudField(value="wholesale_order_detail_post_fee")
     private BigDecimal wholesaleOrderDetailPostFee;
+    @ApiCloudField(value="order_detail_tare")
+    private BigDecimal orderDetailTare;
 }

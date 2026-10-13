@@ -11,7 +11,7 @@ import com.nhsoft.neptune.api.domain.VipLevelBenefitsVOModel;
 import java.util.*;
 
 /**
- * find_48请求类
+ * find_51请求类
  * 会员等级权益查询
  */
 public class ArgusCustomerVipLevelBenefitsFindRequest implements ApiCloudRequest<Void, List<VipLevelBenefitsVOModel>> {

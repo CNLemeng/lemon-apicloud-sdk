@@ -38,4 +38,6 @@ public class InOrderSaveV2DTOModel extends ApiCloudObject {
     private String outOrderFid;
     @ApiCloudField(value="明细", example="", required=true)
     private List<InOrderSaveDetailV2DTOModel> inOrderDetails;
+    @ApiCloudField(value="uuid，用于幂等", example="")
+    private String inOrderUuid;
 }

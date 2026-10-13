@@ -32,4 +32,6 @@ public class PurchaseStorematrixDTOModel extends ApiCloudObject {
     private Integer orderBase;
     @ApiCloudField(value="停购标记（true:停购  false:不停购）", example="false")
     private Boolean stockCeaseFlag;
+    @ApiCloudField(value="交货期限", example="10")
+    private Integer deliveryDeadline;
 }

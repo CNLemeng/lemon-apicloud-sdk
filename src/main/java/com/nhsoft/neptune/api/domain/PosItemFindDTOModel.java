@@ -19,8 +19,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="经营范围ID", example="")
-    private List<Integer> businessScopeList;
+    @ApiCloudField(value="经营范围ID")
+    private List<Long> businessScopeList;
     @ApiCloudField(value="STANDARD:标准商品|COMBINED:组合商品|NONE_INVENTORY:非库存商品|DOC_MAKE_COMBINE:制单组合商品|CUSTOME_COMBINE:自定义组合商品|COMPONENT:成分商品", example="STANDARD")
     private String itemType;
     @ApiCloudField(value="是否淘汰", example="false")
@@ -59,12 +59,14 @@ public class PosItemFindDTOModel extends ApiCloudObject {
     private Boolean itemWeightFlag;
     @ApiCloudField(value="商品类别代码", example="001")
     private String itemCategoryCode;
-    @ApiCloudField(value="商品查询模板ID", example="")
+    @ApiCloudField(value="商品查询模板ID")
     private List<Integer> itemFlagIds;
     @ApiCloudField(value="query_barcodes", example="true")
     private Boolean queryBarcodes;
     @ApiCloudField(value="query_combine_relation", example="true")
     private Boolean queryCombineRelation;
+    @ApiCloudField(value="query_contains_deleted", example="false")
+    private Boolean queryContainsDeleted;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
