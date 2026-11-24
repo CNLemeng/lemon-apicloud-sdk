@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PurchaseInquiryOrderVOModel;
 import java.util.*;
 
 /**
- * find_38请求类
+ * find_40请求类
  * 采购询价查询
  */
 public class PurchaeInquiryFindRequest implements ApiCloudRequest<PurchaseInquiryOrderFindDTOModel, List<PurchaseInquiryOrderVOModel>> {

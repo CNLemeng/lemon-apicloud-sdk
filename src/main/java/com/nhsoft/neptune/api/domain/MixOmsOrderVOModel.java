@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MixOmsOrderVOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="id")
+    private Integer id;
     @ApiCloudField(value="ama_store_id")
     private Integer amaStoreId;
     @ApiCloudField(value="buyer_message", example="快速配送")
@@ -26,15 +28,13 @@ public class MixOmsOrderVOModel extends ApiCloudObject {
     private String createdAt;
     @ApiCloudField(value="deliverable", example="true")
     private Boolean deliverable;
-    @ApiCloudField(value="display_order_id")
+    @ApiCloudField(value="display_order_id", example="99675000001")
     private String displayOrderId;
     @ApiCloudField(value="fetch_goods_time")
     private String fetchGoodsTime;
-    @ApiCloudField(value="id")
-    private Integer id;
-    @ApiCloudField(value="package_fee")
+    @ApiCloudField(value="package_fee", example="1.0")
     private BigDecimal packageFee;
-    @ApiCloudField(value="package_num")
+    @ApiCloudField(value="package_num", example="9967500001")
     private Integer packageNum;
     @ApiCloudField(value="payment")
     private BigDecimal payment;
@@ -42,7 +42,7 @@ public class MixOmsOrderVOModel extends ApiCloudObject {
     private Integer platform;
     @ApiCloudField(value="platform_str")
     private String platformStr;
-    @ApiCloudField(value="post_fee")
+    @ApiCloudField(value="post_fee", example="1.0")
     private BigDecimal postFee;
     @ApiCloudField(value="receiver_address")
     private String receiverAddress;

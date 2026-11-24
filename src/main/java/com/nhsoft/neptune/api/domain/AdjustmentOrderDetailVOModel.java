@@ -28,6 +28,10 @@ public class AdjustmentOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal itemUsePrice;
     @ApiCloudField(value="调整单位", example="公斤")
     private String itemUseUnit;
+    @ApiCloudField(value="辅助数量")
+    private BigDecimal itemAssistQty;
+    @ApiCloudField(value="辅助单位", example="")
+    private String itemAssistUnit;
     @ApiCloudField(value="商品名称", example="苹果")
     private String itemName;
     @ApiCloudField(value="商品换算率", example="1.0")

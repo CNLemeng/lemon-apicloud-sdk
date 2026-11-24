@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.PolicyPackageUpdateAppliedBranchDTOModel;
 import java.util.*;
 
 /**
- * updateAppliedBranch请求类
+ * updateAppliedBranch_1请求类
  * 打包促销应用门店修改
  */
 public class PolicyPackageApplyBranchUpdateRequest implements ApiCloudRequest<PolicyPackageUpdateAppliedBranchDTOModel, Void> {

@@ -72,6 +72,10 @@ public class CustomizePackageVOModel extends ApiCloudObject {
     private Boolean sunActived;
     @ApiCloudField(value="是否例外门店", example="true")
     private Boolean exceptBranch;
+    @ApiCloudField(value="套餐类型：ITEM 按商品计价，PACKAGE 按套餐计价", example="ITEM")
+    private String packageType;
+    @ApiCloudField(value="套餐价", example="20.0")
+    private BigDecimal packagePrice;
     @ApiCloudField(value="自选套餐分组")
     private List<CustomizePackageGroupVOModel> groups;
 }

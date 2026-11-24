@@ -62,6 +62,8 @@ public class SupplierAdjustmentFullyVOModel extends ApiCloudObject {
     private Integer supplierAdjustmentReturnType;
     @ApiCloudField(value="失效人", example="admin")
     private String supplierAdjustmentInvalidor;
+    @ApiCloudField(value="uuid幂等键(长度限制伟64)", example="")
+    private String supplierAdjustmentUuid;
     @ApiCloudField(value="明细", example="")
     private List<SupplierAdjustmentDetailVOModel> supplierAdjustmentDetails;
 }

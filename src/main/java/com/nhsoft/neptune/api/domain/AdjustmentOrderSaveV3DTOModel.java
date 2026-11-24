@@ -32,6 +32,8 @@ public class AdjustmentOrderSaveV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderRefBill;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String adjustmentOrderOutBillNo;
+    @ApiCloudField(value="库存调整单保存防重标识；不传时使用有效外部流水号，优先使用 adjustment_order_ref_bill", example="adjustment-uuid-001")
+    private String adjustmentOrderUuid;
     @ApiCloudField(value="调整原因", example="手动入库")
     private String adjustmentOrderCause;
     @ApiCloudField(value="调整原因代码", example="手动入库")

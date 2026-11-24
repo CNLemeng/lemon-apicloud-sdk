@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CheckOrderSaveV2DTOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="防重UUID，新增及保存并审核必填，同一单据重试使用相同值", example="")
+    private String checkOrderUuid;
     @ApiCloudField(value="门店编码", example="99", required=true)
     private Integer branchNum;
     @ApiCloudField(value="仓库编码", example="150050001", required=true)

@@ -30,6 +30,8 @@ public class PriceAdjustmentOrderSaveV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderMemo;
     @ApiCloudField(value="外部流水号(最大长度32)", example="A00001")
     private String adjustmentOrderRefBill;
+    @ApiCloudField(value="防重UUID，未传时使用外部流水号；两者至少填写一个", example="cost-adjustment-001")
+    private String adjustmentOrderUuid;
     @ApiCloudField(value="成本调整方向：入库、出库", example="入库")
     private String adjustmentOrderCostDirection;
     @ApiCloudField(value="成本调整类型：库存成本调整、成本调差", example="")

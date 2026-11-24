@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.MaterialVOModel;
 import java.util.*;
 
 /**
- * find_29请求类
+ * find_30请求类
  * 查询档案素材
  */
 public class BaseBasicMaterialFindRequest implements ApiCloudRequest<MaterialFindDTOModel, List<MaterialVOModel>> {

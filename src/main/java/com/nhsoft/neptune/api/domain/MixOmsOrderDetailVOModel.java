@@ -26,9 +26,9 @@ public class MixOmsOrderDetailVOModel extends ApiCloudObject {
     private Boolean isGiveaway;
     @ApiCloudField(value="num")
     private Integer num;
-    @ApiCloudField(value="payment")
+    @ApiCloudField(value="payment", example="1.0")
     private BigDecimal payment;
-    @ApiCloudField(value="price")
+    @ApiCloudField(value="price", example="5.0")
     private BigDecimal price;
     @ApiCloudField(value="refund_status")
     private Integer refundStatus;

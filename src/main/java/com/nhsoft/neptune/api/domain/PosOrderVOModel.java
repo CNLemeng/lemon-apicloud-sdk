@@ -80,6 +80,8 @@ public class PosOrderVOModel extends ApiCloudObject {
     private String orderTime;
     @ApiCloudField(value="设备MAC地址", example="A0-C5-89-51-68-23")
     private String orderMachine;
+    @ApiCloudField(value="终端类型(DELPHI：果蔬/零食版POS；QT：标准版POS；ANDROID：安卓POS；MOBILE：移动POS；SELF_SERVICE：自助购POS)", example="QT")
+    private String orderMachineType;
     @ApiCloudField(value="关联单号", example="4200000063201802057497542368")
     private String orderRefBillno;
     @ApiCloudField(value="外部关联单号", example="A9918034145711UC")

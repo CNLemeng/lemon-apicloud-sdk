@@ -56,6 +56,8 @@ public class PriceAdjustmentOrderV3DTOModel extends ApiCloudObject {
     private String adjustmentOrderCostBillType;
     @ApiCloudField(value="成本调差来源单据原因", example="")
     private String adjustmentOrderCostBillCause;
+    @ApiCloudField(value="uuid", example="")
+    private String adjustmentOrderUuid;
     @ApiCloudField(value="明细", example="")
     private List<PriceAdjustmentOrderDetailV3DTOModel> adjustmentOrderDetails;
 }

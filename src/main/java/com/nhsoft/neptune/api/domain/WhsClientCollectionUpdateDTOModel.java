@@ -40,7 +40,7 @@ public class WhsClientCollectionUpdateDTOModel extends ApiCloudObject {
     private BigDecimal collectionPreMoney;
     @ApiCloudField(value="优惠金额", example="10.0")
     private BigDecimal collectionDiscountMoney;
-    @ApiCloudField(value="结算明细", required=true)
+    @ApiCloudField(value="结算明细")
     private List<WhsClientCollectionSaveDetailDTOModel> clientCollectionDetails;
     @ApiCloudField(value="client_collection_payment_details", required=true)
     private List<ClientCollectionPaymentDetailSaveDTOModel> clientCollectionPaymentDetails;

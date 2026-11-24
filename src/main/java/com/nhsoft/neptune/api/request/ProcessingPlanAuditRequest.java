@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ProcessingPlanOrderV2DTOModel;
 import java.util.*;
 
 /**
- * audit_8请求类
+ * audit_10请求类
  * 生产计划单审核
  */
 public class ProcessingPlanAuditRequest implements ApiCloudRequest<ProcessingPlanUpdateDTOModel, ProcessingPlanOrderV2DTOModel> {

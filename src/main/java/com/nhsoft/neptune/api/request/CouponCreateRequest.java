@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.TicketSendDetailV2DTOModel;
 import java.util.*;
 
 /**
- * create请求类
+ * create_1请求类
  * 创建消费券
  */
 public class CouponCreateRequest implements ApiCloudRequest<CardCouponCreateV2DTOModel, List<TicketSendDetailV2DTOModel>> {

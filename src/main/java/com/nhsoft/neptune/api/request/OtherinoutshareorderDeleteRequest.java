@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.OtherInoutShareOrderIdDTOModel;
 import java.util.*;
 
 /**
- * delete_11请求类
+ * delete_13请求类
  * 费用分摊单删除
  */
 public class OtherinoutshareorderDeleteRequest implements ApiCloudRequest<OtherInoutShareOrderIdDTOModel, Object> {

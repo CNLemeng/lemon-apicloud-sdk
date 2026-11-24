@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.BranchContractVOModel;
 import java.util.*;
 
 /**
- * find_34请求类
+ * find_36请求类
  * 门店合同管理查询
  */
 public class SettlementBranchcontractFindRequest implements ApiCloudRequest<BranchContractFindDTOModel, List<BranchContractVOModel>> {

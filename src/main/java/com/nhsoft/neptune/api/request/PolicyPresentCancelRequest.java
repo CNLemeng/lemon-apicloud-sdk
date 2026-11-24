@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyPresentVOModel;
 import java.util.*;
 
 /**
- * cancel_5请求类
+ * cancel_6请求类
  * 赠品促销作废
  */
 public class PolicyPresentCancelRequest implements ApiCloudRequest<PolicyCancelDTOModel, PolicyPresentVOModel> {

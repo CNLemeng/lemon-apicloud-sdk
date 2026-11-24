@@ -43,4 +43,6 @@ public class SaleOrderDetailV2VOModel extends ApiCloudObject {
     private BigDecimal itemRate;
     @ApiCloudField(value="buyer_refund_amount", example="10")
     private Integer buyerRefundAmount;
+    @ApiCloudField(value="accessory_relation_text")
+    private String accessoryRelationText;
 }

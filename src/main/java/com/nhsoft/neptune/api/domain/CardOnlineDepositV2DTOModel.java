@@ -29,8 +29,10 @@ public class CardOnlineDepositV2DTOModel extends ApiCloudObject {
     private BigDecimal depositCash;
     @ApiCloudField(value="外部编号", example="207299203630600004", required=true)
     private String outTradeNo;
-    @ApiCloudField(value="支付类型", example="现金", required=true)
+    @ApiCloudField(value="支付类型，签单储值传签单", example="现金", required=true)
     private String paymentType;
+    @ApiCloudField(value="签单客户FID，payment_type为签单时必填，与会员ID不同", example="CLIENT001")
+    private String clientFid;
     @ApiCloudField(value="表面卡号（仅当储值卡为IC卡时必填）", example="20215613151651")
     private String cardPrintedNum;
     @ApiCloudField(value="存款类型(存款|反存款)", example="存款")

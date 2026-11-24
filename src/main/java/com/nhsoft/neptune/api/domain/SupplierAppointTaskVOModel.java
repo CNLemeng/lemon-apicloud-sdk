@@ -106,6 +106,10 @@ public class SupplierAppointTaskVOModel extends ApiCloudObject {
     private String dockName;
     @ApiCloudField(value="入库订单号", example="RD996589926216000001")
     private String warehouseBookOrderFid;
+    @ApiCloudField(value="确认时间")
+    private String confirmTime;
+    @ApiCloudField(value="修改时间")
+    private String updateTime;
     @ApiCloudField(value="预约明细", example="")
     private List<SupplierAppointTaskDetailVOModel> wmsSupplierAppointTaskDetails;
 }

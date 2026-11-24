@@ -18,6 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesaleItemSpecVOModel extends ApiCloudObject {
 
+    @ApiCloudField(value="wholesale_forbidden")
+    private Boolean wholesaleForbidden;
     @ApiCloudField(value="bar_code")
     private String barCode;
     @ApiCloudField(value="convert_rate", example="1.0")

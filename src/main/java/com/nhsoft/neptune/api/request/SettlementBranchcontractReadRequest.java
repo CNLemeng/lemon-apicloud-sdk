@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.BranchContractFullyVOModel;
 import java.util.*;
 
 /**
- * read_30请求类
+ * read_31请求类
  * 门店合同管理读取
  */
 public class SettlementBranchcontractReadRequest implements ApiCloudRequest<BranchContractIdDTOModel, BranchContractFullyVOModel> {

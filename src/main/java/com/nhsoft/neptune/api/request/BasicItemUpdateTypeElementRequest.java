@@ -11,7 +11,7 @@ import java.util.*;
  * updateToElementType请求类
  * 标准商品转成分商品
  */
-public class BasicItemUpdateTypeElementRequest implements ApiCloudRequest<ItemUpdateToElementTypeDTOModel, Void> {
+public class BasicItemUpdateTypeElementRequest implements ApiCloudRequest<ItemUpdateToElementTypeDTOModel, Object> {
 
     private ItemUpdateToElementTypeDTOModel bizModel;
 
@@ -36,8 +36,8 @@ public class BasicItemUpdateTypeElementRequest implements ApiCloudRequest<ItemUp
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Void>>() {};
+    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<Object>>() {};
     }
 
 }

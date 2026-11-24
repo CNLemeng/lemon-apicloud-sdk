@@ -24,6 +24,8 @@ public class ItemTraceabilitySaveDTOModel extends ApiCloudObject {
     private String itemTraceabilityCode;
     @ApiCloudField(value="state_code", example="1")
     private Integer stateCode;
+    @ApiCloudField(value="state_name")
+    private String stateName;
     @ApiCloudField(value="item_num", example="1", required=true)
     private Integer itemNum;
     @ApiCloudField(value="item_grade_num")

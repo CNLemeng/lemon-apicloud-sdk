@@ -56,6 +56,8 @@ public class AdjustmentOrderVOModel extends ApiCloudObject {
     private String adjustmentOrderDirection;
     @ApiCloudField(value="零售金额", example="20.0")
     private BigDecimal adjustmentOrderSaleMoney;
+    @ApiCloudField(value="uuid", example="")
+    private String adjustmentOrderUuid;
     @ApiCloudField(value="明细", example="")
     private List<AdjustmentOrderDetailVOModel> adjustmentOrderDetails;
 }

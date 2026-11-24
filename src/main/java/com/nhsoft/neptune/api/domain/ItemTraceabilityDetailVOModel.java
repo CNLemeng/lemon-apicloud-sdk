@@ -52,4 +52,8 @@ public class ItemTraceabilityDetailVOModel extends ApiCloudObject {
     private String editor;
     @ApiCloudField(value="edit_time")
     private String editTime;
+    @ApiCloudField(value="state_code")
+    private Integer stateCode;
+    @ApiCloudField(value="state_name")
+    private String stateName;
 }

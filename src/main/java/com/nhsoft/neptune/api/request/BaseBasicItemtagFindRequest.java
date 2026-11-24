@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.BaseItemTagVOModel;
 import java.util.*;
 
 /**
- * find_30请求类
+ * find_31请求类
  * 查询商品档案标签
  */
 public class BaseBasicItemtagFindRequest implements ApiCloudRequest<BaseItemTagFindDTOModel, List<BaseItemTagVOModel>> {

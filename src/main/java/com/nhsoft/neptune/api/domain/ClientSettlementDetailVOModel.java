@@ -37,4 +37,6 @@ public class ClientSettlementDetailVOModel extends ApiCloudObject {
     private ClientOtherInoutVOModel otherInout;
     @ApiCloudField(value="replenishment_order")
     private WhsReplenishmentOrderFullyVOModel replenishmentOrder;
+    @ApiCloudField(value="pos_client_sign")
+    private PosClientSignVOModel posClientSign;
 }

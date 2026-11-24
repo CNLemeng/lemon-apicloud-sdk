@@ -59,7 +59,7 @@ public class ClientCollectionVOModel extends ApiCloudObject {
     private String stateName;
     @ApiCloudField(value="collection_memo")
     private String collectionMemo;
-    @ApiCloudField(value="结算明细")
+    @ApiCloudField(value="结算明细", example="")
     private List<ClientCollectionDetailVOModel> clientCollectionDetails;
     @ApiCloudField(value="client_collection_payment_details")
     private List<ClientCollectionPaymentDetailVOModel> clientCollectionPaymentDetails;

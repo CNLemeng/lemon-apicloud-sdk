@@ -30,6 +30,8 @@ public class PosItemDistributionFindDTOModel extends ApiCloudObject {
     private BigDecimal limitTo;
     @ApiCloudField(value="推荐商品", example="true")
     private Boolean recommended;
+    @ApiCloudField(value="仅查询严格晚于该修改时间的记录；不传或null时全量查询，格式yyyy-MM-dd HH:mm:ss")
+    private String lastEditTime;
     @ApiCloudField(value="查询分页页码", example="1", required=true)
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小(最大1000)", example="100", required=true)

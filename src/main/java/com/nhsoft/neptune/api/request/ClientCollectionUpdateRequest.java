@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientCollectionVOModel;
 import java.util.*;
 
 /**
- * update_33请求类
+ * update_34请求类
  * 客户收款单修改
  */
 public class ClientCollectionUpdateRequest implements ApiCloudRequest<WhsClientCollectionUpdateDTOModel, ClientCollectionVOModel> {

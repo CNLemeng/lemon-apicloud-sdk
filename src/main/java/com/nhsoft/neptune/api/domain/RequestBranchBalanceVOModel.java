@@ -22,4 +22,6 @@ public class RequestBranchBalanceVOModel extends ApiCloudObject {
     private BigDecimal balance;
     @ApiCloudField(value="frozen_balance", example="100.0")
     private BigDecimal frozenBalance;
+    @ApiCloudField(value="available_balance")
+    private BigDecimal availableBalance;
 }

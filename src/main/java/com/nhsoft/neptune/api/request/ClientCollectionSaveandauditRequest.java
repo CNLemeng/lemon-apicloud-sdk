@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientCollectionVOModel;
 import java.util.*;
 
 /**
- * saveAndAudit_16请求类
+ * saveAndAudit_17请求类
  * 客户收款单新增并审核
  */
 public class ClientCollectionSaveandauditRequest implements ApiCloudRequest<WhsClientCollectionSaveDTOModel, ClientCollectionVOModel> {

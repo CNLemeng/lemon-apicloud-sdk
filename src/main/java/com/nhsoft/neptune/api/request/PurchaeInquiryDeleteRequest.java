@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.PurchaseInquiryOrderIdDTOModel;
 import java.util.*;
 
 /**
- * delete_10请求类
+ * delete_12请求类
  * 采购询价删除
  */
 public class PurchaeInquiryDeleteRequest implements ApiCloudRequest<PurchaseInquiryOrderIdDTOModel, Object> {

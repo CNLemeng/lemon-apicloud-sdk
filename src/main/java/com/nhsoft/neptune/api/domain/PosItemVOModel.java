@@ -221,4 +221,6 @@ public class PosItemVOModel extends ApiCloudObject {
     private List<Long> businessScopeList;
     @ApiCloudField(value="商品描述(富文本)")
     private String description;
+    @ApiCloudField(value="test_market_end_date")
+    private String testMarketEndDate;
 }

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyQuantityVOModel;
 import java.util.*;
 
 /**
- * cancel_3请求类
+ * cancel_4请求类
  * 超量特价作废
  */
 public class PolicyQuantityCancelRequest implements ApiCloudRequest<PolicyCancelDTOModel, PolicyQuantityVOModel> {

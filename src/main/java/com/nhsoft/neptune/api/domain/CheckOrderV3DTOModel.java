@@ -52,6 +52,8 @@ public class CheckOrderV3DTOModel extends ApiCloudObject {
     private String checkOrderSnapshotTime;
     @ApiCloudField(value="销售金额", example="20.0")
     private BigDecimal checkOrderSaleMoney;
+    @ApiCloudField(value="防重UUID，新增及保存并审核必填，同一单据重试使用相同值", example="")
+    private String checkOrderUuid;
     @ApiCloudField(value="明细", example="")
     private List<CheckOrderDetailV3DTOModel> checkOrderDetails;
 }

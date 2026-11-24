@@ -11,7 +11,7 @@ import java.util.*;
  * updateToStandard请求类
  * 成分商品转成标准商品
  */
-public class BasicItemUpdateTypeStandardRequest implements ApiCloudRequest<ItemUpdateToStandardTypeDTOModel, Void> {
+public class BasicItemUpdateTypeStandardRequest implements ApiCloudRequest<ItemUpdateToStandardTypeDTOModel, Object> {
 
     private ItemUpdateToStandardTypeDTOModel bizModel;
 
@@ -36,8 +36,8 @@ public class BasicItemUpdateTypeStandardRequest implements ApiCloudRequest<ItemU
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<Void>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<Void>>() {};
+    public TypeReference<ApiCloudResponse<Object>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<Object>>() {};
     }
 
 }

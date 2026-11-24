@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PosExchangeRecordVOModel;
 import java.util.*;
 
 /**
- * find_25请求类
+ * find_26请求类
  * 兑奖记录查询
  */
 public class RetailPosExchangeRecordFindRequest implements ApiCloudRequest<PosExchangeRecordFindDTOModel, List<PosExchangeRecordVOModel>> {

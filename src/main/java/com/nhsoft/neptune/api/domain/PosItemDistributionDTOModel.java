@@ -52,4 +52,6 @@ public class PosItemDistributionDTOModel extends ApiCloudObject {
     private BigDecimal dcmRequestLowerUseLimit;
     @ApiCloudField(value="配送数量使用上限")
     private BigDecimal dcmRequestUpperUseLimit;
+    @ApiCloudField(value="last_edit_time")
+    private String lastEditTime;
 }

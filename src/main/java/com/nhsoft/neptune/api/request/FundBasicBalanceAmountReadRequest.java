@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.AccountBalanceVOModel;
 import java.util.*;
 
 /**
- * readAccountBalance请求类
+ * readAccountBalance_1请求类
  * 账户余额读取
  */
 public class FundBasicBalanceAmountReadRequest implements ApiCloudRequest<AccountBalanceReadDTOModel, AccountBalanceVOModel> {

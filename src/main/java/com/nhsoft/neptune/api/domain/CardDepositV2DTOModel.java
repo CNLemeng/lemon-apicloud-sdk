@@ -87,4 +87,6 @@ public class CardDepositV2DTOModel extends ApiCloudObject {
     private String depositPayNo;
     @ApiCloudField(value="存款来源", example="会员卡充值")
     private String depositSource;
+    @ApiCloudField(value="签单客户FID，payment_type为签单时必填，与会员ID不同", example="CLIENT001")
+    private String clientFid;
 }

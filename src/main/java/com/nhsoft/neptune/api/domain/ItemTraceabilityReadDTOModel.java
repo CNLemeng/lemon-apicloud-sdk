@@ -20,4 +20,6 @@ public class ItemTraceabilityReadDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="code")
     private String code;
+    @ApiCloudField(value="item_traceability_ids")
+    private List<String> itemTraceabilityIds;
 }

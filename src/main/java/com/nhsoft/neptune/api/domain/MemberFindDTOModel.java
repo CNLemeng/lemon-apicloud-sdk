@@ -31,6 +31,10 @@ public class MemberFindDTOModel extends ApiCloudObject {
     private String memberTimeFrom;
     @ApiCloudField(value="成为会员查询结束时间", example="2022-01-21 12:00:00", required=true)
     private String memberTimeTo;
+    @ApiCloudField(value="write_off_time_from")
+    private String writeOffTimeFrom;
+    @ApiCloudField(value="write_off_time_to")
+    private String writeOffTimeTo;
     @ApiCloudField(value="最后更新时间开始时间(最后更新时间分片为7天)")
     private String updateAtFrom;
     @ApiCloudField(value="最后更新时间结束时间(最后更新时间分片为7天)")

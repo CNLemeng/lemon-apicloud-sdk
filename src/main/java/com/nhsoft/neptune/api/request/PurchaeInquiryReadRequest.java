@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PurchaseInquiryOrderVOModel;
 import java.util.*;
 
 /**
- * read_32请求类
+ * read_33请求类
  * 采购询价读取
  */
 public class PurchaeInquiryReadRequest implements ApiCloudRequest<PurchaseInquiryOrderIdDTOModel, PurchaseInquiryOrderVOModel> {

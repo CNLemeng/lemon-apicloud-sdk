@@ -31,6 +31,8 @@ public class UserBasicUserSaveDTOModel extends ApiCloudObject {
     private String type;
     @ApiCloudField(value="应用类型列表", example="[AMA]", required=true)
     private List<String> appTypes;
+    @ApiCloudField(value="开放应用ID列表", example="[ba2ac5d7ebd64cbf9f109ae0801b1464]")
+    private List<String> openAppIds;
     @ApiCloudField(value="管理门店列表", example="[1]")
     private List<Integer> branchGroupIds;
     @ApiCloudField(value="门店ID", example="1", required=true)

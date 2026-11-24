@@ -71,4 +71,6 @@ public class MemberV2VOModel extends ApiCloudObject {
     private Integer consumeCount;
     @ApiCloudField(value="阿里会员编号", example="1")
     private String alipayUserId;
+    @ApiCloudField(value="注销时间")
+    private String writeOffTime;
 }

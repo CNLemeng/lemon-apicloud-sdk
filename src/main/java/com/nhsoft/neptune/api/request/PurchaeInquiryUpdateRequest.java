@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PurchaseInquiryOrderVOModel;
 import java.util.*;
 
 /**
- * update_20请求类
+ * update_21请求类
  * 采购询价修改
  */
 public class PurchaeInquiryUpdateRequest implements ApiCloudRequest<PurchaseInquiryOrderUpdateDTOModel, PurchaseInquiryOrderVOModel> {

@@ -38,4 +38,6 @@ public class PurchaseOrderDetailUpdateV3DTOModel extends ApiCloudObject {
     private BigDecimal detailLastPrice;
     @ApiCloudField(value="生产日期(yyyy-mm-dd)", example="2024-01-01")
     private String detailProducingDate;
+    @ApiCloudField(value="交货期限")
+    private String deliveryDeadline;
 }

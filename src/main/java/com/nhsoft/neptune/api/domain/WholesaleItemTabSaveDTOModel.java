@@ -24,6 +24,8 @@ public class WholesaleItemTabSaveDTOModel extends ApiCloudObject {
     private Integer itemNum;
     @ApiCloudField(value="item_wholesale_price", example="20.0")
     private BigDecimal itemWholesalePrice;
+    @ApiCloudField(value="wholesale_forbidden")
+    private Boolean wholesaleForbidden;
     @ApiCloudField(value="specs", required=true)
     private List<WholesaleSpecTabSaveReqModel> specs;
 }

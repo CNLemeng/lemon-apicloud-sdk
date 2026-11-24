@@ -18,9 +18,13 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SystemItemCategorySaleAnalysisVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品编号；summary 为 item 时返回")
+    @ApiCloudField(value="门店编号；仅 summary 为 branch 时返回")
+    private Integer branchNum;
+    @ApiCloudField(value="门店名称；仅 summary 为 branch 时返回")
+    private String branchName;
+    @ApiCloudField(value="商品编号；summary 为 item 或 branch 时返回")
     private Integer itemNum;
-    @ApiCloudField(value="商品名称；summary 为 item 时返回")
+    @ApiCloudField(value="商品名称；summary 为 item 或 branch 时返回")
     private String itemName;
     @ApiCloudField(value="类别代码")
     private String categoryCode;
@@ -58,4 +62,8 @@ public class SystemItemCategorySaleAnalysisVOModel extends ApiCloudObject {
     private BigDecimal branchCountRange;
     @ApiCloudField(value="对比期间动销门店占比，百分比数值；ratio_type 为 none 时返回 0")
     private BigDecimal branchCountRatioRange;
+    @ApiCloudField(value="biz_day", example="20260923")
+    private String bizDay;
+    @ApiCloudField(value="biz_day_format", example="2026-09-23")
+    private String bizDayFormat;
 }

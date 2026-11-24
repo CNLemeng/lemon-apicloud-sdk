@@ -20,11 +20,15 @@ public class BranchOtherInoutFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="结算门店编码或被结算门店编码", example="99", required=true)
     private Integer branchNum;
+    @ApiCloudField(value="开始时间", example="2021-01-01 00:00:00")
+    private String datetimeFrom;
+    @ApiCloudField(value="结束时间", example="2021-01-02 00:00:00")
+    private String datetimeTo;
     @ApiCloudField(value="时间类型", example="审核时间", required=true)
     private String dateType;
-    @ApiCloudField(value="开始时间", example="2021-01-01", required=true)
+    @ApiCloudField(value="开始时间", example="2021-01-01")
     private String dateFrom;
-    @ApiCloudField(value="结束时间", example="2021-01-01", required=true)
+    @ApiCloudField(value="结束时间", example="2021-01-01")
     private String dateTo;
     @ApiCloudField(value="开始时间", example="00:00:00")
     private String timeFrom;
